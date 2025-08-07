@@ -1,0 +1,238 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{fullpage}
+\title{Hugging Face Spam Classifier Training Report}
+\author{Mert Biricik}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Hugging Face Spam Classifier Training
+Report}\label{hugging-face-spam-classifier-training-report}
+
+This report summarizes the execution and results of the
+\texttt{hf\_spam\_classifier.py} script.
+
+\subsection{1. Data Preparation}\label{data-preparation}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Spam Data:} Loaded 1005 samples from
+  \texttt{/home/ottobeeth/tune2travel/spam\_detector\_2000/dataset\_approach}.
+\item
+  \textbf{Non-Spam Data:} Loaded 1,412,994 samples initially from
+  \texttt{/home/ottobeeth/tune2travel/data/topic\_csv/cleaned\_despacito.csv}.
+\item
+  \textbf{Sampling:} Sampled 2000 non-spam comments to create a more
+  balanced dataset.
+\item
+  \textbf{Combined:} Total dataset size of 3005 samples (1005 spam, 2000
+  non-spam).
+\item
+  \textbf{Label Casting:} Casted the `label' column to
+  \texttt{ClassLabel} type for stratified splitting.
+\item
+  \textbf{Splitting:} Split into training (2404 samples) and testing
+  (601 samples) sets using stratification.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Loading data using Hugging Face datasets...}
+\NormalTok{Loaded 1005 spam samples using datasets.}
+\NormalTok{Sampling 2000 non{-}spam samples from 1412994...}
+\NormalTok{Using 2000 non{-}spam samples.}
+\NormalTok{Combining spam and non{-}spam datasets...}
+\NormalTok{Map: 100\%|                                                                               | 3005/3005 [00:00\textless{}00:00, 16792.15 examples/s]}
+\NormalTok{Casting label column to ClassLabel type for stratification...}
+\NormalTok{Casting the dataset: 100\%|                                                              | 3005/3005 [00:00\textless{}00:00, 147016.64 examples/s]}
+\NormalTok{Label column casted.}
+\NormalTok{Total samples: 3005}
+\NormalTok{Splitting dataset into training and testing sets...}
+\NormalTok{Training set size: 2404}
+\NormalTok{Test set size: 601}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{2. Tokenization}\label{tokenization}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Model:} \texttt{bert-base-uncased}
+\item
+  \textbf{Process:} Tokenized training and test sets using the model's
+  tokenizer via \texttt{datasets.map()}.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Loading tokenizer for model: bert{-}base{-}uncased}
+\NormalTok{Tokenizing datasets using .map()...}
+\NormalTok{Map: 100\%|                                                                                | 2404/2404 [00:00\textless{}00:00, 5430.06 examples/s]}
+\NormalTok{Map: 100\%|                                                                                  | 601/601 [00:00\textless{}00:00, 5851.07 examples/s]}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{3. Model Loading}\label{model-loading}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Model:} \texttt{bert-base-uncased} (for Sequence
+  Classification)
+\item
+  \textbf{Warning:} Some weights were newly initialized (classifier
+  head), indicating the model needs fine-tuning.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Loading model: bert{-}base{-}uncased}
+\NormalTok{Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert{-}base{-}uncased and are newly initialized: [\textquotesingle{}classifier.bias\textquotesingle{}, \textquotesingle{}classifier.weight\textquotesingle{}]}
+\NormalTok{You should probably TRAIN this model on a down{-}stream task to be able to use it for predictions and inference.}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{4. Training}\label{training}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Setup:} Used Hugging Face \texttt{Trainer}.
+\item
+  \textbf{Device:} GPU (NVIDIA RTX A5000 Laptop GPU based on previous
+  checks).
+\item
+  \textbf{Epochs:} 3
+\item
+  \textbf{Batch Size (Train):} 4
+\item
+  \textbf{Total Steps:} 1803
+\item
+  \textbf{Duration:} \textasciitilde2 minutes 55 seconds
+\end{itemize}
+
+\textbf{Training Log Snippets:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Starting training...}
+\NormalTok{\{\textquotesingle{}loss\textquotesingle{}: 0.5848, \textquotesingle{}grad\_norm\textquotesingle{}: 12.914173126220703, \textquotesingle{}learning\_rate\textquotesingle{}: 9.600000000000001e{-}06, \textquotesingle{}epoch\textquotesingle{}: 0.17\}                               }
+\NormalTok{\{\textquotesingle{}loss\textquotesingle{}: 0.0764, \textquotesingle{}grad\_norm\textquotesingle{}: 0.07613328844308853, \textquotesingle{}learning\_rate\textquotesingle{}: 1.9500000000000003e{-}05, \textquotesingle{}epoch\textquotesingle{}: 0.33\}                             }
+\NormalTok{...                           }
+\NormalTok{\{\textquotesingle{}loss\textquotesingle{}: 0.0001, \textquotesingle{}grad\_norm\textquotesingle{}: 0.001776198041625321, \textquotesingle{}learning\_rate\textquotesingle{}: 3.453568687643899e{-}07, \textquotesingle{}epoch\textquotesingle{}: 3.0\}                              }
+\NormalTok{100\%|                                                                                              | 1803/1803 [02:55\textless{}00:00, 10.27it/s]}
+\NormalTok{Training finished.}
+\end{Highlighting}
+\end{Shaded}
+
+\textbf{Final Training Metrics:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{***** train metrics *****}
+\NormalTok{  epoch                    =        3.0}
+\NormalTok{  total\_flos               =  1767237GF}
+\NormalTok{  train\_loss               =     0.0642}
+\NormalTok{  train\_runtime            = 0:02:55.49}
+\NormalTok{  train\_samples\_per\_second =     41.094}
+\NormalTok{  train\_steps\_per\_second   =     10.274}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{5. Evaluation}\label{evaluation}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dataset:} Test set (601 samples)
+\item
+  \textbf{Batch Size (Eval):} 16
+\item
+  \textbf{Duration:} \textasciitilde2.5 seconds
+\end{itemize}
+
+\textbf{Final Evaluation Metrics:}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{***** eval metrics *****}
+\NormalTok{  epoch                   =        3.0}
+\NormalTok{  eval\_accuracy           =     0.9933}
+\NormalTok{  eval\_f1\_nonspam         =      0.995}
+\NormalTok{  eval\_f1\_spam            =       0.99}
+\NormalTok{  eval\_loss               =     0.0489}
+\NormalTok{  eval\_precision\_nonspam  =     0.9925}
+\NormalTok{  eval\_precision\_spam     =      0.995}
+\NormalTok{  eval\_recall\_nonspam     =     0.9975}
+\NormalTok{  eval\_recall\_spam        =     0.9851}
+\NormalTok{  eval\_runtime            = 0:00:02.52}
+\NormalTok{  eval\_samples\_per\_second =    238.407}
+\NormalTok{  eval\_steps\_per\_second   =     15.074}
+\end{Highlighting}
+\end{Shaded}
+
+\textbf{Summary:} - \textbf{Overall Accuracy:} 99.33\% - \textbf{Spam
+Precision:} 0.9950 - \textbf{Spam Recall:} 0.9851 - \textbf{Spam
+F1-Score:} 0.9900 - \textbf{Non-Spam Precision:} 0.9925 -
+\textbf{Non-Spam Recall:} 0.9975 - \textbf{Non-Spam F1-Score:} 0.9950
+
+\subsection{6. Model Saving}\label{model-saving}
+
+\begin{itemize}
+\tightlist
+\item
+  The fine-tuned model and tokenizer were saved to
+  \texttt{./hf\_spam\_classifier\_results}.
+\end{itemize}
+
+\subsection{7. Example Predictions}\label{example-predictions}
+
+\begin{itemize}
+\tightlist
+\item
+  Used \texttt{TextClassificationPipeline} on the fine-tuned model.
+\item
+  \textbf{Note:} The model predicted all examples as Spam, which might
+  warrant further investigation into model bias or the suitability of
+  the chosen examples/model.
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{{-}{-}{-} Example Prediction \& Basic Explanation {-}{-}{-}}
+\NormalTok{Device set to use cuda:0}
+\NormalTok{Predictions (LABEL\_0: Non{-}Spam, LABEL\_1: Spam):}
+
+\NormalTok{Comment: "Check out my new channel for free giveaways!"}
+\NormalTok{Predicted: Spam (Confidence: 1.0000)}
+\NormalTok{Scores: [\{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_0\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 4.6293222112581134e{-}05\}, \{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_1\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 0.9999537467956543\}]}
+
+\NormalTok{Comment: "This song is amazing, reminds me of my childhood."}
+\NormalTok{Predicted: Spam (Confidence: 1.0000)}
+\NormalTok{Scores: [\{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_0\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 4.5220887841423973e{-}05\}, \{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_1\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 0.9999548196792603\}]}
+
+\NormalTok{Comment: "great video thanks for sharing"}
+\NormalTok{Predicted: Spam (Confidence: 0.9991)}
+\NormalTok{Scores: [\{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_0\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 0.0009110511746257544\}, \{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_1\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 0.9990890026092529\}]}
+
+\NormalTok{Comment: "CLICK HERE TO WIN \$\$\$"}
+\NormalTok{Predicted: Spam (Confidence: 0.9999)}
+\NormalTok{Scores: [\{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_0\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 5.1041904953308403e{-}05\}, \{\textquotesingle{}label\textquotesingle{}: \textquotesingle{}LABEL\_1\textquotesingle{}, \textquotesingle{}score\textquotesingle{}: 0.9999489784240723\}]}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{8. Conclusion}\label{conclusion}
+
+The script successfully fine-tuned \texttt{bert-base-uncased} for spam
+classification using the sampled dataset. The model achieved high
+accuracy and F1-scores on the test set. Training time was significantly
+reduced by using the GPU and sampling the non-spam data. Further
+analysis might be needed to understand the prediction behavior on
+specific examples.
+\end{document}

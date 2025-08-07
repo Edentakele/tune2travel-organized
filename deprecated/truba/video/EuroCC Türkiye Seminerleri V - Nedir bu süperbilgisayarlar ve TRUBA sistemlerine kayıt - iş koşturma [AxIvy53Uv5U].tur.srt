@@ -1,0 +1,6252 @@
+1
+00:00:00,000 --> 00:00:29,980
+Altyazı M.K.
+
+2
+00:00:30,000 --> 00:00:59,980
+Altyazı M.K.
+
+3
+00:01:00,000 --> 00:01:29,980
+Altyazı M.K.
+
+4
+00:01:29,980 --> 00:01:59,960
+Altyazı M.K.
+
+5
+00:01:59,960 --> 00:02:29,940
+Altyazı M.K.
+
+6
+00:02:29,940 --> 00:02:31,940
+Altyazı M.K.
+
+7
+00:02:31,940 --> 00:02:33,940
+Altyazı M.K.
+
+8
+00:02:33,940 --> 00:02:35,940
+Altyazı M.K.
+
+9
+00:03:03,940 --> 00:03:05,940
+Altyazı M.K.
+
+10
+00:03:05,940 --> 00:03:07,940
+Altyazı M.K.
+
+11
+00:03:07,940 --> 00:03:09,940
+Altyazı M.K.
+
+12
+00:03:37,940 --> 00:03:39,940
+Altyazı M.K.
+
+13
+00:03:39,940 --> 00:03:41,940
+Altyazı M.K.
+
+14
+00:03:41,940 --> 00:03:43,940
+Altyazı M.K.
+
+15
+00:03:43,940 --> 00:03:45,940
+Altyazı M.K.
+
+16
+00:03:45,940 --> 00:03:47,940
+Altyazı M.K.
+
+17
+00:03:47,940 --> 00:03:49,940
+Altyazı M.K.
+
+18
+00:03:49,940 --> 00:03:51,940
+Altyazı M.K.
+
+19
+00:03:51,940 --> 00:03:53,940
+M.K.
+
+20
+00:04:21,940 --> 00:04:23,940
+M.K.
+
+21
+00:04:23,940 --> 00:04:25,940
+M.K.
+
+22
+00:04:25,940 --> 00:04:27,940
+Altyazı M.K.
+
+23
+00:04:27,940 --> 00:04:29,940
+Altyazı M.K.
+
+24
+00:04:29,940 --> 00:04:31,940
+Altyazı M.K.
+
+25
+00:04:31,940 --> 00:04:33,940
+Altyazı M.K.
+
+26
+00:04:33,940 --> 00:04:35,940
+Altyazı M.K.
+
+27
+00:04:35,940 --> 00:04:37,940
+Altyazı M.K.
+
+28
+00:04:37,940 --> 00:04:39,940
+Altyazı M.K.
+
+29
+00:04:39,940 --> 00:04:41,940
+Altyazı M.K.
+
+30
+00:04:41,940 --> 00:04:43,940
+Altyazı M.K.
+
+31
+00:04:43,940 --> 00:04:45,940
+Altyazı M.K.
+
+32
+00:04:45,940 --> 00:04:47,940
+Altyazı M.K.
+
+33
+00:04:47,940 --> 00:04:48,940
+Altyazı M.K.
+
+34
+00:04:48,940 --> 00:04:49,940
+Altyazı M.K.
+
+35
+00:04:49,940 --> 00:04:50,940
+Altyazı M.K.
+
+36
+00:04:50,940 --> 00:04:51,940
+Altyazı M.K.
+
+37
+00:04:51,940 --> 00:04:52,440
+Altyazı M.K.
+
+38
+00:04:52,440 --> 00:04:52,940
+Altyazı M.K.
+
+39
+00:04:53,140 --> 00:04:53,740
+Altyazı M.K.
+
+40
+00:04:53,740 --> 00:04:56,460
+Altyazı M.K.
+
+41
+00:04:56,460 --> 00:04:58,620
+Altyazı M.K.
+
+42
+00:04:58,880 --> 00:05:01,220
+Altyazı M.K.
+
+43
+00:05:01,560 --> 00:05:02,380
+Altyazı M.K.
+
+44
+00:05:02,380 --> 00:05:04,380
+Altyazı M.K.
+
+45
+00:05:04,380 --> 00:05:05,660
+Maltyazı M.K.
+
+46
+00:05:05,660 --> 00:05:06,580
+Altyazı M.K.
+
+47
+00:05:06,580 --> 00:05:06,760
+Altyazı M.K.
+
+48
+00:05:06,760 --> 00:05:06,940
+Altyazı M.K.
+
+49
+00:05:06,940 --> 00:05:07,840
+Altyazı M.K.
+
+50
+00:05:07,860 --> 00:05:09,000
+Altyazı M.K.
+
+51
+00:05:09,000 --> 00:05:11,000
+Altyazı M.K.
+
+52
+00:05:11,700 --> 00:05:13,680
+Altyazı M.K.
+
+53
+00:05:13,680 --> 00:05:20,980
+Bu işlemcilere, bu işlem birimlerine gerekli veriyi sağlayabilmek için arkalarında bu veriyi sağlayabilecek hızlı bir depolama sistemi bulunmalıdır.
+
+54
+00:05:21,900 --> 00:05:27,800
+Ve bu bilgisayarlar işleri genelde bölerek yaptıkları için aralarında çok hızlı şekilde konuşabilmeleri gerekir.
+
+55
+00:05:29,320 --> 00:05:35,860
+Bütün bu donanımı inşa ettikten sonra da bu donanımın özelliklerini kullanabilecek kütüphaneler ve yazılımlarınız olması gerekir.
+
+56
+00:05:35,860 --> 00:05:43,940
+Bunları birleştirdiğiniz zaman bir süper bilgisayar üzerinde çok yüksek hızda zor hesapları gerçekleştirme şansınız olur.
+
+57
+00:05:45,420 --> 00:05:50,520
+Tek bir tür değildirler demiştik. Peki nasıl yapılırlar?
+
+58
+00:05:51,320 --> 00:05:53,360
+Gereksinimlere göre ölçeklendirilebilirler.
+
+59
+00:05:54,380 --> 00:06:01,060
+Tek bir kabin tutabilir. Sağ tarafta bir fotoğraf görüyorsunuz. Orada yarım olan kabinler var. Sağda en size yakın olan.
+
+60
+00:06:01,700 --> 00:06:04,100
+O bir süper bilgisayar olabilir belli bir problem için.
+
+61
+00:06:04,100 --> 00:06:07,100
+Ya da bu koridorun tamamını kullanabilirsiniz.
+
+62
+00:06:08,080 --> 00:06:11,600
+Ve yine de işinizi gerekli hızda gerekli doğrulukta çözemeyebilirsiniz.
+
+63
+00:06:12,900 --> 00:06:15,120
+Diyeceksiniz ki o zaman daha çok bilgisayar alalım.
+
+64
+00:06:15,460 --> 00:06:17,860
+Daha çok bilgisayardan süper bilgisayar alalım.
+
+65
+00:06:18,740 --> 00:06:20,420
+O da her zaman çok mümkün değildir.
+
+66
+00:06:20,600 --> 00:06:32,800
+Bu makineleri koyacak yere, bunları soğutabilecek kadar soğutma sistemine, bunların ağırlığını taşıyabilecek bir zemine ve bunlara sağlayabilecek elektriğe ihtiyacınız var.
+
+67
+00:06:32,800 --> 00:06:39,680
+O yüzden olabildiğince küçük bir makineli problemlerinizi çözmeniz sıra açınızdan daha yararlıdır.
+
+68
+00:06:42,300 --> 00:06:46,380
+Bununla beraber teknoloji geliştikçe süper bilgisayarlar küçülmektedir.
+
+69
+00:06:46,480 --> 00:06:47,160
+Nasıl küçülmektedir?
+
+70
+00:06:47,160 --> 00:06:56,540
+Turbanın 2006-2007 yılında aldığı 4 kabine, 5 kabine yaydığı bir sistem 2020 yılına gelindiğinde yarım kabinden daha fazla yer tutmamaktadır.
+
+71
+00:06:57,880 --> 00:07:06,380
+Ama bununla beraber madem daha fazla hesabı aynı yerde yapabiliyoruz, aynı ölçekte yapabiliyoruz dendiği için problemler gittikçe büyümektedir.
+
+72
+00:07:06,580 --> 00:07:10,960
+Yani problemler zorlaştığı için daha küçük süper bilgisayarlar kullanamıyoruz.
+
+73
+00:07:10,960 --> 00:07:15,900
+Aksine yerini çok fazla genişletmeden daha çok işlem yapmaya başlıyoruz.
+
+74
+00:07:17,040 --> 00:07:19,640
+Peki, nedir bu zor problemler?
+
+75
+00:07:20,440 --> 00:07:23,540
+İklim modelleme hava tahmini bunların başında gelir.
+
+76
+00:07:24,300 --> 00:07:32,680
+Kuraklık tahminleri, iklimin nasıl değiştiği ile ilgili dünya çapındaki tahminler çok fazla işlem gücü gerektirir.
+
+77
+00:07:32,680 --> 00:07:50,480
+Ürünlerin tasarımında araba, uçak vs. gibi şeylerin tasarımında kullanılan akışkanlar dinamiği veya daha küçük sistemlerde partiküllerin nasıl hareket ettiğini inceleyen akışkanlar problemleri de yüksek başarılı hesaplamanın alanındadır.
+
+78
+00:07:50,480 --> 00:07:59,360
+Yüksek hızda veri analizi, işte bu veri madenciliği olabilir, başka büyük bir sistemden gelen veriler olabilir.
+
+79
+00:07:59,540 --> 00:08:03,940
+Bunların analizi, bunların nereye doğru gittiği veya ne yapabilecekleri ile ilgili şeyler.
+
+80
+00:08:05,700 --> 00:08:08,100
+Yüksek hızlı borsa da bununla ilgilidir.
+
+81
+00:08:08,280 --> 00:08:10,320
+High Frequency Trading dediğimiz konu.
+
+82
+00:08:10,900 --> 00:08:14,480
+Bu da çok yüksek hızda hesaplama gerektirmektedir.
+
+83
+00:08:14,480 --> 00:08:23,000
+İlaç tasarımı çok fazla şeyin denenmesi gerektiği için, çok fazla simülasyon gerektirdiği için yine süper bilgisayarlarına alınabilirler.
+
+84
+00:08:23,920 --> 00:08:32,540
+Büyük veri ile veri madenciliği, Twitter'da insanlar ne demiş, insanlar ne yapmışlar, nereye, trendler nereye gidiyor, ne düşünüyorlar gibi sorular.
+
+85
+00:08:33,040 --> 00:08:38,140
+Veya marketlerin bu ürünleri neyin yanına koyarsak daha çok satarız sorusunun cevabı.
+
+86
+00:08:38,140 --> 00:08:42,200
+Yapay sinir ağlarının eğitilmesi, makine öğrenmesi, yapay zeka.
+
+87
+00:08:42,340 --> 00:08:45,920
+Zaten bu günlerde çok meşhur, herkes biliyorsunuz.
+
+88
+00:08:47,260 --> 00:08:58,040
+Görüntü işleme konuları, işte trafik analizi veya aradığınız bir şeyin daha karmaşık bir görüntü içerisinde bulunması gibi şeyler de yine süper bilgisayarların alanına giriyor.
+
+89
+00:08:58,040 --> 00:09:09,440
+Süper bilgisayarlar genel olarak bizim görmediğimiz yerlerde oldukları için hani kimin ne kullandığı çok fazla bilinmiyor.
+
+90
+00:09:09,440 --> 00:09:27,140
+Ama herkes bir şekilde yani gittiğiniz marketten, marketler zincirinden trafiği daha efektif kullanmak, trafiği daha efektif düzenlemek isteyen şehirlere kadar, belediyelere kadar herkes bir şekilde bu teknolojilerden artık yararlanıyorlar.
+
+91
+00:09:28,040 --> 00:09:32,560
+Turbo'ya geçmeden önce benim temel olarak süper bilgisayarlarla ilgili söyleyeceklerim bunlar.
+
+92
+00:09:33,940 --> 00:09:42,360
+Daha sonrasında daha iyi bir Turbo ile ilgili daha iyi bir temel olması için aklınızda kalan sorular varsa burada süper bilgisayarla ilgili olan soruları alabilir.
+
+93
+00:09:42,940 --> 00:09:44,860
+Ondan sonra da Turbo kısmına devam edebiliriz.
+
+94
+00:09:44,860 --> 00:10:00,140
+Şu anda süper bilgisayarlarla ilgili Question and Answer kısmında sadece Turbo ile ilgili bir soru görünüyor.
+
+95
+00:10:00,140 --> 00:10:03,720
+Ama chatte şöyle bir şey var.
+
+96
+00:10:03,840 --> 00:10:08,360
+Hocam ilaç tasarımı için normal bilgisayarların kullanılamayacağını belirttiniz.
+
+97
+00:10:08,500 --> 00:10:15,620
+Bu bilgiyi söylemenizin sebebi moleküler simülasyonların gerçekleştirmede düşük nanosaniyelerde kalınması mı?
+
+98
+00:10:17,220 --> 00:10:18,340
+Diye bir sorumuz var.
+
+99
+00:10:18,720 --> 00:10:19,520
+Tam olarak öyle.
+
+100
+00:10:19,520 --> 00:10:29,600
+Yani atomik seviyede veya moleküler seviyedeki simülasyonlar ciddi şekilde zaman alan simülasyonlar.
+
+101
+00:10:30,280 --> 00:10:34,060
+Ve bunların bir tanesini değil binlercesini denemeniz gerekiyor.
+
+102
+00:10:34,180 --> 00:10:36,080
+Yani elinizde bir molekül var.
+
+103
+00:10:36,280 --> 00:10:38,180
+Bunun belli olabilir varyantları var.
+
+104
+00:10:38,180 --> 00:10:43,400
+Veya ben çok uzman değilim ama konuştuğum ve okuduğum kadarıyla söyleyeyim.
+
+105
+00:10:43,500 --> 00:10:48,540
+Bunların makine tarafından tahmin edilen evrim yönleri var.
+
+106
+00:10:48,660 --> 00:10:49,740
+Yani bu molekül uymuyor.
+
+107
+00:10:49,880 --> 00:10:51,280
+Bu şekilde olursa uyar mı?
+
+108
+00:10:51,920 --> 00:10:54,480
+Veya elimizde böyle bir virüs var.
+
+109
+00:10:54,560 --> 00:10:55,940
+Bu virüs nereye doğru evrilir?
+
+110
+00:10:57,180 --> 00:11:00,180
+Küçük bir ölçek için her şey hızlıdır.
+
+111
+00:11:00,380 --> 00:11:04,440
+Yani bir moleküler simülasyonun bir tanesini siz bir günde yapıyor olabilirsiniz makinanızda.
+
+112
+00:11:05,220 --> 00:11:07,340
+Ama bunun bin tanesini yapmak istediğinizde
+
+113
+00:11:07,340 --> 00:11:10,040
+veya bunların evrimlerini çalışmak istediğinizde
+
+114
+00:11:10,040 --> 00:11:13,180
+uzun sürelerini çalışmak istediğinizde makineniz yetersiz kalacaktır.
+
+115
+00:11:14,220 --> 00:11:17,840
+Böyle bir durumda daha kuvvetli makineler ve daha çok makineye ihtiyacınız olur.
+
+116
+00:11:18,840 --> 00:11:24,360
+Öyle durumlarda Truva gibi süper bilgisayar yapılarına ihtiyaç duyarsınız.
+
+117
+00:11:26,460 --> 00:11:28,700
+Bir başka sorumuz geldi.
+
+118
+00:11:30,060 --> 00:11:31,520
+Süper bilgisayar...
+
+119
+00:11:31,520 --> 00:11:34,160
+Sorular çok fazla geldi birdenbire.
+
+120
+00:11:34,160 --> 00:11:38,080
+Süper bilgisayarlar kuantum bilgisayarlar mı oluyor?
+
+121
+00:11:38,280 --> 00:11:42,000
+Yoksa normal bilgisayarların belirli işler için üretilen...
+
+122
+00:11:42,000 --> 00:11:47,000
+Yeni soru geldiğinde eski soruyu kaybediyorum.
+
+123
+00:11:47,120 --> 00:11:48,700
+Üretilen güçlü olanları mı?
+
+124
+00:11:49,800 --> 00:11:50,460
+Anlaşıldı mı?
+
+125
+00:11:50,540 --> 00:11:51,360
+Tekrar okuyayım mı?
+
+126
+00:11:51,500 --> 00:11:52,540
+Anlaşıldı, anlaşıldı.
+
+127
+00:11:52,620 --> 00:11:54,540
+Kuantum bilgisayarlar tamamen ayrı.
+
+128
+00:11:54,780 --> 00:11:58,840
+Bir konu tamamen bir farklı araştırma konusu ve tamamen farklı şekilde çalışıyorlar.
+
+129
+00:11:58,840 --> 00:12:04,000
+Süper bilgisayarları oluşturan bileşenler aslında normal sunucular.
+
+130
+00:12:04,180 --> 00:12:09,060
+Ama bu sunucuların bellek miktarı çok fazla, işlemci kapasitesi çok yüksek.
+
+131
+00:12:10,500 --> 00:12:16,960
+Olabildiğince ufak yapılarda, bir alana çok sığdırmak için mümkün olduğunca ufak kasalar içerisinde üretiliyorlar.
+
+132
+00:12:16,960 --> 00:12:26,980
+Ve aralarında hızlı konuşulabilmeleri için özel A kartları ve depolamaya hızlı bağlanabilmeleri için özel yine A kartları kullanıyorlar.
+
+133
+00:12:27,120 --> 00:12:31,300
+Aslında birden fazla çok hızlı bilgisayarın birleşmesinden oluşturuluyor.
+
+134
+00:12:32,700 --> 00:12:34,940
+Yine benzer bir soru var Hakan.
+
+135
+00:12:35,100 --> 00:12:39,220
+Süper bilgisayarlar altyapısında hep aynı özellik teme olması gerekiyor.
+
+136
+00:12:39,220 --> 00:12:45,120
+Genelde sistemlerin homojen olması avantajlıdır.
+
+137
+00:12:45,400 --> 00:12:47,800
+Ama bütün sistemler homojen olmak zorunda değildir.
+
+138
+00:12:47,940 --> 00:12:49,960
+Truva kısmında bahsedeceğiz.
+
+139
+00:12:50,080 --> 00:12:56,280
+Truva nispeten farklı sunucu ailelerinden ve jenerasyonlarından oluştuğu için heterojen sistemlerdir.
+
+140
+00:12:56,280 --> 00:13:05,580
+Ama bir işinizi verimli olarak çalıştırmak istiyorsanız aynı özelliklere sahip eş bilgisayarlar üzerine dağıtmanızda fayda vardır.
+
+141
+00:13:07,120 --> 00:13:09,000
+Yine benzer bir soru.
+
+142
+00:13:09,220 --> 00:13:17,340
+Süper bilgisayarlar Qubit sistemi üzerine mi yoksa klasik bit sistemi üzerine mi kurulu?
+
+143
+00:13:18,040 --> 00:13:20,180
+Klasik bit sistemi üzerine çalışıyoruz.
+
+144
+00:13:20,300 --> 00:13:22,820
+Normal bilgisayarlarla, normal işlemcilerle çalışıyoruz.
+
+145
+00:13:24,600 --> 00:13:31,280
+Süper bilgisayarları kullanabilmek için kesinlikle paralelleştirme adına kodlama yapmak gerekli mi?
+
+146
+00:13:33,960 --> 00:13:37,820
+Şöyle iki türlü işinizi paralelleştirebilirsiniz.
+
+147
+00:13:37,820 --> 00:13:46,580
+Ya probleminizi bölersiniz, paralel olmayan bir hesaplama programına parça parça olarak verirsiniz.
+
+148
+00:13:46,740 --> 00:13:52,140
+Yani daha büyük bir matrisi eğer birbirlerine bağımlı değillerse, örneğin Monte Carlo simülasyonu gibi,
+
+149
+00:13:52,720 --> 00:13:55,880
+aynı programın bin tane kopyasını çalıştırabilirsiniz.
+
+150
+00:13:56,100 --> 00:13:57,880
+Birbirlerinden haberleri olması gerekmez.
+
+151
+00:13:57,880 --> 00:14:11,540
+Ama daha büyük işte finite element, boundary element, iklim modelleme gibi birbiriyle etkileşen iş parçaları üzerinde çalışıyorsanız paralelleştirmek zorundasınız.
+
+152
+00:14:11,540 --> 00:14:15,700
+Öbür türlü makineleri doğru ve vereni şekilde kullanmanız pek mümkün değil.
+
+153
+00:14:17,600 --> 00:14:22,880
+Network hızı ne kadar olmalı aralarında ve storage ile olması gereken hız?
+
+154
+00:14:23,960 --> 00:14:33,260
+Sanırım burada storage'ın IOPS değerlerinden bahsedilmiyor ama sunucuların storage'ı olan erişiminden bahsediliyor olarak anlıyorum.
+
+155
+00:14:33,260 --> 00:14:36,780
+Hakan Bey, eğer farklıysa tekrar yorum yazabilirsiniz.
+
+156
+00:14:37,980 --> 00:14:41,220
+Yani bu sizin işinizin yapısına bağlı.
+
+157
+00:14:41,360 --> 00:14:51,260
+Yani eğer ortada paylaştığınız çok fazla veri yoksa, veriyi makinelere dağıtıp, makinanın üzerindeki veriyle çalışabilirsiniz.
+
+158
+00:14:51,920 --> 00:14:55,440
+Eğer ortada paylaştığınız bir şey varsa, bu ne kadar hızlı olursa o kadar iyi olur.
+
+159
+00:14:56,220 --> 00:15:02,620
+Turbo'da 40 gigabit civarlarında, yine InfiniBent üzerinden bağlılar.
+
+160
+00:15:04,220 --> 00:15:06,820
+100 gigabit veya daha yukarı şeylere de çıkabilirsiniz.
+
+161
+00:15:06,940 --> 00:15:08,540
+Gecikme sürelerinin de az olması önemli.
+
+162
+00:15:08,640 --> 00:15:10,580
+O yüzden Ethernet yerine InfiniBent tercih ediyoruz.
+
+163
+00:15:10,720 --> 00:15:12,220
+Detaylı olarak konuşacağız.
+
+164
+00:15:13,040 --> 00:15:17,700
+Ama saniyede 40 gigabit ve üstü gibi hızlar düşünebiliriz.
+
+165
+00:15:18,000 --> 00:15:21,940
+Veya real bir gerçek bilgisayardan, süper bilgisayardan bahsediyorsak.
+
+166
+00:15:21,940 --> 00:15:23,060
+Bugün şartlarında.
+
+167
+00:15:24,440 --> 00:15:25,720
+Bir başka sorumuz.
+
+168
+00:15:25,860 --> 00:15:30,820
+Taşınabilir laptoplarda performans açısından dikkat etmemiz gereken şeyler nedir?
+
+169
+00:15:30,820 --> 00:15:33,800
+Süper laptoplar gibi bir tanım var mıdır?
+
+170
+00:15:34,240 --> 00:15:38,280
+Turbo'ya iş atmadan daha ulaşılabilir makineler var mıdır?
+
+171
+00:15:38,280 --> 00:15:48,800
+Taşınabilir bir bilgisayarda çok yüksek performans istiyorsanız, taşınabilir iş istasyonu kavramına bakmanız gerekiyor.
+
+172
+00:15:49,840 --> 00:15:55,320
+Taşınabilir iş istasyonları genelde sunucu seviyesi donanımlarla geliyorlar.
+
+173
+00:15:55,320 --> 00:16:02,480
+Aynı şekilde masaüstü iş istasyonları da aynı şekilde yüksek performanslılar normal bilgisayarlara göre.
+
+174
+00:16:03,300 --> 00:16:09,200
+Ama taşınabilir iş istasyonu ürettiği ısı gerektirdiği elektrik dolayısıyla bir noktadan sonra çok taşınabilir olmuyor.
+
+175
+00:16:10,220 --> 00:16:13,800
+Ama belli bir noktaya kadar kullanabileceğiniz sistemler.
+
+176
+00:16:13,800 --> 00:16:25,980
+Sorunun ikinci kısmı, yani eğer Turbo gibi bir sisteme ihtiyar, Turbo'nın uzun sürede çözeceği bir problemle uğraşıyorsanız,
+
+177
+00:16:26,800 --> 00:16:32,600
+bunu kendi üniversitenizde veya kurumunuzda bu altyapıyı kopyalamaktan başka şansınız yok.
+
+178
+00:16:32,900 --> 00:16:34,080
+Turbo'da çalışmaktan başka.
+
+179
+00:16:34,500 --> 00:16:37,080
+Veya başka bir süper bilgisayar merkezinde çalışmaktan başka.
+
+180
+00:16:37,080 --> 00:16:45,300
+Ama daha küçük ölçekli problemlerle çalışıyorsanız, belli bir noktaya kadar iş istasyonlarıyla problemlerinizi çözebilir.
+
+181
+00:16:45,760 --> 00:16:48,820
+Birçok şeyi, sonucunu bulabilirsiniz.
+
+182
+00:16:48,940 --> 00:16:53,420
+Özellikle ekran kartı kullanıyorsanız ve işiniz ekran kartı üzerinde hızlandırılabiliyorsa.
+
+183
+00:16:55,760 --> 00:16:56,920
+Devam edelim.
+
+184
+00:16:57,080 --> 00:16:58,680
+Aslında epey bir sorumuz var.
+
+185
+00:16:59,200 --> 00:17:06,140
+Merhaba, MedLab gibi lisanslı programları bu süper bilgisayarlarda nasıl kullanabiliyoruz ya da kullanabiliyor muyuz?
+
+186
+00:17:07,080 --> 00:17:11,440
+Turbo üzerinde konuşmak gerekirse, Turbo üzerinde kullanabiliyorsunuz.
+
+187
+00:17:11,620 --> 00:17:14,180
+Bunun için kendi Matlab lisansınız olması gerekli.
+
+188
+00:17:14,800 --> 00:17:17,120
+Bu lisansın bir floating lisansı olması gerekli.
+
+189
+00:17:19,640 --> 00:17:22,660
+Bu floating lisans genelde kampüs lisanslarının içinde oluyor.
+
+190
+00:17:23,000 --> 00:17:27,860
+Üniversitelerden gelen araştırmacılarımız kendi kampüs lisanslarına bize erişim sağlıyorlar.
+
+191
+00:17:28,300 --> 00:17:32,980
+Biz o kendi kampüs lisansları üzerinden Matlab çalışmalarına olanak sağlıyoruz.
+
+192
+00:17:32,980 --> 00:17:38,420
+Ne Matlab kurulumunu ne de Matlab lisansını araştırmacılar arasında paylaşmıyoruz.
+
+193
+00:17:38,540 --> 00:17:40,040
+Herkes kendi lisansını kullanıyor.
+
+194
+00:17:41,260 --> 00:17:44,300
+Matlab'ın desteklediği başka çalışma yöntemleri de var.
+
+195
+00:17:44,420 --> 00:17:48,000
+Matlab'ın kendi bir süper bilgisayar kurulumu yapısı da var.
+
+196
+00:17:48,760 --> 00:17:54,940
+Matlab'ın kendi arayüzünden kümeye gönderdiği sonuçları alabildiğiniz benim çok deneyimim olmadığı bir yapısı var.
+
+197
+00:17:54,940 --> 00:17:59,460
+Sonuç olarak Matlab'ı süper bilgisayarlarda kullanmak mümkün.
+
+198
+00:17:59,720 --> 00:18:00,760
+Bunun da birkaç yolu var.
+
+199
+00:18:00,940 --> 00:18:03,240
+Turba'da da mümkün ama lisansınız olması gerekli.
+
+200
+00:18:05,920 --> 00:18:06,440
+Evet.
+
+201
+00:18:08,660 --> 00:18:11,180
+Şimdi Turba ile ilgili birkaç soru var.
+
+202
+00:18:11,300 --> 00:18:14,820
+Onun haricinde başka bir şey var mı diye sormuştum.
+
+203
+00:18:14,940 --> 00:18:16,740
+Aslında Hakan Bey cevap vermiş.
+
+204
+00:18:16,980 --> 00:18:21,420
+Toruç için hem ayopsızı hem de bağlantı uzı olarak sormuştum demiş.
+
+205
+00:18:21,420 --> 00:18:31,300
+Baktığınız zaman depolama hızımızın hızı 80 GB per second olarak ölçüyoruz.
+
+206
+00:18:31,900 --> 00:18:35,240
+Burada yüksek performanslı bir depolamamız bulunuyor.
+
+207
+00:18:35,600 --> 00:18:39,860
+Ve bu depolama alanı tüm nodlar arasında paylaşılıyor.
+
+208
+00:18:40,400 --> 00:18:46,660
+Ve sizin aslında girdiğiniz user interface makineleri de bu nodlara iş gönder.
+
+209
+00:18:46,660 --> 00:18:54,680
+Orada kurduğunuz, kendi disk alanınızı kullandığınız disk alanı diğer nodlar arasında paylaştırılmış durumdadır Hakan Bey.
+
+210
+00:18:55,500 --> 00:19:00,660
+Yine storage nodlarımız da infiniment bağlıdır.
+
+211
+00:19:02,740 --> 00:19:04,540
+Bir başka soru Hakan.
+
+212
+00:19:05,540 --> 00:19:14,380
+Zeminin kısıtlı olduğu bir yerde sunucu sayısını arttırmak için farklı lokasyonlardaki süper bilgisayarların birlikte kullanılabilmesi mümkün müdür?
+
+213
+00:19:14,380 --> 00:19:22,660
+Farklı lokasyonlar eğer aynı bina içinde diye konuşuyorsak belli bir noktaya kadar evet.
+
+214
+00:19:23,000 --> 00:19:32,480
+Farklı alanlardan, farklı coğrafi konumlardan, aynı şehirde iki farklı yerden bahsediyorsak buradaki sorunun cevabı hayır.
+
+215
+00:19:32,480 --> 00:19:40,880
+Yani her kısıtlı alandaki makine kümesini bir süper bilgisayar olarak düşünürseniz kullanabilirsiniz.
+
+216
+00:19:41,220 --> 00:19:50,480
+Ama eğer iki coğrafi konum arasında veri taşıma veya bilgisayarlar arasında iletişim kurmak isterseniz orada kaybedeceğiniz hız çok fazla.
+
+217
+00:19:50,480 --> 00:19:59,160
+Yani aslında şöyle de diyebiliriz, süper bilgisayar dediğimiz şey şu anda çok popüler olarak görünüyor.
+
+218
+00:19:59,300 --> 00:20:14,200
+Baktığımız zaman süper bilgisayar olarak anlandırılan şeyler aslında güçlü donanımların, güçlü sunucu donanımların bir araya gelmesiyle oluşturulan genellikle Linux işletim sistemi üzerinde çalışan yapılar.
+
+219
+00:20:14,200 --> 00:20:21,640
+Aslında bunlara yüksek başarımlı hesaplama kümeleri demek daha doğru bir kavram oluyor.
+
+220
+00:20:21,800 --> 00:20:36,940
+Ama bunların hız faktörleriyle yani toplamda bütün olarak çalıştığı zaman elde edilen performansla birlikte belli listelere girmesi ve süper bilgisayar olarak anlandırılmaları da mümkün oluyor.
+
+221
+00:20:37,660 --> 00:20:42,460
+Ben araya böyle bir giriş yapmak istedim aslında, ekleme yapmak istedim.
+
+222
+00:20:42,460 --> 00:20:45,700
+Turuba ile ilgili birkaç soru var.
+
+223
+00:20:46,860 --> 00:20:51,460
+Turuba bilgisayarları fiziksel olarak nerededir diye bir sorumuz var.
+
+224
+00:20:53,460 --> 00:21:08,420
+Hakan, aslında Ankara'da turuba bilgisayarları fiziksel olarak da şu an semt olarak baktığınızda Çankaya'da yok kampüsünde şu anki turuba bilgisayarları.
+
+225
+00:21:08,420 --> 00:21:14,360
+Ülkemizde ne kadar HPC merkezi var diye bir sorumuz var.
+
+226
+00:21:14,360 --> 00:21:26,860
+Aslında ülkemizde ulusal yüksek başarımlı hesaplama merkezi olarak baktığınız zaman devletimiz tarafından desteklenen iki tane büyük ulusal hesaplama merkezi var.
+
+227
+00:21:26,980 --> 00:21:33,640
+Bunlardan bir tanesi turuba, diğeri de ulusal hesaplama merkezi olarak geçen iti uhen.
+
+228
+00:21:33,640 --> 00:21:39,140
+Bunlar akademiye hizmet veren hesaplama merkezleridir.
+
+229
+00:21:39,320 --> 00:21:55,900
+Ama bunların yanı sıra üniversitelerimizde, araştırma merkezlerinde, mükemmelliyet merkezlerinde, farklı kamu kurumlarında da farklı farklı amaçlar için kullanılan yüksek başarımlı hesaplama merkezleri bulunuyor.
+
+230
+00:21:55,900 --> 00:22:03,900
+Bunların her biri özelleştirilmiş olarak özellikle savunma sanayi şirketlerinin de kendi bünyelerinde bulundurduklarını biliyoruz.
+
+231
+00:22:03,900 --> 00:22:16,960
+Dolayısıyla ülkemizde aslında şu anda araştırmacıların hizmetinde olan ve tüm araştırmacılara hizmet veren ana iki tane yüksek başarımlı hesaplama merkezi var diyebiliriz.
+
+232
+00:22:21,140 --> 00:22:23,180
+Orhan Bey'in bir sorusu var.
+
+233
+00:22:23,280 --> 00:22:27,180
+Turuba'da kuantum hesaplama yapabilecek ortam sağlanabiliyor mu?
+
+234
+00:22:27,180 --> 00:22:34,160
+Şu anda bünyemizde kuantum bilgisayar veya kuantum simülatörü denilen cihazlardan maalesef yok.
+
+235
+00:22:36,180 --> 00:22:48,020
+Ama belki performansı ne kadar olur bilmiyorum ama kuantum bilgisayarları simüle eden, normal bilgisayarlar üzerinde çalışan bazı yazılımlar olduğunu hatırlıyorum.
+
+236
+00:22:48,120 --> 00:22:50,380
+O tarz bir şey kurulup belki bir şeyler denenebilir.
+
+237
+00:22:50,960 --> 00:22:55,940
+Ama hakiki bir kuantum simülatörümüz veya gerçek bir kuantum bilgisayarımız yok.
+
+238
+00:22:57,180 --> 00:23:02,120
+Hasan Bey'in şöyle bir talebi var.
+
+239
+00:23:02,260 --> 00:23:04,540
+Aslında bizlerden talebi.
+
+240
+00:23:05,100 --> 00:23:08,860
+Anladığım kadarıyla 13 tane beğeni almış ve altında bir yorum da var.
+
+241
+00:23:08,980 --> 00:23:10,380
+O da 6 tane beğeni almış.
+
+242
+00:23:10,560 --> 00:23:12,380
+Bizim de planlarımız nahilinde.
+
+243
+00:23:13,300 --> 00:23:21,260
+Turuba üzerinde yüklü olan programların Turuba ile kullanımı üzerine ayrı ayrı partlar halinde tanıtım videoları çekebilir misiniz?
+
+244
+00:23:21,260 --> 00:23:25,060
+Ve böyle bir, Zeyfettin Bey de buna bir yorum yapmış.
+
+245
+00:23:25,260 --> 00:23:27,680
+Böyle bir video serisi yararlı olacaktır.
+
+246
+00:23:28,980 --> 00:23:33,280
+Böyle bir seriyi çekmek bizim planlarımız dahilinde.
+
+247
+00:23:34,320 --> 00:23:40,900
+Hatta bu seminerlerin de aslında belirli kısımlarının Turuba'ya ayrılmasının temel sebebi bu.
+
+248
+00:23:40,900 --> 00:23:53,720
+Şöyle çok çeşitli uygulama var ve biz aslında şu an itibariyle bunların ana kullanıcısı, bu uygulamaların ana kullanıcısı değiliz.
+
+249
+00:23:53,800 --> 00:23:57,900
+Ama bu programlar nasıl yüklenir ya da nasıl iş gönderilir?
+
+250
+00:23:57,900 --> 00:24:03,360
+Solun tarafında şimdi bundan sonraki kısımda Hakan Bey detaylı olarak size aktaracak.
+
+251
+00:24:04,800 --> 00:24:11,260
+O kısıma başladığımız zaman aslında en azından giriş seviyesinde bunları görebileceksiniz.
+
+252
+00:24:11,460 --> 00:24:18,180
+Ama bu talebinizi biliyoruz ve biz de buna cevap vermeye çalışacağız Hasan Bey.
+
+253
+00:24:19,940 --> 00:24:24,900
+Aslında EuroCC projesiyle özellikle aramıza katılan yeni araştırmacı arkadaşlarımız var.
+
+254
+00:24:24,900 --> 00:24:34,540
+Onların da katılmayla ki bunlar alandan doktoralı arkadaşlarımız bu programları biraz daha kullanıcı tarafına kaymış oluyoruz.
+
+255
+00:24:35,280 --> 00:24:40,540
+O açıdan bu videoları daha yakın bir tarihte hizmete alabiliriz diye düşünüyorum.
+
+256
+00:24:41,120 --> 00:24:44,900
+Evet aslında Turuba bir proje olarak destekleniyor.
+
+257
+00:24:45,000 --> 00:24:46,900
+Onur Bey'in söylediklerine ek olarak.
+
+258
+00:24:46,900 --> 00:25:00,920
+Ve bu projede de hem EuroCC projesi kapsamında hem de Turuba projesi kapsamında bizim aslında araştırmacıları da destekleyecek düzeyde bir merkez haline gelmemiz söz konusu olacak.
+
+259
+00:25:01,140 --> 00:25:06,660
+EuroCC projesiyle bunun adımlarını attık ve devam edeceğiz görünüyor.
+
+260
+00:25:06,660 --> 00:25:09,920
+Bir başka soru.
+
+261
+00:25:10,020 --> 00:25:12,540
+Turuba altyapısına ulaşmak çok karmaşık geliyor.
+
+262
+00:25:12,720 --> 00:25:18,940
+Acaba Colab veya Kaggle gibi notbook üzerinden bu altyapıya ulaşmayı mümkün kılabilir misiniz?
+
+263
+00:25:19,100 --> 00:25:22,600
+Böylece araştırmacılar altyapıya değil araştırmaya odaklanabilir.
+
+264
+00:25:23,000 --> 00:25:24,260
+Teşekkürler Hakan Bey.
+
+265
+00:25:24,260 --> 00:25:32,440
+Şimdi zaten farklı erişim metotlarını ileride konuşacağız.
+
+266
+00:25:33,180 --> 00:25:37,200
+Daha kolay erişimi sağlayan bir on demand arayüzü üzerinde çalışıyoruz.
+
+267
+00:25:37,320 --> 00:25:38,460
+Şu anda beta olarak var.
+
+268
+00:25:38,460 --> 00:25:54,560
+Ama belli şekillerde kullanıcı kaydı olması gerektiği için başka dışarıda bir arayüze bağlantı kurup herkesin rahatlıkla erişmesini sağlamamız şu an için çok olabilir görünmüyor.
+
+269
+00:25:55,360 --> 00:25:58,020
+En azından bir üyeliğe ihtiyacımız var.
+
+270
+00:25:58,160 --> 00:26:00,340
+Üyeliğin detaylarını zaten birazdan konuşacağız.
+
+271
+00:26:00,340 --> 00:26:04,380
+Ama kullanıcıların erişimini kolaylaştırmak bizim de gündemimizde.
+
+272
+00:26:04,780 --> 00:26:08,180
+Bunun için de on demand'i geliştirmeyi düşünüyoruz.
+
+273
+00:26:08,460 --> 00:26:17,220
+Hakan Bey, Turubay'a kayıtlıyım.
+
+274
+00:26:17,360 --> 00:26:20,600
+Sizden ricam bir program nasıl yüklenir, nasıl çalıştırılır?
+
+275
+00:26:20,740 --> 00:26:23,420
+Output dosyası kendi bilgisayarıma transfer edilir.
+
+276
+00:26:23,520 --> 00:26:26,140
+Bunun küçük bir örneğini yapabilir misiniz?
+
+277
+00:26:26,140 --> 00:26:30,620
+Bir betik dosyasını nasıl oluşturacağımızı anlatırsanız memnun olurum.
+
+278
+00:26:31,320 --> 00:26:36,300
+Zaten bir sonraki session'da bunları sizlere anlatıyor olacak Hakan Bey.
+
+279
+00:26:38,460 --> 00:26:46,600
+Bir başka soru, Turubay altyapısında kullanırlı programların olduğu bir liste var mıdır?
+
+280
+00:26:46,720 --> 00:26:51,460
+Kullanıcı diskimize ihtiyaç duyduğumuz programları kendimiz yükleyip iş gönderebilir miyiz?
+
+281
+00:26:51,560 --> 00:26:52,400
+Teşekkür ederim.
+
+282
+00:26:52,960 --> 00:26:57,380
+Aslında Turubay'da yine bir sonraki kısımda Hakan Bey aktaracak.
+
+283
+00:26:57,380 --> 00:27:03,380
+Modül uygulaması sayesinde bu listeyi siz Turubay'a login olduğunuzda görebiliyorsunuz.
+
+284
+00:27:04,440 --> 00:27:09,380
+Ve kendi kullanıcı disklerinize ihtiyaç duyduğunuz uygulamaları yükleyebilip iş gönderebiliyorsunuz.
+
+285
+00:27:10,680 --> 00:27:13,340
+Detaylı olarak göstermiş olacak Hakan Bey.
+
+286
+00:27:15,380 --> 00:27:18,640
+Turubay'ı kullanmak için ne kadar ücret ödüyoruz?
+
+287
+00:27:18,640 --> 00:27:23,960
+Turubay, akademik araştırmacıları ücretsiz olarak hizmet vermektedir Ebru Hanım.
+
+288
+00:27:24,240 --> 00:27:33,140
+Eğer dışarıdan bir kullanı, araştırma altyapısı olarak strateji bütçe başkanlığı tarafından desteklenen bir projedir.
+
+289
+00:27:34,140 --> 00:27:39,820
+Ve tüm ülkemizdeki akademisyenlere ücretsiz olarak hizmet vermektedir.
+
+290
+00:27:39,820 --> 00:27:50,900
+Turubay için Levrek 1 Ulak Bim Gohter'e arayüz sunucusuna erişemiyorum.
+
+291
+00:27:51,020 --> 00:27:52,380
+Geçici bir sorun mudur?
+
+292
+00:27:52,940 --> 00:27:55,960
+Erişim metotları ile ilgili Hakan Bey bilgi verecek.
+
+293
+00:27:55,960 --> 00:28:01,720
+Şimdi bulunduğunuz, şu anda bulunduğunuz A'dan bağlantı izniniz olmayabilir.
+
+294
+00:28:03,200 --> 00:28:08,500
+Dolayısıyla Hakan Bey'in sunumundan sonra sanırım buna cevap bulacağız Salih Bey.
+
+295
+00:28:09,820 --> 00:28:13,640
+Hasan Bey'in bir sorusu var.
+
+296
+00:28:13,740 --> 00:28:18,960
+Kuantum bilgisayarlar çok düşük sıcaklıklarda çalışıyor işlemcileri bildiğim kadarıyla.
+
+297
+00:28:19,140 --> 00:28:23,960
+Bu bilgisayarları uzayda çalıştırmak imkanı, kurmak imkanı iyi olur mu?
+
+298
+00:28:26,280 --> 00:28:31,020
+Benim aklıma bununla ilgili gelen bir iki tane spekülatif cevaplar.
+
+299
+00:28:31,020 --> 00:28:40,320
+Evet ısı olarak avantajlı olsa da radyasyon açısından çok bu sistemlere dost olmayacağını düşünüyorum uzay ortamının.
+
+300
+00:28:40,480 --> 00:28:44,420
+Belki bir hani radyasyon engelli de geçilebilirse belki.
+
+301
+00:28:44,760 --> 00:28:48,320
+Ama bilgim olan bir konu değil daha fazlası spekülasyon olur.
+
+302
+00:28:48,400 --> 00:28:49,980
+O yüzden daha fazla bir şey söyleyemeyeceğim.
+
+303
+00:28:49,980 --> 00:28:57,800
+Yurt dışından biri farklı uyruklu Truba'ya bağlanabilir bu süper bilgisayarlara.
+
+304
+00:28:57,940 --> 00:28:59,980
+Bunun için kayıt ve şartlar nedir?
+
+305
+00:29:00,960 --> 00:29:03,560
+Cihat Bey'in isterseniz ben cevaplayayım bunu.
+
+306
+00:29:03,560 --> 00:29:13,500
+Normalde Truba'ya, evet Truba ülkemiz araştırmacıları için hazırlanmış bir altyapıdır.
+
+307
+00:29:13,860 --> 00:29:23,260
+Truba'da bizim ülkemizde çalışan yabancı uyruklu bir araştırmacı eğer bizim herhangi bir üniversitemizde hoca olarak çalışıyorsa çalışabilir.
+
+308
+00:29:24,080 --> 00:29:29,420
+Yurt dışından yabancı farklı uyruklu bir Truba'ya bağlanabilir mi sorusuna da.
+
+309
+00:29:29,420 --> 00:29:34,480
+Birlikte bir proje yapılıyorsa geçici süreyle bağlantısı mümkün olabilir.
+
+310
+00:29:34,720 --> 00:29:42,700
+Ama asıl amaç Türkiye'de çalışan araştırmacılara yüksek başarılı hesaplama altyapısını sunmasıdır.
+
+311
+00:29:47,520 --> 00:29:55,840
+Derya Hanım, Truba'da kullanıcı olmak için ne yapmamız gerekiyor ve kullanıcılar için dataları depolamak için ne kadar alan sağlanıyor diye bir soru var.
+
+312
+00:29:55,840 --> 00:30:00,980
+Bunu da birazdan öğreneceğiz. Derya Hanım detaylı olarak aktaracak Hakan Bey.
+
+313
+00:30:00,980 --> 00:30:10,540
+Buse Hanım, atılan işler bazı klasterlarda kullanıcı önceliklerinden dolayı çok bekliyor.
+
+314
+00:30:11,100 --> 00:30:16,820
+Truba'ya atılan işler için kişi, grup ya da kurum öncelikleri var mıdır ya da kullanıcı birbiri için?
+
+315
+00:30:16,820 --> 00:30:26,960
+Truba'ya atılan yani araştırmacı olarak bağlandığınız zaman herkes eşit şartlarda Truba'ya bağlanabilmektedir.
+
+316
+00:30:27,180 --> 00:30:36,100
+Ve bunu aslında Hakan Bey de anlatacak normalde farklı ülkelerdeki farklı hesaplama merkezlerine baktığınız zaman durum bu şekilde değildir.
+
+317
+00:30:36,100 --> 00:30:46,040
+Ama bunun yanında ARDEP, BAP gibi zaman planlı, önce zaman planlı projeler bulunmaktadır.
+
+318
+00:30:46,160 --> 00:31:05,920
+Ve bu projeler, bir ki Truba.gov.tr adresinde de slash ARDEP adresinde görüleceği gibi projeleri kapsamında belirli bir cüzi sadece elektrik iklimlendirme gibi maliyetlerinin olduğu bir ücretlendirme ile Truba'dan hizmet almaktadır.
+
+319
+00:31:05,920 --> 00:31:12,820
+Truba'dan hizmet alan bu projeler için önceliklendirme vardır.
+
+320
+00:31:17,380 --> 00:31:19,960
+Arka plan sesi geliyor ama.
+
+321
+00:31:22,660 --> 00:31:27,300
+EuroCC, Oğuz Gürgül'e bir sorusu var Hakan.
+
+322
+00:31:27,300 --> 00:31:36,640
+EuroCC projesi kapsamında yakın zaman içinde Truba kaynakları geliştirilerek kullanıcılara daha fazla CPU imkanı sağlanacak mı?
+
+323
+00:31:37,100 --> 00:31:39,940
+Zaman zaman işlerin kuyrukta uzun süre bekle diye oluyor.
+
+324
+00:31:41,540 --> 00:31:50,300
+Bununla ilgili yakında bir şeyler olacak ama çok da detay vermeyelim ama kaynaklarımızı tabii ki her zaman yaptığınız gibi her sene geliştiremesek de
+
+325
+00:31:50,300 --> 00:31:53,380
+periyotik olarak arttırmaya ve geliştirmeye devam edeceğiz.
+
+326
+00:31:54,080 --> 00:31:59,220
+Evet bu sene içerisinde pratikte bir kaynak arttırma planımız var yakın zamanda Oğuz Bey.
+
+327
+00:31:59,220 --> 00:32:08,580
+Merhabalar, her hesap için belirli saatler vardır.
+
+328
+00:32:08,740 --> 00:32:10,540
+Saatler sınırı bitince ne olacak?
+
+329
+00:32:10,700 --> 00:32:12,100
+Truba kullanabilecek miyiz?
+
+330
+00:32:12,160 --> 00:32:15,680
+Bu sorunun cevabı da sunum içerisinde olacak.
+
+331
+00:32:15,680 --> 00:32:20,360
+Şöyle yapalım, istersen sunuma geçelim.
+
+332
+00:32:20,480 --> 00:32:22,460
+Gerçi bir tane açık soru kalmış.
+
+333
+00:32:22,580 --> 00:32:23,500
+Onu da okuyayım.
+
+334
+00:32:24,000 --> 00:32:25,420
+Daha sonra sunumuna geçelim.
+
+335
+00:32:25,600 --> 00:32:29,020
+Çünkü ara vaktimizi de yedik aslında.
+
+336
+00:32:29,460 --> 00:32:29,660
+Evet.
+
+337
+00:32:29,660 --> 00:32:34,840
+Şu anda kendi tercih ettiğimiz programları kullanabilmek için Home Director'imizde
+
+338
+00:32:34,840 --> 00:32:42,000
+compilation yaparak 5 RC içerisinde gerekli library padlerini oluşturuyoruz.
+
+339
+00:32:42,000 --> 00:32:47,120
+Bu compile süreçleri zahmetli ve konfigürasyonları zor olabiliyor.
+
+340
+00:32:47,680 --> 00:32:54,960
+YUM RPM paketlerini non-privileged user olarak kendi lokasyonumuzda kurmaya yönelik bir yöntem var mıdır?
+
+341
+00:32:55,500 --> 00:32:58,780
+Sanırım bu da sunumun içerisinde bahsedecek misin Hakan?
+
+342
+00:32:58,920 --> 00:33:00,440
+Sunumun içerisinde bahsedeceğim.
+
+343
+00:33:00,520 --> 00:33:03,720
+Çok teknik olarak dokunmayacaktım ama teknik kısımlarını burada söyleyeyim.
+
+344
+00:33:05,560 --> 00:33:09,740
+YUM paketlerini normal kullanıcı olarak kendi kullanıcı ev izinlerinize kurmanız zaten mümkün değil.
+
+345
+00:33:09,740 --> 00:33:12,980
+Bunlar sistem seviyesinde paket yöneticileri.
+
+346
+00:33:15,200 --> 00:33:20,540
+Paket yöneticileriyle kurulmasının yarattığı problemleri de sunum içinde bahsediyoruz.
+
+347
+00:33:21,340 --> 00:33:21,820
+İlgili yani.
+
+348
+00:33:22,920 --> 00:33:24,440
+Bence başlayabiliriz.
+
+349
+00:33:26,900 --> 00:33:28,780
+Sorulara devam ederiz sonra.
+
+350
+00:33:29,180 --> 00:33:29,800
+Tamam oldu.
+
+351
+00:33:30,920 --> 00:33:35,780
+Şimdi madem süper bilgisayarlardan bahsettik, biraz da hakkında sohbet ettik.
+
+352
+00:33:35,780 --> 00:33:38,920
+O zaman turba özelinde konuşmaya başlayabiliriz.
+
+353
+00:33:39,800 --> 00:33:44,120
+Turba öncelikle neye benzer, nasıldır, hangi mimaride yapılandırılmıştır ona bakalım.
+
+354
+00:33:44,720 --> 00:33:46,520
+Turba kuyruk temelli bir kümedir.
+
+355
+00:33:48,120 --> 00:33:50,900
+Kullanıcıların bağlanması için ortak bir kullanıcı arayüzü vardır.
+
+356
+00:33:51,760 --> 00:33:54,660
+İşlerinizi kuyruk yöneticisine gönderir ve unutursunuz.
+
+357
+00:33:56,360 --> 00:33:59,640
+Turbada birden fazla özelleştirilmiş kuyruk vardır.
+
+358
+00:33:59,640 --> 00:34:03,660
+Farklı amaçlara, farklı ihtiyaçlara hizmet ederler.
+
+359
+00:34:04,660 --> 00:34:08,340
+Bütün turba kümesi infiniband ağ bağlantısıyla sıkı şekilde bağlıdır.
+
+360
+00:34:08,660 --> 00:34:13,540
+Ve arkasında yüksek hızda bir lustre dosya sistemi vardır.
+
+361
+00:34:13,840 --> 00:34:17,840
+Ve bu dosya sistemi de yine infiniband ile makinelere bağlıdır.
+
+362
+00:34:19,280 --> 00:34:24,880
+Bahsettiğimiz gibi turba farklı yıllarda farklı kaynak alımlarıyla oluşturulduğu için,
+
+363
+00:34:25,420 --> 00:34:27,620
+farklı özelliklere sahip sunucu setlerinden oluşur.
+
+364
+00:34:27,620 --> 00:34:31,320
+Bu mimarinin en güncel çizimi bu şekilde.
+
+365
+00:34:32,480 --> 00:34:36,980
+Yukarıda internetten OpenVPN ile geliyorsunuz kümenin içerisine.
+
+366
+00:34:37,540 --> 00:34:41,020
+Eğer üniversitenizden geliyorsanız OpenVPN'e uğramanıza gerek yok.
+
+367
+00:34:41,120 --> 00:34:42,020
+Üniversiteleri açık.
+
+368
+00:34:42,580 --> 00:34:44,160
+Daha detaylı zaten konuşacağız.
+
+369
+00:34:45,080 --> 00:34:46,600
+Birkaç tane arayüz makinemiz var.
+
+370
+00:34:46,720 --> 00:34:50,220
+Bunlardan Levrek 1'i şu anda aktif olarak kullanıyoruz.
+
+371
+00:34:50,960 --> 00:34:55,640
+Ve web arayüzü üzerinden yine belli hizmetler sağlayan bir on-demand arayüzümüz var.
+
+372
+00:34:55,640 --> 00:35:10,320
+Bu da yine terminal kullanımının belli meşakkatli kısımlarını ortadan kaldırmak ve belli daha önceden yapamadığımız yarı interaktif veya işte belli durumlarda Jüpiter gibi şeyleri size sağlayabilmek için.
+
+373
+00:35:11,460 --> 00:35:13,800
+Burada baktığınız zaman birden fazla sunucu ailesi var.
+
+374
+00:35:13,800 --> 00:35:16,420
+Mercanlar var, levrekler var, sardalyalar var.
+
+375
+00:35:16,940 --> 00:35:17,800
+Bunların hepsi balık.
+
+376
+00:35:18,740 --> 00:35:19,920
+Dikkat ettiğiniz üzere.
+
+377
+00:35:21,020 --> 00:35:23,580
+Bu makineler farklı özelliklere sahipler.
+
+378
+00:35:23,680 --> 00:35:27,600
+Sağ tarafta gördüğünüz Barbun Kuda ve Akyo Kuda üzerinde GPU kartları var.
+
+379
+00:35:27,600 --> 00:35:32,320
+Ortaya doğru gördüğünüz SMP tek bir makinadan oluşuyor.
+
+380
+00:35:32,480 --> 00:35:35,600
+Ama 4TB RAM'i ve 224 tane çekirdeği var.
+
+381
+00:35:38,060 --> 00:35:42,360
+Levreklerin işte 256 GB RAM'i var.
+
+382
+00:35:43,220 --> 00:35:45,220
+Mercanların RAM miktarı daha az.
+
+383
+00:35:45,780 --> 00:35:50,600
+Farklı işlemcilere sahipler ve farklı işlerde, farklı durumlarda daha yüksek performans gösteriyorlar.
+
+384
+00:35:50,600 --> 00:35:55,240
+Arkada da söylemeyi unuttum.
+
+385
+00:35:55,520 --> 00:35:59,760
+Turbo ve Turbo Scratch dediğim 7,5 petabyte'lık büyük depolama sistemimiz var.
+
+386
+00:36:01,180 --> 00:36:02,800
+Peki, sistem güzel.
+
+387
+00:36:03,760 --> 00:36:04,920
+Kullanmak istiyorsunuz.
+
+388
+00:36:05,340 --> 00:36:06,360
+Nasıl bağlanabilirsiniz?
+
+389
+00:36:07,260 --> 00:36:10,980
+Üyelik işlemlerinin tamamını Turbo Portal üzerinden gerçekleştiriyoruz artık.
+
+390
+00:36:12,340 --> 00:36:14,860
+Portal.turba.gov.tr adresinde burası.
+
+391
+00:36:15,500 --> 00:36:17,560
+Ve e-devlet bilgileriyle giriş yapıyorsunuz.
+
+392
+00:36:17,560 --> 00:36:26,800
+E-devlet kullanıcı tc kimlik numaranızı ve şifrenizi girdikten sonra veya e-imzale giriş yaptıktan sonra bir kullanım politikası onaylamanızı bekliyoruz.
+
+393
+00:36:27,600 --> 00:36:29,480
+Ve sizin kişisel bilgileriniz geliyor.
+
+394
+00:36:30,140 --> 00:36:34,380
+Ve bir e-posta adresi girip o e-posta adresinizi doğrulamanızı bekliyoruz.
+
+395
+00:36:35,220 --> 00:36:39,520
+Siz bu noktaya geldiğiniz zaman biz size ulaşabilir hale geliyoruz.
+
+396
+00:36:39,760 --> 00:36:41,520
+Size ulaşabileceğimiz bir e-postamız oluyor.
+
+397
+00:36:42,020 --> 00:36:43,800
+Bilgilerinizi kontrol edebilir hale geliyoruz.
+
+398
+00:36:43,800 --> 00:36:48,800
+Ve 5 iş günü içerisinde kullanıcı adınızı ve parolanızı size ulaştırıyoruz.
+
+399
+00:36:50,720 --> 00:36:52,840
+Peki, Turbo'ya kimler üye olabiliyor?
+
+400
+00:36:53,520 --> 00:36:56,220
+Doktora ve üstü akademik seviyedeki bütün araştırmacılar,
+
+401
+00:36:56,860 --> 00:37:02,920
+RDF ve VAP projesi yürüten bütün araştırmacılar ve bu araştırmacıların öğrencileri Turbo'ya üye olabiliyor.
+
+402
+00:37:02,920 --> 00:37:10,280
+Şu anda yoğunluğumuzdan dolayı maalesef yüksek lisans ve lisans öğrencilerinin üyeliklerini kabul edemiyoruz.
+
+403
+00:37:12,320 --> 00:37:15,980
+Bunun da ileride çözülmesini umuyoruz.
+
+404
+00:37:16,140 --> 00:37:16,820
+Öyle söyleyelim.
+
+405
+00:37:18,700 --> 00:37:22,160
+Turbo üyeliği ile ilgili sorulan bazı sıkça soruların cevaplarına gelelim.
+
+406
+00:37:23,760 --> 00:37:25,940
+Normal Turbo üyeliği ve kullanımı ücretsizdir.
+
+407
+00:37:25,940 --> 00:37:31,940
+Bütün araştırmacılar eşit şartlarda, eşit şekilde kuyruklara iş gönderirler.
+
+408
+00:37:32,760 --> 00:37:39,520
+Turbo'ya üye olduğunuzda 1TB depolama alanı ve 420.000 işlemci saat hesaplama kaynağı sahibi olursunuz.
+
+409
+00:37:40,440 --> 00:37:45,940
+Bu kaynakları bitirdiğinizde bize Turbo kullanarak ürettiğiniz çıktıları iletebilirseniz,
+
+410
+00:37:46,480 --> 00:37:48,760
+bakalinin kendisini istemiyoruz, üst verisi de yeterli.
+
+411
+00:37:49,980 --> 00:37:51,520
+Biz sürenizi uzatıyoruz.
+
+412
+00:37:52,160 --> 00:37:53,520
+Aslında durum tam olarak şu.
+
+413
+00:37:53,520 --> 00:37:57,520
+Siz Turbo kullanarak yayın üretiyorsunuz.
+
+414
+00:37:58,460 --> 00:38:01,840
+Biz de gidip diyoruz ki, bakın bu kadar araştırmacı bizden bu kadar yayın üretti.
+
+415
+00:38:02,320 --> 00:38:04,840
+Biz bunun devamının sağlanmasını istiyoruz.
+
+416
+00:38:05,260 --> 00:38:08,400
+Ve size bu kaynağı ücretsiz şekilde sağlamaya devam edebiliyoruz.
+
+417
+00:38:08,820 --> 00:38:12,520
+O yüzden çıkarttığınız yayınlarda bize teşekkür etmeniz ve bu yayınları bize iletmeniz,
+
+418
+00:38:13,840 --> 00:38:16,500
+kullanabilmeniz açısından oldukça büyük önem arz ediyor.
+
+419
+00:38:17,700 --> 00:38:19,360
+Peki, Turbo'ya üye oldunuz.
+
+420
+00:38:19,560 --> 00:38:21,380
+420.000 işlemci saatinizi aldınız.
+
+421
+00:38:22,060 --> 00:38:22,880
+Neler yapabilirsiniz?
+
+422
+00:38:22,880 --> 00:38:28,880
+Linux üzerinde çalışan ücretsiz ya da lisanslı araştırma uygulamalarınızı kullanabilirsiniz.
+
+423
+00:38:29,580 --> 00:38:33,880
+Daha önce de bahsettiğimiz gibi, lisanslı araştırma uygulamalarının lisanslarına sahip olmanızı beklenmekte.
+
+424
+00:38:34,980 --> 00:38:38,100
+Ve bunları kendi ev dizimlerinize kurmanızı beklenmekte.
+
+425
+00:38:38,100 --> 00:38:44,100
+Eğer uygulamanızı destekliyor ise kümedeki çoklu bilgisayar ve ağ yapısından faydalanarak
+
+426
+00:38:44,100 --> 00:38:51,100
+OpenMPI, OpenMPI, OpenMPI ile çalışabiliyorsanız CUDA destekli işlerinizi çalıştırabilirsiniz.
+
+427
+00:38:51,100 --> 00:38:53,600
+CUDA için iki ayrı kuyruğumuz var demiştik.
+
+428
+00:38:54,100 --> 00:38:58,420
+Diğer bütün makinelerde OpenMPI ve OpenMPI çalışabilirsiniz.
+
+429
+00:38:59,720 --> 00:39:02,100
+Turbo'nun kuyruk iş uzunluğu 15 gün kadar.
+
+430
+00:39:02,100 --> 00:39:07,300
+En uzun kuyruklarda 15 güne kadar kesin siziz iş çalıştırmanıza izin veriyoruz.
+
+431
+00:39:08,060 --> 00:39:10,120
+Bu diğer kümelere göre oldukça uzun.
+
+432
+00:39:10,500 --> 00:39:14,800
+Yurt dışında bu sürenin 3-4 günü geçtiği çok görülmez.
+
+433
+00:39:15,460 --> 00:39:17,540
+Ama biz bunu 15 güne kadar veriyoruz.
+
+434
+00:39:18,060 --> 00:39:20,020
+Peki 15 günden uzun çalışan bir işiniz var.
+
+435
+00:39:21,020 --> 00:39:21,800
+Ne yapmanız lazım?
+
+436
+00:39:21,800 --> 00:39:25,680
+Uygulamanızın kaldığı yerden devam edebilmeyi desteklemesi lazım.
+
+437
+00:39:26,020 --> 00:39:29,460
+Paket uygulamaların çoğu bunu yapabiliyor.
+
+438
+00:39:30,120 --> 00:39:36,420
+Eğer kendinizin geliştirdiğiniz bir uygulamanız varsa kaldığınız yerden devam etmeyi özelliğini eklemeniz gerekiyor.
+
+439
+00:39:36,760 --> 00:39:37,400
+Bir şekilde.
+
+440
+00:39:40,580 --> 00:39:41,380
+Devam edelim.
+
+441
+00:39:43,960 --> 00:39:46,540
+Peki, Turbo'ya nasıl bağlanabilirsiniz?
+
+442
+00:39:47,020 --> 00:39:49,680
+Daha önce de bahsettiğimiz gibi bir OpenMPI sunucumuz var.
+
+443
+00:39:49,680 --> 00:39:56,120
+Eğer üniversite dışındaysanız, evinizdeyseniz, yurt dışında bir konferansa gittiyseniz, tabii 2021'de bunu yapabileceğinizi bilmiyoruz.
+
+444
+00:39:56,740 --> 00:40:00,640
+OpenVPN bağlanarak üniversite dışarısından bağlanabilirsiniz.
+
+445
+00:40:00,860 --> 00:40:08,380
+Eğer üniversitedeyseniz, ofisinizdeyseniz üniversite içindeki, OpenVPN kullanmadan doğrudan Turbo sunucularına bağlanabilirsiniz.
+
+446
+00:40:09,460 --> 00:40:11,600
+Her kullanıcı VPN hizmetinden yararlanabilir.
+
+447
+00:40:11,800 --> 00:40:15,340
+Yani üniversitede çalışıyorum, üniversitede kaydoldum.
+
+448
+00:40:16,080 --> 00:40:17,820
+VPN için bize başvurmanıza gerek yok.
+
+449
+00:40:17,820 --> 00:40:20,580
+Viki'de ilgili sayfalar var.
+
+450
+00:40:21,160 --> 00:40:24,120
+Bu slide'daki bu Viki linki ilgili sayfaya direkt gidiyor.
+
+451
+00:40:24,360 --> 00:40:26,620
+Sunumu indirdikten sonra doğru sayfaya direkt gidebilirsiniz.
+
+452
+00:40:27,360 --> 00:40:35,020
+Oradaki yönergeleri uygulayarak VPN hizmetinden yararlanıp, dünyanın herhangi bir yerinden çalışmaya devam edebilirsiniz.
+
+453
+00:40:36,500 --> 00:40:41,820
+Peki, VPN'den de bağlandığınız, Turbo'da nasıl çalışacaksınız?
+
+454
+00:40:41,820 --> 00:40:47,740
+Turbo'nun esas arayüzü, SSH üzerinden bağlandığınız bir kullanıcı kabuğudur.
+
+455
+00:40:48,240 --> 00:40:56,060
+Windows kullanıyorsanız PuTTY veya Secure CRT, Linux kullanıyorsanız SSH, Mac için de SSH'ı kullanabilirsiniz.
+
+456
+00:40:56,060 --> 00:40:58,820
+Kullanıcı arayüzüne bağlantı kurabilirsiniz.
+
+457
+00:40:58,820 --> 00:41:05,120
+Daha önce de birkaç kere bahsettiğim gibi bir Open On Demand arayüzü kurulumumuz var.
+
+458
+00:41:05,620 --> 00:41:09,500
+Ama şu anda test aşamasında ve tüm özellikleri desteklemiyor.
+
+459
+00:41:10,640 --> 00:41:15,740
+Tarayıcı kullanarak Open On Demand arayüzü üzerinden de Turbo üzerinde çalışmaya başlayabilirsiniz.
+
+460
+00:41:15,740 --> 00:41:22,800
+Buraya kadar olan aslında kısa birkaç soruyu alabiliriz.
+
+461
+00:41:22,860 --> 00:41:26,380
+Çok önemli bir soru varsa, bundan sonra işlerin gönderilmesi konusuna geçeceğiz çünkü.
+
+462
+00:41:27,080 --> 00:41:32,320
+Hani kullanıcı üyeliğiyle vesaireyle ilgili kalan bir soru varsa akılda onları bence kısaca alabiliriz.
+
+463
+00:41:32,400 --> 00:41:32,800
+2-3 dakika.
+
+464
+00:41:34,360 --> 00:41:36,900
+Kullanıcı üyeliğiyle ilgili bir sorumuz yok.
+
+465
+00:41:37,400 --> 00:41:40,800
+Ama Fuat Bey'in şöyle bir sorusu var.
+
+466
+00:41:40,800 --> 00:41:48,480
+Kaynak süresi dolmadan biz çıkardığımız yayınları size göndersek süremiz otomatik olarak uzar mı acaba diye.
+
+467
+00:41:51,880 --> 00:41:52,800
+Aslında...
+
+468
+00:41:53,520 --> 00:41:53,840
+Tamam.
+
+469
+00:41:55,180 --> 00:41:57,060
+Yani doğrusunu söylemek gerekirse kaynağınızı...
+
+470
+00:41:57,060 --> 00:42:05,340
+Yani ne kadar çıkartır ve ne kadar çabuk eklerseniz bizim sizin kaynaklarınızı uzatma şansımız o kadar kolaylaşıyor.
+
+471
+00:42:05,920 --> 00:42:07,860
+Belki o anda otomatik olarak...
+
+472
+00:42:07,860 --> 00:42:09,640
+Çünkü bu işlemlere elle yapılan işlemler...
+
+473
+00:42:09,640 --> 00:42:15,400
+Sürenizi uzatmasak bile süren bitti dediğinizde biz size çok daha kısa sürede sürenizi uzattık cevabı verme şansımız var.
+
+474
+00:42:16,140 --> 00:42:19,780
+Aslında bunlar entegre edilemeyen yapılar değil Fuat Bey.
+
+475
+00:42:20,100 --> 00:42:21,780
+Ama şöyle bir durum var.
+
+476
+00:42:22,040 --> 00:42:30,020
+Mesela belirli araştırmacılar sadece tezleri süresince ya da belirli bir çalışma süresince turvayı kullanıyorlar.
+
+477
+00:42:30,240 --> 00:42:32,420
+Ve daha sonra kullanım ihtiyaçları olmuyor.
+
+478
+00:42:32,420 --> 00:42:45,480
+Dolayısıyla da bu otomatik devamlı olan, yani sizler gibi sürekli olarak, devamlı olarak çalışıp buradan bir yayın üreten ve akademik yayınlarının devamı olan bir araştırmacı buna ihtiyaç duyuyor.
+
+479
+00:42:45,480 --> 00:42:51,660
+Turuba'da açılan kullanıcı kodları, belki burada onu bildirmek gerekebilir.
+
+480
+00:42:52,120 --> 00:42:59,100
+Kullanıcı kodları kişiye özel olduğu için silinmiyor ama askıya alınabiliyor çalışmaları bittiği için.
+
+481
+00:42:59,240 --> 00:43:09,760
+Dolayısıyla kişinin oradaki hesaplama süresi de eğer turubayı bundan sonraki süreçte kullanmayacaksa hesabı askıya alınıyor ama uzatılmamış oluyor otomatik olarak.
+
+482
+00:43:09,760 --> 00:43:19,880
+Kullandığımız işlemcilerin detay speklerini görebiliyor muyuz diye bir soru var.
+
+483
+00:43:20,000 --> 00:43:26,200
+Aslında benzer biçimde Uğur Bey'in de saat hızı olarak en hızlı küme hangisidir diye bir sorusu var.
+
+484
+00:43:26,200 --> 00:43:34,060
+Bunları viki.turuba.gov.tr adresinden doğrudan görebilirsiniz.
+
+485
+00:43:34,260 --> 00:43:40,900
+Bütün altyapıda kullanılan kümeler, mimarileri neler olduğunu buradan alabilirsiniz.
+
+486
+00:43:41,840 --> 00:43:44,180
+Sanırım böyle bir slide'ın yok değil mi Hakan?
+
+487
+00:43:44,440 --> 00:43:46,400
+Yok kaynaklarla ilgili bir slide yok.
+
+488
+00:43:47,240 --> 00:43:50,280
+Yalnız ben işlemci hızıyla ilgili şöyle bir şey söylemek istiyorum.
+
+489
+00:43:50,840 --> 00:43:52,880
+Birkaç araştırmacımızda da başımıza geldi.
+
+490
+00:43:52,880 --> 00:44:00,060
+Bazı bilimsel uygulamalar belli işlemciler için çok ekstrem şekillerde optimize ediliyorlar.
+
+491
+00:44:00,300 --> 00:44:07,620
+Yani el ile optimize dediğimiz noktaya kadar getirildikleri için o işlemcinin mimarisine çok bağımlı hale geliyorlar.
+
+492
+00:44:07,780 --> 00:44:14,460
+Siz daha güncel, daha hızlı, teorik olarak daha fazla iş yapabilecek bir sunucuya, işlemciye o işi koyduğunuzda
+
+493
+00:44:14,460 --> 00:44:17,760
+performans kazanmak yerine performans kaybedebiliyorsunuz.
+
+494
+00:44:17,760 --> 00:44:22,440
+O yüzden her zaman en hızlı kümede çalışmak en yüksek performanslı şekilde çalışmak olmuyor.
+
+495
+00:44:22,880 --> 00:44:24,660
+Buna dikkat etmekte fayda var.
+
+496
+00:44:28,260 --> 00:44:30,520
+Sibel Hanım'ın bir sorusu var.
+
+497
+00:44:30,620 --> 00:44:32,300
+Üyelik süresi var mı diye.
+
+498
+00:44:33,640 --> 00:44:38,160
+Yani herhangi bir üyelik süremiz aslında yok.
+
+499
+00:44:38,300 --> 00:44:43,720
+Çalış akademik araştırmacımız bir üniversiteyle bağlantısı olduğu sürece
+
+500
+00:44:43,720 --> 00:44:45,760
+altyapımızdan faydalanabiliyor.
+
+501
+00:44:45,760 --> 00:44:55,040
+İleride Windows işletim sistemi kullanımı sağlanabilir mi diye bir sorumuz var.
+
+502
+00:44:55,040 --> 00:45:02,600
+Windows işletim sistemi desteklemeyi doğrusunu söylemek gerekirse şu anda çok düşünmüyoruz.
+
+503
+00:45:02,600 --> 00:45:11,320
+Çünkü zaten araştırma çevrelerinde de küme şeklinde çalışan sistemlerin neredeyse %99'unda Linux çalışıyor.
+
+504
+00:45:11,820 --> 00:45:16,500
+Windows'da daha çok görsel ve interaktif uygulamalar çalışıyor.
+
+505
+00:45:16,500 --> 00:45:18,740
+Ve biz onları zaten çok fazla destekleyemeyiz.
+
+506
+00:45:19,740 --> 00:45:22,000
+Şöyle yapılar var Gökhan Bey.
+
+507
+00:45:22,500 --> 00:45:28,640
+Çok büyük ihtiyaç duyulduğu noktada aslında bulut servisleri üzerinde
+
+508
+00:45:28,640 --> 00:45:31,340
+yani çok ihtiyacı olan araştırmacılarımız için
+
+509
+00:45:31,340 --> 00:45:36,560
+illa bir Windows işletim sistemi kullanmak isteyen araştırmacılarımız için
+
+510
+00:45:36,560 --> 00:45:40,340
+bir federated cloud altyapısı işletiyoruz.
+
+511
+00:45:40,800 --> 00:45:42,340
+Bu altyapı üzerinden verebiliyoruz.
+
+512
+00:45:42,980 --> 00:45:47,420
+Ama bunun toplamda içerdiği kaynak kısıtlı ve aslında
+
+513
+00:45:47,420 --> 00:45:51,200
+cloud üzerinden altyapıyı kullanmış oluyor.
+
+514
+00:45:51,360 --> 00:45:55,940
+Ve normal HPC kaynaklarını değil ona dedike olan kaynakları kullanıyor.
+
+515
+00:45:56,040 --> 00:45:58,580
+Birbirinden farklı altyapılar diye düşünebilirsiniz.
+
+516
+00:46:01,340 --> 00:46:08,640
+Farklı ID'lerle hesap açılabilir mi?
+
+517
+00:46:08,760 --> 00:46:12,760
+Şayet tüm alternatifleri kullanan biri ettiği bir soru var.
+
+518
+00:46:15,700 --> 00:46:22,240
+Yani biz kullanıcıya bir TC kimlik numarasına zaten bir kullanıcı açabiliyoruz.
+
+519
+00:46:23,240 --> 00:46:24,540
+Tersi durum söz konusu değil.
+
+520
+00:46:25,340 --> 00:46:26,060
+Evet.
+
+521
+00:46:31,340 --> 00:46:36,720
+Truba şifresini portal üzerinden talep ettim ancak geri dönüş olmadı.
+
+522
+00:46:36,820 --> 00:46:39,140
+Otomatik olarak şifre atanmıyor mu?
+
+523
+00:46:39,140 --> 00:46:45,000
+Bunu zaten birkaç saat sonra konuşacaktık ama bu bize çok gelen sorulardan biri.
+
+524
+00:46:45,220 --> 00:46:45,500
+Hayır.
+
+525
+00:46:45,660 --> 00:46:48,780
+Şifre sıfırlama parolalarınızı biz okuyor.
+
+526
+00:46:49,120 --> 00:46:51,480
+Elimizde şifrenizi değiştiriyoruz ve size geri gönderiyoruz.
+
+527
+00:46:51,660 --> 00:46:53,280
+Bu sistem otomatik bir sistem değil.
+
+528
+00:46:53,840 --> 00:46:57,600
+Çünkü portalla küme birbirlerinden farklı sistemler ve aralarında bir bağ yok.
+
+529
+00:46:58,360 --> 00:47:01,760
+Bu nedenle bunu da bizim elle yapmamız gerekiyor.
+
+530
+00:47:01,840 --> 00:47:03,060
+Otomatik bir süreç değil bu noktada.
+
+531
+00:47:03,060 --> 00:47:12,800
+SSH Authentication Public Key ile şifresiz login seçeneği sağlanmıyor diye sorulmuş.
+
+532
+00:47:14,260 --> 00:47:21,500
+Public keylerinizi kendiniz levrek bire transfer ederseniz SSH keylerinizle bağlanabilirsiniz.
+
+533
+00:47:21,500 --> 00:47:25,460
+Şu anda o özelliğin açık olması gerekli.
+
+534
+00:47:27,100 --> 00:47:36,780
+Erdem Bey bunu kontrol edelim ama şifre yani normalde şifre ile bağlanmanız daha doğru olur diye düşünüyorum ben.
+
+535
+00:47:37,660 --> 00:47:42,880
+Çünkü dışarıya açık bir sistem ama public key kullanımını da tekrar kontrol edelim.
+
+536
+00:47:43,040 --> 00:47:44,800
+O zaman tekrar haberleşiriz sizinle.
+
+537
+00:47:44,800 --> 00:47:52,600
+Derya Hanım, Truba için kullanıcı kılavuzu var mı?
+
+538
+00:47:52,740 --> 00:47:59,280
+Simülasyon programları, Gromex ve Namdi direkt kurulu mu yoksa bizim mi kurmamız gerekiyor diye bir sorusu var.
+
+539
+00:47:59,280 --> 00:48:09,120
+Sanırım Hakan Bey gelecek ama wiki.truba.go.tr adresinde bizim bir kullanıcı el kitabımız var.
+
+540
+00:48:09,980 --> 00:48:18,380
+Hesap alan bir kişinin bu el kitabını okumuş ve daha sonra bizim kaynaklarımızdan faydalanıyor olmasını bekliyoruz.
+
+541
+00:48:19,220 --> 00:48:23,280
+Gromex ve Namdi çok sıkla kurulan kullanımlar.
+
+542
+00:48:23,280 --> 00:48:28,240
+Şu anda net var mı bilmiyorum ama Hakan Bey'e baktığında belki modüllere bakabilir.
+
+543
+00:48:28,720 --> 00:48:33,100
+Hangi uygulamalar şu anda var diye ama var diye biliyorum.
+
+544
+00:48:33,600 --> 00:48:41,760
+Eğer sizin istediğiniz sürümü bulunmuyorsa da bunu kendiniz kullanıcı ev dizinin içerisine de kurabilirsiniz.
+
+545
+00:48:48,140 --> 00:48:48,980
+Bakalım.
+
+546
+00:48:48,980 --> 00:48:54,180
+Birkaç soru var.
+
+547
+00:48:55,120 --> 00:48:58,180
+Onur Bey bunu sanırım cevaplayacak.
+
+548
+00:48:58,420 --> 00:49:00,080
+Live olarak göstermiş.
+
+549
+00:49:00,800 --> 00:49:06,840
+Yüksek lisans öğrencileri herhangi bir projede araştırmacı ise kullanım izni çıkıyor mu Hakan Bey?
+
+550
+00:49:07,420 --> 00:49:08,380
+Benzer biçimde.
+
+551
+00:49:08,480 --> 00:49:13,600
+Lisans üstü için kullanım bizlerin test projeleri için önemli.
+
+552
+00:49:13,860 --> 00:49:15,240
+Ne zaman onaylanır?
+
+553
+00:49:15,240 --> 00:49:18,160
+Bir başka soru yine benzer biçimde.
+
+554
+00:49:18,600 --> 00:49:25,380
+Yüksek lisans ve lisans öğrencilerinin kayıtları şu an alınamıyor ve doktora üstü olan akademisyenler katılabiliyor.
+
+555
+00:49:25,520 --> 00:49:28,140
+Peki doktora öğrencileri için durum nedir demiş.
+
+556
+00:49:30,780 --> 00:49:33,900
+Doktora öğrencileri şu anda kayıt olabiliyorlar.
+
+557
+00:49:34,800 --> 00:49:37,040
+Doktora öğrenciler için herhangi bir kısıt bulunmuyor.
+
+558
+00:49:37,040 --> 00:49:45,400
+Ardep ve BAP projelerinde gelen her türlü öğrenciyi şu anda kabul ediyoruz.
+
+559
+00:49:46,100 --> 00:49:47,720
+Onunla ilgili herhangi bir kısıt yok.
+
+560
+00:49:48,960 --> 00:49:59,040
+Tez gibi veya belli bir projeyle ilgili belli durumlar ortaya çıktığında bunun içeride görüşülmesi gerekiyor.
+
+561
+00:49:59,280 --> 00:50:04,500
+Bunları durum durum kişi kişi inceliyoruz.
+
+562
+00:50:04,500 --> 00:50:06,060
+Burada net açıklamak lazım.
+
+563
+00:50:06,320 --> 00:50:16,760
+Bizimle sözleşmesi olan Ardep ve BAP projeleri zaten her türlü lisans, yüksek lisans doktor öğrencisi bunları şey yapabiliyorlar, projeyi ekleyebiliyorlar.
+
+564
+00:50:16,820 --> 00:50:18,980
+Zaten saatleri, kullanım saatleri belirli.
+
+565
+00:50:19,980 --> 00:50:26,600
+Bunun dışında bizde sözleşmesi olmayıp yürüyen zaten zaman kısıtlı olan Ardep projeleri olabiliyor.
+
+566
+00:50:26,600 --> 00:50:40,380
+Buradaki kullanıcıların ilgili projede bursiyer olarak kayıtlı olmaları şartıyla veya ilgili projede yer almaları şartıyla resmi olarak gene altyapımıza kabul edebiliyoruz.
+
+567
+00:50:40,380 --> 00:50:44,400
+Yani bu detayı şey yapmak lazım, ayırmak lazım.
+
+568
+00:50:45,900 --> 00:50:49,640
+Ve yüksek lisans kullanımının biz gerçekten önemli olduğunu biliyoruz.
+
+569
+00:50:49,760 --> 00:50:58,440
+Zaten 2003'den beri, yani kurulduğumuzdan beri bu şekilde çalışmamızın, yani yüksek lisans kullanımına da izin vermemizin temel sebebi buydu.
+
+570
+00:50:58,880 --> 00:51:06,740
+Çünkü bugünün yüksek lisans öğrencisi, yani doktor öğrencisi sonrasında işte akademisyenimiz farklı bir yerde bir araştırmacımız olarak devam ediyor.
+
+571
+00:51:06,740 --> 00:51:15,760
+Ancak gerçekten kaynak kısıtları nedeniyle kuyruk bekleme süreleri ciddi bir şekilde arttı ve bu kullanımı oldukça etkiliyor.
+
+572
+00:51:16,700 --> 00:51:21,200
+Şu anda bir kaynak artırımı için şeydeyiz, ihale aşamasındayız.
+
+573
+00:51:21,600 --> 00:51:24,740
+Bu kaynak artırımı sonrasında tekrar değerlendirilecek bu konu.
+
+574
+00:51:24,740 --> 00:51:36,740
+Bu şeyden sonra yine benzer bir biçimde bir sorusu var bir araştırmacımızın.
+
+575
+00:51:38,440 --> 00:51:42,200
+Bir üniversitede personel, başka bir üniversitede ise öğrenciyim.
+
+576
+00:51:42,340 --> 00:51:48,240
+Tezimi tamamladıktan sonra öğrenciliğimin bittiği üniversitedeki edutr mail adresim inaktif olabilir.
+
+577
+00:51:48,760 --> 00:51:52,360
+Mail adresimi çalıştığım üniversitedeki adresimle değiştirebilir miyim?
+
+578
+00:51:52,360 --> 00:51:57,720
+Böyle bir durumda önceden çalıştığım dosyalar kaybolur mu kaldığım yerden devam edebilir miyim?
+
+579
+00:51:58,540 --> 00:52:01,360
+Aslında e-posta adresini değiştirebilirsiniz.
+
+580
+00:52:02,260 --> 00:52:08,860
+Sizin kurum değişikliğinizi biz Hakan Bey'in bahsettiği portal trubago.tr'nin
+
+581
+00:52:08,860 --> 00:52:13,860
+YÖKSİS entegrasyonu sayesinde o anda hangi üniversitede olduğunuzu,
+
+582
+00:52:15,600 --> 00:52:21,860
+o anki lisans, yüksek lisans ya da doktora durumunuzun devam edip etmediğini aslında biz portaldan görebiliyoruz.
+
+583
+00:52:23,060 --> 00:52:31,860
+Dolayısıyla kullanıcı kodunuz, üniversitenizde mail adresinden bağımsız olarak çalıştığınız araştırma kurumunun değişmesi durumunda da
+
+584
+00:52:31,860 --> 00:52:35,680
+aynı hesabı kullanmaya devam ediyorsunuz.
+
+585
+00:52:35,740 --> 00:52:39,020
+Dosyalarınızla ilgili herhangi bir değişiklik olmuyor.
+
+586
+00:52:39,900 --> 00:52:43,580
+Bizde açılan kullanıcı kodları kişiye özel olup,
+
+587
+00:52:44,260 --> 00:52:51,860
+dediğimiz gibi ilgili kullanıcı kodlarına kişi akademik araştırmasını bıraksa da bir başka kişiye devretmiyoruz.
+
+588
+00:52:51,860 --> 00:52:57,140
+Onu sadece hesabı askıya alıp kişiye özel saklamaya devam ediyoruz.
+
+589
+00:53:01,940 --> 00:53:07,560
+EGZE bir uygulama emülasyonla çalışabiliyor mu?
+
+590
+00:53:07,760 --> 00:53:09,080
+diye bir soru var Hakan.
+
+591
+00:53:10,240 --> 00:53:12,860
+Yani Windows uygulamalarının,
+
+592
+00:53:13,100 --> 00:53:16,180
+Windows uygulamalarının üstünde çalışan katmanlar var.
+
+593
+00:53:16,180 --> 00:53:21,740
+Ama bunların HPC sistemleri üzerinde kullanımı çok yok.
+
+594
+00:53:21,860 --> 00:53:25,020
+denemedik.
+
+595
+00:53:26,180 --> 00:53:32,080
+Görmek lazım ama yani bir yararlı bir sonuç ortaya çıkacağını düşünmüyorum doğrusunu söylemek gerekirse.
+
+596
+00:53:32,780 --> 00:53:38,940
+Çünkü sonuçta bir emülasyon ve her zaman uygulamanın beklediği gibi davranmayabiliyor aradaki katman.
+
+597
+00:53:38,940 --> 00:53:49,240
+O yüzden bilimsel uygulama gibi doğruluğu önemli bir uygulamayı öyle bir ara katmanın üzerinde çalıştırmanın çok doğru olduğunu düşünmüyorum.
+
+598
+00:53:49,240 --> 00:53:52,400
+Bir başka sorumuz.
+
+599
+00:53:52,400 --> 00:53:55,400
+sorumuz OpenVPN üzerinde turubaya bağlanırken,
+
+600
+00:53:56,220 --> 00:54:00,400
+username.levrek1.ulak.bim.go.tr olarak bağlantıda sıkıntı yaşarken,
+
+601
+00:54:01,400 --> 00:54:07,380
+username.at172.16.7.1 şeklinde bağlantı sağlayabiliyorum.
+
+602
+00:54:07,520 --> 00:54:08,840
+Bunun sebebi ne olabilir?
+
+603
+00:54:08,840 --> 00:54:10,840
+Teşekkürler.
+
+604
+00:54:10,840 --> 00:54:17,700
+Levrek1.010'unun birden fazla IP adresi ve birden fazla dışarıya bağlantısı var.
+
+605
+00:54:18,480 --> 00:54:20,640
+Levrek1.ulak.bim.go.tr dediğiniz zaman,
+
+606
+00:54:20,860 --> 00:54:25,980
+başka bir dış bağlantısının IP'sini aldığınız için ortadan gitmeye çalışıyor olabilirsiniz.
+
+607
+00:54:26,920 --> 00:54:30,580
+Oraya da ulaşımınız olmadığı için bağlanamıyor olabilirsiniz.
+
+608
+00:54:30,740 --> 00:54:34,980
+O yüzden 170.2.16.7.1'di kullanmaya devam etmeniz VPN üzerinden,
+
+609
+00:54:34,980 --> 00:54:39,260
+üzerinden bağlantınızın sağlığı ve sizin daha rahat bağlanmanız açısından daha doğru olacaktır.
+
+610
+00:54:40,400 --> 00:54:49,580
+Aslında OpenVPN'in yapısı gereği, OpenVPN çalıştırdığınız ya da OpenVPN veya Türevi çalıştırdığınız bir bilgisayar üzerinde
+
+611
+00:54:49,580 --> 00:54:58,360
+size karşıdaki bilgisayara bağlanabilmeniz için bir ayar dosyası veriyoruz ve bu ayar dosyası üzerinde de
+
+612
+00:54:58,360 --> 00:55:06,940
+sizin bilgisayarınız üzerinde karşılıklı konuşabilmeleri için ayrı bir network bacağı oluşturuyor.
+
+613
+00:55:07,040 --> 00:55:10,800
+Ve bu bacak doğrudan 172.16.7.1'e gidebiliyor.
+
+614
+00:55:10,800 --> 00:55:19,160
+Ama Levrek 1 ULAK BİM GO.TR temel olarak dışarıdaki IP'leri açık olmayıp kampüs içerisindeki IP'leri açıktır.
+
+615
+00:55:19,260 --> 00:55:27,240
+Dolayısıyla siz evinizden Levrek 1 ULAK BİM GO.TR diye bağlanmak istediğinizde buraya doğrudan erişim sağlayamamaktasınız.
+
+616
+00:55:27,240 --> 00:55:35,160
+Ama OpenVPN üzerinde size tanımlanan tünel üzerinden doğrudan 172.16 bacağı ile konuşabilmektesiniz.
+
+617
+00:55:38,860 --> 00:55:44,840
+Truba'da yüklü programların mesela ARP programı gibi sürümlerinin güncellenmesi mümkün mü?
+
+618
+00:55:47,680 --> 00:55:53,140
+Sürümleri güncellemek mümkün ama biz uygulamalar konusunda uzman olmadığımız için
+
+619
+00:55:53,140 --> 00:55:56,800
+biz bu uygulamaları derlerken veya kurarken standart haliyle kuruyoruz.
+
+620
+00:55:57,240 --> 00:56:02,840
+Bütün çok kullanılan araştırma programları ve ARP özelinde de konuşursak
+
+621
+00:56:02,840 --> 00:56:07,000
+birçok eklenti, birçok özelleştirme gerekebiliyor araştırmacılar tarafından.
+
+622
+00:56:07,800 --> 00:56:13,620
+Biz de bu uygulamalarda uzman olmadığımız için bütün ihtiyaçları karşılama şansımız olmuyor.
+
+623
+00:56:14,200 --> 00:56:20,820
+O yüzden temel bir versiyonu kuruyor ve araştırmacıların kullanımına sunuyoruz.
+
+624
+00:56:20,820 --> 00:56:26,500
+Eğer daha yeni bir versiyona, daha özelleştirilmiş bir sürme ihtiyacınız varsa
+
+625
+00:56:26,500 --> 00:56:29,480
+bunu kendi ev dizininize kurmanız gerekiyor.
+
+626
+00:56:30,480 --> 00:56:33,540
+Truba ile özel takıldığınız teknik bir problem olduğu zaman
+
+627
+00:56:33,540 --> 00:56:37,760
+bir derleyiciye ulaşamadığınızda veya Truba ile ilgili bir problem yaşadığınızda
+
+628
+00:56:37,760 --> 00:56:39,420
+yardımcı olmaya çalışıyoruz kurulum süreçlerinde.
+
+629
+00:56:39,420 --> 00:56:43,420
+Ama uygulamaların uzmanı olmadığımız için
+
+630
+00:56:43,420 --> 00:56:47,440
+her araştırmacının ihtiyacını karşılayabilecek şekilde
+
+631
+00:56:47,440 --> 00:56:50,660
+kurma şansımız maalesef her zaman olmayabiliyor.
+
+632
+00:56:52,660 --> 00:56:56,500
+Ama yine de ekip olarak gelen her türlü kurulum konusunda
+
+633
+00:56:56,500 --> 00:57:01,240
+yardımcı olmaya çalışıyoruz sizlere Hakan Bey'in belirttiği üzere.
+
+634
+00:57:01,240 --> 00:57:06,100
+Semra Hanım'ın kuyruklar arası geçiş yapabiliyor muyuz diye bir sorusu var.
+
+635
+00:57:06,720 --> 00:57:10,420
+Normalde her türlü kuyruğa işlerinizi gönderebiliyorsunuz Semra Hanım.
+
+636
+00:57:10,600 --> 00:57:14,040
+Ama işiniz çalışmaya başladıktan sonra onu bir kuyruktan alıp
+
+637
+00:57:14,040 --> 00:57:19,040
+diğerine vermek sizin yapabileceğiniz bir şey olmuyor.
+
+638
+00:57:19,180 --> 00:57:20,340
+Geçiş yapılamıyor oluyor.
+
+639
+00:57:20,820 --> 00:57:22,260
+Çalışmaya başladıktan sonra.
+
+640
+00:57:23,240 --> 00:57:25,040
+Bir başka soru.
+
+641
+00:57:25,040 --> 00:57:31,940
+Aynı küme üzerinde çalıştırılan benzer işlerin çalışma süreleri arasında
+
+642
+00:57:31,940 --> 00:57:33,440
+bazen farklar olabiliyor.
+
+643
+00:57:33,620 --> 00:57:35,200
+Bunun sebebi ne olabilir acaba?
+
+644
+00:57:35,420 --> 00:57:36,180
+Teşekkür ederim.
+
+645
+00:57:36,300 --> 00:57:37,280
+Erol Bey'in sorusu.
+
+646
+00:57:38,260 --> 00:57:40,300
+Bu soru da aslında çok gelen bir soru.
+
+647
+00:57:40,920 --> 00:57:46,380
+Şimdi kuyruk yöneticisi işlerinizi bir şekilde makinelere dağıtıyor.
+
+648
+00:57:46,380 --> 00:57:50,540
+Ama bu makinelerin üzerindeki yük her zaman eşit olmayabiliyor.
+
+649
+00:57:50,540 --> 00:57:58,160
+Yani dört tane sunucuya dağıttığınız bir işte bir sunucunun üzerinde yüzde yirmi, yüzde elli yük varken
+
+650
+00:57:58,160 --> 00:58:07,600
+öbürünün üzerinde diske veya hafızaya çok daha fazla ihtiyaç duyan veya çok daha fazla oraları kullanan bir uygulama olduğunda
+
+651
+00:58:07,600 --> 00:58:12,620
+diğer uygulamanızı ister istemez belli bir miktar o kopiyi yavaşlatıyor.
+
+652
+00:58:13,360 --> 00:58:17,400
+Sonuçta makineler üzerinde sizin işiniz dışında çalışan başka işler olduğu için
+
+653
+00:58:17,400 --> 00:58:25,020
+ve siz kaynakları bu işlerle paylaştığınız için her zaman her makineden aynı homojen performansı elde edemeyebiliyorsunuz.
+
+654
+00:58:25,780 --> 00:58:30,040
+Kaynak yöneticisinin zaten bu şeyi nasıl yaptığıyla ilgili biraz daha ileride konuşacağız.
+
+655
+00:58:31,220 --> 00:58:37,520
+Ama sonuçta bu kümenin yoğunluğuyla ve küme makinelerinin üzerinde çalışan işlerle alakalı bir konu.
+
+656
+00:58:37,520 --> 00:58:51,800
+Aslında şöyle de söyleyebiliriz Erol Bey, birçok kümemizde kullanılan bellek miktarı kısıtlanmakla birlikte bu etkiyi görmeyebiliyoruz.
+
+657
+00:58:51,800 --> 00:58:57,940
+Ama eğer aynı küme üzerinde çalıştırılan benzer işlerin süreler arasında fark oluyorsa
+
+658
+00:58:57,940 --> 00:59:02,580
+çalışan nodda bir hardware probleminin olma ihtimali de yüksek oluyor.
+
+659
+00:59:03,380 --> 00:59:12,900
+Yani aynı şekilde farklı farklı nodlara gittiği ve bir nod üzerinde eğer bir problem varsa burada sorun yaşamış olabiliyorsunuz.
+
+660
+00:59:12,960 --> 00:59:17,940
+Bu tip durumlarda eğer bize bildirim yaparsanız birlikte inceleyebiliriz işlerimizi.
+
+661
+00:59:17,940 --> 00:59:27,680
+Yüksek lisans öğrencisi olarak kullandığım üyelik artık çalışmıyor.
+
+662
+00:59:27,840 --> 00:59:29,700
+OpenVPN ile bağlanamıyorum.
+
+663
+00:59:29,940 --> 00:59:34,900
+Önceden kullanım hakkı olan yüksek lisans öğrencilerinin kullanıcı hakları kaldırıldı mı?
+
+664
+00:59:35,640 --> 00:59:37,140
+Fahit Bey kaldırılmadı.
+
+665
+00:59:37,620 --> 00:59:40,280
+Bu konuda Gritler'e tekniğe bir mesaj atabilirsiniz.
+
+666
+00:59:40,460 --> 00:59:42,200
+Sizinle birlikte inceleyebiliriz.
+
+667
+00:59:45,460 --> 00:59:47,260
+İstersen devam edelim Hakan.
+
+668
+00:59:47,260 --> 00:59:50,300
+Çünkü sorulara bir de soru cevap kısmımız var.
+
+669
+00:59:50,640 --> 00:59:51,560
+Zaman ilerliyor.
+
+670
+00:59:51,800 --> 00:59:53,020
+Senin sunumunu bitirelim.
+
+671
+00:59:53,180 --> 00:59:54,320
+Sonraki kısımda alalım.
+
+672
+00:59:54,800 --> 00:59:55,020
+Tamam.
+
+673
+00:59:55,840 --> 00:59:57,680
+Şimdi iyi olduk.
+
+674
+00:59:57,760 --> 00:59:58,320
+Giriş yaptık.
+
+675
+00:59:58,380 --> 00:59:59,880
+Peki Truba'da nasıl çalışacağız?
+
+676
+01:00:01,220 --> 01:00:08,440
+Truba'da en çok biraz önce de duyduğumuz gibi kuyruklarda belli bir bekleme süresi oluyor.
+
+677
+01:00:09,000 --> 01:00:12,260
+Bu bekleme süresini minimuma indirmenin belli yolları var.
+
+678
+01:00:12,260 --> 01:00:20,620
+Öncelikle işinizin ne kadar çekirdek ve belleğe ihtiyacı olduğunu doğru şekilde belirlemeniz gerekiyor.
+
+679
+01:00:21,360 --> 01:00:25,180
+Ve işinizin aşağı yukarı ne kadar sürece ile ilgili bir tahmininizin olması gerekiyor.
+
+680
+01:00:25,180 --> 01:00:41,000
+Ve işinizin küme üzerinde nasıl bir geometri ile çalışacağını, kaç sunucu, kaç çekirdek, çalıştığınız çekirdeklerdeki hypertrelini kullanıp kullanmayacağınız veya GP'yi kullanıp kullanmayacağınızı bilmeniz ve belirtmeniz gerekiyor.
+
+681
+01:00:41,000 --> 01:00:44,960
+Peki bunu kime belirtiyoruz?
+
+682
+01:00:46,060 --> 01:00:48,760
+Surum adında bir kaynak ve kuyruk yöneticimiz var.
+
+683
+01:00:49,760 --> 01:00:52,200
+İhtiyaçlarınızı Surum'a iletiyorsunuz.
+
+684
+01:00:52,700 --> 01:00:56,280
+Surum da sizin ihtiyaçlarınıza göre işlerinizi planlıyor.
+
+685
+01:00:56,860 --> 01:00:58,180
+Peki Surum bunu nasıl yapıyor?
+
+686
+01:00:58,960 --> 01:01:00,540
+Surum elindeki işlere bakıyor.
+
+687
+01:01:00,540 --> 01:01:08,300
+Surum istenilen kaynaklara göre kendi kümeyi en efektif kullanacak şekilde bir plan hazırlıyor ileriye doğru.
+
+688
+01:01:08,860 --> 01:01:15,260
+Sonra eğer arada boşluklar kalırsa bu boşluklara da ileriden işler sığdırmaya çalışıyor.
+
+689
+01:01:16,100 --> 01:01:23,440
+Bu nedenle işinizle ilgili kaynak ihtiyaçlarını ne kadar doğru verirseniz Surum size o kadar kısa sürede yardımcı olabiliyor.
+
+690
+01:01:25,080 --> 01:01:27,500
+Peki Surum'a neleri söylüyoruz?
+
+691
+01:01:27,500 --> 01:01:31,520
+İşinize hangi kuyruğa göndereceğinizi söylüyoruz?
+
+692
+01:01:32,320 --> 01:01:35,000
+Hangi hesap ile göndereceğimizi söylüyoruz?
+
+693
+01:01:35,040 --> 01:01:36,620
+Bu genelde sizin kullanıcı adınız oluyor.
+
+694
+01:01:37,380 --> 01:01:40,680
+İşinizin kuyruk yöneticisinde görünecek adını söylüyorsunuz.
+
+695
+01:01:40,720 --> 01:01:41,960
+Bu sizin açınızdan yararlı.
+
+696
+01:01:42,060 --> 01:01:50,420
+Ya hangi makale için hangi işi göndermiştim bu kaçıncı randı gibi soruların cevaplarını sormamanız için işinize bir etiket vermenizde fayda var.
+
+697
+01:01:51,500 --> 01:01:54,180
+Kaç tane sunucu üzerinde işinizi çalıştırmak istediğiniz
+
+698
+01:01:54,180 --> 01:01:59,180
+ve her sunucu üzerinde kullanmak istediğiniz çekirdek sayısı belirtiyorsunuz.
+
+699
+01:02:00,460 --> 01:02:03,420
+Bunları kısaca görelim.
+
+700
+01:02:06,000 --> 01:02:06,780
+Şöyle yapalım.
+
+701
+01:02:10,740 --> 01:02:12,180
+Terminalimi görebiliyor musunuz?
+
+702
+01:02:12,760 --> 01:02:13,120
+Şu anda.
+
+703
+01:02:13,120 --> 01:02:18,200
+Şu an görünüyor Hakan.
+
+704
+01:02:18,300 --> 01:02:19,860
+Biraz daha büyütebiliriz belki.
+
+705
+01:02:20,620 --> 01:02:20,900
+Tamam.
+
+706
+01:02:21,080 --> 01:02:21,960
+Şöyle yapıyorum o zaman.
+
+707
+01:02:30,280 --> 01:02:31,320
+Şu anda nasıl?
+
+708
+01:02:31,900 --> 01:02:32,920
+Şu anda güzel.
+
+709
+01:02:33,800 --> 01:02:34,440
+Şöyle yapalım.
+
+710
+01:02:34,440 --> 01:02:36,100
+Yani takip edelim.
+
+711
+01:02:36,220 --> 01:02:38,440
+Farklı bir görüş olursa tekrar büyütüyoruz.
+
+712
+01:02:38,740 --> 01:02:39,540
+Görünebiliyoruz.
+
+713
+01:02:39,620 --> 01:02:39,700
+Evet.
+
+714
+01:02:40,200 --> 01:02:40,400
+Tamam.
+
+715
+01:02:41,660 --> 01:02:43,440
+Şimdi önce...
+
+716
+01:02:46,080 --> 01:02:49,020
+Açıkmış zaten.
+
+717
+01:02:49,420 --> 01:02:49,620
+Tamam.
+
+718
+01:02:49,620 --> 01:03:04,360
+Devrek 1'e bağlandık.
+
+719
+01:03:05,900 --> 01:03:06,900
+Şöyle bir...
+
+720
+01:03:06,900 --> 01:03:08,120
+Bakalım ne var ne yok mu?
+
+721
+01:03:09,260 --> 01:03:10,840
+Şurada seminer camımız var.
+
+722
+01:03:10,840 --> 01:03:16,660
+Şimdi işimizi göndermek için bir sunum dosyası yapmamız gerekiyor.
+
+723
+01:03:17,160 --> 01:03:20,300
+Ben ufak bir örnek iş dosyası hazırlamıştım.
+
+724
+01:03:20,580 --> 01:03:21,880
+Şimdi içerisinde neler var?
+
+725
+01:03:22,980 --> 01:03:23,440
+Buna bakalım.
+
+726
+01:03:25,420 --> 01:03:28,760
+Normalde sunum dosyaları normal 5 betikleri.
+
+727
+01:03:29,760 --> 01:03:31,940
+Bu şekilde betik olmasının sebebi
+
+728
+01:03:31,940 --> 01:03:35,780
+sunumun ilgili ayarları okuduktan sonra
+
+729
+01:03:35,780 --> 01:03:38,640
+burada S5 ile gördüğünüz belli bloklar var anlatacağız şimdi.
+
+730
+01:03:38,640 --> 01:03:43,540
+Geri kalan kısmı betik gibi çalıştırılıyor olması.
+
+731
+01:03:44,620 --> 01:03:45,980
+Buradaki betiğimiz çok basit.
+
+732
+01:03:46,780 --> 01:03:48,760
+İşin çalıştığı sunucunun adı
+
+733
+01:03:48,760 --> 01:03:52,140
+ne zaman başladı ve ne zaman bittiği ile ilgili
+
+734
+01:03:52,140 --> 01:03:54,940
+2-3 satır bize bilgi verip çıkacak.
+
+735
+01:03:56,040 --> 01:03:57,900
+Biz işimizi debug kuyruğuna göndereceğiz.
+
+736
+01:03:58,080 --> 01:03:59,180
+Çünkü çok kısa bir kuyruk.
+
+737
+01:03:59,440 --> 01:04:00,880
+15 dakika çalışma süresi var.
+
+738
+01:04:00,880 --> 01:04:02,240
+Ama önceliği çok yüksek.
+
+739
+01:04:03,440 --> 01:04:05,260
+Ufak işler gönderdiğimizde
+
+740
+01:04:05,260 --> 01:04:07,240
+işlerimizi test etmek istediğimizde
+
+741
+01:04:07,240 --> 01:04:08,840
+kullanabileceğimiz
+
+742
+01:04:08,840 --> 01:04:11,120
+bu demo içinde kullanabileceğimiz bir kuyruk.
+
+743
+01:04:13,620 --> 01:04:14,600
+Dediğimiz gibi
+
+744
+01:04:14,600 --> 01:04:17,360
+xp partition kuyruk adı
+
+745
+01:04:17,360 --> 01:04:18,280
+debug olacak.
+
+746
+01:04:19,740 --> 01:04:20,200
+Büyük ne?
+
+747
+01:04:20,540 --> 01:04:20,780
+Bir.
+
+748
+01:04:21,040 --> 01:04:22,240
+Tek bir sunucu kullanacağız.
+
+749
+01:04:22,740 --> 01:04:24,660
+Burada ben iki tane thread istedim.
+
+750
+01:04:24,780 --> 01:04:27,300
+Çünkü tek çekirdek isteyen işleri
+
+751
+01:04:27,300 --> 01:04:29,580
+sadece single kuyruğuna gönderebiliyoruz.
+
+752
+01:04:30,320 --> 01:04:33,200
+Single tek çekirdek işler için özel bir kuyruğumuz var.
+
+753
+01:04:33,200 --> 01:04:35,080
+Oraya gönderiyoruz bir tek.
+
+754
+01:04:35,560 --> 01:04:37,160
+Debug kuyruğuna gönderebilmek için
+
+755
+01:04:37,160 --> 01:04:38,200
+iki çekirdek istiyoruz.
+
+756
+01:04:39,840 --> 01:04:41,340
+İşin tek bir kopyası çalışacak.
+
+757
+01:04:41,560 --> 01:04:42,860
+Sadece bir tane çalıştıracağız.
+
+758
+01:04:43,080 --> 01:04:44,080
+Ve thread 1 diyerek
+
+759
+01:04:44,080 --> 01:04:45,800
+hyper thread'i kullanmak istemediğimizi
+
+760
+01:04:46,360 --> 01:04:47,600
+belirtiyoruz.
+
+761
+01:04:48,800 --> 01:04:49,900
+Dosyamızdan çıkalım.
+
+762
+01:04:51,220 --> 01:04:52,440
+İşimizi göndermek için
+
+763
+01:04:52,440 --> 01:04:55,440
+S5 komutunu kullanıyoruz.
+
+764
+01:04:56,440 --> 01:04:57,400
+Dosya adını veriyoruz.
+
+765
+01:05:00,260 --> 01:05:01,600
+Bize bir iş numarası verdi.
+
+766
+01:05:02,120 --> 01:05:04,020
+Ve işini gönderdim dedi.
+
+767
+01:05:04,440 --> 01:05:06,380
+SQ komutuyla ne durumda olduğuna bakıyoruz.
+
+768
+01:05:06,760 --> 01:05:07,440
+İşimiz şu anda
+
+769
+01:05:07,440 --> 01:05:09,140
+barbun 51'e gitmiş.
+
+770
+01:05:09,620 --> 01:05:10,180
+Ve çalışıyor.
+
+771
+01:05:12,580 --> 01:05:14,860
+Bu iş 60 saniye kadar sürecek.
+
+772
+01:05:15,020 --> 01:05:18,720
+Eğer işinizi yanlış gönderdiğinizi düşünüyorsanız
+
+773
+01:05:18,720 --> 01:05:21,960
+SQ komutuyla iş numarasını verip
+
+774
+01:05:21,960 --> 01:05:23,280
+çalışan işinizi öldürebilir.
+
+775
+01:05:23,740 --> 01:05:25,880
+Çalışmamış işinizi kuyruktan çıkartabilirsiniz.
+
+776
+01:05:27,420 --> 01:05:28,560
+Öyle bir şey yapmayalım.
+
+777
+01:05:29,500 --> 01:05:30,680
+İşimiz ne durumda ona bakalım.
+
+778
+01:05:32,620 --> 01:05:35,300
+İşimizin bitmesine herhalde 30 saniye var.
+
+779
+01:05:36,720 --> 01:05:39,700
+Burada bir out dosyası oluştu.
+
+780
+01:05:39,880 --> 01:05:41,180
+İşimiz çalışır çalışmaz.
+
+781
+01:05:41,560 --> 01:05:42,440
+İçerisine bir bakalım.
+
+782
+01:05:42,440 --> 01:05:45,940
+Çalışma saati var.
+
+783
+01:05:46,020 --> 01:05:46,720
+Bitiş saati yok.
+
+784
+01:05:46,820 --> 01:05:48,200
+Çünkü aradaki sleep de bekliyor.
+
+785
+01:05:48,520 --> 01:05:50,080
+İşinizin ekrana çıkarttığı,
+
+786
+01:05:50,220 --> 01:05:51,720
+ekrana yazdığı ne varsa
+
+787
+01:05:51,720 --> 01:05:53,060
+sunum
+
+788
+01:05:53,060 --> 01:05:53,760
+tire
+
+789
+01:05:53,760 --> 01:05:56,000
+iş numarası.out dosyasıyla
+
+790
+01:05:56,000 --> 01:05:57,360
+ev dizininize yazılıyor.
+
+791
+01:06:00,140 --> 01:06:01,540
+İşimiz bitti mi bakalım.
+
+792
+01:06:03,140 --> 01:06:03,880
+Bitmek üzere.
+
+793
+01:06:05,020 --> 01:06:05,380
+Ve bitti.
+
+794
+01:06:10,060 --> 01:06:11,140
+Şöyle bakalım.
+
+795
+01:06:11,140 --> 01:06:22,200
+İşin çalıştığı sunucu
+
+796
+01:06:22,200 --> 01:06:23,380
+barbun 51 yönetim.
+
+797
+01:06:24,400 --> 01:06:26,080
+İşin başladığı saat 14.34
+
+798
+01:06:26,080 --> 01:06:27,920
+işin bittiği saat 14.35
+
+799
+01:06:27,920 --> 01:06:30,040
+Temel bir iş
+
+800
+01:06:30,040 --> 01:06:31,900
+trubada bu şekilde çalıştırılıyor.
+
+801
+01:06:32,480 --> 01:06:34,220
+Eğer kullanmak istediğiniz bir
+
+802
+01:06:34,220 --> 01:06:35,000
+uygulama varsa
+
+803
+01:06:35,000 --> 01:06:38,080
+bu bitik dosyası içinde uygulamanızı
+
+804
+01:06:38,080 --> 01:06:39,580
+gerekli dosyalarla, gerekli
+
+805
+01:06:39,580 --> 01:06:42,140
+parametrelerle çağırmanız gerekiyor.
+
+806
+01:06:43,180 --> 01:06:44,520
+Daha fazla detaylı bilgi
+
+807
+01:06:44,520 --> 01:06:45,100
+wiki de var.
+
+808
+01:06:45,940 --> 01:06:46,760
+Araştırmacıların
+
+809
+01:06:46,760 --> 01:06:48,140
+bugün sizden gelen
+
+810
+01:06:48,140 --> 01:06:49,900
+en büyük sorulardan biri
+
+811
+01:06:49,900 --> 01:06:52,420
+trubada hangi uygulamalar kurulu?
+
+812
+01:06:52,920 --> 01:06:53,540
+Ona da bakalım.
+
+813
+01:06:53,860 --> 01:06:55,180
+Hazıl bağlanmışken.
+
+814
+01:06:57,780 --> 01:06:59,800
+Modül sistemi kullanıyoruz trubada.
+
+815
+01:06:59,800 --> 01:07:02,400
+ve modül available'ın
+
+816
+01:07:02,400 --> 01:07:03,440
+available ile beraber
+
+817
+01:07:03,440 --> 01:07:06,240
+ne var ne yok bakabiliyoruz.
+
+818
+01:07:06,380 --> 01:07:06,900
+Şöyle bir
+
+819
+01:07:06,900 --> 01:07:08,500
+mesle daha
+
+820
+01:07:08,500 --> 01:07:09,700
+okuma bir hale getirelim.
+
+821
+01:07:11,700 --> 01:07:12,680
+Turbanın barındırdığı
+
+822
+01:07:12,680 --> 01:07:13,880
+belli kütüphaneler var.
+
+823
+01:07:14,220 --> 01:07:15,340
+Burada kuta kütüphanelerini
+
+824
+01:07:15,340 --> 01:07:15,880
+görüyorsunuz.
+
+825
+01:07:15,940 --> 01:07:17,580
+Lapak, open mpi, skalapak.
+
+826
+01:07:17,580 --> 01:07:19,640
+Bir saniye.
+
+827
+01:07:20,140 --> 01:07:20,540
+Niye böyle?
+
+828
+01:07:20,720 --> 01:07:21,820
+Şöyle bir stoppon.
+
+829
+01:07:28,140 --> 01:07:29,140
+Olur peki.
+
+830
+01:07:29,140 --> 01:07:31,140
+Şöyle yaparsak.
+
+831
+01:07:31,140 --> 01:07:44,040
+Şuradan başlayalım.
+
+832
+01:07:45,280 --> 01:07:47,020
+CentOS 6 uygulamalarını
+
+833
+01:07:47,020 --> 01:07:47,880
+şu anda kullanmıyoruz.
+
+834
+01:07:48,000 --> 01:07:49,380
+Bütün kümede CentOS 7 kurulu.
+
+835
+01:07:50,660 --> 01:07:52,060
+Uygulamalarda baktığınız zaman
+
+836
+01:07:52,060 --> 01:07:52,900
+Abinix,
+
+837
+01:07:53,540 --> 01:07:54,380
+CP2K,
+
+838
+01:07:54,600 --> 01:07:55,220
+Espresso,
+
+839
+01:07:55,400 --> 01:07:55,700
+Games,
+
+840
+01:07:55,840 --> 01:07:56,320
+Gromax,
+
+841
+01:07:57,120 --> 01:07:58,380
+Lumps
+
+842
+01:07:58,380 --> 01:07:59,860
+ve Matlab'ın
+
+843
+01:07:59,860 --> 01:08:00,880
+Matlab,
+
+844
+01:08:01,020 --> 01:08:01,380
+Numpt,
+
+845
+01:08:01,920 --> 01:08:02,600
+OpenFoam gibi
+
+846
+01:08:02,600 --> 01:08:03,520
+uygulamalar kurulu.
+
+847
+01:08:04,540 --> 01:08:05,660
+Bu uygulamalardan
+
+848
+01:08:05,660 --> 01:08:06,580
+Matlab'ın lisansını
+
+849
+01:08:06,580 --> 01:08:07,480
+kendiniz getirmeniz
+
+850
+01:08:07,480 --> 01:08:08,180
+gerekli
+
+851
+01:08:08,180 --> 01:08:09,520
+kullanmak istiyorsanız
+
+852
+01:08:09,520 --> 01:08:10,380
+kendi ev dizininize
+
+853
+01:08:10,380 --> 01:08:11,480
+de Matlab kurabilirsiniz.
+
+854
+01:08:12,220 --> 01:08:13,220
+Burada her uygulamanın
+
+855
+01:08:13,220 --> 01:08:14,300
+belli versiyonları var.
+
+856
+01:08:15,220 --> 01:08:16,420
+İşte Gromax 5.1.4
+
+857
+01:08:16,420 --> 01:08:17,480
+Intel MPI var.
+
+858
+01:08:18,760 --> 01:08:20,100
+Gromax 5.1.4
+
+859
+01:08:20,100 --> 01:08:21,300
+OpenMPI var.
+
+860
+01:08:22,960 --> 01:08:23,360
+Kuda ile
+
+861
+01:08:23,360 --> 01:08:24,260
+değerlenmiş bazı
+
+862
+01:08:24,260 --> 01:08:25,040
+versiyonları var.
+
+863
+01:08:25,160 --> 01:08:25,680
+AMD için
+
+864
+01:08:25,680 --> 01:08:26,400
+optimize edilmiş
+
+865
+01:08:26,400 --> 01:08:26,880
+bazı
+
+866
+01:08:26,880 --> 01:08:28,200
+Lumps versiyonları var.
+
+867
+01:08:29,860 --> 01:08:30,920
+Buradan tüm listeyi
+
+868
+01:08:30,920 --> 01:08:31,440
+görebilirsiniz.
+
+869
+01:08:31,560 --> 01:08:32,820
+Belli compiler'larımız var.
+
+870
+01:08:33,900 --> 01:08:34,420
+Intel'in
+
+871
+01:08:34,420 --> 01:08:35,660
+2016'dan
+
+872
+01:08:35,660 --> 01:08:36,460
+2019'a kadar
+
+873
+01:08:36,460 --> 01:08:37,520
+olan compiler'ları var.
+
+874
+01:08:37,620 --> 01:08:38,460
+2013'de var.
+
+875
+01:08:40,960 --> 01:08:42,120
+Burada kütüphanelerde
+
+876
+01:08:42,120 --> 01:08:42,680
+ACML,
+
+877
+01:08:42,800 --> 01:08:43,020
+Kuda,
+
+878
+01:08:43,400 --> 01:08:43,760
+LAPAC,
+
+879
+01:08:43,860 --> 01:08:44,580
+OpenMPI gibi
+
+880
+01:08:44,580 --> 01:08:45,500
+kütüphaneler var.
+
+881
+01:08:46,260 --> 01:08:47,040
+Bu kütüphaneleri
+
+882
+01:08:47,040 --> 01:08:48,000
+kullanabilirsiniz.
+
+883
+01:08:48,840 --> 01:08:49,220
+Bunları
+
+884
+01:08:49,220 --> 01:08:50,320
+olabildiğince
+
+885
+01:08:50,320 --> 01:08:51,560
+elimizden geldiğince
+
+886
+01:08:51,560 --> 01:08:52,180
+herkesin içine
+
+887
+01:08:52,180 --> 01:08:53,080
+yarayacak şekilde
+
+888
+01:08:53,080 --> 01:08:53,880
+güncel tutmaya
+
+889
+01:08:53,880 --> 01:08:54,400
+çalışıyoruz.
+
+890
+01:08:55,240 --> 01:08:55,480
+Ama
+
+891
+01:08:55,480 --> 01:08:57,120
+buradaki uygulamalar,
+
+892
+01:08:57,240 --> 01:08:57,980
+buradaki derlenme
+
+893
+01:08:57,980 --> 01:08:58,780
+biçimleri işinize
+
+894
+01:08:58,780 --> 01:08:59,340
+yaramıyorsa
+
+895
+01:08:59,340 --> 01:09:00,420
+kendi evcizinize
+
+896
+01:09:00,420 --> 01:09:00,900
+kurmanızı
+
+897
+01:09:00,900 --> 01:09:01,520
+bekliyoruz.
+
+898
+01:09:02,080 --> 01:09:02,740
+Feyza Hanım'ın da
+
+899
+01:09:02,740 --> 01:09:03,440
+belirttiği gibi
+
+900
+01:09:03,440 --> 01:09:04,120
+benim de
+
+901
+01:09:04,120 --> 01:09:04,840
+belirttiğim gibi
+
+902
+01:09:04,840 --> 01:09:07,040
+elimizden geldiğince
+
+903
+01:09:07,040 --> 01:09:09,360
+bunları derlemenizde
+
+904
+01:09:09,360 --> 01:09:10,300
+projenizin başarıya
+
+905
+01:09:10,300 --> 01:09:10,820
+ulaşmasında
+
+906
+01:09:10,820 --> 01:09:11,880
+serimizden geldiğince
+
+907
+01:09:11,880 --> 01:09:12,680
+yardımcı olmaya
+
+908
+01:09:12,680 --> 01:09:13,240
+çalışıyoruz.
+
+909
+01:09:16,980 --> 01:09:17,780
+Sunumumuza
+
+910
+01:09:17,780 --> 01:09:18,400
+geri dönelim.
+
+911
+01:09:18,920 --> 01:09:19,740
+Bu bağlantıyı açık
+
+912
+01:09:19,740 --> 01:09:20,120
+bırakalım.
+
+913
+01:09:20,220 --> 01:09:21,160
+İleride soru gelirse
+
+914
+01:09:21,160 --> 01:09:22,680
+buradan devam ederiz.
+
+915
+01:09:22,680 --> 01:09:29,660
+Turba'da olan
+
+916
+01:09:29,660 --> 01:09:30,900
+uygulamalardan
+
+917
+01:09:30,900 --> 01:09:31,560
+bahsettik.
+
+918
+01:09:31,720 --> 01:09:32,540
+Modül sisteminden
+
+919
+01:09:32,540 --> 01:09:33,240
+bahsettik.
+
+920
+01:09:33,980 --> 01:09:35,140
+Buradaki bağlantı
+
+921
+01:09:35,140 --> 01:09:36,580
+Turba Wiki'de
+
+922
+01:09:36,580 --> 01:09:37,580
+yine ilgili sayfaya
+
+923
+01:09:37,580 --> 01:09:37,860
+gidiyor.
+
+924
+01:09:38,000 --> 01:09:38,720
+O yüzden sunumu
+
+925
+01:09:38,720 --> 01:09:39,760
+indirip bu linke
+
+926
+01:09:39,760 --> 01:09:40,940
+tıklarsanız
+
+927
+01:09:40,940 --> 01:09:41,320
+bu
+
+928
+01:09:41,320 --> 01:09:43,220
+slide'da
+
+929
+01:09:43,220 --> 01:09:43,860
+bahsedilen
+
+930
+01:09:43,860 --> 01:09:45,520
+bilgilerle ilgili
+
+931
+01:09:45,520 --> 01:09:46,260
+doğru sayfaya
+
+932
+01:09:46,260 --> 01:09:47,120
+yönlenebilirsiniz.
+
+933
+01:09:49,680 --> 01:09:50,960
+Turba'da her şey
+
+934
+01:09:50,960 --> 01:09:51,320
+güzel.
+
+935
+01:09:51,320 --> 01:09:52,340
+çalışabiliyoruz,
+
+936
+01:09:52,400 --> 01:09:52,880
+yapabiliyoruz.
+
+937
+01:09:52,940 --> 01:09:53,140
+Peki
+
+938
+01:09:53,140 --> 01:09:54,280
+yapmamamız
+
+939
+01:09:54,280 --> 01:09:55,160
+gerekenler neler?
+
+940
+01:09:57,140 --> 01:09:57,660
+Öncelikle
+
+941
+01:09:57,660 --> 01:09:58,200
+kullanıcı
+
+942
+01:09:58,200 --> 01:09:58,940
+arayüzünde
+
+943
+01:09:58,940 --> 01:10:00,100
+lütfen
+
+944
+01:10:00,100 --> 01:10:00,740
+işlerinizi
+
+945
+01:10:00,740 --> 01:10:01,320
+denemeyin.
+
+946
+01:10:01,540 --> 01:10:01,820
+Lütfen
+
+947
+01:10:01,820 --> 01:10:02,480
+işlerinizi
+
+948
+01:10:02,480 --> 01:10:03,060
+çalıştırın.
+
+949
+01:10:03,840 --> 01:10:04,180
+Bunun
+
+950
+01:10:04,180 --> 01:10:05,740
+iki sebebi var.
+
+951
+01:10:05,840 --> 01:10:06,280
+Birincisi
+
+952
+01:10:06,280 --> 01:10:07,300
+normal bir sunucuda
+
+953
+01:10:07,300 --> 01:10:08,180
+iş çalıştırdığınız
+
+954
+01:10:08,180 --> 01:10:08,400
+için
+
+955
+01:10:08,400 --> 01:10:09,740
+zaten yüksek
+
+956
+01:10:09,740 --> 01:10:10,260
+performans
+
+957
+01:10:10,260 --> 01:10:10,780
+elde etmeniz
+
+958
+01:10:10,780 --> 01:10:11,560
+mümkün değil.
+
+959
+01:10:12,360 --> 01:10:12,960
+Diğer yandan
+
+960
+01:10:12,960 --> 01:10:14,080
+kullanıcı arayüzünde
+
+961
+01:10:14,080 --> 01:10:14,880
+diğer kullanıcılar
+
+962
+01:10:14,880 --> 01:10:15,620
+kendi işlerini
+
+963
+01:10:15,620 --> 01:10:16,060
+yürütmeye
+
+964
+01:10:16,060 --> 01:10:16,680
+çalıştıkları
+
+965
+01:10:16,680 --> 01:10:17,140
+işlerinin
+
+966
+01:10:17,140 --> 01:10:17,560
+durumlarını
+
+967
+01:10:17,560 --> 01:10:18,180
+kontrol etmeye
+
+968
+01:10:18,180 --> 01:10:18,740
+çalıştıkları
+
+969
+01:10:18,740 --> 01:10:19,320
+veya derleme
+
+970
+01:10:19,320 --> 01:10:19,660
+yapmaya
+
+971
+01:10:19,660 --> 01:10:20,220
+çalıştıkları
+
+972
+01:10:20,220 --> 01:10:20,440
+için
+
+973
+01:10:20,440 --> 01:10:21,800
+onların elindeki
+
+974
+01:10:21,800 --> 01:10:22,560
+kaynakları
+
+975
+01:10:22,560 --> 01:10:23,920
+ciddi şekilde
+
+976
+01:10:23,920 --> 01:10:25,060
+sınırlamış
+
+977
+01:10:25,060 --> 01:10:25,640
+oluyorsunuz.
+
+978
+01:10:26,320 --> 01:10:26,880
+Böylece
+
+979
+01:10:26,880 --> 01:10:27,740
+bütün
+
+980
+01:10:27,740 --> 01:10:28,480
+kullanıcılar
+
+981
+01:10:28,480 --> 01:10:29,200
+çalışamaz hale
+
+982
+01:10:29,200 --> 01:10:29,800
+geliyorlar.
+
+983
+01:10:30,260 --> 01:10:30,540
+O yüzden
+
+984
+01:10:30,540 --> 01:10:30,940
+lütfen
+
+985
+01:10:30,940 --> 01:10:31,800
+kullanıcı arayüzünde
+
+986
+01:10:31,800 --> 01:10:32,400
+iş çalıştırın.
+
+987
+01:10:32,400 --> 01:10:33,940
+GPU
+
+988
+01:10:33,940 --> 01:10:34,780
+kullanmayan
+
+989
+01:10:34,780 --> 01:10:35,960
+işleri
+
+990
+01:10:35,960 --> 01:10:36,600
+GPU
+
+991
+01:10:36,600 --> 01:10:37,180
+destekli
+
+992
+01:10:37,180 --> 01:10:37,720
+kümelere
+
+993
+01:10:37,720 --> 01:10:38,160
+GPU
+
+994
+01:10:38,160 --> 01:10:38,700
+destekli
+
+995
+01:10:38,700 --> 01:10:39,380
+sunuculara
+
+996
+01:10:39,380 --> 01:10:39,860
+lütfen
+
+997
+01:10:39,860 --> 01:10:40,580
+göndermeyin.
+
+998
+01:10:40,940 --> 01:10:41,440
+GPU
+
+999
+01:10:41,440 --> 01:10:42,240
+kaynaklarımız
+
+1000
+01:10:42,240 --> 01:10:42,880
+sınırlı
+
+1001
+01:10:42,880 --> 01:10:43,580
+çok yoğun
+
+1002
+01:10:43,580 --> 01:10:44,040
+kullanılan
+
+1003
+01:10:44,040 --> 01:10:44,740
+kaynaklar
+
+1004
+01:10:44,740 --> 01:10:45,800
+ve
+
+1005
+01:10:45,800 --> 01:10:46,500
+GPU'ların
+
+1006
+01:10:46,500 --> 01:10:46,880
+efektif
+
+1007
+01:10:46,880 --> 01:10:47,560
+çalışabilmesi
+
+1008
+01:10:47,560 --> 01:10:47,760
+için
+
+1009
+01:10:47,760 --> 01:10:48,680
+belli sayıda
+
+1010
+01:10:48,680 --> 01:10:49,980
+arkalarında
+
+1011
+01:10:49,980 --> 01:10:50,440
+çekirdek
+
+1012
+01:10:50,440 --> 01:10:50,660
+gücü
+
+1013
+01:10:50,660 --> 01:10:50,960
+olması
+
+1014
+01:10:50,960 --> 01:10:51,480
+gerekiyor.
+
+1015
+01:10:52,300 --> 01:10:52,680
+O yüzden
+
+1016
+01:10:52,680 --> 01:10:53,620
+GPU
+
+1017
+01:10:53,620 --> 01:10:54,180
+destekli
+
+1018
+01:10:54,180 --> 01:10:54,740
+sunuculara
+
+1019
+01:10:54,740 --> 01:10:55,020
+GPU
+
+1020
+01:10:55,020 --> 01:10:55,640
+kullanmayan
+
+1021
+01:10:55,640 --> 01:10:56,140
+işlerinizi
+
+1022
+01:10:56,140 --> 01:10:57,400
+göndermeyin.
+
+1023
+01:10:58,240 --> 01:10:59,160
+Bazen
+
+1024
+01:10:59,160 --> 01:11:00,460
+sonlandırılmak
+
+1025
+01:11:00,460 --> 01:11:00,780
+zorunda
+
+1026
+01:11:00,780 --> 01:11:01,580
+kalabiliyorlar.
+
+1027
+01:11:04,020 --> 01:11:04,300
+Biz de
+
+1028
+01:11:04,300 --> 01:11:04,840
+istemiyoruz.
+
+1029
+01:11:06,020 --> 01:11:06,220
+Ama
+
+1030
+01:11:06,220 --> 01:11:06,620
+yapmayın.
+
+1031
+01:11:08,000 --> 01:11:08,460
+Çekirdek
+
+1032
+01:11:08,460 --> 01:11:08,860
+sayısına
+
+1033
+01:11:08,860 --> 01:11:09,440
+belirlerken
+
+1034
+01:11:09,440 --> 01:11:09,840
+gerekli
+
+1035
+01:11:09,840 --> 01:11:10,080
+belli
+
+1036
+01:11:10,080 --> 01:11:10,880
+hesaplamamak
+
+1037
+01:11:10,880 --> 01:11:11,260
+yapılan
+
+1038
+01:11:11,260 --> 01:11:11,440
+sık
+
+1039
+01:11:11,440 --> 01:11:12,020
+hatalardan
+
+1040
+01:11:12,020 --> 01:11:12,300
+biri.
+
+1041
+01:11:13,000 --> 01:11:13,220
+Biz
+
+1042
+01:11:13,220 --> 01:11:13,740
+trubada
+
+1043
+01:11:13,740 --> 01:11:14,460
+kaynakların
+
+1044
+01:11:14,460 --> 01:11:14,880
+düzgün
+
+1045
+01:11:14,880 --> 01:11:15,680
+paylaşılabilmesi
+
+1046
+01:11:15,680 --> 01:11:15,980
+için
+
+1047
+01:11:15,980 --> 01:11:17,600
+memory
+
+1048
+01:11:17,600 --> 01:11:18,100
+komutlarını
+
+1049
+01:11:18,100 --> 01:11:18,880
+desteklemiyoruz
+
+1050
+01:11:18,880 --> 01:11:19,320
+sonunda.
+
+1051
+01:11:20,080 --> 01:11:20,300
+Eğer
+
+1052
+01:11:20,300 --> 01:11:21,220
+çekirdek
+
+1053
+01:11:21,220 --> 01:11:21,740
+başına
+
+1054
+01:11:21,740 --> 01:11:23,300
+gerekli
+
+1055
+01:11:23,300 --> 01:11:25,360
+çekirdek
+
+1056
+01:11:25,360 --> 01:11:25,660
+başına
+
+1057
+01:11:25,660 --> 01:11:26,000
+düşen
+
+1058
+01:11:26,000 --> 01:11:26,480
+bellek
+
+1059
+01:11:26,480 --> 01:11:26,900
+sizin
+
+1060
+01:11:26,900 --> 01:11:27,620
+ihtiyacınızı
+
+1061
+01:11:27,620 --> 01:11:28,440
+karşılamıyorsa
+
+1062
+01:11:28,440 --> 01:11:29,520
+çekirdek
+
+1063
+01:11:29,520 --> 01:11:30,000
+sayısını
+
+1064
+01:11:30,000 --> 01:11:30,540
+arttırmanız
+
+1065
+01:11:30,540 --> 01:11:30,960
+gerekiyor.
+
+1066
+01:11:31,680 --> 01:11:32,220
+Örneğin
+
+1067
+01:11:32,220 --> 01:11:33,120
+çekirdek
+
+1068
+01:11:33,120 --> 01:11:33,580
+başına
+
+1069
+01:11:33,580 --> 01:11:34,380
+4 GB
+
+1070
+01:11:34,380 --> 01:11:34,820
+düşen
+
+1071
+01:11:34,820 --> 01:11:35,560
+bir sistemde
+
+1072
+01:11:35,560 --> 01:11:36,380
+siz 8 GB
+
+1073
+01:11:36,380 --> 01:11:37,200
+gerektiren
+
+1074
+01:11:37,200 --> 01:11:38,000
+tek çekirdekli
+
+1075
+01:11:38,000 --> 01:11:38,200
+bir iş
+
+1076
+01:11:38,200 --> 01:11:39,040
+çalıştıracaksanız
+
+1077
+01:11:39,040 --> 01:11:39,320
+bile
+
+1078
+01:11:39,320 --> 01:11:40,500
+çekirdek
+
+1079
+01:11:40,500 --> 01:11:40,900
+sayısını
+
+1080
+01:11:40,900 --> 01:11:41,060
+2
+
+1081
+01:11:41,060 --> 01:11:41,560
+istemeniz
+
+1082
+01:11:41,560 --> 01:11:42,180
+gerekli ki
+
+1083
+01:11:42,180 --> 01:11:42,580
+sizin
+
+1084
+01:11:42,580 --> 01:11:43,100
+uygulamanız
+
+1085
+01:11:43,100 --> 01:11:43,720
+8 GB
+
+1086
+01:11:43,720 --> 01:11:44,160
+belliğe
+
+1087
+01:11:44,160 --> 01:11:44,840
+erişebilsin.
+
+1088
+01:11:45,360 --> 01:11:45,800
+Yoksa
+
+1089
+01:11:45,800 --> 01:11:46,700
+kaynak yöneticisi
+
+1090
+01:11:46,700 --> 01:11:47,320
+tarafından
+
+1091
+01:11:47,320 --> 01:11:48,040
+kaynak
+
+1092
+01:11:48,040 --> 01:11:48,540
+limitlerini
+
+1093
+01:11:48,540 --> 01:11:49,300
+açtığı
+
+1094
+01:11:49,300 --> 01:11:51,580
+gerekçesiyle
+
+1095
+01:11:51,580 --> 01:11:52,060
+işiniz
+
+1096
+01:11:52,060 --> 01:11:52,800
+sonlandırılır.
+
+1097
+01:11:54,100 --> 01:11:54,800
+İşle ilgili
+
+1098
+01:11:54,800 --> 01:11:55,880
+süre bilgisini
+
+1099
+01:11:55,880 --> 01:11:57,000
+hatalı belirtmenin
+
+1100
+01:11:57,000 --> 01:11:58,180
+iki türü var.
+
+1101
+01:11:58,180 --> 01:12:00,140
+süreyi doğru
+
+1102
+01:12:00,140 --> 01:12:01,640
+belirtmezseniz
+
+1103
+01:12:01,640 --> 01:12:03,100
+işiniz bitmeden
+
+1104
+01:12:03,100 --> 01:12:04,540
+süreniz biteceği
+
+1105
+01:12:04,540 --> 01:12:05,020
+için işiniz
+
+1106
+01:12:05,020 --> 01:12:05,680
+sonlanabilir.
+
+1107
+01:12:06,520 --> 01:12:06,740
+Eğer
+
+1108
+01:12:06,740 --> 01:12:07,280
+işinizin
+
+1109
+01:12:07,280 --> 01:12:07,640
+süresini
+
+1110
+01:12:07,640 --> 01:12:08,100
+çok uzun
+
+1111
+01:12:08,100 --> 01:12:09,340
+belirtirseniz
+
+1112
+01:12:09,340 --> 01:12:10,120
+bu iş
+
+1113
+01:12:10,120 --> 01:12:11,160
+çok uzun
+
+1114
+01:12:11,160 --> 01:12:11,760
+sürecekmiş
+
+1115
+01:12:11,760 --> 01:12:12,100
+deyip
+
+1116
+01:12:12,100 --> 01:12:13,060
+işinizi
+
+1117
+01:12:13,060 --> 01:12:13,320
+hemen
+
+1118
+01:12:13,320 --> 01:12:14,220
+çalıştıramayabilir.
+
+1119
+01:12:15,120 --> 01:12:15,820
+Bu nedenle
+
+1120
+01:12:15,820 --> 01:12:17,220
+mümkün olduğunca
+
+1121
+01:12:17,220 --> 01:12:17,660
+yakın
+
+1122
+01:12:17,660 --> 01:12:18,600
+mümkün olduğunca
+
+1123
+01:12:18,600 --> 01:12:19,200
+doğru bir
+
+1124
+01:12:19,200 --> 01:12:20,160
+süre bilgisi
+
+1125
+01:12:20,160 --> 01:12:20,740
+belirtmek
+
+1126
+01:12:20,740 --> 01:12:22,260
+işinizin
+
+1127
+01:12:22,260 --> 01:12:22,860
+en kısa sürede
+
+1128
+01:12:22,860 --> 01:12:23,780
+çalışması ve
+
+1129
+01:12:23,780 --> 01:12:24,340
+kümeden
+
+1130
+01:12:24,340 --> 01:12:24,820
+maksimum
+
+1131
+01:12:24,820 --> 01:12:25,600
+verim alabilmeniz
+
+1132
+01:12:25,600 --> 01:12:25,900
+açısından
+
+1133
+01:12:25,900 --> 01:12:27,740
+size yardımcı
+
+1134
+01:12:27,740 --> 01:12:28,280
+olacaktır.
+
+1135
+01:12:29,120 --> 01:12:29,700
+Aynı şekilde
+
+1136
+01:12:29,700 --> 01:12:30,560
+iş geometrisini
+
+1137
+01:12:30,560 --> 01:12:31,480
+hatalı belirtmek
+
+1138
+01:12:31,480 --> 01:12:32,400
+de hem
+
+1139
+01:12:32,400 --> 01:12:33,040
+kümede fazla
+
+1140
+01:12:33,040 --> 01:12:33,740
+beklemenize
+
+1141
+01:12:33,740 --> 01:12:35,500
+ve eğer
+
+1142
+01:12:35,500 --> 01:12:36,540
+ihtiyacınızdan fazla
+
+1143
+01:12:36,540 --> 01:12:37,860
+kaynak istediyseniz de
+
+1144
+01:12:37,860 --> 01:12:38,920
+bu kaynakları
+
+1145
+01:12:38,920 --> 01:12:39,920
+kullanamamanıza
+
+1146
+01:12:39,920 --> 01:12:41,820
+bir performans
+
+1147
+01:12:41,820 --> 01:12:43,400
+avantajı elde
+
+1148
+01:12:43,400 --> 01:12:43,960
+edememenize
+
+1149
+01:12:43,960 --> 01:12:44,840
+sebep olacaktır.
+
+1150
+01:12:45,500 --> 01:12:45,980
+Bununla ilgili
+
+1151
+01:12:45,980 --> 01:12:46,600
+sorularınızı
+
+1152
+01:12:46,600 --> 01:12:47,160
+grid tekniğe
+
+1153
+01:12:47,160 --> 01:12:48,000
+gönderebilirsiniz.
+
+1154
+01:12:49,240 --> 01:12:49,940
+Elimizden gelen
+
+1155
+01:12:49,940 --> 01:12:50,400
+her türlü
+
+1156
+01:12:50,400 --> 01:12:50,820
+yardımı
+
+1157
+01:12:50,820 --> 01:12:51,380
+kümeyi
+
+1158
+01:12:51,380 --> 01:12:52,620
+efektif ve düzgün
+
+1159
+01:12:52,620 --> 01:12:53,400
+kullanabilmeniz
+
+1160
+01:12:53,400 --> 01:12:53,640
+için
+
+1161
+01:12:53,640 --> 01:12:55,040
+olabildiğince
+
+1162
+01:12:55,040 --> 01:12:55,700
+performanslı
+
+1163
+01:12:55,700 --> 01:12:56,400
+kullanabilmeniz
+
+1164
+01:12:56,400 --> 01:12:56,520
+için
+
+1165
+01:12:56,520 --> 01:12:57,180
+elimizden gelen
+
+1166
+01:12:57,180 --> 01:12:57,600
+her türlü
+
+1167
+01:12:57,600 --> 01:12:57,920
+yardımı
+
+1168
+01:12:57,920 --> 01:12:58,340
+yapmaya
+
+1169
+01:12:58,340 --> 01:12:59,260
+çalışıyoruz.
+
+1170
+01:12:59,640 --> 01:13:00,040
+Hazırız.
+
+1171
+01:13:02,760 --> 01:13:03,100
+Bunları
+
+1172
+01:13:03,100 --> 01:13:03,700
+konuştuk.
+
+1173
+01:13:04,600 --> 01:13:04,880
+Tekrar
+
+1174
+01:13:04,880 --> 01:13:05,460
+hatırlatmak
+
+1175
+01:13:05,460 --> 01:13:05,960
+isteriz.
+
+1176
+01:13:06,440 --> 01:13:06,780
+Paralama
+
+1177
+01:13:06,780 --> 01:13:07,180
+yenileme
+
+1178
+01:13:07,180 --> 01:13:07,940
+isteklerinizi
+
+1179
+01:13:07,940 --> 01:13:08,620
+biz
+
+1180
+01:13:08,620 --> 01:13:09,300
+elle
+
+1181
+01:13:09,300 --> 01:13:10,280
+gerçekleştiriyoruz.
+
+1182
+01:13:10,580 --> 01:13:10,920
+O yüzden
+
+1183
+01:13:10,920 --> 01:13:12,360
+cevapları
+
+1184
+01:13:12,360 --> 01:13:12,600
+hemen
+
+1185
+01:13:12,600 --> 01:13:13,260
+gelmeyebilir.
+
+1186
+01:13:14,300 --> 01:13:14,660
+Paralama
+
+1187
+01:13:14,660 --> 01:13:15,120
+yenileme
+
+1188
+01:13:15,120 --> 01:13:15,960
+e-postalarınız
+
+1189
+01:13:15,960 --> 01:13:17,400
+istenmeyen
+
+1190
+01:13:17,400 --> 01:13:17,820
+e-posta
+
+1191
+01:13:17,820 --> 01:13:18,320
+dizimlerine
+
+1192
+01:13:18,320 --> 01:13:18,780
+düşebilir.
+
+1193
+01:13:19,000 --> 01:13:19,240
+Lütfen
+
+1194
+01:13:19,240 --> 01:13:19,620
+orayı da
+
+1195
+01:13:19,620 --> 01:13:20,220
+kontrol edin.
+
+1196
+01:13:21,380 --> 01:13:22,320
+Yazılımlarınızı
+
+1197
+01:13:22,320 --> 01:13:23,160
+geliştirirken
+
+1198
+01:13:23,160 --> 01:13:23,660
+ve ilk
+
+1199
+01:13:23,660 --> 01:13:24,200
+denemelerini
+
+1200
+01:13:24,200 --> 01:13:24,720
+yaparken
+
+1201
+01:13:24,720 --> 01:13:25,200
+lütfen
+
+1202
+01:13:25,200 --> 01:13:25,560
+kendi
+
+1203
+01:13:25,560 --> 01:13:26,420
+bilgisayarlarınızı
+
+1204
+01:13:26,420 --> 01:13:26,860
+kullanın.
+
+1205
+01:13:27,000 --> 01:13:27,360
+Truva
+
+1206
+01:13:27,360 --> 01:13:28,340
+kuyruk
+
+1207
+01:13:28,340 --> 01:13:28,780
+temelli
+
+1208
+01:13:28,780 --> 01:13:29,420
+olduğu için
+
+1209
+01:13:29,420 --> 01:13:30,380
+hem
+
+1210
+01:13:30,380 --> 01:13:30,940
+yazılım
+
+1211
+01:13:30,940 --> 01:13:31,640
+geliştirmenin
+
+1212
+01:13:31,640 --> 01:13:32,280
+gerektirdiği
+
+1213
+01:13:32,280 --> 01:13:32,820
+hızlı
+
+1214
+01:13:32,820 --> 01:13:33,560
+yazılım
+
+1215
+01:13:33,560 --> 01:13:34,140
+döngüsünü
+
+1216
+01:13:34,140 --> 01:13:35,200
+sağlayamıyor
+
+1217
+01:13:35,200 --> 01:13:36,520
+hem de
+
+1218
+01:13:36,520 --> 01:13:40,520
+diğer
+
+1219
+01:13:40,520 --> 01:13:41,520
+araştırmacılar
+
+1220
+01:13:41,520 --> 01:13:42,840
+açısından
+
+1221
+01:13:42,840 --> 01:13:43,880
+deneme
+
+1222
+01:13:43,880 --> 01:13:44,240
+işleri
+
+1223
+01:13:44,240 --> 01:13:44,500
+çok
+
+1224
+01:13:44,500 --> 01:13:45,120
+yararlı
+
+1225
+01:13:45,120 --> 01:13:45,580
+olmuyor.
+
+1226
+01:13:47,000 --> 01:13:47,220
+Aynı
+
+1227
+01:13:47,220 --> 01:13:47,620
+zamanda
+
+1228
+01:13:47,620 --> 01:13:48,080
+debug
+
+1229
+01:13:48,080 --> 01:13:49,000
+vesaire
+
+1230
+01:13:49,000 --> 01:13:49,300
+gibi
+
+1231
+01:13:49,300 --> 01:13:50,000
+konularda
+
+1232
+01:13:50,000 --> 01:13:50,380
+da
+
+1233
+01:13:50,380 --> 01:13:51,140
+küme
+
+1234
+01:13:51,140 --> 01:13:51,560
+ortamı
+
+1235
+01:13:51,560 --> 01:13:51,760
+çok
+
+1236
+01:13:51,760 --> 01:13:52,020
+uygun
+
+1237
+01:13:52,020 --> 01:13:52,200
+bir
+
+1238
+01:13:52,200 --> 01:13:52,520
+ortam
+
+1239
+01:13:52,520 --> 01:13:52,760
+değil.
+
+1240
+01:13:53,620 --> 01:13:54,020
+Debug
+
+1241
+01:13:54,020 --> 01:13:54,380
+kuyruğu
+
+1242
+01:13:54,380 --> 01:13:54,560
+var
+
+1243
+01:13:54,560 --> 01:13:55,220
+diyeceksiniz.
+
+1244
+01:13:55,920 --> 01:13:56,340
+İşinizin
+
+1245
+01:13:56,340 --> 01:13:56,880
+çalıştığından
+
+1246
+01:13:56,880 --> 01:13:57,120
+emin
+
+1247
+01:13:57,120 --> 01:13:57,440
+olduğunuz
+
+1248
+01:13:57,440 --> 01:13:57,720
+kendi
+
+1249
+01:13:57,720 --> 01:13:58,600
+bilgisayarınızda
+
+1250
+01:13:58,600 --> 01:13:59,400
+Truva
+
+1251
+01:13:59,400 --> 01:13:59,880
+üzerinde
+
+1252
+01:13:59,880 --> 01:14:00,320
+çalışan
+
+1253
+01:14:00,320 --> 01:14:00,780
+işinizin
+
+1254
+01:14:00,780 --> 01:14:01,260
+ayarlarını
+
+1255
+01:14:01,260 --> 01:14:01,640
+yapmak
+
+1256
+01:14:01,640 --> 01:14:02,320
+geometrisini
+
+1257
+01:14:02,320 --> 01:14:02,900
+ayarlamak
+
+1258
+01:14:02,900 --> 01:14:03,140
+gibi
+
+1259
+01:14:03,140 --> 01:14:05,080
+denemelerinizi
+
+1260
+01:14:05,080 --> 01:14:05,380
+debug
+
+1261
+01:14:05,380 --> 01:14:05,700
+kuyruğunda
+
+1262
+01:14:05,700 --> 01:14:06,200
+yapabilirsiniz.
+
+1263
+01:14:06,300 --> 01:14:06,400
+Bu
+
+1264
+01:14:06,400 --> 01:14:06,700
+kuyruk
+
+1265
+01:14:06,700 --> 01:14:07,640
+onun için
+
+1266
+01:14:07,640 --> 01:14:07,880
+var.
+
+1267
+01:14:09,800 --> 01:14:10,220
+En son
+
+1268
+01:14:10,220 --> 01:14:10,580
+olarak
+
+1269
+01:14:10,580 --> 01:14:13,580
+daha fazla
+
+1270
+01:14:13,580 --> 01:14:14,300
+şey öğrenmek
+
+1271
+01:14:14,300 --> 01:14:14,560
+için
+
+1272
+01:14:14,560 --> 01:14:15,180
+her zaman
+
+1273
+01:14:15,180 --> 01:14:15,520
+Truva
+
+1274
+01:14:15,520 --> 01:14:15,840
+Wikisi
+
+1275
+01:14:15,840 --> 01:14:16,100
+var.
+
+1276
+01:14:17,240 --> 01:14:17,440
+Wiki
+
+1277
+01:14:17,440 --> 01:14:17,700
+Truva
+
+1278
+01:14:17,700 --> 01:14:17,880
+Go
+
+1279
+01:14:17,880 --> 01:14:18,420
+TR'den
+
+1280
+01:14:18,420 --> 01:14:20,340
+ulaşabilirsiniz.
+
+1281
+01:14:20,960 --> 01:14:21,460
+S5,
+
+1282
+01:14:21,660 --> 01:14:22,140
+SQ,
+
+1283
+01:14:22,360 --> 01:14:23,040
+S-Cancel
+
+1284
+01:14:23,040 --> 01:14:23,880
+veya diğer
+
+1285
+01:14:23,880 --> 01:14:26,880
+sorun komutları ile ilgili detaylı bilgi almak için
+
+1286
+01:14:26,880 --> 01:14:30,180
+man komut adını kullanabilirsiniz.
+
+1287
+01:14:31,580 --> 01:14:37,160
+Truva ile ilgili daha fazla sıkça sorulan soru ve daha teknik açıklamaları için
+
+1288
+01:14:37,160 --> 01:14:41,280
+Sefa Arslan 9 Ocak'ta bir seminer vermişti.
+
+1289
+01:14:41,920 --> 01:14:42,760
+Ona ulaşabilirsiniz.
+
+1290
+01:14:42,920 --> 01:14:45,480
+Hem video kaydı var hem slide'ları var ilgili linkte.
+
+1291
+01:14:47,520 --> 01:14:53,540
+Ve diğer sorularınız için her zaman bize Grid Teknik'ten, Grid Teknik'e tulakbim.go.tr adresinden bize ulaşabilirsiniz.
+
+1292
+01:14:55,500 --> 01:14:56,460
+Benim sunumum bu kadar.
+
+1293
+01:14:57,320 --> 01:14:58,300
+Vaktimiz de var sanırım.
+
+1294
+01:14:58,420 --> 01:15:00,540
+Biraz o yüzden soruları almaya devam edebiliriz.
+
+1295
+01:15:01,000 --> 01:15:02,140
+Enimizden geldiği kadar.
+
+1296
+01:15:02,140 --> 01:15:05,400
+Evet aslında sorular yine birikiyor Hakan.
+
+1297
+01:15:05,400 --> 01:15:13,740
+Normal şeyde de bir 10 dakika ara görünüyordu ama istersen bir 6 dakika 14.50'ye kadar bir ara verelim.
+
+1298
+01:15:13,860 --> 01:15:15,260
+Bir ihtiyaç molası olsun.
+
+1299
+01:15:15,820 --> 01:15:17,640
+Bir çay kahve alalım.
+
+1300
+01:15:18,540 --> 01:15:25,340
+Saat 14.50'de tekrar sorularımız biriktiği için sorularla birlikte konuşmaya devam edelim.
+
+1301
+01:15:25,800 --> 01:15:28,900
+Tamam. Ben de şu slide'ı açık bırakayım o zaman diğer kaynaklarla ilgili.
+
+1302
+01:15:29,580 --> 01:15:29,900
+Tamam.
+
+1303
+01:15:29,900 --> 01:15:33,120
+O zaman bir 5 dakika sonra görüşüyoruz.
+
+1304
+01:15:33,340 --> 01:15:34,900
+Saat 14.50'de.
+
+1305
+01:15:34,900 --> 01:15:35,480
+Tamam.
+
+1306
+01:16:04,900 --> 01:16:05,480
+Altyazı M.K.
+
+1307
+01:16:05,480 --> 01:16:05,520
+Altyazı M.K.
+
+1308
+01:16:34,900 --> 01:16:35,480
+Altyazı M.K.
+
+1309
+01:16:35,480 --> 01:16:36,120
+Altyazı M.K.
+
+1310
+01:16:36,120 --> 01:16:36,480
+Altyazı M.K.
+
+1311
+01:16:36,480 --> 01:16:37,060
+Altyazı M.K.
+
+1312
+01:16:37,060 --> 01:16:37,100
+Altyazı M.K.
+
+1313
+01:16:37,100 --> 01:16:37,140
+Altyazı M.K.
+
+1314
+01:16:37,140 --> 01:16:37,720
+Altyazı M.K.
+
+1315
+01:16:37,720 --> 01:16:37,760
+Altyazı M.K.
+
+1316
+01:16:37,760 --> 01:16:38,340
+Altyazı M.K.
+
+1317
+01:16:38,340 --> 01:16:39,340
+Altyazı M.K.
+
+1318
+01:16:39,340 --> 01:16:39,920
+Altyazı M.K.
+
+1319
+01:16:39,920 --> 01:16:40,920
+Altyazı M.K.
+
+1320
+01:16:40,920 --> 01:16:41,500
+Altyazı M.K.
+
+1321
+01:16:41,500 --> 01:16:42,500
+Altyazı M.K.
+
+1322
+01:16:42,500 --> 01:16:43,080
+Altyazı M.K.
+
+1323
+01:16:43,080 --> 01:16:43,660
+Altyazı M.K.
+
+1324
+01:16:43,660 --> 01:16:44,660
+Altyazı M.K.
+
+1325
+01:16:44,660 --> 01:16:45,240
+Altyazı M.K.
+
+1326
+01:16:45,240 --> 01:16:45,820
+Altyazı M.K.
+
+1327
+01:16:45,820 --> 01:16:46,440
+Altyazı M.K.
+
+1328
+01:17:15,820 --> 01:17:16,440
+Altyazı M.K.
+
+1329
+01:17:45,820 --> 01:18:15,800
+Altyazı M.K.
+
+1330
+01:18:15,820 --> 01:18:16,440
+Altyazı M.K.
+
+1331
+01:18:45,820 --> 01:18:46,440
+Altyazı M.K.
+
+1332
+01:19:15,820 --> 01:19:16,440
+Altyazı M.K.
+
+1333
+01:19:45,820 --> 01:19:46,440
+Altyazı M.K.
+
+1334
+01:20:15,820 --> 01:20:45,800
+Altyazı M.K.
+
+1335
+01:20:45,820 --> 01:20:47,440
+Altyazı M.K.
+
+1336
+01:20:47,440 --> 01:20:47,620
+Altyazı M.K.
+
+1337
+01:20:47,620 --> 01:20:49,400
+Sanırım devam edebiliriz.
+
+1338
+01:20:52,320 --> 01:20:59,380
+Çet ekranından da bir takım sorular geliyor ama onları da cevaplamaya çalışacağız.
+
+1339
+01:21:00,360 --> 01:21:05,120
+Daha çok question and answer kısmında sormaya çalışırsanız oradan daha net görüyoruz.
+
+1340
+01:21:05,120 --> 01:21:16,940
+Öncelikle şunu cevaplayalım.
+
+1341
+01:21:17,080 --> 01:21:18,920
+Sakarya Esra Hanım sormuş.
+
+1342
+01:21:19,040 --> 01:21:21,460
+Sakarya Üniversitesi'nde doktor öğrencisiyim.
+
+1343
+01:21:21,540 --> 01:21:22,400
+Mail gönderdim.
+
+1344
+01:21:22,460 --> 01:21:25,180
+Turubaya hesap açmak için mail geldi.
+
+1345
+01:21:25,400 --> 01:21:28,120
+Mailde cevap bir link geldi ve bu link açılmıyor.
+
+1346
+01:21:28,940 --> 01:21:29,840
+Ne yapmam lazım?
+
+1347
+01:21:29,840 --> 01:21:39,620
+Eğer böyle bir durumunuz varsa grid tekniğe bir mesaj atarsanız tekrar kontrol edelim bağlantılarınızı Esra Hanım.
+
+1348
+01:21:39,620 --> 01:21:47,720
+Meryem Hanım'ın bir sorusu var.
+
+1349
+01:21:47,820 --> 01:21:52,960
+Fortnite'da yazdığımız bir programı Linux ile uyumlu hale getirerek mi derlemek gerekiyor?
+
+1350
+01:21:52,960 --> 01:22:04,400
+Aslında bizim ortamımızda kullanacağınız işi göndereceğiniz ortamda programınızı derlemeniz uygun olacaktır.
+
+1351
+01:22:04,500 --> 01:22:14,340
+Eğer program kodunuzu kullanıcı arayüz makinesini taşıyıp oradaki Fortran derleyicisiyle derlerseniz uygun olacaktır.
+
+1352
+01:22:14,340 --> 01:22:24,120
+Sibel Hanım'ın bir sorusu var.
+
+1353
+01:22:24,120 --> 01:22:28,160
+Sistemde elektrik kesildiği zaman işlerimiz sonlandırılabiliyordu.
+
+1354
+01:22:28,340 --> 01:22:31,700
+Bu gibi bir durumda mail yoluyla haber vermeniz mümkün mü?
+
+1355
+01:22:32,340 --> 01:22:37,840
+Planlı tüm kesintileri biz Turubo olarak haber vermeye çalışıyoruz aslında.
+
+1356
+01:22:37,840 --> 01:22:42,040
+Ama beklenmeyen plansız kesintiler de olabiliyor.
+
+1357
+01:22:42,220 --> 01:22:48,580
+Bu durumlarda bizim de kesinti sırasında haberimiz olduğu için haber vermemiz mümkün olmuyor.
+
+1358
+01:22:50,240 --> 01:22:57,300
+Ama yine de sizinle interaktif olarak bizim bir kullanıcı duyuru listemiz var.
+
+1359
+01:22:57,420 --> 01:23:03,260
+Bu duyuru listesine portalla üye olmuş olan tüm kullanıcılarımızı da üye yapıyoruz.
+
+1360
+01:23:03,260 --> 01:23:08,540
+Çeşitli duyuruları Turubo kullanıcı üzerinden sizlere ulaştırmaya çalışıyoruz.
+
+1361
+01:23:12,640 --> 01:23:14,880
+Oğuz Bey'in bir sorusu var.
+
+1362
+01:23:15,940 --> 01:23:30,660
+Terminalde Esinfo komutu sonrasında state sütünü altında görünen Down, Drain, Mix, Allog ifadelerinin ne anlama geldiğini kısaca açıklayabilir misiniz?
+
+1363
+01:23:30,660 --> 01:23:34,360
+Ben açıklayayım kısaca.
+
+1364
+01:23:35,060 --> 01:23:43,060
+Eğer bir makine Drain ediliyorsa, DRNG veya Drain deniliyorsa bizim o makine üzerinde bir işlem yapmamız gerekiyordur.
+
+1365
+01:23:43,140 --> 01:23:45,680
+Ve makinenin işlerini bitirmesini bekliyoruzdur.
+
+1366
+01:23:46,640 --> 01:23:51,380
+Down olan makinenin bir problemi olduğu için şu anda hizmette değildir.
+
+1367
+01:23:52,480 --> 01:23:55,940
+Allog olan makinelerin üzerindeki bütün kaynaklar doludur.
+
+1368
+01:23:56,160 --> 01:23:58,440
+Üzerinde hiç boş yer yoktur kaynak olarak.
+
+1369
+01:23:58,440 --> 01:24:04,460
+Mix olan makinelerin üzerinde belli bir miktar kaynak dolu, belli bir miktar kaynak boştur.
+
+1370
+01:24:04,560 --> 01:24:09,140
+Bu kaynağın boş olmasının sebebi bir iş için kaynak toplanıyor olması olabilir.
+
+1371
+01:24:09,340 --> 01:24:14,320
+Son bir kaynak hazırlığında olabilir daha büyük bir iş için.
+
+1372
+01:24:15,040 --> 01:24:20,140
+Veya o anki iş şeyinde oraya sığdırılacak iş kalmamıştır elde.
+
+1373
+01:24:20,140 --> 01:24:27,340
+O yüzden o makineler olabildiğince fazla şekilde doldurulmuş ve küme olabildiğince yoğun şekilde çalıştırılıyordur.
+
+1374
+01:24:30,260 --> 01:24:31,980
+Aydıl makineler de bu şekilde.
+
+1375
+01:24:32,160 --> 01:24:37,580
+Bazen araştırmacılar soruyorlar, 3 tane aydıl makine var niye biz bu makineleri iş gönderemiyoruz diye.
+
+1376
+01:24:37,580 --> 01:24:42,700
+Bazı çok büyük işler için bazen kaynak toplamak ihtiyacı hissediyor.
+
+1377
+01:24:42,860 --> 01:24:47,460
+Bir makine, iki makine veya üç makine gerektiren bazı büyük işler gönderiyor kullanıcılar.
+
+1378
+01:24:48,180 --> 01:24:54,440
+O şey için ileriye dönük olarak planı dahilinde işi çalıştırabilmek için kaynak topluyor oluyor.
+
+1379
+01:24:54,900 --> 01:24:59,980
+O yüzden bazı makineler boş görünebiliyorlar ama o makineler belli bir süre sonra boş olmayacaklar.
+
+1380
+01:24:59,980 --> 01:25:05,940
+Farid Bey'in birkaç sorusu var.
+
+1381
+01:25:06,720 --> 01:25:10,320
+Ev dizininin sıfırlama süresi var mı?
+
+1382
+01:25:11,700 --> 01:25:15,580
+Pardon, soruyu galiba soru cevaplanmış.
+
+1383
+01:25:16,020 --> 01:25:19,540
+O zaman şöyle devam edelim.
+
+1384
+01:25:21,060 --> 01:25:25,500
+Ev dizilerinin belirli bir süresi yok.
+
+1385
+01:25:25,500 --> 01:25:31,360
+Bu ev dizinizde saklayabilirsiniz ama kullanabileceğiniz bir disk kotanız var.
+
+1386
+01:25:31,720 --> 01:25:38,500
+Bu disk kotanızı açtığınız durumda yaptığınız araştırmaların sonuçlarını kendi lokal diskimizde indirmenizi bekliyoruz.
+
+1387
+01:25:39,200 --> 01:25:41,760
+Çünkü burada da sınırsız bir disk kaynağı yok.
+
+1388
+01:25:42,660 --> 01:25:48,160
+Dolayısıyla herkesin kotasını elverdiği sürece bunları kullanmasını istiyoruz.
+
+1389
+01:25:48,460 --> 01:25:53,500
+Biz sizin ev dizilerinizden herhangi bir şekilde dosya silme işlemi yapmıyoruz.
+
+1390
+01:25:53,500 --> 01:25:58,500
+Ama eğer siz kotanızı doldurduysanız zaman zaman sizin temizlemiş olmanızı bekliyoruz.
+
+1391
+01:26:01,500 --> 01:26:05,320
+Bu seyahatlerinin bir başka sorusu var.
+
+1392
+01:26:05,460 --> 01:26:08,480
+Uygulamalara ayrılan kaynak kısıtlaması vardır.
+
+1393
+01:26:08,660 --> 01:26:11,920
+Çekirdek sayısı ve hafıza olarak teşekkürler demiş.
+
+1394
+01:26:13,440 --> 01:26:16,700
+Uygulamalar için belli bir kaynak sınırımız yok.
+
+1395
+01:26:16,700 --> 01:26:22,700
+Yani siz ne isterseniz bir kullanıcı en fazla 128 çekirdeklik iş çalıştırabiliyor.
+
+1396
+01:26:23,340 --> 01:26:24,860
+Daha fazlasını isteyemiyor şu anda.
+
+1397
+01:26:25,700 --> 01:26:30,900
+Ve kuyrukta barındırabildiği iş sayısı da belli bir sayıyı geçemiyor.
+
+1398
+01:26:31,460 --> 01:26:35,060
+Yanlış hatırlamıyorsam o sayının 100 olması gerekli ama şu anda net altında değil.
+
+1399
+01:26:35,060 --> 01:26:43,840
+Toplamda bu kadar çekirdeği ve bu kadar iş kuyruğu slotundan fazlasını kullanmanız mümkün değil.
+
+1400
+01:26:43,840 --> 01:26:53,480
+Ama bunun dışında bu uygulamayı kullanıyorsanız şu kadar veya diğer uygulamayı kullanıyorsanız bu kadar izin veriyoruz gibi bir şey söz konusu değil.
+
+1401
+01:26:54,920 --> 01:27:05,260
+Ama daha önce de bahsettiğim gibi ne kadar kaynak kullanacağınızı doğru şekilde belirtirseniz işinizi en kısa sürede ve en yüksek performansla çalıştırma şansınız olur.
+
+1402
+01:27:05,260 --> 01:27:09,800
+Bir başka soru derin öğrenme ile ilgili.
+
+1403
+01:27:10,000 --> 01:27:11,180
+Murat Bey'den gelmiş.
+
+1404
+01:27:11,180 --> 01:27:18,160
+Derin öğrenme yaparken kurulacak olan Python, TensorFlow, Keras gibi tüm yazılımları biz mi kuracağız?
+
+1405
+01:27:18,740 --> 01:27:23,080
+IPMB formatında hazırladığımız kaynak kodu nasıl çalıştıracağız?
+
+1406
+01:27:24,400 --> 01:27:25,200
+Teşekkürler.
+
+1407
+01:27:25,200 --> 01:27:36,220
+Keras, TensorFlow veya diğer yan tarafındaki Python kütüphaneleri ve diğer şeyler Anaconda ile ev dizinin de kurulabiliyor.
+
+1408
+01:27:36,340 --> 01:27:38,700
+Bu şekilde çalışan kullanıcılarımız var.
+
+1409
+01:27:39,220 --> 01:27:41,260
+Bunları ev dizinin de kurmanızı bekliyoruz.
+
+1410
+01:27:42,760 --> 01:27:50,440
+Kuda'nın son versiyonlarını çalıştırmanız için gerekli olan sürücü ve SDK gibi şeyleri zaten kümemizde barındırıyoruz.
+
+1411
+01:27:50,440 --> 01:28:00,100
+SDK'ları siz kendi ev dizinize kurabilirsiniz ama donanımımızın desteklediği en son kuda versiyonunu çalıştırmakla ilgili sürücü güncellemelerini biz yapıyoruz.
+
+1412
+01:28:00,300 --> 01:28:01,700
+Hatta Akyalarınki yeni bitti.
+
+1413
+01:28:03,760 --> 01:28:08,700
+Akyalar şu anda kuda 11'e kadar bütün kuda versiyonlarını destekliyorlar.
+
+1414
+01:28:11,900 --> 01:28:15,200
+Onun dışında IPMB ile ilgili bir bilgim yok.
+
+1415
+01:28:15,460 --> 01:28:18,600
+Makine öğrenmesi çalışmadığım için teknik detaylara çok hakim değilim.
+
+1416
+01:28:18,600 --> 01:28:25,080
+Ama makine üzerinde derlemeniz gereken bir şey varsa bunu makine üzerinde derleyebilirsiniz.
+
+1417
+01:28:26,940 --> 01:28:31,500
+Benzer bir soru aslında bunlarla ilgili olan Necip Bey'den gelmiş.
+
+1418
+01:28:31,660 --> 01:28:40,900
+GPU bulunan kuyruklar için kuda sürücü versiyonlarının güncellenmesi konusunda destek sağlayabiliyor musunuz diye bunları zaten yapıyoruz.
+
+1419
+01:28:40,900 --> 01:28:45,560
+Şu anda 455.32 var Akyal'ın üzerinde.
+
+1420
+01:28:46,440 --> 01:28:50,680
+Barbun sunucuları da 1-2 hafta içerisinde güncellenmeye başlayacaklar.
+
+1421
+01:28:51,300 --> 01:28:53,360
+Hepsini aynı anda güncellememiz mümkün değil.
+
+1422
+01:28:53,760 --> 01:28:56,300
+Daha önce bahsettiğim 15 günlük bir kuyruk süresi var.
+
+1423
+01:28:57,040 --> 01:29:02,180
+Makineleri azar azar kızağa çekerek teker teker güncelleyeceğiz.
+
+1424
+01:29:02,680 --> 01:29:05,700
+Kullanıcıların kaynak problemleri yaşamaması için.
+
+1425
+01:29:05,700 --> 01:29:13,280
+Sezgin Aydın'ın bir sorusu var.
+
+1426
+01:29:13,380 --> 01:29:17,580
+Sulum scriptlerini yazarken anahtarlar karıştırılabiliyor.
+
+1427
+01:29:17,720 --> 01:29:21,720
+Kullanıcı hesaplarının altına template kuyruk betikleri atılabilir mi diye.
+
+1428
+01:29:21,720 --> 01:29:33,560
+Aslında template olarak yani kuyruklar içerisinde değil ama uygulama bazında sulum scriptlerimiz mevcut olarak var.
+
+1429
+01:29:34,140 --> 01:29:38,000
+Software dizinin altında bunlara erişmeniz mümkün.
+
+1430
+01:29:38,460 --> 01:29:45,160
+Templetini dilerseniz bir mail atarsanız size gönderebiliriz nereden ulaşacağınıza doğru da.
+
+1431
+01:29:45,700 --> 01:29:47,860
+İstersen terminalden de gösterebiliriz şimdi.
+
+1432
+01:29:48,060 --> 01:29:48,960
+Açık terminalimiz var.
+
+1433
+01:29:49,740 --> 01:29:50,120
+Olur.
+
+1434
+01:29:50,120 --> 01:29:56,400
+Görebiliyor musunuz?
+
+1435
+01:29:57,300 --> 01:29:57,860
+Henüz.
+
+1436
+01:29:58,080 --> 01:29:59,360
+Evet şu anda görüyoruz.
+
+1437
+01:30:07,980 --> 01:30:12,300
+Scripts altında bu scriptlere erişmeniz mümkün.
+
+1438
+01:30:12,780 --> 01:30:15,860
+Örnek uygulama scriptlerine erişebiliyorsunuz.
+
+1439
+01:30:16,740 --> 01:30:17,540
+Şöyle yapalım.
+
+1440
+01:30:17,540 --> 01:30:30,940
+Evet truba software scripts altında bu şeyleri çeşitli uygulamalar için konulmuş hazır örnek sulum scriptlerine erişmeniz mümkün oluyor.
+
+1441
+01:30:30,940 --> 01:30:37,580
+Buradan ilgili betekleri kendi ev dizinize kopyalayıp üzerinde gerekli değişiklikleri yapıp işlerinizi gönderebilirsiniz.
+
+1442
+01:30:37,580 --> 01:30:46,760
+Turuba ile ilgili yaşadığınız uzun süre Hakan Bey de açık olarak bıraktı.
+
+1443
+01:30:46,760 --> 01:30:58,240
+bütün bütün turuba ekibinin dahil olduğu grid-teknik.at ulakbim.gol.tr adresine mesaj atarak çeşitli sorularınızı sorabilirsiniz.
+
+1444
+01:30:58,240 --> 01:31:04,700
+Bu e-posta liste bir e-posta listesidir ve tüm turuba ekibi dahildir.
+
+1445
+01:31:05,920 --> 01:31:12,260
+Gerekli durumlarda sizlere gerekli bilgilendirmeler, yardımlar yapılacaktır.
+
+1446
+01:31:12,480 --> 01:31:14,420
+Hızlı olarak dönmeye çalışıyoruz.
+
+1447
+01:31:14,420 --> 01:31:16,880
+Gökhan Bey el kaldırıyor.
+
+1448
+01:31:17,500 --> 01:31:20,780
+Ona bir konuşma izni vermek istiyorum ben.
+
+1449
+01:31:21,240 --> 01:31:22,460
+Gökhan Bey.
+
+1450
+01:31:22,460 --> 01:31:35,540
+Ama sanırım şu anda e-kaldırmayı bitirdi.
+
+1451
+01:31:36,740 --> 01:31:45,000
+Başka sorusu olan varsa, görüş bildirmek ya da konuşmak isteyen araştırmacılarımız varsa onlarla konuşabiliriz.
+
+1452
+01:31:45,100 --> 01:31:46,920
+Bizim küçük bir anketimiz olacak.
+
+1453
+01:31:46,920 --> 01:31:52,800
+Bu ankete eğer cevap verebilirseniz seviniriz.
+
+1454
+01:31:52,940 --> 01:31:56,980
+Belki şimdi size bir anket göndermek istiyoruz aslında.
+
+1455
+01:31:57,300 --> 01:32:11,800
+Bu da turbadaki çalışan araştırmacıların birbirleriyle iletişimini kolaylaştırmak için bir iletişim kanalı olsa mı, bir tartışma platformu kullansak mı gibi bir düşünce kapsamıyla.
+
+1456
+01:32:11,800 --> 01:32:19,580
+Hem sizlerin birbiriyle hem bizlerin sizlerle iletişimini sağlamak için cevaplarsanız seviniriz.
+
+1457
+01:32:20,440 --> 01:32:23,180
+Bir başka soru geldi.
+
+1458
+01:32:23,440 --> 01:32:28,740
+Turba sistemine yüklenmesini istediğimiz programları nasıl iletebiliriz?
+
+1459
+01:32:28,820 --> 01:32:31,600
+Mesela hesaplama kimya programı gibi.
+
+1460
+01:32:31,600 --> 01:32:48,640
+Aslında temelde araştırmacının kendi uygulamasını çok daha iyi bildiği ve bizden daha etkin kurabileceği düşüncesiyle sizin kullanıcı ev dizininize kurmanızı tercih ederiz.
+
+1461
+01:32:48,720 --> 01:32:55,840
+Ama takıldığınız durumlarda eğer grid-tire tekniğe e-mail atarsanız biz de yardımcı olmak isteriz.
+
+1462
+01:32:55,840 --> 01:33:04,840
+Evet, anket için, ankete doldurduğunuz için teşekkür ederiz.
+
+1463
+01:33:09,620 --> 01:33:15,160
+Bu arada bu seminerler devam edecek.
+
+1464
+01:33:16,540 --> 01:33:21,940
+Gelecek haftanın semineriyle ilgili olarak aslında size bir duyuru yapmak isteriz.
+
+1465
+01:33:21,940 --> 01:33:41,700
+Gelecek hafta yine aynı saatte, cumartesi günü Sabancı Üniversitesi Bilgisayar Mühendisliği bölümünden Onur Varol bize zararlı çevrim içi davranışları tespit etmek için makine öğrenmesi modellerini servis olarak paylaşmanın getirdiği avantajlar ve zorluklardan bahsedecek.
+
+1466
+01:33:42,840 --> 01:33:51,000
+Bunun da bu seminere de katılmak isteyen araştırmacılarımız varsa kayıt yaptırabilirler.
+
+1467
+01:33:51,000 --> 01:33:59,380
+Ayrıca 8-13 Şubat arasında Euro CC kapsamında bir kış okulu gerçekleştirilecek.
+
+1468
+01:33:59,840 --> 01:34:04,000
+Yine bu kış okulunun kayıtları da açılmış olup indiko sayfamızdan erişebilirsiniz.
+
+1469
+01:34:04,000 --> 01:34:16,200
+Yine chat ekranında arkadaşlar ilgili hem etkinlikleri hem de indikodaki adreslerini paylaşmış durumdalar.
+
+1470
+01:34:16,200 --> 01:34:24,300
+Sunum dosyalarını indiko adresine koyuyoruz. Sunumlara buradan erişmeniz mümkün oluyor.
+
+1471
+01:34:24,300 --> 01:34:31,740
+Murat Karakaya'nın bir şeyi var.
+
+1472
+01:34:31,940 --> 01:34:38,460
+Hocam mümkünse benzer alanlarda trubayı kullananları bir araya getirirsek daha verimli tecrüme aktarımı olabilir.
+
+1473
+01:34:38,680 --> 01:34:41,420
+Bunu geçmiş dönemlerde aslında oldukça yapıyorduk.
+
+1474
+01:34:41,540 --> 01:34:45,660
+Başarım konferanslarında bu sene maalesef online yapıldı.
+
+1475
+01:34:45,660 --> 01:34:56,660
+Genelde aynı araştırma alanlarında çalışan araştırmacıların bir araya gelmesi, kendi bilgilerini bir araya aktarabilmeleri için çeşitli oturumlar düzenleniyorduk.
+
+1476
+01:34:56,660 --> 01:35:02,660
+Ve oturumlar kapsamında gerçekten bilgi paylaşımının biz de önemli olduğunu düşünüyoruz.
+
+1477
+01:35:03,460 --> 01:35:06,320
+Zaten yaptığımız anket de aslında biraz buna yönelik.
+
+1478
+01:35:06,800 --> 01:35:17,360
+Eğer biz ki yüz yüze bir araya gelemiyorsak birlikte bilgi paylaşımını nasıl, nereden yapabiliriz'i önünü açmak istiyoruz aslında.
+
+1479
+01:35:17,360 --> 01:35:28,720
+Levrek 1'e bağlantı sıkıntısının nedenleri ne olabilir, nasıl giderilebilir diye bir soru gelmiş.
+
+1480
+01:35:28,720 --> 01:35:32,720
+Aslında levrek 1'e bağlantı sıkıntısı varsa bunu e-mail atabilirsiniz.
+
+1481
+01:35:33,600 --> 01:35:43,720
+Çünkü normalde herhangi bir bağlantı sıkıntısı olmuyorken client tarafında da bir problem olabiliyor ve bu problem sebebiyle erişilemeyebiliyor.
+
+1482
+01:35:43,720 --> 01:35:47,620
+Ya da kampüs dışındaysanız OpenVPN'le ilgili bir sorun olabiliyor.
+
+1483
+01:35:48,340 --> 01:35:52,860
+Eğer böyle bir sorun yaşarsanız biz de lütfen mail atmaktan çekinmeyin.
+
+1484
+01:35:53,220 --> 01:35:56,960
+İlgili mesajlara hızlıca cevap vermeye çalışıyoruz.
+
+1485
+01:36:00,560 --> 01:36:03,340
+Berat Haznedaroğlu'nun bir sorusu var.
+
+1486
+01:36:03,340 --> 01:36:15,780
+Eğer oldukça yüklü yer kaplayan ve güncellenmesi gereken NCBI, BLAST ve benzeri biyolojik veri tabanlarının ortak alanlara alınarak ilgili kullanıcılara erişim izni verilmesi mümkün müdür?
+
+1487
+01:36:15,920 --> 01:36:19,720
+Kullanıcı home dizimleri içerisinde gereksiz yer kaplayacaktır.
+
+1488
+01:36:20,240 --> 01:36:22,120
+Aslında bu tip çalışmalarımız var.
+
+1489
+01:36:22,120 --> 01:36:29,380
+Yani biyolojik veri tabanlarıyla ilgili değil belki ama seyahat sismoloji tarafında tuttuğumuz var.
+
+1490
+01:36:29,520 --> 01:36:48,180
+Eğer sizin bu tip verilerin birden fazla araştırmacı tarafından kullanımı uygundur diye düşünüyorsanız ve bunlar bilimsel veri olduğu için bu veri tabanlarından veri çekip işlemek de istiyorsanız bu verilerin altyapımıza aktarılması söz konusu olabilir.
+
+1491
+01:36:48,180 --> 01:36:53,180
+Bununla ilgili eğer özelden de mesaj atabilirseniz size gerekli desteği sağlarız.
+
+1492
+01:36:59,180 --> 01:37:07,400
+Evet, anketimize de büyük çoğunlukla bir tartışma platformunu kullanmak istiyoruz olarak çıktı.
+
+1493
+01:37:07,960 --> 01:37:15,080
+Umarım kısa sürede bu şekilde bir çalışma platformunu hepimizin paylaşacağı bir ortam halinde sunabiliriz.
+
+1494
+01:37:15,080 --> 01:37:22,100
+Bunun haricinde chat ekranında oldukça teşekkür var.
+
+1495
+01:37:22,200 --> 01:37:34,200
+Teşekkür ediyoruz Hakan hem sunumun için hem seminerler için hem de EuroCC projesi kapsamında böyle bir etkinliği gerçekleştirdiğimiz için biz de mutluyuz.
+
+1496
+01:37:34,200 --> 01:37:43,320
+Bu tür etkinliklerin daha fazla olması ve sizlerle daha çok bir araya gelebilmeyi biz de arzu ediyoruz.
+
+1497
+01:37:43,320 --> 01:37:49,980
+Ben de geldiğiniz ve dinlediğiniz için teşekkür ederim. Yararlı olabildiyse ne mutlu.
+
+1498
+01:37:49,980 --> 01:37:58,800
+Her türlü soru ve sorunda grid.tre.technik.et.ulak.bim.go.tr adresine mail atmaktan çekinmeyin.
+
+1499
+01:37:59,600 --> 01:38:05,200
+Yeni başlayanlar olabilir, öğrencileriniz yeni başlıyor olabilir.
+
+1500
+01:38:05,740 --> 01:38:09,980
+Wikitruba.go.tr adresinde yer alan kullanıcı el kitabını onlara önerebilirsiniz.
+
+1501
+01:38:09,980 --> 01:38:19,140
+Ve bu aşamada herhangi bir soru veya sorunlarda bizimle iletişim kurmalarını kendilerine bildirebilirsiniz.
+
+1502
+01:38:19,140 --> 01:38:26,060
+O zaman biz de sizlere teşekkür ederiz.
+
+1503
+01:38:26,400 --> 01:38:34,340
+Değerli vaktinizi bu cumartesi gününde bizlere ayırdığınız için şu anda yeni bir sorumuz yok görünüyor.
+
+1504
+01:38:35,000 --> 01:38:36,140
+Oturumumuzu kapatabiliriz.
+
+1505
+01:38:37,720 --> 01:38:39,540
+Katılımınızdan dolayı sağ olun.
+
+1506
+01:38:39,680 --> 01:38:43,340
+Gerçekten yüksek katılımlı bir seminer oldu.
+
+1507
+01:38:44,200 --> 01:38:47,140
+Her türlü soru ve sorunda da bize ulaşmaktan çekinmeyin.
+
+1508
+01:38:48,140 --> 01:38:49,060
+Görüşmek üzere.
+
+1509
+01:38:49,140 --> 01:38:51,640
+Soru gözüküyor ama sizde gözükmüyor sanırım.
+
+1510
+01:38:52,380 --> 01:38:54,400
+Bizde gözükmüyor soru şu anda.
+
+1511
+01:38:54,960 --> 01:38:56,820
+Hakan, sende gözüküyor mu?
+
+1512
+01:38:59,080 --> 01:39:01,240
+Bende açık bir soru görünmüyor Onur.
+
+1513
+01:39:01,340 --> 01:39:02,560
+Eğer açık bir soru varsa.
+
+1514
+01:39:03,780 --> 01:39:05,520
+Üç tane soru var sanırım.
+
+1515
+01:39:06,460 --> 01:39:07,160
+Birisi soru değil.
+
+1516
+01:39:07,300 --> 01:39:07,840
+Yorum değil mi?
+
+1517
+01:39:13,040 --> 01:39:13,720
+Okuyabiliriz.
+
+1518
+01:39:14,080 --> 01:39:15,500
+Hakan görüyorsan cevap varsa.
+
+1519
+01:39:15,600 --> 01:39:16,400
+Görüyorum, görüyorum.
+
+1520
+01:39:17,140 --> 01:39:18,700
+Soruyu okuyorum şu anda.
+
+1521
+01:39:19,700 --> 01:39:20,380
+Mac kullanıyorum.
+
+1522
+01:39:20,520 --> 01:39:22,380
+OpenVPN yerine Tunnel Blink kullanıyorum.
+
+1523
+01:39:22,500 --> 01:39:24,160
+Truva'ya bağlanmak için kampüsü içinden,
+
+1524
+01:39:24,280 --> 01:39:25,900
+Edrom üzerinden direkt bağlanamıyorum.
+
+1525
+01:39:26,420 --> 01:39:27,920
+Tunnel Blink'e bağlanmam gerekiyor.
+
+1526
+01:39:28,000 --> 01:39:30,820
+Bu şekilde kullanırken de serverda bulunduğum süre zarfında
+
+1527
+01:39:30,820 --> 01:39:32,800
+internete bağlantım kısıtlanıyor.
+
+1528
+01:39:33,000 --> 01:39:35,120
+Bununla ilgili bilginiz veya çözümünüz var mı?
+
+1529
+01:39:35,120 --> 01:39:43,960
+Edrom üzerinden eğer bize bağlanamıyorsanız bu üniversitenizin Edrom yönetimiyle alakalı bir konu genelde.
+
+1530
+01:39:44,320 --> 01:39:50,320
+Bazı Edrom kurulumları SSH bağlantılarının dışarıya çıkmasına izin vermiyor.
+
+1531
+01:39:50,320 --> 01:39:52,640
+Böyle bildiğim bir iki tane üniversite var.
+
+1532
+01:39:52,640 --> 01:40:05,800
+Eğer Tunnel Blink'de OpenVPN bağlantısını açtığınızda internet erişiminiz kısıtlanıyorsa ayarın tam yerini hatırlamıyorum ancak şey demeniz gerekiyor.
+
+1533
+01:40:05,800 --> 01:40:10,440
+Sadece bu ağ üzerindeki kaynaklar için VPN'imi kullan.
+
+1534
+01:40:11,780 --> 01:40:17,140
+Şu anda ben de Tunnel Blink kurulu olmadığı için, şu anda da Mac bilgisayardan bağlanmadığım için ekranı tam olarak gösteremiyorum.
+
+1535
+01:40:17,680 --> 01:40:22,820
+Ama bu ayarı seçtiğiniz zaman internete bağlantınızda bir problem olmayacaktır.
+
+1536
+01:40:23,300 --> 01:40:26,340
+Sadece Levrek 1'e gelirken, Truva'ya gelirken VPN'i kullanacak.
+
+1537
+01:40:27,000 --> 01:40:32,240
+Diğer durumlarda da internete normal bağlantı üzerinden çıkmaya devam edebileceksiniz.
+
+1538
+01:40:32,240 --> 01:40:37,700
+Ben de bir soru görüyorum.
+
+1539
+01:40:37,980 --> 01:40:42,340
+Şu anda lisans üstü için kullanım bizlerin test projeleri için önemli.
+
+1540
+01:40:42,620 --> 01:40:44,220
+Ne zaman onaylanır diyor.
+
+1541
+01:40:44,760 --> 01:40:46,320
+Onur Bey aslında açıkladı.
+
+1542
+01:40:46,520 --> 01:40:47,480
+Biz de istiyoruz.
+
+1543
+01:40:47,980 --> 01:40:50,620
+Yakın zamanda bir kaynak arttırım planımız var.
+
+1544
+01:40:50,620 --> 01:40:56,820
+Bu kaynak arttırımı ile birlikte lisans üstünün kullanımı tekrar değerlendirilecektir.
+
+1545
+01:40:56,820 --> 01:41:06,820
+Umarım kısa süre içerisinde lisans üstü öğrencilerimizin de kullanımı, Z-Master seviyesindeki öğrencilerimizin de kullanımını onaylamak isteriz.
+
+1546
+01:41:09,140 --> 01:41:12,520
+Ben Cihat Güleryüz'ün bir sorusunu görüyorum.
+
+1547
+01:41:13,580 --> 01:41:15,560
+Gromax ile ilgili benim de bir problemim oldu.
+
+1548
+01:41:15,720 --> 01:41:18,940
+Özel bir paket programı yükledim ve Gromax kütüphaneleri içerikli.
+
+1549
+01:41:19,160 --> 01:41:22,320
+Ancak bu kütüphaneler maalesef Çorba'daki Gromax ile eşleşmedi.
+
+1550
+01:41:22,760 --> 01:41:23,820
+Paketi yükleyemedim.
+
+1551
+01:41:23,820 --> 01:41:27,740
+Gromax özelinde benim bilgim yok.
+
+1552
+01:41:27,920 --> 01:41:29,940
+Gromax kullanmadım ya da derlemedim.
+
+1553
+01:41:30,160 --> 01:41:38,800
+Ancak bu tarz paket programlar veya sonradan eklentiler belli bir Gromax derlemesi veya belli bir versiyon isteyebiliyorlar.
+
+1554
+01:41:39,560 --> 01:41:47,820
+Böyle bir durumlarda bizim kurduğumuz versiyon veya bizim kullandığımız derleyici ile sizin kullandığımız derleyici uyum sağlayamayabiliyor.
+
+1555
+01:41:47,820 --> 01:41:57,780
+Bu nedenle paket programının istediği Gromax'ı kendi ev dizinizde derlemeniz veya kendi ev dizinizde kurmanız üzerine ilgili paket programı eklemeniz gerekiyor.
+
+1556
+01:41:58,560 --> 01:42:07,820
+Bununla ilgili de süreç konusunda yardıma ihtiyacınız olursa Grit ve Teknik Etulak'ın Go.tr'den bile ulaşırsanız elimizden gelen en büyük yardım göstermeye çalışırsınız.
+
+1557
+01:42:07,820 --> 01:42:12,540
+Ben başka soru göremiyorum şu anda.
+
+1558
+01:42:13,920 --> 01:42:16,820
+Ben de görmüyorum. Sizlerde var mı? Olur.
+
+1559
+01:42:16,820 --> 01:42:23,820
+Sanırım sorular tamamlandı.
+
+1560
+01:42:25,280 --> 01:42:25,420
+Evet.
+
+1561
+01:42:26,820 --> 01:42:33,820
+Çok teşekkür ederiz katılımınız için tekrar. O zaman yeni bir soru yoksa oturumumuzu kapatıyoruz.
+
+1562
+01:42:36,880 --> 01:42:38,920
+Görüşmek üzere. Hoşçakalın.
+
+1563
+01:42:39,320 --> 01:42:39,940
+Hoşçakalın.
+

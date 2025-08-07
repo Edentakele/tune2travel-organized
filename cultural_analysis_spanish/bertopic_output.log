@@ -1,0 +1,783 @@
+nohup: ignoring input
+2025-06-23 11:37:43.809126: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-23 11:37:43.820750: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1750667863.835484   17419 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1750667863.840328   17419 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1750667863.852107   17419 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750667863.852383   17419 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750667863.852594   17419 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1750667863.852831   17419 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-06-23 11:37:43.856445: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-23 11:37:53,050 - BERTopic - Embedding - Transforming documents to embeddings.
+Loaded 43868 Spanish cultural comments from /mnt/d/courses/tune2travel/cultural_analysis_spanish/despa_spanish_all_cultural_comments.csv
+After cleaning: 43868 comments ready for analysis
+
+=== Starting Spanish Topic Analysis ===
+
+Analyzing 43868 Spanish documents...
+
+Sample Spanish documents:
+1. ¿Quién está aquí en mayo?...
+2. Te amo luis fonsi gracias por este temazo desde hace 8 años la escucho 🎉...
+3. soy del 87 escucho esta canción y para mi será mi preferida hasta creo el final  2025 y aun la escuc...
+4. Hoy primero de mayo del 2025 escuchando este tema que sigue siendo uno de mis favoritos.  FELIZ DIA ...
+5. Amo nuestra musica latina , somos lo mejor del mundo , Gracias Dios por hacerme d america latino por...
+
+Creating Spanish topic model...
+Loading multilingual sentence transformer...
+Fitting topic model to Spanish documents...
+Batches:   0%|          | 0/1371 [00:00<?, ?it/s]Batches:   0%|          | 1/1371 [00:00<07:00,  3.26it/s]Batches:   0%|          | 3/1371 [00:00<02:42,  8.41it/s]Batches:   0%|          | 5/1371 [00:00<01:58, 11.57it/s]Batches:   1%|          | 8/1371 [00:00<01:28, 15.39it/s]Batches:   1%|          | 11/1371 [00:00<01:17, 17.56it/s]Batches:   1%|          | 13/1371 [00:00<01:19, 17.09it/s]Batches:   1%|          | 16/1371 [00:01<01:11, 19.00it/s]Batches:   1%|▏         | 19/1371 [00:01<01:09, 19.51it/s]Batches:   2%|▏         | 21/1371 [00:01<01:08, 19.57it/s]Batches:   2%|▏         | 24/1371 [00:01<01:04, 20.90it/s]Batches:   2%|▏         | 27/1371 [00:01<01:03, 21.31it/s]Batches:   2%|▏         | 30/1371 [00:01<01:02, 21.62it/s]Batches:   2%|▏         | 33/1371 [00:01<01:02, 21.57it/s]Batches:   3%|▎         | 36/1371 [00:01<01:01, 21.77it/s]Batches:   3%|▎         | 39/1371 [00:02<01:00, 21.95it/s]Batches:   3%|▎         | 42/1371 [00:02<01:02, 21.39it/s]Batches:   3%|▎         | 45/1371 [00:02<01:01, 21.66it/s]Batches:   4%|▎         | 48/1371 [00:02<00:59, 22.11it/s]Batches:   4%|▎         | 51/1371 [00:02<01:00, 21.66it/s]Batches:   4%|▍         | 54/1371 [00:02<00:59, 22.25it/s]Batches:   4%|▍         | 57/1371 [00:02<00:58, 22.29it/s]Batches:   4%|▍         | 60/1371 [00:03<00:59, 22.12it/s]Batches:   5%|▍         | 63/1371 [00:03<00:58, 22.51it/s]Batches:   5%|▍         | 66/1371 [00:03<00:58, 22.29it/s]Batches:   5%|▌         | 69/1371 [00:03<00:57, 22.45it/s]Batches:   5%|▌         | 72/1371 [00:03<00:57, 22.58it/s]Batches:   5%|▌         | 75/1371 [00:03<00:57, 22.38it/s]Batches:   6%|▌         | 78/1371 [00:03<00:56, 22.88it/s]Batches:   6%|▌         | 81/1371 [00:03<00:56, 22.72it/s]Batches:   6%|▌         | 84/1371 [00:04<00:59, 21.61it/s]Batches:   6%|▋         | 87/1371 [00:04<00:58, 21.92it/s]Batches:   7%|▋         | 90/1371 [00:04<00:57, 22.44it/s]Batches:   7%|▋         | 93/1371 [00:04<00:57, 22.08it/s]Batches:   7%|▋         | 96/1371 [00:04<00:56, 22.56it/s]Batches:   7%|▋         | 99/1371 [00:04<00:57, 22.09it/s]Batches:   7%|▋         | 102/1371 [00:04<00:57, 22.18it/s]Batches:   8%|▊         | 105/1371 [00:05<00:56, 22.36it/s]Batches:   8%|▊         | 108/1371 [00:05<00:57, 22.15it/s]Batches:   8%|▊         | 111/1371 [00:05<00:57, 22.00it/s]Batches:   8%|▊         | 114/1371 [00:05<00:55, 22.64it/s]Batches:   9%|▊         | 117/1371 [00:05<00:56, 22.08it/s]Batches:   9%|▉         | 120/1371 [00:05<00:54, 22.95it/s]Batches:   9%|▉         | 123/1371 [00:05<00:53, 23.45it/s]Batches:   9%|▉         | 126/1371 [00:05<00:52, 23.82it/s]Batches:   9%|▉         | 129/1371 [00:06<00:51, 24.30it/s]Batches:  10%|▉         | 132/1371 [00:06<00:51, 24.21it/s]Batches:  10%|▉         | 135/1371 [00:06<00:50, 24.53it/s]Batches:  10%|█         | 138/1371 [00:06<00:49, 25.03it/s]Batches:  10%|█         | 141/1371 [00:06<00:49, 24.90it/s]Batches:  11%|█         | 144/1371 [00:06<00:48, 25.19it/s]Batches:  11%|█         | 147/1371 [00:06<00:49, 24.87it/s]Batches:  11%|█         | 150/1371 [00:06<00:48, 24.95it/s]Batches:  11%|█         | 153/1371 [00:07<00:47, 25.51it/s]Batches:  11%|█▏        | 156/1371 [00:07<00:48, 24.97it/s]Batches:  12%|█▏        | 159/1371 [00:07<00:48, 25.00it/s]Batches:  12%|█▏        | 162/1371 [00:07<00:48, 24.77it/s]Batches:  12%|█▏        | 165/1371 [00:07<00:47, 25.14it/s]Batches:  12%|█▏        | 168/1371 [00:07<00:47, 25.35it/s]Batches:  12%|█▏        | 171/1371 [00:07<00:46, 25.92it/s]Batches:  13%|█▎        | 174/1371 [00:07<00:45, 26.17it/s]Batches:  13%|█▎        | 177/1371 [00:07<00:45, 26.22it/s]Batches:  13%|█▎        | 180/1371 [00:08<00:45, 26.26it/s]Batches:  13%|█▎        | 183/1371 [00:08<00:44, 26.97it/s]Batches:  14%|█▎        | 186/1371 [00:08<00:44, 26.67it/s]Batches:  14%|█▍        | 189/1371 [00:08<00:44, 26.69it/s]Batches:  14%|█▍        | 192/1371 [00:08<00:43, 26.97it/s]Batches:  14%|█▍        | 196/1371 [00:08<00:41, 28.12it/s]Batches:  15%|█▍        | 199/1371 [00:08<00:41, 28.21it/s]Batches:  15%|█▍        | 203/1371 [00:08<00:39, 29.43it/s]Batches:  15%|█▌        | 207/1371 [00:09<00:38, 30.46it/s]Batches:  15%|█▌        | 211/1371 [00:09<00:38, 30.41it/s]Batches:  16%|█▌        | 215/1371 [00:09<00:37, 31.14it/s]Batches:  16%|█▌        | 219/1371 [00:09<00:36, 31.37it/s]Batches:  16%|█▋        | 223/1371 [00:09<00:35, 32.18it/s]Batches:  17%|█▋        | 227/1371 [00:09<00:34, 33.36it/s]Batches:  17%|█▋        | 231/1371 [00:09<00:33, 34.27it/s]Batches:  17%|█▋        | 235/1371 [00:09<00:33, 33.73it/s]Batches:  17%|█▋        | 239/1371 [00:09<00:33, 33.94it/s]Batches:  18%|█▊        | 243/1371 [00:10<00:32, 34.33it/s]Batches:  18%|█▊        | 247/1371 [00:10<00:33, 33.65it/s]Batches:  18%|█▊        | 251/1371 [00:10<00:31, 35.10it/s]Batches:  19%|█▊        | 256/1371 [00:10<00:30, 37.16it/s]Batches:  19%|█▉        | 260/1371 [00:10<00:30, 37.03it/s]Batches:  19%|█▉        | 265/1371 [00:10<00:28, 39.17it/s]Batches:  20%|█▉        | 270/1371 [00:10<00:27, 39.52it/s]Batches:  20%|█▉        | 274/1371 [00:10<00:28, 38.08it/s]Batches:  20%|██        | 278/1371 [00:11<00:28, 38.06it/s]Batches:  21%|██        | 283/1371 [00:11<00:27, 39.84it/s]Batches:  21%|██        | 287/1371 [00:11<00:27, 39.28it/s]Batches:  21%|██▏       | 292/1371 [00:11<00:26, 41.27it/s]Batches:  22%|██▏       | 297/1371 [00:11<00:26, 40.56it/s]Batches:  22%|██▏       | 302/1371 [00:11<00:26, 40.52it/s]Batches:  22%|██▏       | 308/1371 [00:11<00:23, 44.65it/s]Batches:  23%|██▎       | 313/1371 [00:11<00:28, 37.60it/s]Batches:  23%|██▎       | 317/1371 [00:11<00:28, 37.02it/s]Batches:  23%|██▎       | 322/1371 [00:12<00:26, 38.86it/s]Batches:  24%|██▍       | 327/1371 [00:12<00:25, 40.32it/s]Batches:  24%|██▍       | 333/1371 [00:12<00:24, 42.43it/s]Batches:  25%|██▍       | 338/1371 [00:12<00:24, 42.53it/s]Batches:  25%|██▌       | 343/1371 [00:12<00:24, 41.60it/s]Batches:  25%|██▌       | 348/1371 [00:12<00:24, 41.68it/s]Batches:  26%|██▌       | 354/1371 [00:12<00:22, 44.72it/s]Batches:  26%|██▌       | 359/1371 [00:12<00:22, 44.84it/s]Batches:  27%|██▋       | 364/1371 [00:13<00:22, 44.96it/s]Batches:  27%|██▋       | 370/1371 [00:13<00:21, 46.75it/s]Batches:  27%|██▋       | 375/1371 [00:13<00:21, 47.08it/s]Batches:  28%|██▊       | 381/1371 [00:13<00:20, 47.90it/s]Batches:  28%|██▊       | 386/1371 [00:13<00:20, 47.55it/s]Batches:  29%|██▊       | 391/1371 [00:13<00:21, 45.64it/s]Batches:  29%|██▉       | 396/1371 [00:13<00:21, 46.13it/s]Batches:  29%|██▉       | 402/1371 [00:13<00:19, 49.54it/s]Batches:  30%|██▉       | 408/1371 [00:13<00:19, 50.41it/s]Batches:  30%|███       | 414/1371 [00:14<00:18, 50.94it/s]Batches:  31%|███       | 420/1371 [00:14<00:18, 51.11it/s]Batches:  31%|███       | 426/1371 [00:14<00:18, 51.67it/s]Batches:  32%|███▏      | 432/1371 [00:14<00:18, 51.32it/s]Batches:  32%|███▏      | 438/1371 [00:14<00:17, 52.35it/s]Batches:  32%|███▏      | 445/1371 [00:14<00:17, 54.18it/s]Batches:  33%|███▎      | 451/1371 [00:14<00:17, 53.59it/s]Batches:  33%|███▎      | 457/1371 [00:14<00:17, 53.76it/s]Batches:  34%|███▍      | 464/1371 [00:14<00:16, 55.19it/s]Batches:  34%|███▍      | 471/1371 [00:15<00:15, 58.30it/s]Batches:  35%|███▍      | 477/1371 [00:15<00:16, 54.67it/s]Batches:  35%|███▌      | 483/1371 [00:15<00:15, 55.52it/s]Batches:  36%|███▌      | 489/1371 [00:15<00:15, 56.16it/s]Batches:  36%|███▌      | 495/1371 [00:15<00:16, 53.27it/s]Batches:  37%|███▋      | 501/1371 [00:15<00:16, 53.72it/s]Batches:  37%|███▋      | 507/1371 [00:15<00:15, 55.18it/s]Batches:  37%|███▋      | 514/1371 [00:15<00:14, 57.40it/s]Batches:  38%|███▊      | 520/1371 [00:15<00:15, 55.07it/s]Batches:  38%|███▊      | 526/1371 [00:16<00:15, 55.60it/s]Batches:  39%|███▉      | 533/1371 [00:16<00:14, 56.52it/s]Batches:  39%|███▉      | 539/1371 [00:16<00:15, 52.28it/s]Batches:  40%|███▉      | 546/1371 [00:16<00:14, 56.75it/s]Batches:  40%|████      | 553/1371 [00:16<00:13, 59.40it/s]Batches:  41%|████      | 560/1371 [00:17<00:30, 26.54it/s]Batches:  41%|████      | 565/1371 [00:17<00:28, 28.01it/s]Batches:  42%|████▏     | 570/1371 [00:17<00:25, 31.45it/s]Batches:  42%|████▏     | 577/1371 [00:17<00:21, 37.44it/s]Batches:  43%|████▎     | 583/1371 [00:17<00:18, 41.58it/s]Batches:  43%|████▎     | 589/1371 [00:17<00:18, 42.11it/s]Batches:  43%|████▎     | 595/1371 [00:17<00:17, 45.00it/s]Batches:  44%|████▍     | 601/1371 [00:17<00:16, 48.05it/s]Batches:  44%|████▍     | 607/1371 [00:18<00:16, 46.54it/s]Batches:  45%|████▍     | 612/1371 [00:18<00:17, 43.95it/s]Batches:  45%|████▌     | 618/1371 [00:18<00:16, 46.35it/s]Batches:  46%|████▌     | 624/1371 [00:18<00:14, 49.80it/s]Batches:  46%|████▌     | 630/1371 [00:18<00:14, 49.95it/s]Batches:  47%|████▋     | 638/1371 [00:18<00:13, 54.92it/s]Batches:  47%|████▋     | 645/1371 [00:18<00:12, 58.44it/s]Batches:  47%|████▋     | 651/1371 [00:18<00:12, 57.79it/s]Batches:  48%|████▊     | 657/1371 [00:19<00:12, 56.87it/s]Batches:  48%|████▊     | 663/1371 [00:19<00:12, 56.61it/s]Batches:  49%|████▉     | 671/1371 [00:19<00:11, 61.57it/s]Batches:  49%|████▉     | 678/1371 [00:19<00:11, 59.96it/s]Batches:  50%|████▉     | 685/1371 [00:19<00:11, 59.00it/s]Batches:  51%|█████     | 693/1371 [00:19<00:10, 62.39it/s]Batches:  51%|█████     | 700/1371 [00:19<00:12, 53.92it/s]Batches:  51%|█████▏    | 706/1371 [00:19<00:12, 52.25it/s]Batches:  52%|█████▏    | 713/1371 [00:19<00:11, 56.02it/s]Batches:  52%|█████▏    | 719/1371 [00:20<00:12, 51.08it/s]Batches:  53%|█████▎    | 727/1371 [00:20<00:11, 56.72it/s]Batches:  53%|█████▎    | 733/1371 [00:20<00:11, 55.49it/s]Batches:  54%|█████▍    | 739/1371 [00:20<00:11, 56.08it/s]Batches:  54%|█████▍    | 747/1371 [00:20<00:10, 60.69it/s]Batches:  55%|█████▍    | 754/1371 [00:20<00:10, 61.65it/s]Batches:  56%|█████▌    | 761/1371 [00:20<00:09, 63.15it/s]Batches:  56%|█████▌    | 768/1371 [00:20<00:09, 61.31it/s]Batches:  57%|█████▋    | 775/1371 [00:21<00:09, 61.71it/s]Batches:  57%|█████▋    | 783/1371 [00:21<00:09, 63.09it/s]Batches:  58%|█████▊    | 791/1371 [00:21<00:08, 65.70it/s]Batches:  58%|█████▊    | 798/1371 [00:21<00:09, 62.40it/s]Batches:  59%|█████▊    | 805/1371 [00:21<00:08, 63.36it/s]Batches:  59%|█████▉    | 812/1371 [00:21<00:09, 60.81it/s]Batches:  60%|█████▉    | 821/1371 [00:21<00:08, 67.16it/s]Batches:  60%|██████    | 828/1371 [00:21<00:08, 65.72it/s]Batches:  61%|██████    | 835/1371 [00:21<00:08, 66.50it/s]Batches:  61%|██████▏   | 842/1371 [00:22<00:08, 65.16it/s]Batches:  62%|██████▏   | 850/1371 [00:22<00:07, 68.77it/s]Batches:  63%|██████▎   | 857/1371 [00:22<00:07, 66.10it/s]Batches:  63%|██████▎   | 865/1371 [00:22<00:07, 68.94it/s]Batches:  64%|██████▎   | 872/1371 [00:22<00:07, 64.61it/s]Batches:  64%|██████▍   | 880/1371 [00:22<00:07, 66.68it/s]Batches:  65%|██████▍   | 887/1371 [00:22<00:07, 64.74it/s]Batches:  65%|██████▌   | 895/1371 [00:22<00:06, 68.29it/s]Batches:  66%|██████▌   | 902/1371 [00:22<00:07, 64.33it/s]Batches:  66%|██████▋   | 909/1371 [00:23<00:07, 64.12it/s]Batches:  67%|██████▋   | 917/1371 [00:23<00:06, 65.07it/s]Batches:  67%|██████▋   | 924/1371 [00:23<00:06, 66.08it/s]Batches:  68%|██████▊   | 931/1371 [00:23<00:06, 65.31it/s]Batches:  68%|██████▊   | 938/1371 [00:23<00:07, 60.57it/s]Batches:  69%|██████▉   | 946/1371 [00:23<00:06, 63.21it/s]Batches:  70%|██████▉   | 953/1371 [00:23<00:06, 61.64it/s]Batches:  70%|███████   | 962/1371 [00:23<00:06, 65.97it/s]Batches:  71%|███████   | 969/1371 [00:23<00:06, 65.42it/s]Batches:  71%|███████   | 976/1371 [00:24<00:06, 60.91it/s]Batches:  72%|███████▏  | 985/1371 [00:24<00:05, 65.82it/s]Batches:  72%|███████▏  | 993/1371 [00:24<00:05, 68.27it/s]Batches:  73%|███████▎  | 1000/1371 [00:24<00:05, 63.66it/s]Batches:  74%|███████▎  | 1008/1371 [00:24<00:05, 64.76it/s]Batches:  74%|███████▍  | 1015/1371 [00:24<00:06, 55.45it/s]Batches:  74%|███████▍  | 1021/1371 [00:24<00:06, 53.39it/s]Batches:  75%|███████▍  | 1027/1371 [00:25<00:06, 54.27it/s]Batches:  75%|███████▌  | 1034/1371 [00:25<00:05, 57.14it/s]Batches:  76%|███████▌  | 1041/1371 [00:25<00:05, 59.99it/s]Batches:  76%|███████▋  | 1048/1371 [00:25<00:05, 55.43it/s]Batches:  77%|███████▋  | 1054/1371 [00:25<00:06, 50.47it/s]Batches:  77%|███████▋  | 1060/1371 [00:25<00:06, 48.84it/s]Batches:  78%|███████▊  | 1065/1371 [00:25<00:06, 45.12it/s]Batches:  78%|███████▊  | 1070/1371 [00:25<00:07, 38.02it/s]Batches:  78%|███████▊  | 1075/1371 [00:26<00:07, 37.17it/s]Batches:  79%|███████▉  | 1080/1371 [00:26<00:07, 37.18it/s]Batches:  79%|███████▉  | 1084/1371 [00:26<00:08, 32.99it/s]Batches:  79%|███████▉  | 1088/1371 [00:26<00:08, 34.21it/s]Batches:  80%|███████▉  | 1092/1371 [00:26<00:08, 33.85it/s]Batches:  80%|███████▉  | 1096/1371 [00:26<00:08, 32.01it/s]Batches:  80%|████████  | 1100/1371 [00:26<00:08, 30.14it/s]Batches:  81%|████████  | 1104/1371 [00:27<00:08, 31.35it/s]Batches:  81%|████████  | 1108/1371 [00:27<00:08, 32.83it/s]Batches:  81%|████████  | 1112/1371 [00:27<00:07, 32.77it/s]Batches:  81%|████████▏ | 1116/1371 [00:27<00:08, 31.76it/s]Batches:  82%|████████▏ | 1120/1371 [00:27<00:07, 32.95it/s]Batches:  82%|████████▏ | 1124/1371 [00:27<00:07, 31.61it/s]Batches:  82%|████████▏ | 1128/1371 [00:27<00:07, 32.56it/s]Batches:  83%|████████▎ | 1132/1371 [00:27<00:07, 33.65it/s]Batches:  83%|████████▎ | 1136/1371 [00:28<00:07, 32.43it/s]Batches:  83%|████████▎ | 1140/1371 [00:28<00:07, 30.89it/s]Batches:  83%|████████▎ | 1144/1371 [00:28<00:08, 27.91it/s]Batches:  84%|████████▎ | 1148/1371 [00:28<00:07, 28.49it/s]Batches:  84%|████████▍ | 1151/1371 [00:28<00:08, 25.12it/s]Batches:  84%|████████▍ | 1154/1371 [00:28<00:08, 25.83it/s]Batches:  84%|████████▍ | 1157/1371 [00:28<00:08, 25.72it/s]Batches:  85%|████████▍ | 1160/1371 [00:28<00:08, 25.29it/s]Batches:  85%|████████▍ | 1163/1371 [00:29<00:08, 25.09it/s]Batches:  85%|████████▌ | 1167/1371 [00:29<00:07, 27.11it/s]Batches:  85%|████████▌ | 1170/1371 [00:29<00:07, 25.91it/s]Batches:  86%|████████▌ | 1173/1371 [00:29<00:07, 24.98it/s]Batches:  86%|████████▌ | 1176/1371 [00:29<00:07, 25.95it/s]Batches:  86%|████████▌ | 1179/1371 [00:29<00:08, 23.63it/s]Batches:  86%|████████▌ | 1182/1371 [00:29<00:07, 24.39it/s]Batches:  86%|████████▋ | 1185/1371 [00:29<00:07, 25.30it/s]Batches:  87%|████████▋ | 1188/1371 [00:30<00:07, 25.48it/s]Batches:  87%|████████▋ | 1191/1371 [00:30<00:07, 24.49it/s]Batches:  87%|████████▋ | 1194/1371 [00:30<00:07, 25.20it/s]Batches:  87%|████████▋ | 1197/1371 [00:30<00:06, 25.81it/s]Batches:  88%|████████▊ | 1201/1371 [00:30<00:06, 27.48it/s]Batches:  88%|████████▊ | 1204/1371 [00:30<00:06, 27.30it/s]Batches:  88%|████████▊ | 1208/1371 [00:30<00:05, 27.17it/s]Batches:  88%|████████▊ | 1211/1371 [00:30<00:06, 24.91it/s]Batches:  89%|████████▊ | 1215/1371 [00:31<00:05, 26.85it/s]Batches:  89%|████████▉ | 1219/1371 [00:31<00:05, 28.30it/s]Batches:  89%|████████▉ | 1222/1371 [00:31<00:05, 28.50it/s]Batches:  89%|████████▉ | 1225/1371 [00:31<00:05, 27.56it/s]Batches:  90%|████████▉ | 1229/1371 [00:31<00:04, 29.04it/s]Batches:  90%|████████▉ | 1233/1371 [00:31<00:04, 30.16it/s]Batches:  90%|█████████ | 1237/1371 [00:31<00:04, 30.75it/s]Batches:  91%|█████████ | 1241/1371 [00:31<00:04, 30.84it/s]Batches:  91%|█████████ | 1245/1371 [00:35<00:32,  3.85it/s]Batches:  91%|█████████ | 1249/1371 [00:35<00:23,  5.29it/s]Batches:  91%|█████████▏| 1252/1371 [00:35<00:18,  6.50it/s]Batches:  92%|█████████▏| 1255/1371 [00:35<00:14,  8.14it/s]Batches:  92%|█████████▏| 1258/1371 [00:35<00:11, 10.14it/s]Batches:  92%|█████████▏| 1261/1371 [00:35<00:09, 12.01it/s]Batches:  92%|█████████▏| 1265/1371 [00:35<00:06, 15.45it/s]Batches:  92%|█████████▏| 1268/1371 [00:35<00:05, 17.74it/s]Batches:  93%|█████████▎| 1272/1371 [00:35<00:04, 20.62it/s]Batches:  93%|█████████▎| 1275/1371 [00:36<00:04, 21.87it/s]Batches:  93%|█████████▎| 1278/1371 [00:36<00:04, 21.13it/s]Batches:  93%|█████████▎| 1281/1371 [00:36<00:04, 21.97it/s]Batches:  94%|█████████▎| 1284/1371 [00:36<00:03, 23.54it/s]Batches:  94%|█████████▍| 1288/1371 [00:36<00:03, 26.31it/s]Batches:  94%|█████████▍| 1291/1371 [00:36<00:02, 26.93it/s]Batches:  94%|█████████▍| 1294/1371 [00:36<00:02, 27.14it/s]Batches:  95%|█████████▍| 1298/1371 [00:36<00:02, 28.85it/s]Batches:  95%|█████████▍| 1301/1371 [00:37<00:02, 27.82it/s]Batches:  95%|█████████▌| 1304/1371 [00:37<00:02, 26.00it/s]Batches:  95%|█████████▌| 1307/1371 [00:37<00:02, 26.23it/s]Batches:  96%|█████████▌| 1310/1371 [00:37<00:02, 25.21it/s]Batches:  96%|█████████▌| 1313/1371 [00:37<00:02, 23.85it/s]Batches:  96%|█████████▌| 1316/1371 [00:37<00:02, 25.17it/s]Batches:  96%|█████████▌| 1319/1371 [00:37<00:02, 25.14it/s]Batches:  96%|█████████▋| 1322/1371 [00:38<00:02, 16.66it/s]Batches:  97%|█████████▋| 1325/1371 [00:38<00:02, 17.93it/s]Batches:  97%|█████████▋| 1328/1371 [00:38<00:02, 18.88it/s]Batches:  97%|█████████▋| 1331/1371 [00:38<00:02, 18.54it/s]Batches:  97%|█████████▋| 1335/1371 [00:38<00:01, 22.01it/s]Batches:  98%|█████████▊| 1338/1371 [00:38<00:01, 23.40it/s]Batches:  98%|█████████▊| 1342/1371 [00:38<00:01, 25.91it/s]Batches:  98%|█████████▊| 1346/1371 [00:39<00:00, 27.61it/s]Batches:  98%|█████████▊| 1349/1371 [00:39<00:00, 27.31it/s]Batches:  99%|█████████▊| 1353/1371 [00:39<00:00, 28.68it/s]Batches:  99%|█████████▉| 1357/1371 [00:39<00:00, 29.91it/s]Batches:  99%|█████████▉| 1361/1371 [00:39<00:00, 30.76it/s]Batches: 100%|█████████▉| 1365/1371 [00:39<00:00, 31.35it/s]Batches: 100%|█████████▉| 1369/1371 [00:39<00:00, 31.93it/s]Batches: 100%|██████████| 1371/1371 [00:39<00:00, 34.41it/s]
+2025-06-23 11:38:36,822 - BERTopic - Embedding - Completed ✓
+2025-06-23 11:38:36,825 - BERTopic - Dimensionality - Fitting the dimensionality reduction algorithm
+2025-06-23 11:40:48,373 - BERTopic - Dimensionality - Completed ✓
+2025-06-23 11:40:48,378 - BERTopic - Cluster - Start clustering the reduced embeddings
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+2025-06-23 11:51:54,232 - BERTopic - Cluster - Completed ✓
+2025-06-23 11:51:54,241 - BERTopic - Representation - Fine-tuning topics using representation models.
+2025-06-23 11:51:56,137 - BERTopic - Representation - Completed ✓
+
+--- Spanish Topic Analysis Results ---
+Shape of topics: (43868,)
+Shape of probabilities: (43868, 656)
+Number of unique topics found: 657
+Topic distribution:
+-1      14663
+ 0        669
+ 1        534
+ 2        450
+ 3        383
+        ...  
+ 651       10
+ 652       10
+ 653       10
+ 654       10
+ 655       10
+Name: count, Length: 657, dtype: int64
+
+Spanish Topic Information:
+   Topic  ...                                Representative_Docs
+0     -1  ...  [Letras<br><br>Ay <br>Fonsi <br>Dy <br>Oh<br>O...
+1      0  ...  [La mejor canción latina, La mejor canción lat...
+2      1  ...  [Pa q vea q el video mas visto de youtube esta...
+3      2  ...  [El puertorriqueño Luis Fonsi nos presenta su ...
+4      3  ...  [Música Latina ❤️, la música latina tiene a to...
+5      4  ...  [Por que tantos comentarios en inglés si la ca...
+6      5  ...  [Quien está aquí en 2022???, Quien esta aquí e...
+7      6  ...  [#1 en Perú ..., Desde Perú 😍, Desde Candungos...
+8      7  ...  [Like si eres Latino!! de que pais la estas es...
+9      8  ...  [Porque hay comentaion en español si el video ...
+
+[10 rows x 5 columns]
+
+Most frequent Spanish topics:
+Topic 0: [('canción', np.float64(0.030653190335041863)), ('latina', np.float64(0.02525667445380163)), ('latino', np.float64(0.017847681925651043)), ('cancion', np.float64(0.017597067570137355)), ('canción latina', np.float64(0.01692964339798218)), ('mejor', np.float64(0.014883358523709193)), ('canción más', np.float64(0.014411228972931445)), ('latinos', np.float64(0.013190007908818559)), ('latinoamérica', np.float64(0.012784474960708033)), ('mejor canción', np.float64(0.012366930160306105))]
+Topic 1: [('visto', np.float64(0.04952147825172398)), ('video', np.float64(0.04608596353005901)), ('mas visto', np.float64(0.037293897069265586)), ('video mas', np.float64(0.03130353702073244)), ('vídeo', np.float64(0.03076729712249308)), ('visto youtube', np.float64(0.029112747189202155)), ('más visto', np.float64(0.02733611011231606)), ('youtube', np.float64(0.026233180612228662)), ('video más', np.float64(0.021836607560701222)), ('mas', np.float64(0.021039697986420216))]
+Topic 2: [('yankee', np.float64(0.03721946992327534)), ('daddy yankee', np.float64(0.03389548785401544)), ('daddy', np.float64(0.017367441680931794)), ('fonsi daddy', np.float64(0.014207011984103474)), ('luis', np.float64(0.013351604095689881)), ('luis fonsi', np.float64(0.013333970813572505)), ('yankee luis', np.float64(0.013050969257894495)), ('mejor', np.float64(0.01086685302317077)), ('yankee mejor', np.float64(0.010656498858797105)), ('fonsi', np.float64(0.00913464636491425))]
+Topic 3: [('latina', np.float64(0.04739221091421967)), ('música', np.float64(0.04693154310552775)), ('música latina', np.float64(0.04623475546519643)), ('musica', np.float64(0.042703769630002886)), ('musica latina', np.float64(0.04154474180637328)), ('mejor', np.float64(0.01752594908455575)), ('mejor música', np.float64(0.015179820490882229)), ('latina mejor', np.float64(0.015140908770880413)), ('nuestra', np.float64(0.013038645513431113)), ('br responder', np.float64(0.010952304563008467))]
+Topic 4: [('canción español', np.float64(0.06712378401440522)), ('inglés canción', np.float64(0.04795695151422711)), ('comentarios', np.float64(0.046510351553420794)), ('inglés', np.float64(0.04478969191939682)), ('cancion español', np.float64(0.04183610606388237)), ('comentarios ingles', np.float64(0.04036640280175028)), ('tantos comentarios', np.float64(0.03946999597259133)), ('comentarios inglés', np.float64(0.03852887181109514)), ('ingles', np.float64(0.036902015087773986)), ('tantos', np.float64(0.034693409275076005))]
+Topic 5: [('2024', np.float64(0.07615676574811105)), ('2021', np.float64(0.07071116539126807)), ('2022', np.float64(0.058037356659943494)), ('quien aquí', np.float64(0.05478934055512811)), ('2025', np.float64(0.05466972470129629)), ('2020', np.float64(0.05355299010695609)), ('quién', np.float64(0.04933175316095197)), ('quien', np.float64(0.045698241932951286)), ('2023', np.float64(0.04116184396178768)), ('aquí', np.float64(0.040741909489957234))]
+Topic 6: [('perú', np.float64(0.163884795243035)), ('saludos perú', np.float64(0.05285329367768595)), ('peru', np.float64(0.051231627273903624)), ('peruano', np.float64(0.04655993022727314)), ('lima', np.float64(0.032766904181811767)), ('saludos', np.float64(0.030911029167630874)), ('maestros', np.float64(0.02895308850663727)), ('saludos peru', np.float64(0.025951960633079727)), ('peruanos', np.float64(0.02466210184773142)), ('perú perú', np.float64(0.02318704187971314))]
+Topic 7: [('chile', np.float64(0.04088961496039331)), ('cuba', np.float64(0.03998395021207098)), ('honduras', np.float64(0.0386664710113457)), ('venezuela', np.float64(0.03742727963777929)), ('argentina', np.float64(0.034537765193525916)), ('colombia', np.float64(0.032924381600578534)), ('peru', np.float64(0.032253413551264536)), ('panama', np.float64(0.031295279183194635)), ('mexico', np.float64(0.030189194931567978)), ('dominicana', np.float64(0.02989102648523007))]
+Topic 8: [('video español', np.float64(0.08487263606808433)), ('video', np.float64(0.06097899667443654)), ('vídeo español', np.float64(0.04027956268793878)), ('vídeo', np.float64(0.03571841244032493)), ('español video', np.float64(0.03179581694615893)), ('ingles', np.float64(0.02795124998772095)), ('ingles video', np.float64(0.0272974421603995)), ('comentarios', np.float64(0.02689186197753004)), ('inglés', np.float64(0.025108127873229306)), ('español', np.float64(0.023903789755490186))]
+
+Generating Spanish topic visualizations with prefix: spanish_despa...
+Created: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_topic_word_scores.html
+Created: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_topic_hierarchy.html
+Created: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_topic_similarity.html
+Created: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_topic_distribution.html
+Saved enriched Spanish data to: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_comments_with_topics.csv
+
+=== Calculating Spanish Topic Similarities ===
+
+Calculating cosine similarities between 656 Spanish topics...
+Saved Spanish topic similarities to: /mnt/d/courses/tune2travel/cultural_analysis_spanish/spanish_despa_topic_similarities.json
+
+Top Spanish topic similarities:
+Topic_0 most similar to Topic_30 (similarity: 0.333)
+Topic_1 most similar to Topic_230 (similarity: 0.429)
+Topic_2 most similar to Topic_612 (similarity: 0.333)
+Topic_3 most similar to Topic_180 (similarity: 0.333)
+Topic_4 most similar to Topic_181 (similarity: 0.667)
+Topic_5 most similar to Topic_65 (similarity: 0.333)
+Topic_6 most similar to Topic_56 (similarity: 0.429)
+Topic_7 most similar to Topic_453 (similarity: 0.059)
+Topic_8 most similar to Topic_4 (similarity: 0.176)
+Topic_9 most similar to Topic_65 (similarity: 0.333)
+Topic_10 most similar to Topic_220 (similarity: 1.000)
+Topic_11 most similar to Topic_555 (similarity: 0.364)
+Topic_12 most similar to Topic_59 (similarity: 0.250)
+Topic_13 most similar to Topic_30 (similarity: 0.250)
+Topic_14 most similar to Topic_16 (similarity: 0.111)
+Topic_15 most similar to Topic_401 (similarity: 0.429)
+Topic_16 most similar to Topic_162 (similarity: 0.333)
+Topic_17 most similar to Topic_0 (similarity: 0.111)
+Topic_18 most similar to Topic_47 (similarity: 0.111)
+Topic_19 most similar to Topic_103 (similarity: 0.176)
+Topic_20 most similar to Topic_123 (similarity: 0.429)
+Topic_21 most similar to Topic_374 (similarity: 0.250)
+Topic_22 most similar to Topic_52 (similarity: 1.000)
+Topic_23 most similar to Topic_85 (similarity: 0.429)
+Topic_24 most similar to Topic_171 (similarity: 0.333)
+Topic_25 most similar to Topic_82 (similarity: 0.538)
+Topic_26 most similar to Topic_73 (similarity: 0.250)
+Topic_27 most similar to Topic_73 (similarity: 0.250)
+Topic_28 most similar to Topic_66 (similarity: 0.538)
+Topic_29 most similar to Topic_15 (similarity: 0.333)
+Topic_30 most similar to Topic_0 (similarity: 0.333)
+Topic_31 most similar to Topic_57 (similarity: 0.250)
+Topic_32 most similar to Topic_250 (similarity: 0.333)
+Topic_33 most similar to Topic_378 (similarity: 0.250)
+Topic_34 most similar to Topic_40 (similarity: 1.000)
+Topic_35 most similar to Topic_2 (similarity: 0.176)
+Topic_36 most similar to Topic_60 (similarity: 0.333)
+Topic_37 most similar to Topic_337 (similarity: 0.538)
+Topic_38 most similar to Topic_151 (similarity: 0.333)
+Topic_39 most similar to Topic_12 (similarity: 0.176)
+Topic_40 most similar to Topic_34 (similarity: 1.000)
+Topic_41 most similar to Topic_123 (similarity: 0.667)
+Topic_42 most similar to Topic_4 (similarity: 0.250)
+Topic_43 most similar to Topic_61 (similarity: 0.333)
+Topic_44 most similar to Topic_142 (similarity: 0.176)
+Topic_45 most similar to Topic_458 (similarity: 0.333)
+Topic_46 most similar to Topic_86 (similarity: 0.333)
+Topic_47 most similar to Topic_18 (similarity: 0.111)
+Topic_48 most similar to Topic_282 (similarity: 0.250)
+Topic_49 most similar to Topic_445 (similarity: 0.176)
+Topic_50 most similar to Topic_74 (similarity: 0.429)
+Topic_51 most similar to Topic_16 (similarity: 0.250)
+Topic_52 most similar to Topic_22 (similarity: 1.000)
+Topic_53 most similar to Topic_236 (similarity: 0.250)
+Topic_54 most similar to Topic_51 (similarity: 0.176)
+Topic_55 most similar to Topic_438 (similarity: 0.250)
+Topic_56 most similar to Topic_6 (similarity: 0.429)
+Topic_57 most similar to Topic_357 (similarity: 0.333)
+Topic_58 most similar to Topic_217 (similarity: 0.667)
+Topic_59 most similar to Topic_12 (similarity: 0.250)
+Topic_60 most similar to Topic_36 (similarity: 0.333)
+Topic_61 most similar to Topic_75 (similarity: 0.538)
+Topic_62 most similar to Topic_4 (similarity: 0.333)
+Topic_63 most similar to Topic_239 (similarity: 0.111)
+Topic_64 most similar to Topic_307 (similarity: 0.333)
+Topic_65 most similar to Topic_5 (similarity: 0.333)
+Topic_66 most similar to Topic_111 (similarity: 1.000)
+Topic_67 most similar to Topic_0 (similarity: 0.250)
+Topic_68 most similar to Topic_168 (similarity: 0.667)
+Topic_69 most similar to Topic_311 (similarity: 0.111)
+Topic_70 most similar to Topic_296 (similarity: 0.250)
+Topic_71 most similar to Topic_34 (similarity: 1.000)
+Topic_72 most similar to Topic_116 (similarity: 0.333)
+Topic_73 most similar to Topic_41 (similarity: 0.538)
+Topic_74 most similar to Topic_318 (similarity: 0.538)
+Topic_75 most similar to Topic_61 (similarity: 0.538)
+Topic_76 most similar to Topic_217 (similarity: 0.538)
+Topic_77 most similar to Topic_68 (similarity: 0.429)
+Topic_78 most similar to Topic_246 (similarity: 0.333)
+Topic_79 most similar to Topic_125 (similarity: 0.429)
+Topic_80 most similar to Topic_117 (similarity: 0.111)
+Topic_81 most similar to Topic_6 (similarity: 0.053)
+Topic_82 most similar to Topic_25 (similarity: 0.538)
+Topic_83 most similar to Topic_59 (similarity: 0.053)
+Topic_84 most similar to Topic_15 (similarity: 0.250)
+Topic_85 most similar to Topic_23 (similarity: 0.429)
+Topic_86 most similar to Topic_46 (similarity: 0.333)
+Topic_87 most similar to Topic_23 (similarity: 0.250)
+Topic_88 most similar to Topic_158 (similarity: 0.538)
+Topic_89 most similar to Topic_453 (similarity: 0.286)
+Topic_90 most similar to Topic_409 (similarity: 0.667)
+Topic_91 most similar to Topic_13 (similarity: 0.176)
+Topic_92 most similar to Topic_256 (similarity: 0.176)
+Topic_93 most similar to Topic_456 (similarity: 0.429)
+Topic_94 most similar to Topic_245 (similarity: 0.818)
+Topic_95 most similar to Topic_615 (similarity: 0.667)
+Topic_96 most similar to Topic_13 (similarity: 0.250)
+Topic_97 most similar to Topic_33 (similarity: 0.176)
+Topic_98 most similar to Topic_53 (similarity: 0.176)
+Topic_99 most similar to Topic_15 (similarity: 0.250)
+Topic_100 most similar to Topic_57 (similarity: 0.250)
+Topic_101 most similar to Topic_230 (similarity: 0.250)
+Topic_102 most similar to Topic_27 (similarity: 0.250)
+Topic_103 most similar to Topic_19 (similarity: 0.176)
+Topic_104 most similar to Topic_3 (similarity: 0.176)
+Topic_105 most similar to Topic_107 (similarity: 0.429)
+Topic_106 most similar to Topic_41 (similarity: 0.333)
+Topic_107 most similar to Topic_105 (similarity: 0.429)
+Topic_108 most similar to Topic_88 (similarity: 0.250)
+Topic_109 most similar to Topic_333 (similarity: 0.176)
+Topic_110 most similar to Topic_643 (similarity: 0.538)
+Topic_111 most similar to Topic_66 (similarity: 1.000)
+Topic_112 most similar to Topic_486 (similarity: 0.176)
+Topic_113 most similar to Topic_154 (similarity: 0.333)
+Topic_114 most similar to Topic_66 (similarity: 1.000)
+Topic_115 most similar to Topic_137 (similarity: 0.333)
+Topic_116 most similar to Topic_72 (similarity: 0.333)
+Topic_117 most similar to Topic_96 (similarity: 0.250)
+Topic_118 most similar to Topic_43 (similarity: 0.111)
+Topic_119 most similar to Topic_417 (similarity: 0.429)
+Topic_120 most similar to Topic_587 (similarity: 1.000)
+Topic_121 most similar to Topic_488 (similarity: 0.111)
+Topic_122 most similar to Topic_17 (similarity: 0.053)
+Topic_123 most similar to Topic_41 (similarity: 0.667)
+Topic_124 most similar to Topic_68 (similarity: 0.333)
+Topic_125 most similar to Topic_79 (similarity: 0.429)
+Topic_126 most similar to Topic_46 (similarity: 0.176)
+Topic_127 most similar to Topic_68 (similarity: 0.429)
+Topic_128 most similar to Topic_108 (similarity: 0.111)
+Topic_129 most similar to Topic_41 (similarity: 0.429)
+Topic_130 most similar to Topic_120 (similarity: 0.250)
+Topic_131 most similar to Topic_6 (similarity: 0.053)
+Topic_132 most similar to Topic_30 (similarity: 0.111)
+Topic_133 most similar to Topic_95 (similarity: 0.250)
+Topic_134 most similar to Topic_303 (similarity: 0.250)
+Topic_135 most similar to Topic_34 (similarity: 1.000)
+Topic_136 most similar to Topic_43 (similarity: 0.176)
+Topic_137 most similar to Topic_115 (similarity: 0.333)
+Topic_138 most similar to Topic_61 (similarity: 0.429)
+Topic_139 most similar to Topic_41 (similarity: 0.429)
+Topic_140 most similar to Topic_189 (similarity: 0.333)
+Topic_141 most similar to Topic_96 (similarity: 0.176)
+Topic_142 most similar to Topic_44 (similarity: 0.176)
+Topic_143 most similar to Topic_9 (similarity: 0.250)
+Topic_144 most similar to Topic_195 (similarity: 0.250)
+Topic_145 most similar to Topic_120 (similarity: 0.154)
+Topic_146 most similar to Topic_57 (similarity: 0.250)
+Topic_147 most similar to Topic_95 (similarity: 0.111)
+Topic_148 most similar to Topic_184 (similarity: 0.429)
+Topic_149 most similar to Topic_277 (similarity: 0.667)
+Topic_150 most similar to Topic_15 (similarity: 0.250)
+Topic_151 most similar to Topic_38 (similarity: 0.333)
+Topic_152 most similar to Topic_207 (similarity: 0.176)
+Topic_153 most similar to Topic_257 (similarity: 1.000)
+Topic_154 most similar to Topic_113 (similarity: 0.333)
+Topic_155 most similar to Topic_458 (similarity: 0.333)
+Topic_156 most similar to Topic_463 (similarity: 0.333)
+Topic_157 most similar to Topic_31 (similarity: 0.176)
+Topic_158 most similar to Topic_88 (similarity: 0.538)
+Topic_159 most similar to Topic_147 (similarity: 0.111)
+Topic_160 most similar to Topic_167 (similarity: 0.250)
+Topic_161 most similar to Topic_14 (similarity: 0.111)
+Topic_162 most similar to Topic_16 (similarity: 0.333)
+Topic_163 most similar to Topic_139 (similarity: 0.429)
+Topic_164 most similar to Topic_380 (similarity: 0.333)
+Topic_165 most similar to Topic_25 (similarity: 0.111)
+Topic_166 most similar to Topic_162 (similarity: 0.111)
+Topic_167 most similar to Topic_160 (similarity: 0.250)
+Topic_168 most similar to Topic_68 (similarity: 0.667)
+Topic_169 most similar to Topic_357 (similarity: 0.053)
+Topic_170 most similar to Topic_31 (similarity: 0.250)
+Topic_171 most similar to Topic_24 (similarity: 0.333)
+Topic_172 most similar to Topic_299 (similarity: 0.176)
+Topic_173 most similar to Topic_198 (similarity: 0.176)
+Topic_174 most similar to Topic_9 (similarity: 0.250)
+Topic_175 most similar to Topic_149 (similarity: 0.250)
+Topic_176 most similar to Topic_61 (similarity: 0.538)
+Topic_177 most similar to Topic_3 (similarity: 0.111)
+Topic_178 most similar to Topic_66 (similarity: 1.000)
+Topic_179 most similar to Topic_209 (similarity: 0.176)
+Topic_180 most similar to Topic_3 (similarity: 0.333)
+Topic_181 most similar to Topic_4 (similarity: 0.667)
+Topic_182 most similar to Topic_34 (similarity: 0.818)
+Topic_183 most similar to Topic_0 (similarity: 0.000)
+Topic_184 most similar to Topic_322 (similarity: 0.818)
+Topic_185 most similar to Topic_13 (similarity: 0.111)
+Topic_186 most similar to Topic_22 (similarity: 0.538)
+Topic_187 most similar to Topic_4 (similarity: 0.176)
+Topic_188 most similar to Topic_22 (similarity: 0.818)
+Topic_189 most similar to Topic_140 (similarity: 0.333)
+Topic_190 most similar to Topic_1 (similarity: 0.111)
+Topic_191 most similar to Topic_137 (similarity: 0.333)
+Topic_192 most similar to Topic_382 (similarity: 0.429)
+Topic_193 most similar to Topic_433 (similarity: 0.429)
+Topic_194 most similar to Topic_646 (similarity: 0.176)
+Topic_195 most similar to Topic_144 (similarity: 0.250)
+Topic_196 most similar to Topic_28 (similarity: 0.333)
+Topic_197 most similar to Topic_243 (similarity: 0.250)
+Topic_198 most similar to Topic_173 (similarity: 0.176)
+Topic_199 most similar to Topic_421 (similarity: 0.333)
+Topic_200 most similar to Topic_446 (similarity: 0.818)
+Topic_201 most similar to Topic_232 (similarity: 0.333)
+Topic_202 most similar to Topic_499 (similarity: 0.250)
+Topic_203 most similar to Topic_314 (similarity: 0.667)
+Topic_204 most similar to Topic_74 (similarity: 0.429)
+Topic_205 most similar to Topic_505 (similarity: 0.111)
+Topic_206 most similar to Topic_68 (similarity: 0.538)
+Topic_207 most similar to Topic_25 (similarity: 0.176)
+Topic_208 most similar to Topic_10 (similarity: 0.818)
+Topic_209 most similar to Topic_179 (similarity: 0.176)
+Topic_210 most similar to Topic_314 (similarity: 0.818)
+Topic_211 most similar to Topic_95 (similarity: 0.538)
+Topic_212 most similar to Topic_1 (similarity: 0.333)
+Topic_213 most similar to Topic_0 (similarity: 0.111)
+Topic_214 most similar to Topic_184 (similarity: 0.429)
+Topic_215 most similar to Topic_61 (similarity: 0.333)
+Topic_216 most similar to Topic_504 (similarity: 1.000)
+Topic_217 most similar to Topic_58 (similarity: 0.667)
+Topic_218 most similar to Topic_68 (similarity: 0.429)
+Topic_219 most similar to Topic_36 (similarity: 0.111)
+Topic_220 most similar to Topic_10 (similarity: 1.000)
+Topic_221 most similar to Topic_180 (similarity: 0.053)
+Topic_222 most similar to Topic_11 (similarity: 0.250)
+Topic_223 most similar to Topic_156 (similarity: 0.176)
+Topic_224 most similar to Topic_36 (similarity: 0.111)
+Topic_225 most similar to Topic_34 (similarity: 1.000)
+Topic_226 most similar to Topic_12 (similarity: 0.176)
+Topic_227 most similar to Topic_59 (similarity: 0.111)
+Topic_228 most similar to Topic_623 (similarity: 0.818)
+Topic_229 most similar to Topic_126 (similarity: 0.176)
+Topic_230 most similar to Topic_1 (similarity: 0.429)
+Topic_231 most similar to Topic_61 (similarity: 0.250)
+Topic_232 most similar to Topic_201 (similarity: 0.333)
+Topic_233 most similar to Topic_393 (similarity: 0.818)
+Topic_234 most similar to Topic_15 (similarity: 0.176)
+Topic_235 most similar to Topic_98 (similarity: 0.111)
+Topic_236 most similar to Topic_53 (similarity: 0.250)
+Topic_237 most similar to Topic_120 (similarity: 0.250)
+Topic_238 most similar to Topic_108 (similarity: 0.250)
+Topic_239 most similar to Topic_63 (similarity: 0.111)
+Topic_240 most similar to Topic_68 (similarity: 0.429)
+Topic_241 most similar to Topic_407 (similarity: 0.250)
+Topic_242 most similar to Topic_610 (similarity: 0.429)
+Topic_243 most similar to Topic_197 (similarity: 0.250)
+Topic_244 most similar to Topic_405 (similarity: 0.062)
+Topic_245 most similar to Topic_94 (similarity: 0.818)
+Topic_246 most similar to Topic_78 (similarity: 0.333)
+Topic_247 most similar to Topic_20 (similarity: 0.176)
+Topic_248 most similar to Topic_404 (similarity: 0.333)
+Topic_249 most similar to Topic_287 (similarity: 0.333)
+Topic_250 most similar to Topic_32 (similarity: 0.333)
+Topic_251 most similar to Topic_65 (similarity: 0.111)
+Topic_252 most similar to Topic_39 (similarity: 0.176)
+Topic_253 most similar to Topic_25 (similarity: 0.250)
+Topic_254 most similar to Topic_93 (similarity: 0.176)
+Topic_255 most similar to Topic_58 (similarity: 0.333)
+Topic_256 most similar to Topic_92 (similarity: 0.176)
+Topic_257 most similar to Topic_153 (similarity: 1.000)
+Topic_258 most similar to Topic_208 (similarity: 0.818)
+Topic_259 most similar to Topic_10 (similarity: 0.176)
+Topic_260 most similar to Topic_164 (similarity: 0.250)
+Topic_261 most similar to Topic_6 (similarity: 0.053)
+Topic_262 most similar to Topic_95 (similarity: 0.176)
+Topic_263 most similar to Topic_36 (similarity: 0.176)
+Topic_264 most similar to Topic_470 (similarity: 0.429)
+Topic_265 most similar to Topic_42 (similarity: 0.176)
+Topic_266 most similar to Topic_443 (similarity: 0.111)
+Topic_267 most similar to Topic_34 (similarity: 0.667)
+Topic_268 most similar to Topic_397 (similarity: 0.111)
+Topic_269 most similar to Topic_598 (similarity: 0.111)
+Topic_270 most similar to Topic_271 (similarity: 0.250)
+Topic_271 most similar to Topic_270 (similarity: 0.250)
+Topic_272 most similar to Topic_473 (similarity: 0.429)
+Topic_273 most similar to Topic_68 (similarity: 0.429)
+Topic_274 most similar to Topic_589 (similarity: 0.111)
+Topic_275 most similar to Topic_28 (similarity: 0.429)
+Topic_276 most similar to Topic_390 (similarity: 0.053)
+Topic_277 most similar to Topic_149 (similarity: 0.667)
+Topic_278 most similar to Topic_126 (similarity: 0.176)
+Topic_279 most similar to Topic_521 (similarity: 0.538)
+Topic_280 most similar to Topic_160 (similarity: 0.250)
+Topic_281 most similar to Topic_70 (similarity: 0.053)
+Topic_282 most similar to Topic_312 (similarity: 0.333)
+Topic_283 most similar to Topic_607 (similarity: 0.667)
+Topic_284 most similar to Topic_470 (similarity: 0.429)
+Topic_285 most similar to Topic_43 (similarity: 0.111)
+Topic_286 most similar to Topic_6 (similarity: 0.053)
+Topic_287 most similar to Topic_249 (similarity: 0.333)
+Topic_288 most similar to Topic_28 (similarity: 0.333)
+Topic_289 most similar to Topic_579 (similarity: 0.667)
+Topic_290 most similar to Topic_42 (similarity: 0.111)
+Topic_291 most similar to Topic_343 (similarity: 0.818)
+Topic_292 most similar to Topic_68 (similarity: 0.667)
+Topic_293 most similar to Topic_487 (similarity: 0.333)
+Topic_294 most similar to Topic_165 (similarity: 0.111)
+Topic_295 most similar to Topic_22 (similarity: 0.538)
+Topic_296 most similar to Topic_70 (similarity: 0.250)
+Topic_297 most similar to Topic_51 (similarity: 0.176)
+Topic_298 most similar to Topic_0 (similarity: 0.000)
+Topic_299 most similar to Topic_349 (similarity: 0.429)
+Topic_300 most similar to Topic_15 (similarity: 0.176)
+Topic_301 most similar to Topic_405 (similarity: 0.133)
+Topic_302 most similar to Topic_0 (similarity: 0.000)
+Topic_303 most similar to Topic_134 (similarity: 0.250)
+Topic_304 most similar to Topic_317 (similarity: 0.818)
+Topic_305 most similar to Topic_323 (similarity: 0.333)
+Topic_306 most similar to Topic_43 (similarity: 0.111)
+Topic_307 most similar to Topic_64 (similarity: 0.333)
+Topic_308 most similar to Topic_403 (similarity: 0.538)
+Topic_309 most similar to Topic_1 (similarity: 0.111)
+Topic_310 most similar to Topic_27 (similarity: 0.250)
+Topic_311 most similar to Topic_280 (similarity: 0.176)
+Topic_312 most similar to Topic_264 (similarity: 0.333)
+Topic_313 most similar to Topic_301 (similarity: 0.053)
+Topic_314 most similar to Topic_371 (similarity: 1.000)
+Topic_315 most similar to Topic_13 (similarity: 0.053)
+Topic_316 most similar to Topic_0 (similarity: 0.000)
+Topic_317 most similar to Topic_304 (similarity: 0.818)
+Topic_318 most similar to Topic_74 (similarity: 0.538)
+Topic_319 most similar to Topic_414 (similarity: 0.176)
+Topic_320 most similar to Topic_4 (similarity: 0.538)
+Topic_321 most similar to Topic_455 (similarity: 0.429)
+Topic_322 most similar to Topic_184 (similarity: 0.818)
+Topic_323 most similar to Topic_305 (similarity: 0.333)
+Topic_324 most similar to Topic_453 (similarity: 0.125)
+Topic_325 most similar to Topic_96 (similarity: 0.053)
+Topic_326 most similar to Topic_74 (similarity: 0.429)
+Topic_327 most similar to Topic_349 (similarity: 0.053)
+Topic_328 most similar to Topic_423 (similarity: 0.111)
+Topic_329 most similar to Topic_627 (similarity: 0.429)
+Topic_330 most similar to Topic_16 (similarity: 0.111)
+Topic_331 most similar to Topic_27 (similarity: 0.111)
+Topic_332 most similar to Topic_473 (similarity: 0.333)
+Topic_333 most similar to Topic_109 (similarity: 0.176)
+Topic_334 most similar to Topic_290 (similarity: 0.111)
+Topic_335 most similar to Topic_210 (similarity: 0.538)
+Topic_336 most similar to Topic_68 (similarity: 0.429)
+Topic_337 most similar to Topic_37 (similarity: 0.538)
+Topic_338 most similar to Topic_74 (similarity: 0.429)
+Topic_339 most similar to Topic_236 (similarity: 0.250)
+Topic_340 most similar to Topic_27 (similarity: 0.176)
+Topic_341 most similar to Topic_422 (similarity: 0.538)
+Topic_342 most similar to Topic_624 (similarity: 0.250)
+Topic_343 most similar to Topic_291 (similarity: 0.818)
+Topic_344 most similar to Topic_43 (similarity: 0.111)
+Topic_345 most similar to Topic_47 (similarity: 0.111)
+Topic_346 most similar to Topic_18 (similarity: 0.053)
+Topic_347 most similar to Topic_88 (similarity: 0.250)
+Topic_348 most similar to Topic_279 (similarity: 0.250)
+Topic_349 most similar to Topic_299 (similarity: 0.429)
+Topic_350 most similar to Topic_28 (similarity: 0.538)
+Topic_351 most similar to Topic_98 (similarity: 0.176)
+Topic_352 most similar to Topic_63 (similarity: 0.053)
+Topic_353 most similar to Topic_415 (similarity: 0.176)
+Topic_354 most similar to Topic_27 (similarity: 0.250)
+Topic_355 most similar to Topic_120 (similarity: 0.071)
+Topic_356 most similar to Topic_54 (similarity: 0.176)
+Topic_357 most similar to Topic_57 (similarity: 0.333)
+Topic_358 most similar to Topic_16 (similarity: 0.111)
+Topic_359 most similar to Topic_1 (similarity: 0.111)
+Topic_360 most similar to Topic_50 (similarity: 0.250)
+Topic_361 most similar to Topic_160 (similarity: 0.176)
+Topic_362 most similar to Topic_459 (similarity: 0.545)
+Topic_363 most similar to Topic_633 (similarity: 0.250)
+Topic_364 most similar to Topic_149 (similarity: 0.250)
+Topic_365 most similar to Topic_62 (similarity: 0.333)
+Topic_366 most similar to Topic_94 (similarity: 0.429)
+Topic_367 most similar to Topic_49 (similarity: 0.053)
+Topic_368 most similar to Topic_3 (similarity: 0.053)
+Topic_369 most similar to Topic_392 (similarity: 0.818)
+Topic_370 most similar to Topic_391 (similarity: 0.053)
+Topic_371 most similar to Topic_314 (similarity: 1.000)
+Topic_372 most similar to Topic_76 (similarity: 0.250)
+Topic_373 most similar to Topic_561 (similarity: 0.667)
+Topic_374 most similar to Topic_21 (similarity: 0.250)
+Topic_375 most similar to Topic_217 (similarity: 0.250)
+Topic_376 most similar to Topic_557 (similarity: 1.000)
+Topic_377 most similar to Topic_548 (similarity: 0.176)
+Topic_378 most similar to Topic_33 (similarity: 0.250)
+Topic_379 most similar to Topic_3 (similarity: 0.250)
+Topic_380 most similar to Topic_164 (similarity: 0.333)
+Topic_381 most similar to Topic_232 (similarity: 0.333)
+Topic_382 most similar to Topic_192 (similarity: 0.429)
+Topic_383 most similar to Topic_50 (similarity: 0.429)
+Topic_384 most similar to Topic_110 (similarity: 0.176)
+Topic_385 most similar to Topic_256 (similarity: 0.111)
+Topic_386 most similar to Topic_523 (similarity: 0.538)
+Topic_387 most similar to Topic_70 (similarity: 0.111)
+Topic_388 most similar to Topic_217 (similarity: 0.667)
+Topic_389 most similar to Topic_204 (similarity: 0.111)
+Topic_390 most similar to Topic_3 (similarity: 0.111)
+Topic_391 most similar to Topic_60 (similarity: 0.176)
+Topic_392 most similar to Topic_369 (similarity: 0.818)
+Topic_393 most similar to Topic_527 (similarity: 1.000)
+Topic_394 most similar to Topic_143 (similarity: 0.250)
+Topic_395 most similar to Topic_405 (similarity: 0.062)
+Topic_396 most similar to Topic_27 (similarity: 0.176)
+Topic_397 most similar to Topic_268 (similarity: 0.111)
+Topic_398 most similar to Topic_478 (similarity: 0.429)
+Topic_399 most similar to Topic_148 (similarity: 0.250)
+Topic_400 most similar to Topic_212 (similarity: 0.111)
+Topic_401 most similar to Topic_15 (similarity: 0.429)
+Topic_402 most similar to Topic_12 (similarity: 0.111)
+Topic_403 most similar to Topic_308 (similarity: 0.538)
+Topic_404 most similar to Topic_248 (similarity: 0.333)
+Topic_405 most similar to Topic_459 (similarity: 0.400)
+Topic_406 most similar to Topic_0 (similarity: 0.000)
+Topic_407 most similar to Topic_241 (similarity: 0.250)
+Topic_408 most similar to Topic_509 (similarity: 1.000)
+Topic_409 most similar to Topic_90 (similarity: 0.667)
+Topic_410 most similar to Topic_137 (similarity: 0.250)
+Topic_411 most similar to Topic_402 (similarity: 0.111)
+Topic_412 most similar to Topic_173 (similarity: 0.111)
+Topic_413 most similar to Topic_376 (similarity: 0.667)
+Topic_414 most similar to Topic_483 (similarity: 0.250)
+Topic_415 most similar to Topic_353 (similarity: 0.176)
+Topic_416 most similar to Topic_459 (similarity: 0.214)
+Topic_417 most similar to Topic_556 (similarity: 0.538)
+Topic_418 most similar to Topic_405 (similarity: 0.308)
+Topic_419 most similar to Topic_184 (similarity: 0.667)
+Topic_420 most similar to Topic_28 (similarity: 0.538)
+Topic_421 most similar to Topic_199 (similarity: 0.333)
+Topic_422 most similar to Topic_341 (similarity: 0.538)
+Topic_423 most similar to Topic_328 (similarity: 0.111)
+Topic_424 most similar to Topic_17 (similarity: 0.053)
+Topic_425 most similar to Topic_120 (similarity: 0.250)
+Topic_426 most similar to Topic_120 (similarity: 0.833)
+Topic_427 most similar to Topic_74 (similarity: 0.333)
+Topic_428 most similar to Topic_432 (similarity: 0.429)
+Topic_429 most similar to Topic_351 (similarity: 0.053)
+Topic_430 most similar to Topic_35 (similarity: 0.053)
+Topic_431 most similar to Topic_405 (similarity: 0.133)
+Topic_432 most similar to Topic_428 (similarity: 0.429)
+Topic_433 most similar to Topic_193 (similarity: 0.429)
+Topic_434 most similar to Topic_443 (similarity: 0.053)
+Topic_435 most similar to Topic_49 (similarity: 0.053)
+Topic_436 most similar to Topic_382 (similarity: 0.429)
+Topic_437 most similar to Topic_110 (similarity: 0.429)
+Topic_438 most similar to Topic_55 (similarity: 0.250)
+Topic_439 most similar to Topic_15 (similarity: 0.176)
+Topic_440 most similar to Topic_74 (similarity: 0.333)
+Topic_441 most similar to Topic_53 (similarity: 0.250)
+Topic_442 most similar to Topic_560 (similarity: 0.667)
+Topic_443 most similar to Topic_266 (similarity: 0.111)
+Topic_444 most similar to Topic_459 (similarity: 0.417)
+Topic_445 most similar to Topic_49 (similarity: 0.176)
+Topic_446 most similar to Topic_200 (similarity: 0.818)
+Topic_447 most similar to Topic_31 (similarity: 0.250)
+Topic_448 most similar to Topic_0 (similarity: 0.000)
+Topic_449 most similar to Topic_477 (similarity: 0.176)
+Topic_450 most similar to Topic_15 (similarity: 0.250)
+Topic_451 most similar to Topic_366 (similarity: 0.250)
+Topic_452 most similar to Topic_121 (similarity: 0.053)
+Topic_453 most similar to Topic_89 (similarity: 0.286)
+Topic_454 most similar to Topic_120 (similarity: 0.250)
+Topic_455 most similar to Topic_343 (similarity: 0.818)
+Topic_456 most similar to Topic_93 (similarity: 0.429)
+Topic_457 most similar to Topic_0 (similarity: 0.053)
+Topic_458 most similar to Topic_45 (similarity: 0.333)
+Topic_459 most similar to Topic_68 (similarity: 0.545)
+Topic_460 most similar to Topic_88 (similarity: 0.250)
+Topic_461 most similar to Topic_43 (similarity: 0.053)
+Topic_462 most similar to Topic_50 (similarity: 0.333)
+Topic_463 most similar to Topic_156 (similarity: 0.333)
+Topic_464 most similar to Topic_25 (similarity: 0.176)
+Topic_465 most similar to Topic_271 (similarity: 0.053)
+Topic_466 most similar to Topic_539 (similarity: 0.071)
+Topic_467 most similar to Topic_61 (similarity: 0.250)
+Topic_468 most similar to Topic_186 (similarity: 0.538)
+Topic_469 most similar to Topic_396 (similarity: 0.111)
+Topic_470 most similar to Topic_264 (similarity: 0.429)
+Topic_471 most similar to Topic_632 (similarity: 0.053)
+Topic_472 most similar to Topic_283 (similarity: 0.111)
+Topic_473 most similar to Topic_272 (similarity: 0.429)
+Topic_474 most similar to Topic_284 (similarity: 0.111)
+Topic_475 most similar to Topic_311 (similarity: 0.176)
+Topic_476 most similar to Topic_130 (similarity: 0.111)
+Topic_477 most similar to Topic_68 (similarity: 0.250)
+Topic_478 most similar to Topic_398 (similarity: 0.429)
+Topic_479 most similar to Topic_42 (similarity: 0.111)
+Topic_480 most similar to Topic_15 (similarity: 0.333)
+Topic_481 most similar to Topic_82 (similarity: 0.333)
+Topic_482 most similar to Topic_25 (similarity: 0.111)
+Topic_483 most similar to Topic_283 (similarity: 0.429)
+Topic_484 most similar to Topic_168 (similarity: 0.429)
+Topic_485 most similar to Topic_4 (similarity: 0.429)
+Topic_486 most similar to Topic_112 (similarity: 0.176)
+Topic_487 most similar to Topic_293 (similarity: 0.333)
+Topic_488 most similar to Topic_121 (similarity: 0.111)
+Topic_489 most similar to Topic_68 (similarity: 0.250)
+Topic_490 most similar to Topic_9 (similarity: 0.111)
+Topic_491 most similar to Topic_292 (similarity: 0.429)
+Topic_492 most similar to Topic_0 (similarity: 0.053)
+Topic_493 most similar to Topic_37 (similarity: 0.250)
+Topic_494 most similar to Topic_9 (similarity: 0.176)
+Topic_495 most similar to Topic_452 (similarity: 0.053)
+Topic_496 most similar to Topic_398 (similarity: 0.429)
+Topic_497 most similar to Topic_66 (similarity: 1.000)
+Topic_498 most similar to Topic_50 (similarity: 0.176)
+Topic_499 most similar to Topic_291 (similarity: 0.667)
+Topic_500 most similar to Topic_13 (similarity: 0.111)
+Topic_501 most similar to Topic_15 (similarity: 0.250)
+Topic_502 most similar to Topic_6 (similarity: 0.429)
+Topic_503 most similar to Topic_143 (similarity: 0.111)
+Topic_504 most similar to Topic_216 (similarity: 1.000)
+Topic_505 most similar to Topic_162 (similarity: 0.333)
+Topic_506 most similar to Topic_329 (similarity: 0.333)
+Topic_507 most similar to Topic_68 (similarity: 0.429)
+Topic_508 most similar to Topic_132 (similarity: 0.053)
+Topic_509 most similar to Topic_408 (similarity: 1.000)
+Topic_510 most similar to Topic_165 (similarity: 0.111)
+Topic_511 most similar to Topic_0 (similarity: 0.000)
+Topic_512 most similar to Topic_163 (similarity: 0.250)
+Topic_513 most similar to Topic_555 (similarity: 0.364)
+Topic_514 most similar to Topic_50 (similarity: 0.250)
+Topic_515 most similar to Topic_255 (similarity: 0.250)
+Topic_516 most similar to Topic_59 (similarity: 0.111)
+Topic_517 most similar to Topic_427 (similarity: 0.333)
+Topic_518 most similar to Topic_0 (similarity: 0.000)
+Topic_519 most similar to Topic_0 (similarity: 0.053)
+Topic_520 most similar to Topic_65 (similarity: 0.176)
+Topic_521 most similar to Topic_279 (similarity: 0.538)
+Topic_522 most similar to Topic_120 (similarity: 0.364)
+Topic_523 most similar to Topic_561 (similarity: 0.818)
+Topic_524 most similar to Topic_160 (similarity: 0.111)
+Topic_525 most similar to Topic_100 (similarity: 0.111)
+Topic_526 most similar to Topic_100 (similarity: 0.250)
+Topic_527 most similar to Topic_393 (similarity: 1.000)
+Topic_528 most similar to Topic_0 (similarity: 0.000)
+Topic_529 most similar to Topic_607 (similarity: 0.429)
+Topic_530 most similar to Topic_136 (similarity: 0.176)
+Topic_531 most similar to Topic_211 (similarity: 0.429)
+Topic_532 most similar to Topic_120 (similarity: 0.071)
+Topic_533 most similar to Topic_110 (similarity: 0.176)
+Topic_534 most similar to Topic_9 (similarity: 0.111)
+Topic_535 most similar to Topic_25 (similarity: 0.053)
+Topic_536 most similar to Topic_6 (similarity: 0.053)
+Topic_537 most similar to Topic_284 (similarity: 0.429)
+Topic_538 most similar to Topic_90 (similarity: 0.667)
+Topic_539 most similar to Topic_110 (similarity: 0.364)
+Topic_540 most similar to Topic_331 (similarity: 0.053)
+Topic_541 most similar to Topic_184 (similarity: 0.818)
+Topic_542 most similar to Topic_70 (similarity: 0.176)
+Topic_543 most similar to Topic_17 (similarity: 0.053)
+Topic_544 most similar to Topic_596 (similarity: 0.053)
+Topic_545 most similar to Topic_252 (similarity: 0.111)
+Topic_546 most similar to Topic_238 (similarity: 0.111)
+Topic_547 most similar to Topic_184 (similarity: 0.538)
+Topic_548 most similar to Topic_37 (similarity: 0.250)
+Topic_549 most similar to Topic_348 (similarity: 0.176)
+Topic_550 most similar to Topic_30 (similarity: 0.111)
+Topic_551 most similar to Topic_357 (similarity: 0.111)
+Topic_552 most similar to Topic_402 (similarity: 0.053)
+Topic_553 most similar to Topic_634 (similarity: 0.111)
+Topic_554 most similar to Topic_282 (similarity: 0.176)
+Topic_555 most similar to Topic_11 (similarity: 0.364)
+Topic_556 most similar to Topic_417 (similarity: 0.538)
+Topic_557 most similar to Topic_376 (similarity: 1.000)
+Topic_558 most similar to Topic_186 (similarity: 0.538)
+Topic_559 most similar to Topic_0 (similarity: 0.000)
+Topic_560 most similar to Topic_570 (similarity: 0.818)
+Topic_561 most similar to Topic_619 (similarity: 1.000)
+Topic_562 most similar to Topic_476 (similarity: 0.111)
+Topic_563 most similar to Topic_305 (similarity: 0.333)
+Topic_564 most similar to Topic_489 (similarity: 0.053)
+Topic_565 most similar to Topic_405 (similarity: 0.214)
+Topic_566 most similar to Topic_321 (similarity: 0.429)
+Topic_567 most similar to Topic_252 (similarity: 0.053)
+Topic_568 most similar to Topic_605 (similarity: 0.250)
+Topic_569 most similar to Topic_456 (similarity: 0.250)
+Topic_570 most similar to Topic_560 (similarity: 0.818)
+Topic_571 most similar to Topic_76 (similarity: 0.429)
+Topic_572 most similar to Topic_97 (similarity: 0.053)
+Topic_573 most similar to Topic_104 (similarity: 0.176)
+Topic_574 most similar to Topic_72 (similarity: 0.333)
+Topic_575 most similar to Topic_0 (similarity: 0.000)
+Topic_576 most similar to Topic_56 (similarity: 0.111)
+Topic_577 most similar to Topic_121 (similarity: 0.053)
+Topic_578 most similar to Topic_166 (similarity: 0.111)
+Topic_579 most similar to Topic_289 (similarity: 0.667)
+Topic_580 most similar to Topic_453 (similarity: 0.125)
+Topic_581 most similar to Topic_238 (similarity: 0.176)
+Topic_582 most similar to Topic_43 (similarity: 0.053)
+Topic_583 most similar to Topic_347 (similarity: 0.111)
+Topic_584 most similar to Topic_29 (similarity: 0.111)
+Topic_585 most similar to Topic_4 (similarity: 0.053)
+Topic_586 most similar to Topic_10 (similarity: 0.250)
+Topic_587 most similar to Topic_120 (similarity: 1.000)
+Topic_588 most similar to Topic_149 (similarity: 0.667)
+Topic_589 most similar to Topic_274 (similarity: 0.111)
+Topic_590 most similar to Topic_291 (similarity: 0.250)
+Topic_591 most similar to Topic_77 (similarity: 0.111)
+Topic_592 most similar to Topic_7 (similarity: 0.053)
+Topic_593 most similar to Topic_38 (similarity: 0.250)
+Topic_594 most similar to Topic_267 (similarity: 0.538)
+Topic_595 most similar to Topic_1 (similarity: 0.429)
+Topic_596 most similar to Topic_31 (similarity: 0.250)
+Topic_597 most similar to Topic_0 (similarity: 0.000)
+Topic_598 most similar to Topic_269 (similarity: 0.111)
+Topic_599 most similar to Topic_240 (similarity: 0.333)
+Topic_600 most similar to Topic_629 (similarity: 0.250)
+Topic_601 most similar to Topic_120 (similarity: 0.111)
+Topic_602 most similar to Topic_0 (similarity: 0.000)
+Topic_603 most similar to Topic_58 (similarity: 0.429)
+Topic_604 most similar to Topic_7 (similarity: 0.053)
+Topic_605 most similar to Topic_568 (similarity: 0.250)
+Topic_606 most similar to Topic_206 (similarity: 0.333)
+Topic_607 most similar to Topic_283 (similarity: 0.667)
+Topic_608 most similar to Topic_0 (similarity: 0.053)
+Topic_609 most similar to Topic_233 (similarity: 0.818)
+Topic_610 most similar to Topic_242 (similarity: 0.429)
+Topic_611 most similar to Topic_53 (similarity: 0.111)
+Topic_612 most similar to Topic_228 (similarity: 0.667)
+Topic_613 most similar to Topic_45 (similarity: 0.111)
+Topic_614 most similar to Topic_120 (similarity: 0.071)
+Topic_615 most similar to Topic_95 (similarity: 0.667)
+Topic_616 most similar to Topic_43 (similarity: 0.053)
+Topic_617 most similar to Topic_459 (similarity: 0.417)
+Topic_618 most similar to Topic_104 (similarity: 0.176)
+Topic_619 most similar to Topic_561 (similarity: 1.000)
+Topic_620 most similar to Topic_184 (similarity: 0.250)
+Topic_621 most similar to Topic_1 (similarity: 0.111)
+Topic_622 most similar to Topic_120 (similarity: 0.071)
+Topic_623 most similar to Topic_228 (similarity: 0.818)
+Topic_624 most similar to Topic_342 (similarity: 0.250)
+Topic_625 most similar to Topic_453 (similarity: 0.059)
+Topic_626 most similar to Topic_17 (similarity: 0.053)
+Topic_627 most similar to Topic_329 (similarity: 0.429)
+Topic_628 most similar to Topic_366 (similarity: 0.176)
+Topic_629 most similar to Topic_600 (similarity: 0.250)
+Topic_630 most similar to Topic_141 (similarity: 0.053)
+Topic_631 most similar to Topic_25 (similarity: 0.176)
+Topic_632 most similar to Topic_453 (similarity: 0.286)
+Topic_633 most similar to Topic_108 (similarity: 0.250)
+Topic_634 most similar to Topic_553 (similarity: 0.111)
+Topic_635 most similar to Topic_119 (similarity: 0.053)
+Topic_636 most similar to Topic_149 (similarity: 0.333)
+Topic_637 most similar to Topic_217 (similarity: 0.333)
+Topic_638 most similar to Topic_19 (similarity: 0.176)
+Topic_639 most similar to Topic_561 (similarity: 1.000)
+Topic_640 most similar to Topic_15 (similarity: 0.176)
+Topic_641 most similar to Topic_561 (similarity: 1.000)
+Topic_642 most similar to Topic_7 (similarity: 0.053)
+Topic_643 most similar to Topic_110 (similarity: 0.538)
+Topic_644 most similar to Topic_26 (similarity: 0.053)
+Topic_645 most similar to Topic_120 (similarity: 0.154)
+Topic_646 most similar to Topic_194 (similarity: 0.176)
+Topic_647 most similar to Topic_38 (similarity: 0.176)
+Topic_648 most similar to Topic_48 (similarity: 0.111)
+Topic_649 most similar to Topic_1 (similarity: 0.250)
+Topic_650 most similar to Topic_279 (similarity: 0.250)
+Topic_651 most similar to Topic_49 (similarity: 0.053)
+Topic_652 most similar to Topic_414 (similarity: 0.250)
+Topic_653 most similar to Topic_91 (similarity: 0.053)
+Topic_654 most similar to Topic_201 (similarity: 0.176)
+Topic_655 most similar to Topic_613 (similarity: 0.053)
+
+=== Spanish Analysis Complete ===
+✅ Topic modeling completed without translation
+✅ Cosine similarities calculated
+✅ Cultural authenticity preserved
+✅ Ready for manual coding stage
+
+=== Summary Statistics ===
+Total Spanish comments analyzed: 43868
+Unique topics discovered: 657
+Comments with high topic confidence (>0.5): 10439

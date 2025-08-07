@@ -1,0 +1,5900 @@
+1
+00:00:00,000 --> 00:00:20,520
+Herkese merhabalar. Bu aslında EuroCC projesinde başlattığımız seminerler serisinin üçüncüsü ancak araştırmacı seminerimden daha çok turba kullanıcılarına yönelik bir seminer.
+
+2
+00:00:20,520 --> 00:00:44,620
+Turba kullanımına yönelik. Burada tabii ki sırayı biraz ters yapmamız kafa karıştırıcı olabiliyor. Öncelikle aslında böyle bir seminer veya sunum yapmak isterseniz öncelikle yeni başlayan kullanıcılara yönelik bir seminer yapıp sonrasında daha uzman tecrübeli kullanıcılara yönelik bir program yapmak daha doğru olurdu.
+
+3
+00:00:44,620 --> 00:01:00,460
+Ama özellikle ilk iki seminerimiz sırasında gelen ve arada aslında bize mail ile gelen istekler doğrultusunda biz uzman kullanıcılara yönelik bir seminerle başlamayı daha uzun bulduk.
+
+4
+00:01:00,460 --> 00:01:22,460
+Burada hani senelerden beridir bize gelen aslında bir takım sıkça sorulan sorular tabir edebileceğimiz sorular ve sistemde belki de sizin ihtiyacınız olmadığı için veya şimdiye kadar kullanmak durumunda kalmadığınız için işte kullanabileceğiniz bir takım şeyler, komutlar ve kullanım şekilleri
+
+5
+00:01:22,460 --> 00:01:31,640
+Sefa tarafından aktarıldıktan sonra sonrasında ağırlık olarak programda sizin sorularınıza cevap vermeye çalışacağız.
+
+6
+00:01:32,600 --> 00:01:37,260
+Burada yani size burada Turba'nın ne olduğunu anlatmamıza gerek yok.
+
+7
+00:01:37,780 --> 00:01:42,600
+Onun dışında işte yani HPC konusunda hani bilgi verecek bir durumumuz yok.
+
+8
+00:01:43,360 --> 00:01:48,400
+Tahminim yani burada katılımcılarımız sizin çoğu zaten oldukça tecrübeli araştırmacılarımız.
+
+9
+00:01:48,400 --> 00:02:04,660
+Özellikle yani çok fazla vaktinizi anladan programa geçebilmek adına program sırasında yani Sefa nasıl tercih edersin soruları arada slide slide almak bir yolcu olabilir.
+
+10
+00:02:05,400 --> 00:02:14,020
+Ama istersen belli bir slide geçtikten sonra senin hani şeyini sunumunu bilmiyorum ama şey yapalım bir soru arası verelim.
+
+11
+00:02:14,020 --> 00:02:20,200
+Aslında iyi olur yani slide slide de gelebilir ama o dediğin gibi yorucu olacaktır.
+
+12
+00:02:20,480 --> 00:02:23,600
+Onun yerine 7-8 slide'a bir soruları alırsak.
+
+13
+00:02:23,600 --> 00:02:29,300
+Senin yani şeyine göre sunum gidiş hatına göre sen dahi biliyorsun sunum yapımı sonuçta.
+
+14
+00:02:29,880 --> 00:02:36,020
+Burada soruları alalım dediğin noktada en üst birik soruları şey yaparız, cevaplandırırız.
+
+15
+00:02:36,020 --> 00:02:49,020
+Soruları lütfen chat tarafında değil koyamay kısmında, question and answer kısmında sorarsanız bizim hepsini cevaplayıp cevaplamadığımızı anlamamız daha kolay olacaktır.
+
+16
+00:02:49,020 --> 00:03:02,880
+Onun dışında şeyiniz olursa başka herhangi bir sorunuz sonrasında aklınıza gelen soru olursa zaten bildiğiniz gibi grid.tre.tech.net.luak.m.go.tr'e mail adresimiz var.
+
+17
+00:03:03,240 --> 00:03:10,940
+Her türlü soruyu alabileceğimiz veya EuroCC ile alakalı bir soru olabilir.
+
+18
+00:03:10,940 --> 00:03:13,940
+Geçmiş seminer kayıtlarına YouTube'dan erişebilirsiniz.
+
+19
+00:03:14,180 --> 00:03:19,040
+Orada Burcu Hanım ayrıntılı projeyle alakalı sunum yapmıştı zaten.
+
+20
+00:03:20,080 --> 00:03:25,860
+Orayla alakalı bir sorunuz olursa da NCCT TurboGo.tr'e idi değil mi?
+
+21
+00:03:26,620 --> 00:03:29,140
+Yanılmıyorsam. NCCT ULAKBIN Go.tr miydi?
+
+22
+00:03:30,620 --> 00:03:31,460
+Bakalım.
+
+23
+00:03:33,580 --> 00:03:40,640
+NCCT ULAKBIN Go.tr mail adresine de EuroCC ile alakalı sorularınızı atabilirsiniz.
+
+24
+00:03:40,940 --> 00:03:43,600
+Yani sen başlayabilirsin.
+
+25
+00:03:43,660 --> 00:03:44,460
+Başlayayım o zaman.
+
+26
+00:03:45,340 --> 00:03:47,100
+Herkese hoş geldiniz diyorum öncelikle.
+
+27
+00:03:47,940 --> 00:03:50,240
+Büyük ihtimal beni büyük çoğunluğunuz tanıyordur.
+
+28
+00:03:50,840 --> 00:03:56,960
+Turbo'da 2009'dan beri yüksek başarılı hesaplama sisteminde sistem yöntüsü olarak görevi yapmaktayım.
+
+29
+00:03:58,020 --> 00:04:01,500
+Büyük çoğunluğunuzla mesajlaştır daha öncesinde.
+
+30
+00:04:01,500 --> 00:04:10,760
+Aslında bu sunuma kısa bir turbo tanıtımı ile başlamak istiyordum ama sunumu hazırlarken sorular soruları açtı.
+
+31
+00:04:10,840 --> 00:04:11,960
+Sunum oldukça uzadı.
+
+32
+00:04:13,500 --> 00:04:22,500
+O yüzden turbo tanıtımı yerine genel olarak şu ana kadar karşılaştığımız soruları kapsayan genel bir turbo kullanımıyla başladım.
+
+33
+00:04:22,500 --> 00:04:27,500
+Sonrasında ya da sunum sırasında da sorularınızı yöneltebilirsiniz.
+
+34
+00:04:28,280 --> 00:04:31,500
+Açıkta kalan sorular olursa istediğiniz an sorabilirsiniz.
+
+35
+00:04:33,580 --> 00:04:38,460
+Tanıtımı geçiyorum o yüzden doğrudan başlayalım.
+
+36
+00:04:39,060 --> 00:04:40,900
+Öncelikle turbo kimlerin kullanımını açık?
+
+37
+00:04:41,200 --> 00:04:46,860
+Turbo Türkiye'deki tüm yerli ve yabancı doktora ve üzeri akademik pozisyondaki araştırmacıları açık.
+
+38
+00:04:46,860 --> 00:05:02,640
+Bir süredir lisans ve yüksek lisans öğrencilerine hesap açmıyoruz ancak eğer ARDEP ve BAP kapsamındaki projelerde bursiyer olarak görev yapan araştırmacılar varsa lisans ve lisans, yüksek lisans bu kullanıcılara da hesap açıyoruz.
+
+39
+00:05:02,800 --> 00:05:10,880
+Ayrıca TÜPTAK enstitüleri ve kamu ile yaptığımız özel projeler kapsamında açtığımız hesaplarda bulunmakta.
+
+40
+00:05:11,400 --> 00:05:14,540
+Tüm bu kullanıcı grupları altyapımızı rahatlıkla kullanabilirler.
+
+41
+00:05:16,860 --> 00:05:24,760
+Hepinizin bildiği gibi aslında turbo yıl yıl büyüyen bir altyapı.
+
+42
+00:05:25,680 --> 00:05:32,540
+Pek çok diğer sistemde tek büyük bir alım yapılır, homojen bir küme kullanıcıların hizmetine sunulur.
+
+43
+00:05:32,540 --> 00:05:36,000
+Ancak bizim ilerleme politikamız bu şekilde değildi.
+
+44
+00:05:36,360 --> 00:05:44,040
+Seneler içinde o senenin en iyi hesaplama ve depolama kaynaklarını temin ederek kullanıcılarımızın hesabına sunmaya çalıştık, kullanımına sunmaya çalıştık.
+
+45
+00:05:44,040 --> 00:05:52,940
+Kullanıcılarımız altyapıya internet üzerinden, eğer internete, ulaknet üzerinden bağlanıyorlarsa,
+
+46
+00:05:52,940 --> 00:06:01,240
+yani bir üniversite ya da TÜPTAK kurumunun içinde, enstitüsünün içinde internete bağlanıyorlarsa,
+
+47
+00:06:01,840 --> 00:06:04,040
+doğrudan altyapımıza bağlanabilirler.
+
+48
+00:06:04,260 --> 00:06:10,760
+Eğer evden ya da yurt dışından ya da bir başka yerden altyapıya ulaşmaya çalışıyorlarsa,
+
+49
+00:06:10,880 --> 00:06:13,220
+öncelikle OpenVPN ağına bağlanmak durumundalar.
+
+50
+00:06:13,220 --> 00:06:19,880
+Kullanıcıların altta gösterilen hesaplama sunucularına doğrudan erişim imkanları bulunmamakta,
+
+51
+00:06:20,060 --> 00:06:25,840
+kullanıcılar sadece ve sadece kullanıcı arayüzlerine, şu an için 4 tane olan Nevrik 1,
+
+52
+00:06:26,080 --> 00:06:29,660
+Sardalya 1, Barbon 1 ve Ondement kullanıcı arayüzlerine erişebilirler.
+
+53
+00:06:29,660 --> 00:06:37,480
+Sistemin kabaca şematiği bu şekilde, sistemler birbirlerine performans ağ olarak
+
+54
+00:06:37,480 --> 00:06:39,120
+İnfiniBent üzerinden bağlılar.
+
+55
+00:06:39,860 --> 00:06:43,660
+56 GB ve 100 GB'lik ağımız mevcut.
+
+56
+00:06:44,120 --> 00:06:46,560
+Ayrıca yönetim içinde GB'li ağımız mevcut.
+
+57
+00:06:46,560 --> 00:06:53,000
+Farklı CPU kaynaklarımız zaman içinde sürekli arttı.
+
+58
+00:06:53,600 --> 00:06:56,500
+En eskisi bunlardan Mercan, AMD tabanlı bir sistem.
+
+59
+00:06:57,100 --> 00:06:59,300
+Daha sonrasında Levrik, Levrik ve 2 Orkinos.
+
+60
+00:06:59,360 --> 00:07:00,960
+Orkinos bir SMP sistemidir.
+
+61
+00:07:01,420 --> 00:07:04,700
+Üzerinde 4TB bellek ve 224 çekirdek bulunmakta.
+
+62
+00:07:05,260 --> 00:07:11,220
+Sardalya ve Barbon sunucularımız CPU kaynağı olarak kullanıcıların hizmetinde bulunmakta.
+
+63
+00:07:11,220 --> 00:07:17,360
+Tüm bu sunucuların üzerindeki işlemci mimarisi, bellek miktarı birbirinden farklı.
+
+64
+00:07:19,960 --> 00:07:24,120
+CPU kaynağı olarak şu an için iki farklı kaynağımız söz konusu.
+
+65
+00:07:24,400 --> 00:07:28,080
+İlki, ikisi de 2018 yılında hizmete girdi.
+
+66
+00:07:28,280 --> 00:07:29,640
+Birisi Barbon kutu sunucusu.
+
+67
+00:07:30,060 --> 00:07:31,540
+24 tane sunucudan oluşmakta.
+
+68
+00:07:31,620 --> 00:07:35,960
+Her sunucu üzerinde iki tane AMD P100 CPU kartı var.
+
+69
+00:07:36,500 --> 00:07:39,060
+Sunucu üzerinde 384 GB bellek bulunmakta.
+
+70
+00:07:39,060 --> 00:07:43,680
+Daha sonra hizmete giren Akyo kutu sunucuları üzerinde ise
+
+71
+00:07:43,680 --> 00:07:45,240
+Onlar da 24 adet.
+
+72
+00:07:46,020 --> 00:07:50,320
+Her birinde 4 adet Nvidia V100 GPU bulunuyor.
+
+73
+00:07:50,440 --> 00:07:52,560
+Yine 384 GB bellek bulunuyor.
+
+74
+00:07:53,860 --> 00:08:02,520
+Akyo kudunun, Barbon kudadan bir üstünlü GPU sayısının ve GPU türünün ek olarak
+
+75
+00:08:02,520 --> 00:08:07,140
+Burada GPU'lar birbirleriyle PCI Express üzerinden değil
+
+76
+00:08:07,140 --> 00:08:09,200
+NVLink üzerinden haberleşiyorlar.
+
+77
+00:08:09,540 --> 00:08:13,240
+Dolayısıyla birden fazla GPU'nun kullanıldığı durumda
+
+78
+00:08:13,240 --> 00:08:16,600
+performansı Barbon'a göre çok daha yüksek olacak.
+
+79
+00:08:16,600 --> 00:08:19,840
+Hesaplama
+
+80
+00:08:19,840 --> 00:08:28,340
+Bu altyapımızdaki sunucular birden fazla hesaplama kuyruğuyla kullanıcılarımıza hizmet etmekte.
+
+81
+00:08:29,440 --> 00:08:32,660
+Sunucu adıyla özdeş olan hesaplama kuyruklarımız var.
+
+82
+00:08:33,220 --> 00:08:37,180
+Bu kuyruklarda hesaplama sunucuları özdeş.
+
+83
+00:08:37,180 --> 00:08:42,460
+Yani Barbon kuyruğuna gönderdiğiniz tüm işlerde işleriniz Barbon sunucuları üzerinde çalışıyor olacak.
+
+84
+00:08:42,580 --> 00:08:48,720
+Ancak bir de süreyle sınırlandırılmış karma kuyruklarımız var.
+
+85
+00:08:49,140 --> 00:08:51,060
+Short, mid 1, mid 2, long gibi.
+
+86
+00:08:51,660 --> 00:09:00,580
+Bu kuyruklar temelli birbirlerinden o kuyruk üzerine çalışabilecek işin maksimum iş süresiyle ayrılıyorlar.
+
+87
+00:09:00,580 --> 00:09:07,660
+Aynı sunucu hem Barbon hem mid 1 hem mid 2 ya da bir başka kuyrukta hizmet veriyor olabilirler.
+
+88
+00:09:10,360 --> 00:09:16,340
+Depolama kaynaklarına gelecek olursak aslında yerel ve merkezi olmak üzere iki çeşitli depolama kaynağımız var.
+
+89
+00:09:16,440 --> 00:09:19,060
+Merkezde depolama kaynağımız Turbo ve TurboScratch.
+
+90
+00:09:19,780 --> 00:09:29,500
+İkisi de aynı depolama üzerinde toplam 7,5 petabyte büyüklüğünde paralel yüksek performanslı bir hesaplama altyapısı.
+
+91
+00:09:29,500 --> 00:09:32,040
+Sunucular üzerinde yerel diskler bulunmakta.
+
+92
+00:09:32,140 --> 00:09:41,300
+Sunucunun türüne alındığı yıla göre farklı teknolojilere sahip ve farklı kapasiteye sahip 450 GB ile 1,5 petabyte arasında değişiyor.
+
+93
+00:09:41,720 --> 00:09:42,560
+Söylemeyi unuttum.
+
+94
+00:09:42,900 --> 00:09:47,900
+Akyakuda sunucularındaki temp dizinleri NVMe disk üzerinde.
+
+95
+00:09:47,980 --> 00:09:55,180
+O yüzden oranın tempi çok daha yüksek başarılı bir depolamaya sahip.
+
+96
+00:09:55,180 --> 00:10:01,540
+Tüm kullanıcılara hesap açarken varsayılan olarak 128 çekirdek kullanmak tanıyoruz.
+
+97
+00:10:01,740 --> 00:10:11,520
+Yani aynı anda kaynak olduğu sürece kullanıcılara 128 çekirdeğe kadar kaynak kullanabilirler.
+
+98
+00:10:11,660 --> 00:10:14,540
+Varsayılan olarak 1 terabyte disk alanı sağlıyoruz.
+
+99
+00:10:15,020 --> 00:10:16,600
+Şunu hatırlatmakta fayda var.
+
+100
+00:10:17,120 --> 00:10:21,100
+Turbo'daki disk alanı kalıcı bir depolama alanı değil.
+
+101
+00:10:21,100 --> 00:10:29,980
+Kullanıcılarımızdan işleri bittikten sonra saklamaları gereken dosyaları, kendi bilgisayarlarına indirmelerini, saklamaları gerekmeyen dosyaları da silmelerini bekliyoruz.
+
+102
+00:10:31,020 --> 00:10:36,940
+Hesap açılırken en başta 920 bin çekirdek saat işlemci zamanı tanımlıyoruz.
+
+103
+00:10:37,380 --> 00:10:42,380
+Bu işlemci zamanı tamamlandıktan sonra 300'er bin çekirdek saatlik arttırımlar sağlıyoruz.
+
+104
+00:10:42,380 --> 00:10:53,500
+Ama bu arttırımlar için kullanıcılardan Portal Turbo Go Terry sitesine, yayınlar kısmına bu truba kaynaklarını kullanarak yapmış oldukları yayınları listelemelerini istiyoruz.
+
+105
+00:10:54,580 --> 00:11:01,500
+Ayrıca projeler için açtığımız hesaplarda tanımlanan kotalar projenin ihtiyacına göre belirlenmekte.
+
+106
+00:11:01,500 --> 00:11:05,720
+Birkaç çeşit farklı hesap türümüz var.
+
+107
+00:11:06,980 --> 00:11:11,760
+Altyapıyı kullananların büyük çoğunluğu normal kullanıcılar olarak tanımlanabilir.
+
+108
+00:11:12,320 --> 00:11:16,740
+Bu kullanıcılar altyapıyı belli limitler dahilinde ücretsiz olarak kullanıyorlar.
+
+109
+00:11:17,020 --> 00:11:19,260
+Ülkedeki yerli ve yabancı araştırmacılar bunlar.
+
+110
+00:11:20,540 --> 00:11:25,880
+Hatta yurt dışına çıkmış bazı kullanıcılarımız sistemi kullanmaya da devam edebiliyor.
+
+111
+00:11:25,880 --> 00:11:28,600
+Bunun haricinde sözleşmeli hesaplarımız var.
+
+112
+00:11:28,820 --> 00:11:39,540
+Ardep veya BAP projeleri ya da kamu ile yaptığımız projeler kapsamında açılmış önceliği yüksek ve ücretli kullanılan hesaplar.
+
+113
+00:11:39,620 --> 00:11:45,540
+Bu hesaplar projenin ihtiyacına göre bu projelere kaynak miktarı tanımlıyoruz.
+
+114
+00:11:45,680 --> 00:11:51,020
+Yine aynı şekilde kamu kurumları ve üniversiteler içinde sözleşmeli hesaplar açtığımız oluyor.
+
+115
+00:11:51,020 --> 00:11:59,940
+Altyapıyı verimli bir şekilde kullanabilmek için bazı temel yeteneklere ya da bazı temel bilgilere sahip olmamız lazım.
+
+116
+00:12:01,280 --> 00:12:03,540
+Bunlardan en önemlisi temel Linux bilgisi.
+
+117
+00:12:03,740 --> 00:12:08,760
+Altyapıda bir reddit enterprise türevi olan CentOS 7.3 işletim sistemi kullanılmakta.
+
+118
+00:12:09,300 --> 00:12:13,660
+Dolayısıyla bu işletim sisteminin nasıl çalıştığını, dosya dizinin yapısının ne olduğunu, nasıl olduğunu,
+
+119
+00:12:13,660 --> 00:12:20,820
+kullanıcıların dosyaları ve diziler üzerindeki haklarının neler olduğunu, hangi izinin ne işe yaradığını,
+
+120
+00:12:21,320 --> 00:12:29,080
+temel Linux komutlarını kopyalama, move etme, dizini oluşturma, silme ya da dosyaları edit etme gibi temel komutları bilmelerini bekliyoruz.
+
+121
+00:12:29,820 --> 00:12:37,500
+Ayrıca sisteme bağlanabilmeleri için SSH, SCP, SFTP ve X4Warding gibi protokolleri de bilmeleri önemli.
+
+122
+00:12:37,500 --> 00:12:48,520
+Linux temel bilgisi kadar önemli olan başka bir şey de kullanıcının altyapıyı niçin kullanmak istediğini bilmesi gerekiyor.
+
+123
+00:12:48,800 --> 00:12:54,260
+Yani kullanıcı hangi uygulamayı kullanacak, kullandığı uygulama neyi hesaplıyor ve nasıl hesaplıyor.
+
+124
+00:12:55,000 --> 00:13:00,680
+Bu uygulama nasıl çalışıyor, bu uygulama seri mi, paralel mi, paralelse MPI mi kullanıyor, MP mi kullanıyor?
+
+125
+00:13:00,960 --> 00:13:03,400
+Bu tür bilgilere sahip olmasını bekliyoruz kullanıcılarımızdan.
+
+126
+00:13:03,400 --> 00:13:10,100
+Bu uygulamanın herhangi bir kütüphaneye bağımlılığı var mı, bu bağımlılık nasıl tanımlanıyor,
+
+127
+00:13:11,280 --> 00:13:16,160
+bu ekstra kütüphaneleri kendisinin kurması mı gerekiyor, sistemik kütüphaneleri yeterli mi, bunları bilmeli.
+
+128
+00:13:16,920 --> 00:13:22,300
+Uygulamayı kullanıcının kendisinin kurması, genel olarak kullanıcının kendisi kurması gerekir.
+
+129
+00:13:23,140 --> 00:13:26,100
+Kurulumun nasıl yapılacağını, öderlemenin nasıl yapacağını biliyor olması gerekiyor.
+
+130
+00:13:26,640 --> 00:13:32,300
+Bu uygulamayı çalıştırabilmek için hangi parametreleri uygulamaya vermek,
+
+131
+00:13:32,300 --> 00:13:36,940
+bu uygulamanın input dosyasının, output dosyasının yapısı nedir?
+
+132
+00:13:37,200 --> 00:13:39,460
+Bu tür bilgiler kullanıcı tarafından bilinmek durumunda.
+
+133
+00:13:39,680 --> 00:13:46,500
+Biz pek çok durumda kullanıcılara faydalı olabilmek için genel kullanılan uygulamaları altyapıya kuruyoruz ama
+
+134
+00:13:46,500 --> 00:13:50,880
+bizim bu uygulamaların nasıl çalıştığı hakkında genel olarak pek bir fikrimiz yok.
+
+135
+00:13:50,880 --> 00:13:58,320
+Biz altyapıyı ve gerekli olan kütüphaneleri sisteme olan naaşlarımız nedeniyle kullanıcılardan daha iyi biliyor olabiliriz.
+
+136
+00:13:58,400 --> 00:14:01,960
+Ancak bu uygulamaları nasıl çalıştığını bilme gibi bir şeyimiz olmuyor.
+
+137
+00:14:02,200 --> 00:14:07,640
+Çünkü yüzlerce farklı uygulama var, her uygulamanın yüzlerce farklı opsiyonu var.
+
+138
+00:14:08,040 --> 00:14:12,340
+Bunlara hakim olabilmek maalesef mümkün değil, işin dışında olan birisi için.
+
+139
+00:14:12,340 --> 00:14:20,480
+Ayrıca kullanıcı bir uygulamasını çalıştırırken hangi hesabı yapmak için ne kadar çekirdeği, ne kadar süre, ne kadar belli ihtiyacı olacağını bilmek zorunda.
+
+140
+00:14:24,160 --> 00:14:29,660
+Bütün bunların yanında tabii altyapıyı kullanabilmek için altyapı hakkında bilgisinin de olması gerekiyor.
+
+141
+00:14:29,660 --> 00:14:38,520
+Yani altyapının çalışma biçimi nedir, iş nasıl gönderilir, mevcut kaynaklar nelerdir, mevcut kuyruklar, bu kuyruktaki donanımların özellikleri nelerdir,
+
+142
+00:14:38,520 --> 00:14:45,560
+altyapıya nasıl bağlantı yapacağım, bu altyapıyı kullanırken hangi kurallara, hangi kullanım kurallarına dikkat edeceğim vs.
+
+143
+00:14:45,760 --> 00:14:48,060
+Bu tür bilgileri de kullanıcının bilmesini bekliyoruz.
+
+144
+00:14:49,880 --> 00:14:52,520
+Hızlı bir giriş oldu. Eğer buraya kadar sorular varsa alabilirim.
+
+145
+00:14:55,580 --> 00:15:04,420
+Biriken sorularımız var. Bunların bir kısmını grafik işlemciyle alakalı mesela ayrıca sorumun devamında bir kısım varsa orayı bırakabiliriz.
+
+146
+00:15:04,420 --> 00:15:09,500
+Grafik işlemciyle ilgili ayrıca bir kısım yok. Onları alalım isterseniz.
+
+147
+00:15:11,540 --> 00:15:12,960
+Barış Hocam bir şey sormuş.
+
+148
+00:15:13,140 --> 00:15:21,680
+Turbada çalışmakta olan bir işimin çalıştığı nodlara bağlanıp, bu nodlarda çalışan iş parçacıklarına debugger bağlamak, profillemek ve benzeri istiyorum.
+
+149
+00:15:22,460 --> 00:15:25,420
+Çalışmakta olan işimin nodlarına nasıl interaktif terminer açabilirim?
+
+150
+00:15:26,160 --> 00:15:28,440
+Aslında bununla ilgili bir kısım var.
+
+151
+00:15:28,440 --> 00:15:34,240
+Normalde kullanıcıların arkada çalışan nodlara bağlanması mümkün değil.
+
+152
+00:15:34,560 --> 00:15:38,760
+Ancak koyruk üzerinde çalışan bir işin iş steplerine bağlanıp mümkün olacak.
+
+153
+00:15:39,200 --> 00:15:40,440
+Bunu ileride anlatıyor olacağım.
+
+154
+00:15:41,900 --> 00:15:44,860
+Tabii bu bağlantı sizin ihtiyacınız karşılarımı bilmiyorum.
+
+155
+00:15:45,020 --> 00:15:48,320
+Eğer karşılanmıyorsa maalesef arkadaki sunuculara bağlanma imkanı olmuyor.
+
+156
+00:15:48,320 --> 00:15:55,400
+Zaten aslında her iş için debugger, debugger yapmak durumunda olmazsınız.
+
+157
+00:15:56,000 --> 00:16:01,300
+Yani genelde bir işe yeni koştururken veya arada bir hata çıktığında bu süreç işler.
+
+158
+00:16:01,880 --> 00:16:06,360
+Dolayısıyla her iş için bağlanılmasına da debugger için ihtiyaç yoktur.
+
+159
+00:16:06,360 --> 00:16:12,640
+Yani dolayısıyla Sefa'nın anlatacağı yöntemle sanırım ihtiyacınız giderilecektir.
+
+160
+00:16:12,640 --> 00:16:18,700
+Evet, bu soru dışında Barış Hocam.
+
+161
+00:16:18,920 --> 00:16:25,900
+Nvidia için NVLink köprüsü dışında PCI Express üzerinden hafıza paylaşım metodu donanımda etkileştirilmiş durumda mı?
+
+162
+00:16:25,940 --> 00:16:28,520
+Veya anakart CPU destekliyorum gibi bir soru sormuş.
+
+163
+00:16:29,980 --> 00:16:32,860
+Burada soru herhalde şeye yönelik, Akyalara yönelik.
+
+164
+00:16:33,460 --> 00:16:34,720
+Akyalara yönelik, evet.
+
+165
+00:16:34,860 --> 00:16:36,520
+Diğer tarafta zaten PCI Express.
+
+166
+00:16:36,520 --> 00:16:44,620
+RDMA'lar açık, driver'ın desteklediği tüm özellikler altyapıda desteklenmekte.
+
+167
+00:16:46,700 --> 00:16:52,300
+Burada yani sorunmak istenen soru farklıysa tabii ki Barış Hocam'a söz de verebiliriz.
+
+168
+00:16:52,580 --> 00:16:53,680
+Öyle bir talebi varsa.
+
+169
+00:16:56,880 --> 00:16:58,060
+Belirtmesi yeterli.
+
+170
+00:16:59,300 --> 00:17:03,980
+Turbo altyapısı önümüzdeki yıllarda nasıl yenilecek, genişleyecek, verilenmiş bir plan varsa nedir?
+
+171
+00:17:03,980 --> 00:17:06,040
+Evet, bu kısımla alakalı önemli bir soru.
+
+172
+00:17:06,040 --> 00:17:07,540
+Yani bunu ben cevaplayabilirim.
+
+173
+00:17:08,620 --> 00:17:16,600
+Yani Sefa'nın bahsetmiş olduğu gibi biz aslında bildiğiniz gibi her ülkede ulusal hesaplama merkezleri var.
+
+174
+00:17:16,780 --> 00:17:17,840
+Bir veya birden fazla.
+
+175
+00:17:18,720 --> 00:17:25,120
+Ama genelde özellikle Avrupa'da, Amerika'da işte temel Asya ülkelerinde izlenen metot,
+
+176
+00:17:25,700 --> 00:17:30,460
+özellikle 3 senede bir büyük sistem alımına çıkıp,
+
+177
+00:17:30,460 --> 00:17:38,900
+bu sistemler işte 5 sene, 6 sene bazen ayakta tutulup büyük sistem alımları yapılması şeklinde.
+
+178
+00:17:39,520 --> 00:17:43,180
+Ama biz sonuçta bu işi 2003'den beri yapıyoruz.
+
+179
+00:17:43,420 --> 00:17:48,340
+2003'den beri de Türkiye'deki bütçeleme koşulları çok fazla değişmedi bu anlamda.
+
+180
+00:17:48,340 --> 00:17:55,940
+Bundan dolayı biz de kendimizi aslında yani bu şekilde biraz düzenlemek zorunda kaldık.
+
+181
+00:17:56,180 --> 00:18:01,880
+Dolayısıyla her sene yani merdiven çıkar gibi kaynaklarımızı yükseltiyoruz.
+
+182
+00:18:01,880 --> 00:18:04,260
+Biz bunu da en güncel teknolojiyle yapıyoruz.
+
+183
+00:18:04,460 --> 00:18:11,200
+Tabii ki bu kaynak homojenliği açısından hem kullanıcı açısından hem de bizim için de oldukça zor bir konu.
+
+184
+00:18:12,100 --> 00:18:20,540
+Önümüzdeki yıllarla ilgili planlarımız çerçevesinde bizim en büyük planımız şu andaki yeni bir veri merkezi inşaatımız söz konusu.
+
+185
+00:18:20,540 --> 00:18:36,520
+Bu veri merkezi bize güncel HPC donanımlarının ki bu güncel HPC donanımı CPU, grafik işlenici anlamında değil, soğutma teknolojisi anlamında çok yoğun bir şekilde kurulmasına izin verecek bir veri merkezi.
+
+186
+00:18:37,020 --> 00:18:49,100
+Bu veri merkeziyle birlikte de biz yani yurt dışındaki muhalif dillerinde olduğu gibi çok yüksek kapasiteli hesaplama kümesi alımlarını ki burada mesela hedef şeylerimizden bir tanesi 10 petafilokluk bir alım.
+
+187
+00:18:49,100 --> 00:19:08,160
+Bu merkezi doğrudan diğer yurt dışındaki merkezleri de benzerlerinde olduğu gibi kurmayı düşünüyoruz şu anda ama dediğim gibi tasarım inşa aşamasında bu sene içerisinde bu sene sonra doğru hizmete geçmesini bekliyoruz.
+
+188
+00:19:08,160 --> 00:19:20,640
+Ama bu kapsamda kullanıcılarımızı mağdur etmemek açısından 2021 başına yani şu anda alımını yaptığımız şeyle, sistemlerle burada Intel veya AMD kimin kazanacağı belli değil.
+
+189
+00:19:21,080 --> 00:19:27,980
+Tabii ki her iki işlemci üreticisinde düzgün rekabet edebilmesi için bu şekilde bir şey yaptık.
+
+190
+00:19:27,980 --> 00:19:33,460
+Ciddi bir kapasitenin yani burada yani net bir rakam veremiyoruz.
+
+191
+00:19:33,600 --> 00:19:37,580
+Çünkü biliyorsunuz iki farklı firmanın farklı çekirdek sayıları alınacak.
+
+192
+00:19:38,860 --> 00:19:43,360
+Yani ama yani 10 binlerce diyeyim çekirdeğin eklenmesini bekliyoruz.
+
+193
+00:19:43,440 --> 00:19:45,660
+Yani 10 binin üzerinde çekirdeğin eklenmesini bekliyoruz.
+
+194
+00:19:45,660 --> 00:19:53,260
+Aynı şekilde Nvidia tarafında da A100 grafik işlemcilerinin altyapımıza katılması söz konusu olacak bu sene içerisinde.
+
+195
+00:19:55,960 --> 00:20:01,220
+Hesabım için tanımlı 400 bin CPU saat kotası dolduktan sonra işlem yapamayacak mı?
+
+196
+00:20:01,300 --> 00:20:02,680
+Teşekkür ederler Barış Hocam.
+
+197
+00:20:03,180 --> 00:20:05,060
+İşlem yapıyor olabileceksiniz.
+
+198
+00:20:05,060 --> 00:20:25,120
+Biz kullanıcılar bize e-postayla başvurdukları zaman kendilerinden şu ana kadar Truva üzerinde yapmış oldukları iş çalıştırmalarıyla elde ettikleri makale, konferans bildirisi, tez gibi yayınları portal Truva Gofter adresine girmelerini istiyoruz.
+
+199
+00:20:25,120 --> 00:20:31,820
+Bu bilgileri girip bize bilgi verdikleri zaman hesaplarına ekstra kaynak aktarıyoruz.
+
+200
+00:20:31,820 --> 00:20:46,620
+Bu şu anlamına gelmiyor, eğer burada yaptığınız çalışma boyunca hiçbir çıktığınız olmadı, sonuçta çalışmanız sonucunda makale çıkabilir de çıkmayabilir de çıkmadı, size kaynak vermeyeceğiz anlamına gelmiyor.
+
+201
+00:20:47,020 --> 00:20:54,180
+Kaynağınız yine arttırılacaktır ama bizim de bu altyapıyı idam ettirebilmemiz için çeşitli raporlar vermemiz gerekiyor.
+
+202
+00:20:54,180 --> 00:21:02,480
+Bu raporları da düzgün verebilmek için kullanıcıların üretmiş oldukları yayınların, çalışmaların listesinin elimizde olması gerekiyor.
+
+203
+00:21:04,580 --> 00:21:07,580
+Kuda ile derleme ve test yapabilmek için nasıl bir yol izlemeliyim?
+
+204
+00:21:08,780 --> 00:21:14,680
+Bu biraz hani çok uzun bir cevabı ulaşacak bir soru sanırım değil mi?
+
+205
+00:21:14,680 --> 00:21:21,080
+Evet, bunu biraz daha sonraki bir bölüme bırakalım.
+
+206
+00:21:21,080 --> 00:21:21,640
+Tamam.
+
+207
+00:21:23,640 --> 00:21:32,160
+Nodların user-weighted, frekans, GPU utilization gibi önemli istatistiklerini takip edebileceğim grafana arayüzü ve benzeri mevcut mudur diye soruyor.
+
+208
+00:21:32,520 --> 00:21:35,720
+Maalesef mevcut değil, kullanıcılara bizim ileride açmıyoruz.
+
+209
+00:21:35,720 --> 00:21:52,320
+Belirli bilgileri takip edebileceğimiz arayüzü söz konusu ama kullanıcıların değil, bunun aslında yani bu talebinin artması durumunda hani ürkündeki muadillerinde olduğu gibi şey yapabiliriz.
+
+210
+00:21:52,460 --> 00:21:54,420
+Yani bir takım servisleri ayağa kaldırabiliriz.
+
+211
+00:21:54,420 --> 00:21:58,080
+Ama kullanıcılara açmıyoruz.
+
+212
+00:21:59,160 --> 00:22:10,940
+Bunun temel sebebi de sanırım şey, yani farklı kullanıcıların, farklı kullanıcıların ait şeyleri, kaynakları, kaynak kullanımını görmesi durumunda geçmişte yaşadığımız bir takım şeyler olabiliyordu.
+
+213
+00:22:11,600 --> 00:22:14,560
+Burada kullanıcıya özel bu bilginin verilmesi söz konusu.
+
+214
+00:22:14,720 --> 00:22:20,160
+Bu da hani biraz daha yeni yeni oturan dünyada da şeyler, sistemler söz konusu.
+
+215
+00:22:20,160 --> 00:22:26,460
+Dediğimiz gibi hani bizim kendimizin bir takım şeyleri, verileri görebileceğimiz tabii ki arayüzler mevcut.
+
+216
+00:22:29,640 --> 00:22:33,500
+Open VPN ile uzaktan bağlantı konusunda detaylı bilgi alabilir miyim?
+
+217
+00:22:33,760 --> 00:22:34,520
+Ben zaten...
+
+218
+00:22:34,520 --> 00:22:34,860
+Devam ediyoruz.
+
+219
+00:22:34,860 --> 00:22:40,120
+Betüren'ın şey yapmış, wiki linkini göndererek cevap vermiş.
+
+220
+00:22:40,860 --> 00:22:42,900
+Bunu zaten şeyde cevap diyeceksin.
+
+221
+00:22:43,040 --> 00:22:48,100
+Bunu ben cevaplanmış olarak şey yapıyorum çünkü zaten o konuda sunumda kısmın var.
+
+222
+00:22:48,100 --> 00:22:49,140
+Sunumda var o kısmın.
+
+223
+00:22:50,160 --> 00:22:51,340
+Devam edeyim istersen.
+
+224
+00:22:51,860 --> 00:22:52,220
+Tamam.
+
+225
+00:22:52,780 --> 00:22:56,960
+Bu ara süreçlerle alakalı bir şey var mı ona bakalım.
+
+226
+00:22:57,620 --> 00:23:03,060
+Özellikle altyapılara yönelik, altyapı bileşenlerine ait.
+
+227
+00:23:07,260 --> 00:23:08,260
+Yok gibi.
+
+228
+00:23:08,800 --> 00:23:11,560
+Yani bunlar genel kısımda şey yapabiliriz.
+
+229
+00:23:12,300 --> 00:23:13,280
+Şöyle bir soru var.
+
+230
+00:23:13,420 --> 00:23:15,360
+Onu belki şey yapabiliriz, bu kısımda cevaplayabiliriz.
+
+231
+00:23:15,360 --> 00:23:22,820
+Araştırma grubumuzca birden çok hesabın kullandığı ortak programlarımızı ve kütüphanelerimizi koyabileceğimiz ortak bir havuz var mıdır?
+
+232
+00:23:22,820 --> 00:23:27,820
+Eğer yoksa programların sürekli geliştirilip güncellenmesi, gözlemleri olarak nasıl bir çözüm önerirsiniz?
+
+233
+00:23:28,040 --> 00:23:29,940
+Bu genel olduğu için şimdi cevap diyelim istersen.
+
+234
+00:23:30,120 --> 00:23:31,100
+Şimdi cevaplayalım.
+
+235
+00:23:31,200 --> 00:23:42,280
+Eğer grup halinde çalışıyorsanız, daha doğrusu bir proje kapsamında çalışıyorsanız, bu proje içindeki tüm kullanıcıları ortak bir Linux grubuna atıyoruz.
+
+236
+00:23:42,560 --> 00:23:45,940
+Bu Linux grubu için bir depolama alanı sağlıyoruz.
+
+237
+00:23:45,940 --> 00:23:52,080
+Tüm kullanıcılar, projedeki tüm kullanıcılar buraya erişimde, erişimde, buraya erişebiliyorlar.
+
+238
+00:23:52,280 --> 00:23:57,180
+Buradaki uygulamaları, kendi kuracakları uygulamaları kurabiliyorlar.
+
+239
+00:23:57,380 --> 00:24:00,140
+Burada kurulmuş olum uygulamaları kullanabiliyorlar.
+
+240
+00:24:00,220 --> 00:24:04,940
+Ya da diğer, aynı gruptaki diğer kullanıcıların ürettiği verilere erişim sağlayabiliyorlar.
+
+241
+00:24:07,940 --> 00:24:09,980
+Şeye devam edelim istersen Sefa.
+
+242
+00:24:10,320 --> 00:24:10,520
+Tamam.
+
+243
+00:24:10,520 --> 00:24:12,880
+Bu soruma zaten epey bir soru daha birikecek.
+
+244
+00:24:13,020 --> 00:24:16,580
+Zaten önemli bir kısmı da bu soruları cevaplamaya verirdik.
+
+245
+00:24:16,920 --> 00:24:22,860
+Arada bizim arkadaşlarımızın, yani şu anda bağlı olan diğer arkadaşlarımız da var grubumuzdan.
+
+246
+00:24:22,940 --> 00:24:26,620
+Onların cevaplamak isteyeceği sorular olursa, onlar cevap diyebilirler.
+
+247
+00:24:26,840 --> 00:24:30,380
+Sadece soru kapatmazlarsa şeyleri, cevapları sevinirim.
+
+248
+00:24:32,460 --> 00:24:37,840
+Kullanıcı arayüzlerine bağlatım nasıl yapıldığı bilinmesi gerekiyor demiştik.
+
+249
+00:24:37,840 --> 00:24:40,760
+İki şekilde kullanıcı arayüzlerine bağlanılabilir.
+
+250
+00:24:41,020 --> 00:24:43,840
+Eğer herhangi bir ulaknet altyapısı üzerinden internete bağlanıyorsanız,
+
+251
+00:24:45,000 --> 00:24:48,720
+doğrudan devrik bir ulakbim.gov.tr adresine SSH ile bağlanabilirsiniz.
+
+252
+00:24:50,120 --> 00:24:54,840
+Linux kullanıcıları zaten terminal ekranından bağlanabilirler SSH komutuyla.
+
+253
+00:24:54,840 --> 00:25:03,840
+Linux kullanılan Windows ya da Mac kullanıcılarda, Mac demeyelim de Windows kullanıcılarda puti ve benzeri araçlarla
+
+254
+00:25:03,840 --> 00:25:07,900
+altyapıya devrik bir ulakbim.gov.tr adresi üzerinden bağlanırlar.
+
+255
+00:25:08,660 --> 00:25:15,760
+Eğer ulaknet'ten bağlanmıyorsanız, evde olabilirsiniz, yurt dışında olabilirsiniz,
+
+256
+00:25:15,880 --> 00:25:17,800
+OpenVPN bağlantısı sağlamanız gerekiyor.
+
+257
+00:25:17,800 --> 00:25:22,020
+OpenVPN için nasıl kurulduğuna dair wiki ve bir linkimiz var.
+
+258
+00:25:23,720 --> 00:25:28,800
+Turbo sistemlerindeki Linux kullanıcıları ve parolanınızı kullanarak OpenVPN bağlantısı gerçekleştirebiliyorsunuz.
+
+259
+00:25:30,460 --> 00:25:36,060
+Bir bilgisayar üzerinde ya da birden fazla bilgisayar üzerinde sadece aktif bir tane OpenVPN bağlantısı olabilir.
+
+260
+00:25:36,060 --> 00:25:43,480
+Eğer birden fazla OpenVPN bağlantısı yapılırsa, bağlantılar birbirinin bağlantısını sürekli olarak kesecekler.
+
+261
+00:25:43,560 --> 00:25:44,900
+Dolayısıyla çalışamıyor olacaksınız.
+
+262
+00:25:45,400 --> 00:25:54,520
+OpenVPN ile bağlandığınız durumlarda Levrik 1, Sardalya 1, Barbun 1 ve Open10 Dimen'de bağlanmanız mümkün olacak.
+
+263
+00:25:55,180 --> 00:25:58,500
+Ulaknet'ten bağlıyken sadece Levrik 1'e gidebiliyordunuz.
+
+264
+00:25:58,980 --> 00:26:04,520
+OpenVPN'de bu dördüne de gidebilirsiniz ama bu sunuculara bağlanmak için bir domainimiz yok.
+
+265
+00:26:04,520 --> 00:26:07,920
+adreslerinden, alka adreslerinden bağlanmanız gerekiyor.
+
+266
+00:26:07,980 --> 00:26:14,000
+172.16.7.1 Levrik 1 için, 8.1 Sardalya için, 10.1 Barbun için.
+
+267
+00:26:16,380 --> 00:26:24,320
+Open10 Dimen için de 172.16.0.200 ya da Open10 Dimen Turbo.gov.tr adresinden de bağlanabilirsiniz.
+
+268
+00:26:25,320 --> 00:26:29,280
+Aslında Open10 Dimen'de yeteneklerinden bahsetmek isterim.
+
+269
+00:26:29,600 --> 00:26:30,940
+Kabaca şöyle bir bahsedeyim.
+
+270
+00:26:31,860 --> 00:26:34,280
+Levrik 1'e termine ekranı açabiliyorsunuz.
+
+271
+00:26:34,520 --> 00:26:36,520
+Web üzerinden dosyalarınız arasında gezinebiliyorsunuz.
+
+272
+00:26:37,480 --> 00:26:38,520
+Dosyalarınızı edit edebiliyorsunuz.
+
+273
+00:26:39,460 --> 00:26:45,520
+Bilgisayarınızdan sistem ya da sistemden bilgisayara verilerinizi, dizimlerinizi aktarabiliyorsunuz.
+
+274
+00:26:45,520 --> 00:26:52,520
+İnteraktif kuyruğu üzerinde görsel ve interaktif uygulamalar çalıştırabiliyorsunuz.
+
+275
+00:26:52,520 --> 00:26:56,520
+Diğer kuyruklara normal işler gönderebilirsiniz.
+
+276
+00:26:56,520 --> 00:27:00,520
+Jüpiter ve benzeri uygulamaları çalıştırabiliyorsunuz.
+
+277
+00:27:00,520 --> 00:27:02,360
+Ben hatta şöyle yapayım.
+
+278
+00:27:02,520 --> 00:27:03,780
+Açık session'ım vardı.
+
+279
+00:27:03,900 --> 00:27:05,560
+Size kısaca bir gösterimde buluyorum.
+
+280
+00:27:05,640 --> 00:27:08,520
+Önce buradaki sharing'i kapatayım o zaman.
+
+281
+00:27:09,220 --> 00:27:10,000
+Bir dakika.
+
+282
+00:27:10,520 --> 00:27:11,520
+Eğer kapatabilirsem.
+
+283
+00:27:11,520 --> 00:27:18,520
+Sen onu hallederken bu kısımla alakalı bağlantı ile ilgili sorular var.
+
+284
+00:27:18,520 --> 00:27:26,520
+Ali Rıza Bey, Turbo VPN veri aktarımında sık sık kopma yaşadığına ilişkin bilgi verdi.
+
+285
+00:27:27,520 --> 00:27:37,520
+Burada aslında Sefa'nın aktardığı gibi ULACnet üzerinden bağlı araştırmacılarımız doğrudan şey yapabiliyorlar.
+
+286
+00:27:38,520 --> 00:27:40,520
+Altyapıya VPN kullanmadan bağlanabiliyorlar.
+
+287
+00:27:40,520 --> 00:27:47,520
+Bazı durumlarda bazı araştırma kurumlarımız veya bazı üniversitelerimiz ULACnet site bağlı olmayabiliyorlar.
+
+288
+00:27:49,120 --> 00:27:52,300
+Yani bu özellikle vakıf üniversitelerinde yaşadığımız bir durum.
+
+289
+00:27:52,440 --> 00:27:57,480
+Veya işte İBG gibi şeylerimizin de bu şekilde ayrı networkleri olabilir.
+
+290
+00:27:58,220 --> 00:28:03,960
+Bunları bize bildirmeleri durumunda biz kendi erişim şeyimizi ekliyoruz bunları.
+
+291
+00:28:05,300 --> 00:28:06,780
+Erişim tanımımızı ekliyoruz.
+
+292
+00:28:06,780 --> 00:28:09,780
+Oradan doğrudan bağlantı sağlayabilirler.
+
+293
+00:28:10,520 --> 00:28:13,860
+Devam edeyim mi?
+
+294
+00:28:14,360 --> 00:28:14,600
+Evet.
+
+295
+00:28:15,640 --> 00:28:17,500
+On Demet ekranı geldi mi?
+
+296
+00:28:18,320 --> 00:28:18,980
+Gelmiş olması lazım.
+
+297
+00:28:18,980 --> 00:28:19,300
+Geldi.
+
+298
+00:28:20,700 --> 00:28:22,680
+Giriş sayfası bu şekilde.
+
+299
+00:28:24,160 --> 00:28:34,340
+Eğer CPU kutasıyla, daha doğrusu CPU zamanı kutasıyla ya da kutasıyla ilgili bir limite takılmak üzereyseniz
+
+300
+00:28:34,340 --> 00:28:37,560
+şurada size bununla ilgili uyarı veriyor olacak.
+
+301
+00:28:37,560 --> 00:28:44,940
+Dediğim gibi dosyalar üzerinde gezinti yapabilirsiniz demiştik.
+
+302
+00:28:45,100 --> 00:28:49,900
+Buradan on directory'i açtığınızda kendi ev cidinize ulaşıyorsunuz.
+
+303
+00:28:50,900 --> 00:28:54,900
+Bilgisayarınızdan ya da sistemden birbirine veri aktarabiliyorsunuz.
+
+304
+00:28:54,900 --> 00:29:03,900
+Burada tool'ları kullanılarak dosya kopyalama, silme, dosya edit etme ya da görme gibi işlemleri yapabiliyorsunuz.
+
+305
+00:29:03,900 --> 00:29:14,600
+Yeni bir aktif, şu an kuyrukta çalışan işlerinizi buradan görmeniz mümkün.
+
+306
+00:29:15,240 --> 00:29:23,900
+Buradan işlerinizin özelliklerini görebilir, iptal edebilir ya da teminal bağlantısı yapabilirsiniz.
+
+307
+00:29:23,900 --> 00:29:31,920
+Bu kısımdan yeni bir iş oluşturabilirsiniz.
+
+308
+00:29:32,220 --> 00:29:35,900
+Yeni bir işinizi mevcut olan bir işten yaratabilirsiniz.
+
+309
+00:29:37,500 --> 00:29:42,040
+NewJob dediğimizde yeni bir işten yaratabilirsiniz ya da bir template'ten yaratabilirsiniz.
+
+310
+00:29:43,280 --> 00:29:50,520
+Open On Demand'in bu yeteneğiyle ilgili pratik olmayan durumlar söz konusu.
+
+311
+00:29:50,520 --> 00:29:54,760
+Ama ileride bunlar düzelecek büyük ihtimalle Open On Demand'in geliştirilmesiyle birlikte.
+
+312
+00:29:58,600 --> 00:30:00,500
+Turbo Shell Aksis almanız mümkün.
+
+313
+00:30:00,620 --> 00:30:03,520
+Yani normalde kullanıcılar SSH ile bağlanıyordu.
+
+314
+00:30:04,540 --> 00:30:08,520
+Levrik 1'e ya da L1'e her neyse kullanıcı arıyorsunuz SSH ile bağlanıyordu.
+
+315
+00:30:09,360 --> 00:30:11,840
+Aynı yeteneği burası da size sağlıyor.
+
+316
+00:30:13,560 --> 00:30:16,820
+Yani Levrik 1 Postman diyelim şimdi.
+
+317
+00:30:16,820 --> 00:30:23,520
+Devrik 1'e SSH bağlantısı almış olduğunuz bu şekilde.
+
+318
+00:30:25,820 --> 00:30:29,700
+Diğer kullanıcı arayüzlerinin sağlayamadığı asıl
+
+319
+00:30:29,700 --> 00:30:34,120
+Open On Demand'in asıl artısı burada karşımıza çıkıyor.
+
+320
+00:30:34,820 --> 00:30:37,060
+Altyapıda interaktif iş çalıştırabiliyorsunuz.
+
+321
+00:30:37,060 --> 00:30:41,060
+Yani görsel bir uygulamayı altyapıda çalıştırmanız mümkün.
+
+322
+00:30:42,520 --> 00:30:46,840
+Görsel uygulamalar sadece interaktif kuyruğunda çalışabiliyor.
+
+323
+00:30:46,980 --> 00:30:49,940
+Interaktif kuyruğundaki kaynak miktarı şu an için sınırlı.
+
+324
+00:30:49,940 --> 00:30:56,420
+Sınırlı olmasına rağmen yine çalışan pek çok kullanıcımız var burada.
+
+325
+00:30:58,680 --> 00:31:03,360
+Interaktif uygulamalar ek olarak Linux desktop'ı almanız söz konusu.
+
+326
+00:31:03,520 --> 00:31:07,240
+Yani grafik olarak VNC üzerinde Linux desktop'ı alıyorsunuz.
+
+327
+00:31:07,820 --> 00:31:13,060
+Linux desktop'ı alarak kendi görsel kuruluma ihtiyaç duyan uygulamanızı kurabileceğiniz gibi
+
+328
+00:31:13,060 --> 00:31:16,840
+Linux desktop içinden diğer görsel uygulamalarınızı da çalıştırabilirsiniz.
+
+329
+00:31:17,140 --> 00:31:19,620
+Mesela burada açık sayışınlar olması lazım diye bir bakalım.
+
+330
+00:31:19,940 --> 00:31:23,560
+Matematik uygulamasını bu şekilde çalıştırmışım.
+
+331
+00:31:25,400 --> 00:31:28,880
+GNU Plot uygulaması şu an açık karşımda.
+
+332
+00:31:29,320 --> 00:31:30,840
+Jüpiter'i kullanmanız mümkün.
+
+333
+00:31:31,820 --> 00:31:33,200
+Jüpiter'i kullanmanız mümkün.
+
+334
+00:31:33,880 --> 00:31:38,060
+Zamanla buraya eklenebilecek uygulama sayısını arttırabileceğiz.
+
+335
+00:31:38,320 --> 00:31:43,520
+Ancak dediğim gibi Linux desktop'ı alarak da kendiniz herhangi bir görsel uygulamayı çalıştırabilirsiniz.
+
+336
+00:31:43,520 --> 00:31:51,400
+Open On Demand ile ilgili başka söyleyebileceğim ne var?
+
+337
+00:31:51,820 --> 00:31:55,680
+Şurada çalışan interaktif sayışınlarımızı görebiliriz.
+
+338
+00:31:56,340 --> 00:31:56,840
+Hemen bakalım.
+
+339
+00:31:57,500 --> 00:31:59,280
+Şu an RStudio çalışıyor durumda.
+
+340
+00:31:59,400 --> 00:32:03,520
+Launch butonuna bastığım zaman RStudio'ya bağlanıyor olacağım.
+
+341
+00:32:03,520 --> 00:32:07,680
+Zaten GNU Plot'u matematikayı göstermiştim.
+
+342
+00:32:08,200 --> 00:32:10,880
+Open On Demand ile ilgili söyleyeceklerim şimdilik bu kadar.
+
+343
+00:32:11,600 --> 00:32:13,520
+Madde alakalı bir sorumuz var.
+
+344
+00:32:13,900 --> 00:32:14,340
+Neyle ilgili?
+
+345
+00:32:14,400 --> 00:32:16,040
+O On Demand ile alakalı.
+
+346
+00:32:17,140 --> 00:32:19,760
+İş göndermeden önce kuyrukların durumunu görebiliyor muyuz?
+
+347
+00:32:19,760 --> 00:32:21,780
+Maalesef göremiyorsunuz.
+
+348
+00:32:21,880 --> 00:32:23,000
+Yani şöyle görebilirsiniz.
+
+349
+00:32:23,440 --> 00:32:31,240
+Kuyrukların durumunu göremiyorsunuz ama S-Info ile baktığınız zaman kuyrukta ne kadar sunucunun allocated olduğunu,
+
+350
+00:32:31,340 --> 00:32:34,420
+ne kadarının mixed, ne kadarının ölü durumda olduğunu görebiliyorsunuz.
+
+351
+00:32:34,480 --> 00:32:39,000
+Ama işi gönderdiğinizde işinizin ne zaman sıraya gireceğini doğrudan göremiyorsunuz.
+
+352
+00:32:42,000 --> 00:32:42,980
+Şeyle aynı durum.
+
+353
+00:32:43,160 --> 00:32:48,760
+Normal S-Patch ile ya da S-Q ile iş göndermekle ilgili aynı durum.
+
+354
+00:32:48,760 --> 00:32:49,840
+burada söz konusu.
+
+355
+00:32:50,540 --> 00:32:52,780
+Jüpiter arayırının eklendiğini bilmiyordum.
+
+356
+00:32:52,960 --> 00:32:55,800
+Çok kısa bir gösterim yapabilir misiniz gibi bir talep var.
+
+357
+00:32:56,540 --> 00:32:58,820
+Şöyle hemen açalım şuradan.
+
+358
+00:32:59,180 --> 00:33:00,100
+Biraz bekleteceğim.
+
+359
+00:33:01,560 --> 00:33:03,560
+Jüpiter'i çalıştır diyoruz.
+
+360
+00:33:03,920 --> 00:33:04,860
+Buradan bakalım.
+
+361
+00:33:06,820 --> 00:33:07,160
+Pardon.
+
+362
+00:33:11,160 --> 00:33:16,340
+Jüpiter Lab Plot'u kullanabilir mi diye de eklemiş aynı araştırmacımız.
+
+363
+00:33:17,280 --> 00:33:18,500
+Neyi kullanabilir mi?
+
+364
+00:33:18,500 --> 00:33:19,340
+Jüpiter Lab.
+
+365
+00:33:20,380 --> 00:33:28,580
+Yani Jüpiter'in desteklediği bütün paketleri kullanabilirsiniz.
+
+366
+00:33:28,760 --> 00:33:31,260
+Buradan ekantınızı belirtmek zorunda değilsiniz.
+
+367
+00:33:31,640 --> 00:33:35,400
+Ne kadar işiniz ne kadar süreceğini, ne kadar not kullanacağını seçiyorsunuz.
+
+368
+00:33:35,780 --> 00:33:37,280
+Jüpiter'i kuyruğa gönderiyorsunuz.
+
+369
+00:33:37,320 --> 00:33:39,200
+Kuyruğa gönderdiğiniz zaman Jüpiter çalışmaya başlıyor.
+
+370
+00:33:39,200 --> 00:33:43,180
+Jüpiter kullanıcısı diyelim diye nasıl kullanıldığını bilmiyorum ama karşıma böyle bir ekran çıktı.
+
+371
+00:33:43,300 --> 00:33:49,220
+Buradan dosyalarınızı edit edip FITON'la doğrudan Jüpiter komutlarını çalıştırabilirsiniz.
+
+372
+00:33:49,220 --> 00:33:55,360
+Burayla ilgili başka bir soru varsa alayım.
+
+373
+00:33:55,560 --> 00:34:00,540
+Bondüment üzerinden eriştiğimiz Jüpiter için virtual environment etkinleştirmemiz mümkün mü?
+
+374
+00:34:00,540 --> 00:34:06,460
+Kasıtı anlayamadım ama virtual environment derken.
+
+375
+00:34:06,700 --> 00:34:14,280
+Dediğimiz gibi aslında şöyle bir uygulamanın nasıl çalışacağını, nasıl çalıştığını biz sistem yöneticisi olarak bilmiyoruz.
+
+376
+00:34:14,280 --> 00:34:17,720
+Bilemeyizdi. Eğer Jüpiter size bu izni veriyorsa yapabilirsiniz.
+
+377
+00:34:17,940 --> 00:34:19,160
+Bu izni vermiyorsa yapamazsınız.
+
+378
+00:34:24,440 --> 00:34:27,620
+Bondüment ile alakalı başka bir soru var mı diye bakıyorum.
+
+379
+00:34:27,840 --> 00:34:28,900
+Hazır yeri açılmışken.
+
+380
+00:34:31,660 --> 00:34:33,320
+Yok gibi gözüküyor.
+
+381
+00:34:33,860 --> 00:34:39,240
+Emre Bey ayrıca netleştirmek isterse şey yapabilir, sorusunu açık bırakıyorum.
+
+382
+00:34:39,760 --> 00:34:41,720
+Sonrasında tekrar geri dönüş yaparız.
+
+383
+00:34:42,400 --> 00:34:42,940
+Devam etsiniz.
+
+384
+00:34:42,940 --> 00:34:46,100
+Diğer sunuma geçmeye çalışıyorum.
+
+385
+00:34:46,240 --> 00:34:48,020
+Biraz bekleteceğim. Kusura bakmayın.
+
+386
+00:34:50,220 --> 00:34:51,240
+Geçtim mi?
+
+387
+00:34:56,240 --> 00:34:57,460
+Geçmedi henüz.
+
+388
+00:34:57,860 --> 00:34:58,780
+Henüz geçmedi.
+
+389
+00:34:59,200 --> 00:35:00,380
+Bekleteyim o zaman.
+
+390
+00:35:01,060 --> 00:35:01,740
+Kusura bakmayın.
+
+391
+00:35:03,040 --> 00:35:07,880
+Matematika ile program çalıştıkça düşürken Windows işletim sistemini kullanabiliyor muyuz?
+
+392
+00:35:08,760 --> 00:35:09,120
+Hayır.
+
+393
+00:35:09,120 --> 00:35:14,200
+Zaten işletim sistemi bağımlı bir program değil aslında.
+
+394
+00:35:14,480 --> 00:35:17,240
+Matematika açısından bakıyorsak olaya.
+
+395
+00:35:18,920 --> 00:35:22,000
+Ayrıca lisansınız olması gerekiyor tabii ki bizim sistem üzerinde.
+
+396
+00:35:22,000 --> 00:35:24,940
+Onu söylemeyi unuttum.
+
+397
+00:35:25,160 --> 00:35:31,620
+Alt yapıda aslında lisansla ilgili bir bölüm yapacaktım ama fazla uzayacağı için yapmaktan vazgeçtim.
+
+398
+00:35:31,620 --> 00:35:37,780
+lisanslı ücretli olan hiçbir uygulamayı alt yapı size sağlamıyor.
+
+399
+00:35:37,780 --> 00:35:44,120
+Ama eğer uygun lisansınız varsa alt yapıya kurup lisanslı ücretli olan uygulamanı çalıştırabilirsiniz.
+
+400
+00:35:44,240 --> 00:35:45,660
+Ancak şöyle bir durum söz konusu.
+
+401
+00:35:46,280 --> 00:35:52,820
+İşinizin hangi sunucuya gideceği önceden belli olmadığı için işinizin daha doğrusu lisansınızın sunucu bağımsız.
+
+402
+00:35:52,820 --> 00:35:54,480
+Yani floating lisans olması lazım.
+
+403
+00:35:55,660 --> 00:36:00,540
+Sunucudan bağımsız, işin gittiği sunucu da çalışabilecek özellik de olması lazım.
+
+404
+00:36:01,400 --> 00:36:04,420
+Floating lisanslar uygulamaya göre değişiyor.
+
+405
+00:36:04,960 --> 00:36:10,700
+Lisans sunucusu kurulması gerekebiliyor ya da kurumunuzdaki lisans sunucusunun buradaki bilgisayarların erişimine izin veriyor olması lazım.
+
+406
+00:36:10,700 --> 00:36:14,760
+Sunum ekranına geçebildim mi?
+
+407
+00:36:15,540 --> 00:36:15,800
+Evet.
+
+408
+00:36:16,480 --> 00:36:16,720
+Tamam.
+
+409
+00:36:18,040 --> 00:36:20,640
+Open End On Demand'in kullanımını göstermiştim.
+
+410
+00:36:20,920 --> 00:36:23,280
+Ayrıntılı tanıtım ve kullanım bilgisi viki de mevcut.
+
+411
+00:36:25,860 --> 00:36:28,920
+Normal kullanıcı arayüzlerinin kullanımına gelecek olursa
+
+412
+00:36:28,920 --> 00:36:36,620
+yani genel olarak dosya kopyalama, taşıma, düzenleme, kuyruklara iş göndermek için kullanılıyor.
+
+413
+00:36:36,620 --> 00:36:43,280
+Kullanıcı arayüzü sunucularında kısa süreli ve az kaynak gerektiren test işlerinizi çalıştırabilirsiniz.
+
+414
+00:36:43,440 --> 00:36:44,660
+Ama kısa sürmesi gerekir.
+
+415
+00:36:45,680 --> 00:36:48,160
+Test işlerinizi ayrıca Dibak kuyruğunda çalıştırabilirsiniz.
+
+416
+00:36:48,320 --> 00:36:50,280
+Dibak kuyruğunun önceliği çok yüksektir.
+
+417
+00:36:50,400 --> 00:36:52,160
+15 dakikalık çalışma limiti vardır.
+
+418
+00:36:52,320 --> 00:36:54,280
+Buraya her türlü işinizi gönderip çalıştırabilirsiniz.
+
+419
+00:36:54,400 --> 00:36:55,360
+Kuda işleriniz dahil.
+
+420
+00:36:56,760 --> 00:36:59,600
+Kullanıcı arayüzlerinde uygulama ve kütüphane derleyebilirsiniz.
+
+421
+00:36:59,740 --> 00:37:00,220
+Kurabilirsiniz.
+
+422
+00:37:00,360 --> 00:37:01,880
+Dosya aktarımı yapabilirsiniz dedik.
+
+423
+00:37:01,880 --> 00:37:06,020
+Pek çok kullanıcımız, pek çok demeyelim de bazı kullanıcılarımız
+
+424
+00:37:06,020 --> 00:37:11,500
+ya kuyruk sistemini kullanmayı sevmedikleri için ya da yeterli teknik bilgiye sahip olmadıkları için
+
+425
+00:37:11,500 --> 00:37:13,760
+kullanıcı arayüzü sunucularında iş çalıştırıyorlar.
+
+426
+00:37:13,920 --> 00:37:15,980
+Böyle bir durumda kullanıcılarımızı önce uyarıyoruz.
+
+427
+00:37:16,260 --> 00:37:19,140
+Çünkü kullanıcı arayüzlerinde çalıştırılan işler
+
+428
+00:37:19,140 --> 00:37:24,000
+sistemi rutin şekilde kullanmak isteyen kullanıcıların işlerini oldukça zorlaştırmakta.
+
+429
+00:37:25,540 --> 00:37:26,740
+Önce kullanıcı uyarıyoruz.
+
+430
+00:37:26,740 --> 00:37:31,520
+Eğer kullanıcı hala işini çalıştırmakta ısrar ediyorsa çeşitli kereler.
+
+431
+00:37:31,880 --> 00:37:34,120
+Kullanıcının hesabını askıya alıyoruz.
+
+432
+00:37:36,860 --> 00:37:41,780
+Kuyrukta sistemin varsayılan şekilde
+
+433
+00:37:41,780 --> 00:37:46,080
+sistem üzerinde varsayılan şekilde iş çalıştırmaya gelecek olursak
+
+434
+00:37:46,080 --> 00:37:48,100
+bir klasik yöntemimiz var.
+
+435
+00:37:48,260 --> 00:37:48,680
+S5.
+
+436
+00:37:48,680 --> 00:37:52,760
+S5 ile betik dosyaları hazırlıyoruz öncelikle.
+
+437
+00:37:53,260 --> 00:37:58,140
+Bu betik dosyaları, örnek betik dosyalarını Truba Software Script dizinin altında bulabilirsiniz.
+
+438
+00:37:59,280 --> 00:38:02,980
+Aslında herhangi bir HPC sistemi için geçerli bu.
+
+439
+00:38:03,680 --> 00:38:09,960
+Bir iş kuyruğa gönderdiğinizde işin ne kadar çalışacağı, ne kadar kuyrukta bekleyeceği tam da belli değil.
+
+440
+00:38:09,960 --> 00:38:16,300
+Kuyruğun yoğunluğuna göre, işinizin büyüklüğüne göre günlerce kuyrukta da bekleyebilir, birkaç dakika da bekleyebilir.
+
+441
+00:38:16,640 --> 00:38:21,740
+Dolayısıyla aslında HPC kümeleri interaktif çalışmak için çok da uygun ortamlar değiller.
+
+442
+00:38:22,280 --> 00:38:23,780
+Ya da verimli ortamlar değiller.
+
+443
+00:38:23,780 --> 00:38:28,080
+Bizim için de aynı durum söz konusu.
+
+444
+00:38:28,820 --> 00:38:36,140
+Normalde sistemi klasik anlamda kullanılacak olursak, işlerinizi S5 ile kuyruğa göndermeniz gerekiyor.
+
+445
+00:38:36,580 --> 00:38:38,320
+Bir betik dosyası hazırlamanız gerekiyor.
+
+446
+00:38:38,380 --> 00:38:43,540
+Bu betik dosyasının içinde kullanacağınız uygulamanın komut satırından başlatılabilir özellikle olması
+
+447
+00:38:43,540 --> 00:38:46,700
+ve kullanıcıyla herhangi bir etkileşime ihtiyaç duymaması gerekiyor.
+
+448
+00:38:46,700 --> 00:38:52,020
+Yani komut satırından işinizi çalıştırdığınızda parametreleri komut satırından verebilirsiniz.
+
+449
+00:38:52,020 --> 00:38:53,640
+Ben de input dosyalarından verebilirsiniz.
+
+450
+00:38:53,820 --> 00:38:55,400
+İşiniz çalışmaya başlayacak.
+
+451
+00:38:55,540 --> 00:38:59,100
+Beş gün, on gün ya da üç dakika her nesi çalışıp sonlanacak otomatik olarak.
+
+452
+00:39:00,580 --> 00:39:07,500
+Dolayısıyla HPC sistemlerinde çalışan uygulamaların bu şekilde bir çalışma yapısına sahip olmasını bekliyoruz.
+
+453
+00:39:09,760 --> 00:39:13,540
+İşlerinizi betiklere göndermek için S5 kullanmanız gerekiyor demiştik.
+
+454
+00:39:15,160 --> 00:39:17,660
+Solurum dosyalarına hakim olanlar bilirler.
+
+455
+00:39:17,820 --> 00:39:21,140
+İlk kısımda kaynaklarla ilgili tanımlamalar var.
+
+456
+00:39:21,140 --> 00:39:22,860
+Solurum parametreleri var.
+
+457
+00:39:22,940 --> 00:39:28,960
+Bu parametreleri betik dosyasına verebileceğiniz gibi Linux komut satırından da verebilirsiniz.
+
+458
+00:39:29,200 --> 00:39:39,940
+Yani isterseniz şurada tr-n40, tr-n1, tr-gres, eşittir-gp2 parametresini ister betik dosyasının içine verirsiniz, ister komut satırından verebilirsiniz.
+
+459
+00:39:40,100 --> 00:39:41,440
+İkisinde farklı kullanımları var.
+
+460
+00:39:41,600 --> 00:39:43,080
+Avantajları, dezavantajları var.
+
+461
+00:39:43,720 --> 00:39:45,500
+Önemli bir nokta work-dür tanımı.
+
+462
+00:39:45,500 --> 00:39:51,500
+Eğer betiğinizin içinde work-dür tanımı yapmamışsanız, yani işin nerede çalışacağını belirtmemişseniz,
+
+463
+00:39:52,560 --> 00:39:57,660
+işi gönderdiğiniz dizin sizin default çalışma diziniz olarak kabul edilir.
+
+464
+00:39:58,520 --> 00:40:05,500
+Betik dosyanızda kullanacağınız hem uygulamalar ve hem input dosyaları için root'tan itibaren tam yol belirtmemişseniz,
+
+465
+00:40:06,920 --> 00:40:10,660
+dosyalar bu çalıştığınız dizin içinde aranıyor olacaktır.
+
+466
+00:40:10,740 --> 00:40:14,280
+Yani sistem öncelikle bu dizinin içinde bu dosyaları arıyor olacaktır.
+
+467
+00:40:14,280 --> 00:40:25,460
+Dediğim gibi çok uygun değil interaktif iş çalıştırmaya, HBC hükümeleri ama interaktif iş çalıştırmanız mümkün.
+
+468
+00:40:26,000 --> 00:40:28,500
+Niye uygun olmadığından bahsetmiştim.
+
+469
+00:40:28,580 --> 00:40:30,240
+İşin ne zaman başlayacağı belli değil.
+
+470
+00:40:30,380 --> 00:40:31,880
+Uzun süreler kurukta bekliyor olabilirsiniz.
+
+471
+00:40:32,120 --> 00:40:35,300
+Bir de işinizi zaten bir HBC hükümesinde çalıştırmaya ihtiyacınız varsa,
+
+472
+00:40:35,800 --> 00:40:37,480
+işiniz uzun sürecek demektir.
+
+473
+00:40:37,480 --> 00:40:44,360
+Haftalarca sürecek bir işi komut satırında sürekli etkileşim yaparak çalıştırmak pek mümkün olmayacaktır.
+
+474
+00:40:44,700 --> 00:40:49,280
+Ama gene de altyapı, interaktif iş çalıştırmaya belli sınırlar dahilinde izin vermektedir.
+
+475
+00:40:49,980 --> 00:40:53,540
+Interaktif işler dört şekilde çalıştırılabilir.
+
+476
+00:40:53,540 --> 00:41:01,420
+Altyapıda birincisi S-Run ile Levrik 1 S-Batch ile betik dosyalarını kuyruğa gönderiyorduk.
+
+477
+00:41:01,800 --> 00:41:08,520
+S-Run ile betik dosyalarında kuyruğa gönderdiğimiz komutları doğrudan komut satırından çalıştırabiliyoruz.
+
+478
+00:41:08,600 --> 00:41:13,900
+Mesela burada Hello World application'ını Barbun kuyruğuna göndermişiz.
+
+479
+00:41:14,020 --> 00:41:15,700
+Barbun kuyruğuna göndermişiz.
+
+480
+00:41:15,760 --> 00:41:16,880
+İki tane GPU istemişiz.
+
+481
+00:41:16,880 --> 00:41:18,240
+Kırk tane çekirdek istemişiz.
+
+482
+00:41:20,160 --> 00:41:23,880
+Bir diğer interaktif kullanma şeklisi S-Alloc.
+
+483
+00:41:24,200 --> 00:41:29,000
+S-Alloc ile hesaplama sününcüsü üzerinde interaktif terminal alabilirsiniz.
+
+484
+00:41:29,480 --> 00:41:33,700
+Yani siz SSH ile nasıl Levrik 1 üzerinde terminal alıyorsunuz?
+
+485
+00:41:34,280 --> 00:41:40,500
+S-Alloc komutunu kullanarak da söz gelimi Barbun kuyruğunda herhangi bir sınucudan interaktif terminal almanız mümkün.
+
+486
+00:41:40,500 --> 00:41:46,960
+Ama o terminalde çalıştıracağınız her türlü komut için S-Run komutu ile başlamamız gerekiyor.
+
+487
+00:41:47,640 --> 00:41:54,540
+Dolayısıyla eğer kendi debug opsiyonlarınız ya da kullandığınız uygulama destekliyorsa
+
+488
+00:41:54,540 --> 00:42:01,700
+Barbun kuyruğundan terminal ekranı alıp S-Run ile işinizi çalıştırıp debug edebilirsiniz.
+
+489
+00:42:02,000 --> 00:42:09,160
+Ama dediğim gibi S-Run ile kullansanız S-Alloc ile kullansanız işinizi yine sıraya göndermeniz gerekecek.
+
+490
+00:42:09,160 --> 00:42:20,060
+Bir diğer kullanım S-E-T-H, S-Run ile ya da S-P-H ile kuyruğa gönderdiğiniz komutlara daha sonrasından terminal bağlantısı sağlayabilirsiniz.
+
+491
+00:42:20,340 --> 00:42:26,620
+Aslında işlere demeyelim de kuyruktaki işlerin steplerine terminal bağlantısı sağlayabilirsiniz.
+
+492
+00:42:26,620 --> 00:42:34,700
+Step ne demek? Bir Bet'i kuyruğa gönderdiğinizde içinde S-Run ile çalıştırdığınız herhangi bir çalışma anı bir step oluyor.
+
+493
+00:42:34,700 --> 00:42:41,160
+Peş peşe diyelim ki 10 tane S-Run kullandığınız Bet'i dosyasında her bir ayrı bir step sırasıyla çalıştırılır.
+
+494
+00:42:41,400 --> 00:42:52,700
+Siz o çalışma arasında S çeşitli sunum komutlarıyla S-Hakt ile mesela o an çalışmakta olan step'i görebilir ve S-E-T-H ile o step'e bağlanabilirsiniz.
+
+495
+00:42:53,420 --> 00:42:58,280
+Yani doğrudan terminal o step'e doğrudan terminal bağlantısı yapmanız mümkün.
+
+496
+00:42:58,280 --> 00:43:05,240
+Open On Demand'den bahsetmiştim. İnteraktif kuyruğuna interaktif uygulamaları gönderebilirsiniz.
+
+497
+00:43:06,140 --> 00:43:07,680
+Linux destabı alabilirsiniz.
+
+498
+00:43:09,780 --> 00:43:13,460
+İşlerle ilgili bazı limitlerden bahsedeyim.
+
+499
+00:43:14,360 --> 00:43:20,060
+En önemlisi bellek limiti. Her sunucu üzerindeki bellek miktarı birbirinden farklı.
+
+500
+00:43:20,060 --> 00:43:25,480
+Kullanıcıların işler için bellek miktarı tanınılmasına izin verilmiyor.
+
+501
+00:43:26,940 --> 00:43:33,940
+İşiniz için sistem tarafından ayrılacak bellek miktarı sizin seçtiğiniz çekirdek sayısıyla linear olarak orantılı.
+
+502
+00:43:35,340 --> 00:43:39,320
+Söz gelimi 20 çekirdek için 100 GB.
+
+503
+00:43:39,780 --> 00:43:41,100
+Tabi kuyruğuna göre değişiklik.
+
+504
+00:43:41,160 --> 00:43:42,780
+20 çekirdek için söz gelimi 100 GB.
+
+505
+00:43:42,920 --> 00:43:45,460
+240 çekirdek için onun iki katı olacak.
+
+506
+00:43:45,460 --> 00:43:51,660
+İşiniz tanınılanın bellek miktarından daha fazlasını kullanamaz.
+
+507
+00:43:51,800 --> 00:43:55,440
+Daha fazlasını anlık olarak kullanmaya çalışabilir.
+
+508
+00:43:55,540 --> 00:43:56,420
+Bunda sıkıntı yok.
+
+509
+00:43:56,720 --> 00:44:01,180
+Ama daha fazlasını uzun süreli kullanmaya çalıştığı zaman sistem tarafından otomatik olarak zorlandırılır.
+
+510
+00:44:01,620 --> 00:44:03,540
+Aynı şey zaman içinde geçerli.
+
+511
+00:44:04,020 --> 00:44:06,100
+İşin süresi kuyruğun süresine geçemez.
+
+512
+00:44:06,100 --> 00:44:08,180
+Daha önce göstermiştim tablomuzda.
+
+513
+00:44:08,280 --> 00:44:10,740
+MIT 1 kuyruğu 4 gündeydi galiba.
+
+514
+00:44:10,920 --> 00:44:12,160
+MIT 2 kuyruğu 8 günlük.
+
+515
+00:44:12,220 --> 00:44:14,520
+Short kuyruğu birkaç saatlik kuyruğu.
+
+516
+00:44:14,520 --> 00:44:16,520
+İşiniz bundan daha uzun olamaz.
+
+517
+00:44:16,620 --> 00:44:20,120
+Peki biz bu farklı kuyruklara niye ihtiyaç duyuyoruz?
+
+518
+00:44:20,200 --> 00:44:21,560
+Farklı zamanlara niye ihtiyaç duyuyoruz?
+
+519
+00:44:21,600 --> 00:44:21,880
+Şundan.
+
+520
+00:44:23,540 --> 00:44:25,720
+Biz de Turba'da ve pek çok hükümede de öyledir.
+
+521
+00:44:25,800 --> 00:44:27,620
+Kısa süreli işlerin önceliği daha yüksek.
+
+522
+00:44:29,360 --> 00:44:34,480
+Aynı MIT 1, MIT 2, Long'da aynı hesaplama sunucularına iş gönderseniz bile,
+
+523
+00:44:34,480 --> 00:44:37,640
+söz gelimi, barbun sunucularında işinizi çalıştırsanız bile
+
+524
+00:44:37,640 --> 00:44:42,920
+MIT 1'e gönderdiğiniz işin önceliği, Long'a gönderdiğiniz işin önceliğinden daha yüksek olacak.
+
+525
+00:44:42,920 --> 00:44:50,120
+Ayrıca işlerin süresi kısaldıkça normalde bir işin çalışması için işin sırasının gelmiş olması lazım.
+
+526
+00:44:50,600 --> 00:44:56,880
+Ama işler bir takvime yerleştirildiğinde, işlemci ve sunucu takvimine yerleştirildiğinde
+
+527
+00:44:56,880 --> 00:44:58,380
+arada bazı boşluklar olabilir.
+
+528
+00:44:58,380 --> 00:45:04,160
+Eğer işinizin kaynak miktarı, işinizin talep ettiği kaynak miktarı ve süresi yeterince kısa ise
+
+529
+00:45:04,160 --> 00:45:08,580
+bu aradaki boşluklara işiniz sistem tarafından yerleştirilir.
+
+530
+00:45:08,660 --> 00:45:10,240
+Buna backfill algoritması deniliyor.
+
+531
+00:45:10,600 --> 00:45:13,000
+Yani işiniz sırası gelmediğinde başlatılabilir.
+
+532
+00:45:14,140 --> 00:45:19,540
+Bu yüzden zaman konusu aslında işin başlaması için en önemli konulardan bir tanesi.
+
+533
+00:45:20,020 --> 00:45:22,380
+Buraya kadar olan soruları alalım isterseniz eğer varsa.
+
+534
+00:45:22,380 --> 00:45:26,200
+Sorular var.
+
+535
+00:45:27,380 --> 00:45:30,320
+İster bu kısımla ilgili olanları ayıklamaya çalışalım, ister...
+
+536
+00:45:30,320 --> 00:45:32,160
+Çok da şartlı istersen hepsini...
+
+537
+00:45:32,160 --> 00:45:33,680
+Temizlemeye çalışalım büyük kısım.
+
+538
+00:45:34,800 --> 00:45:37,860
+Ali Rıza Bey'in sorusunun altına gizlenen bir soru var.
+
+539
+00:45:38,000 --> 00:45:39,760
+İsa Değirmancı tarafından.
+
+540
+00:45:39,980 --> 00:45:44,480
+İş döndürürken iş esnasında 500 GB avan gereksinimi ihtiyaç olabiliyor.
+
+541
+00:45:45,200 --> 00:45:47,480
+50 GB'nin üzerine izin verilmiyor diye biliyorum.
+
+542
+00:45:47,600 --> 00:45:49,920
+Bu problemle ilgili bir çözüm getirildi mi?
+
+543
+00:45:49,920 --> 00:45:52,200
+Bellekten mi bahsediyor anlayamadım ben.
+
+544
+00:45:52,640 --> 00:45:54,460
+Bellekten mi bahsediyor ben de anlayamadım.
+
+545
+00:45:54,620 --> 00:45:58,640
+Yani Sefa'nın bahsetmiş olduğu gibi belli sunucularımızdaki scratch alan...
+
+546
+00:45:58,640 --> 00:46:01,460
+İsa Hocam'ın hani bir Gaussian kullanıcısı diye hatırlıyorum.
+
+547
+00:46:02,080 --> 00:46:04,920
+O yüzden scratch alan Gaussian'da önemli olabiliyor.
+
+548
+00:46:05,560 --> 00:46:07,660
+Scratch alanla ilgili mi problem?
+
+549
+00:46:08,080 --> 00:46:10,600
+Eğer scratch alandan bahsediyorsa şöyle bir durum söz konusu.
+
+550
+00:46:10,720 --> 00:46:13,040
+Scratch alanları biz genelde temizliyoruz.
+
+551
+00:46:13,080 --> 00:46:16,660
+Sık sık sunuculara girip temp dizilerini temizliyoruz.
+
+552
+00:46:16,660 --> 00:46:22,460
+Ancak kullanıcılarımızdan da Gaussian ve benzeri işlerde tam da yerine denk gelmiş galiba.
+
+553
+00:46:23,740 --> 00:46:25,960
+Betiklerinde şöyle bir düzenleme yapmalarını istiyoruz.
+
+554
+00:46:26,820 --> 00:46:30,900
+Ekranda görüldüğü üzere Gaussian scratch alanı tempin altında.
+
+555
+00:46:30,960 --> 00:46:33,880
+Tempin altında sulurumca paydı diye bir dizin yaratmışız biz.
+
+556
+00:46:34,380 --> 00:46:35,600
+İş çalışsın diye burada.
+
+557
+00:46:36,480 --> 00:46:40,660
+İş çıkarken, işten çıkarken bu dizini bu şekilde sildirebilirsek...
+
+558
+00:46:40,660 --> 00:46:46,620
+sunucuların üzerindeki scratch alanları dolmayacaktır, şişmeyecektir.
+
+559
+00:46:47,080 --> 00:46:49,280
+Ama tabii bu her iş için mümkün olmayabilir.
+
+560
+00:46:49,500 --> 00:46:56,240
+Biz sürekli sunuculara girip bitmiş işlerin geride bıraktığı artık dosyaları sürekli silmeye çalışıyoruz.
+
+561
+00:46:57,520 --> 00:47:00,540
+İsa Hocam bu size yeterli cevap olmadıysa...
+
+562
+00:47:00,540 --> 00:47:03,840
+El kaldırarak şey de yapabilirim, istersen sesli söz de verebilirim.
+
+563
+00:47:04,460 --> 00:47:05,280
+Devam edelim.
+
+564
+00:47:09,280 --> 00:47:14,560
+Dibag notları ile alakalı zaten epey bir cevap da verilmiş.
+
+565
+00:47:14,820 --> 00:47:15,800
+Sen de aktardın.
+
+566
+00:47:15,960 --> 00:47:21,880
+Kısa süreli işlerle alakalı kullanılması, Dibag kuruğunun söz konusu.
+
+567
+00:47:22,740 --> 00:47:23,880
+Onu geçiyorum o yüzden.
+
+568
+00:47:23,880 --> 00:47:28,660
+Kuda ile derleme ve test yapabilmek için nasıl bir yolu izlemeliyim?
+
+569
+00:47:29,300 --> 00:47:30,720
+Sonraya bırakmak ister misin?
+
+570
+00:47:31,280 --> 00:47:32,240
+Şimdi cevaplayalım.
+
+571
+00:47:33,700 --> 00:47:37,300
+Kullanıcı arayüzlerinde Kuda desteği yok.
+
+572
+00:47:37,920 --> 00:47:40,220
+Dolayısıyla işlerinizi derlerken,
+
+573
+00:47:40,220 --> 00:47:46,660
+eğer derleme için kullandığınız uygulama Kuda kartlarına ihtiyaç duyuyorsa,
+
+574
+00:47:46,960 --> 00:47:49,520
+derleme sırasında bunu yapmanız mümkün olmayacaktır.
+
+575
+00:47:49,520 --> 00:47:55,080
+ya da az önce bahsettiğim gibi S-Aloc ile Kuda sunucularına bağlı bir derleme yapmanız mümkün olabilir.
+
+576
+00:47:55,480 --> 00:47:57,340
+Ne kadar sağlıklı o konuda bir fikrim yok.
+
+577
+00:47:58,600 --> 00:48:02,620
+Ama genelde tüm uygulamalar cross-compile yapılmasına izin verir.
+
+578
+00:48:02,620 --> 00:48:10,400
+Yani Kuda ile bir uygulama derlemek için illa ki Kuda destekli bir sunucu da olmanız şart değil.
+
+579
+00:48:10,400 --> 00:48:19,980
+Yani şey tarafıyla yani GPU tarafıyla ilgili CPU acceleration konusunda barbon ve arka CPU'ları için
+
+580
+00:48:19,980 --> 00:48:24,020
+programlarımıza hangi opsiyonla derlememiz daha iyi olur.
+
+581
+00:48:24,580 --> 00:48:26,680
+Onunla ilgili bir bölümü var gel Cem buraya.
+
+582
+00:48:26,680 --> 00:48:27,380
+Tamam.
+
+583
+00:48:28,560 --> 00:48:31,480
+Tutuyorum ve şey yaparız gene bakarız.
+
+584
+00:48:33,160 --> 00:48:37,940
+Aynı input dosyalarıyla başlattığım işlerden biri iki saatte bir basamak iş yürütürken
+
+585
+00:48:37,940 --> 00:48:39,940
+öteki bir günde bir basamak iş yürütüyor.
+
+586
+00:48:40,040 --> 00:48:42,240
+Bu durumla karşılaşmak için ne yapmak gerekir?
+
+587
+00:48:43,100 --> 00:48:46,660
+Ya da karşılaşırken ne yapmak gerekir diye sormuş.
+
+588
+00:48:46,820 --> 00:48:52,520
+Herhalde burada en doğrusu ilgili işin böyle bir durumla karşılaştığı zaman bize bilgisinin verilmesi değil mi?
+
+589
+00:48:52,580 --> 00:48:54,180
+Ona bilgisinin verilmesi lazım.
+
+590
+00:48:54,180 --> 00:48:58,580
+Bir de işin ne şekilde sunuculara dağıldığına bakmak lazım.
+
+591
+00:48:58,760 --> 00:49:00,300
+O da pek çok şeyi değiştiriyor olabilir.
+
+592
+00:49:00,420 --> 00:49:01,580
+Onunla ilgili de bir kısım var.
+
+593
+00:49:01,660 --> 00:49:02,280
+Oraya da geleceğim.
+
+594
+00:49:03,160 --> 00:49:03,440
+Peki.
+
+595
+00:49:03,440 --> 00:49:11,980
+Merhaba XForwarding'i arayüzleri Windows tabanını kendi bilgisayarımızda görüntüleyebilmek için
+
+596
+00:49:11,980 --> 00:49:15,940
+nasıl aktifleştirebileceğimizi oturumun geri kalan kısmında gösterebilirim size.
+
+597
+00:49:16,020 --> 00:49:16,660
+Teşekkürler.
+
+598
+00:49:17,120 --> 00:49:18,600
+Hemen bahsedeyim.
+
+599
+00:49:19,540 --> 00:49:19,860
+Şöyle.
+
+600
+00:49:20,340 --> 00:49:23,780
+Open Endement üzerinden Linux desktop alabiliyoruz demiştik.
+
+601
+00:49:23,980 --> 00:49:29,880
+Eğer onu kullanmayı istemiyorsak ya da kullanmayacaksak ya da klasik yöntemi de şöyle yapabiliyoruz.
+
+602
+00:49:29,880 --> 00:49:38,240
+Eğer Linux üzerinden Levrik 1'e bağlanıyorsanız komut tutsunun sonuna tire büyük x'ye parametresini eklemeniz lazım.
+
+603
+00:49:38,740 --> 00:49:44,440
+Eğer Windows'dan bağlanıyorsanız söz gelimi Puti'de Puti'nin içinde XForwarding opsiyonu var.
+
+604
+00:49:44,720 --> 00:49:45,620
+Onu seçiyorsunuz.
+
+605
+00:49:45,800 --> 00:49:47,220
+Ama bunu seçmek yeterli değil.
+
+606
+00:49:47,380 --> 00:49:49,420
+Bağlantınız bu şekilde gerçekleştirdikten sonra
+
+607
+00:49:49,420 --> 00:49:54,740
+Linux'taki grafik ekranı kendi bilgisayarınıza aktarabilmek için
+
+608
+00:49:54,740 --> 00:49:59,960
+kendi bilgisayarınızda XServer denilen bir uygulama türünün çalışıyor olması lazım.
+
+609
+00:50:00,320 --> 00:50:03,380
+Windows için XMink ve benzeri ücretsiz uygulamalar var.
+
+610
+00:50:03,380 --> 00:50:09,560
+Yani Linux üzerinde çalıştırdığınız, uzak bilgisayar üzerinde çalıştırdığınız görsel bir uygulamanın grafik çıktısı
+
+611
+00:50:09,560 --> 00:50:13,240
+otomatik olarak sizin kendi bilgisayarınıza aktarılıyor olacak.
+
+612
+00:50:13,240 --> 00:50:14,600
+Aynı şey Linux için de geçerli.
+
+613
+00:50:14,700 --> 00:50:17,420
+Linux'da XServer zaten dahili olarak geldiğinden
+
+614
+00:50:17,420 --> 00:50:20,560
+orada sadece tire x'ye parametresini kullanmanız yeterli.
+
+615
+00:50:22,760 --> 00:50:25,300
+Kullanıcılarımızdan biri zaten MOBA XTerm önermiş.
+
+616
+00:50:26,180 --> 00:50:27,880
+O da bir cevap tabii ki.
+
+617
+00:50:29,200 --> 00:50:31,300
+İsa Hocam'ın bahsettiği scratch alanmış.
+
+618
+00:50:31,820 --> 00:50:34,580
+Sanırım yeterli oldu diye düşünüyorum yani Sefa'nın cevabı.
+
+619
+00:50:35,000 --> 00:50:37,940
+Scratch alanlarımız her sonucunda zaten belli boyutta.
+
+620
+00:50:38,600 --> 00:50:42,460
+Onun üzerinde bir alanı zaten hani fiziksel olarak vermemiz mümkün değil.
+
+621
+00:50:42,460 --> 00:50:45,920
+Onun dışında da hani bunun alanların temizliği yapılıyor.
+
+622
+00:50:46,060 --> 00:50:50,700
+Özellikle bu TMP'leri temizlemeyi unutan kullanıcılarımız da kar.
+
+623
+00:50:58,380 --> 00:51:03,800
+Bazen bir işi çalıştırmaya başlayınca resursusa geçiş oluyor ve işim çalışmayı durduruyor.
+
+624
+00:51:04,120 --> 00:51:06,280
+Bunun sebebi nedir açıkçası merak ediyorum.
+
+625
+00:51:06,600 --> 00:51:10,420
+Dahası bu iş dosyası için iptal olduğuna dair hata dosyası oluşuyor.
+
+626
+00:51:10,420 --> 00:51:12,660
+Ama kuyrukta iş görünüyor.
+
+627
+00:51:12,880 --> 00:51:14,600
+Bu durumda işimi kırmam gerekiyor mu?
+
+628
+00:51:15,000 --> 00:51:16,420
+Yoksa tekrar çalışmasını beklemeliyim?
+
+629
+00:51:17,080 --> 00:51:17,800
+Önemli zadan mı?
+
+630
+00:51:18,940 --> 00:51:22,180
+Tam bunu kapsamada bununla ilgili bir bölüm vardı.
+
+631
+00:51:22,320 --> 00:51:23,300
+Hemen burada cevaplayayım.
+
+632
+00:51:23,880 --> 00:51:26,720
+Büyük ihtimal işiniz bir sebepten dolayı ölmüştür.
+
+633
+00:51:27,260 --> 00:51:29,240
+Sistemdeki bir arızdan dolayı ölmüş olabilir.
+
+634
+00:51:29,640 --> 00:51:32,280
+Sistem onu otomatik olarak kuyruğa geri göndermiştir.
+
+635
+00:51:32,660 --> 00:51:33,660
+Kuyrukta sıra bekliyordur.
+
+636
+00:51:34,880 --> 00:51:36,340
+İş tekrar gönderildiği için.
+
+637
+00:51:36,480 --> 00:51:38,780
+İş tekrar kaç defa gönderiliyor Sefa?
+
+638
+00:51:38,780 --> 00:51:40,620
+Sonsuz defa gönderilebilir.
+
+639
+00:51:41,020 --> 00:51:42,300
+Her iş öldükçe.
+
+640
+00:51:42,900 --> 00:51:49,880
+Ama bunu engellemek kullanıcının elinde biraz sonra anlatacağım parametreler içinde bunu nasıl engelleyebileceklerini gösteriyorum.
+
+641
+00:51:50,520 --> 00:51:55,320
+İşlerimde MİT1 için 4 gün, MİT2 için 8 günlük bir iş betiyi tanımlıyorum.
+
+642
+00:51:55,920 --> 00:52:00,960
+Örneğin çalıştırılmasını istediğimiz 2 günlük bir iş için ayrı bir tanımlama yapılabilir mi?
+
+643
+00:52:01,420 --> 00:52:06,360
+Yani gün sayısına göre MİT1'den daha avantajlı bir öncelik sağlayabilen bir tanımlama imkanın var mı?
+
+644
+00:52:06,360 --> 00:52:07,940
+Ama maalesef yok.
+
+645
+00:52:08,600 --> 00:52:10,960
+Sunucuların öncelik süresi belli.
+
+646
+00:52:11,400 --> 00:52:15,820
+Yani sunucuların demeyelim de kuyrukların öncelik süresi belli.
+
+647
+00:52:16,320 --> 00:52:20,720
+MİT2'ye gönderilen işin önceliği MİT1'e gönderilenden daha az.
+
+648
+00:52:20,720 --> 00:52:28,800
+Ama orada bir öncelik söz konusu değil ama backfill algoritmasının sağladığı bir öncelik var.
+
+649
+00:52:29,440 --> 00:52:43,040
+İşiniz kuyruğa gönderildiğinde eğer yeterince az kaynak talep ediyorsa ve yeterince kısaysa işlemci takviminde oluşan boşlukların içine yerleştirilebilir ve sırası gelmeden de başlatılabilir sistem tarafından otomatik olarak.
+
+650
+00:52:43,040 --> 00:52:46,140
+Ama tabii her iş için böyle olacak diye bir şey söz konusu değil.
+
+651
+00:52:47,640 --> 00:52:50,960
+Headnot'ta zaman zaman ciddi CPU absorbe eden hesaplar oluyor.
+
+652
+00:52:51,040 --> 00:52:52,660
+Viya editörü açmak bile zor oluyor.
+
+653
+00:52:52,760 --> 00:52:56,220
+Bu gibi durumlarda bu tür durumlar için teknik olarak bir önlem alınabilir mi?
+
+654
+00:52:56,300 --> 00:52:57,540
+Geçmişte aldık bu önlemlerin.
+
+655
+00:52:57,640 --> 00:52:58,800
+Bir takım sonuçları oldu.
+
+656
+00:52:59,800 --> 00:53:00,660
+Aktarırsan evet.
+
+657
+00:53:01,440 --> 00:53:04,780
+Şöyle bunu aslında otomatik olarak yapabiliriz.
+
+658
+00:53:04,840 --> 00:53:07,640
+Otomatik olarak bunu takip eden scriptlerimiz var.
+
+659
+00:53:07,640 --> 00:53:12,000
+Hangi kullanıcının hangi zamanda ne kadar kaynak kullandığını biliyoruz.
+
+660
+00:53:12,800 --> 00:53:15,080
+Zaman zaman kullanıcılarımızı uyarıyoruz.
+
+661
+00:53:15,200 --> 00:53:17,900
+Uyarıları aldırış etmeyen kullanıcıların hesaplarını askıya alıyoruz.
+
+662
+00:53:18,200 --> 00:53:21,320
+Ama bütün hepsini yakalamak bazen söz konusu olmayabiliyor.
+
+663
+00:53:24,440 --> 00:53:27,780
+Jupiter'in on demand üzerinden çalıştığını gösterdiğiniz.
+
+664
+00:53:27,920 --> 00:53:33,740
+Benzer şekilde VN2K programı da Localhost 7890 üzerinden çalışabiliyor.
+
+665
+00:53:33,980 --> 00:53:36,320
+Ancak çok kere denediğimde bunu beceremedim.
+
+666
+00:53:36,320 --> 00:53:39,060
+Explorer'da kullanma sınırları var gibi görünüyor.
+
+667
+00:53:39,280 --> 00:53:40,520
+Çözüm bulma şansı olur mu?
+
+668
+00:53:41,220 --> 00:53:42,920
+Yani daha önce de bahsetmiştim.
+
+669
+00:53:43,000 --> 00:53:45,060
+Biz hangi uygulamanın nasıl çalıştığını bilmiyoruz.
+
+670
+00:53:45,180 --> 00:53:46,660
+Sadece altyapısını sunuyoruz.
+
+671
+00:53:47,320 --> 00:53:51,060
+Sık kullanılan uygulamalar için araştırma yapıp kurulum yapabiliyoruz.
+
+672
+00:53:51,320 --> 00:53:53,820
+Belli kullanıcıların ihtiyaçlarını karşılayabilir.
+
+673
+00:53:53,960 --> 00:53:55,200
+Bazılarınkini karşılayamaz.
+
+674
+00:53:55,640 --> 00:53:58,320
+Dolayısıyla gene en başa dönüyoruz.
+
+675
+00:53:58,320 --> 00:54:07,540
+Altyapıyı kullanabilmek için kullanıcının hangi uygulamayı nasıl kullanacağını, nasıl yapılandıracağını biliyor olması gerekiyor.
+
+676
+00:54:07,700 --> 00:54:09,840
+Ama biz kendisine gerekli altyapı desteğini sağlıyoruz.
+
+677
+00:54:10,240 --> 00:54:11,880
+Şu şekilde bir bilgi verelim.
+
+678
+00:54:11,880 --> 00:54:23,200
+Bu semineri düzenlememize de vesile olan EuroCC projesi başlangıcı ve ayrıca Turba 2023 strateji bütçe başkanlığımız projesi kapsamında
+
+679
+00:54:23,200 --> 00:54:36,680
+biz artık işin sadece operasyon kısmından biraz çıkıp araştırmacının yanına da gelmeyi, yani çalışmalarına destek olmak maksatı planlıyoruz.
+
+680
+00:54:37,480 --> 00:54:42,840
+Bu kapsamda da ilk arkadaşlarımız gelecek hafta itibariyle çalışmalarına başlıyorlar.
+
+681
+00:54:43,920 --> 00:54:47,020
+Burada tabii ki endüstri öncülüğümüz var.
+
+682
+00:54:47,020 --> 00:54:55,360
+Ama tabii ki bizim Turba'daki araştırmacı sayımızın çok büyük oranda akademik olduğunu değerlendirerek
+
+683
+00:54:55,360 --> 00:55:01,320
+tabii ki burada gelecek taleplerin de yoğunluklu olarak akademik araştırmacıdan geleceğini biliyoruz.
+
+684
+00:55:01,880 --> 00:55:05,260
+Bu tür aslında şeylerinizi artık bize ilettiğiniz zaman
+
+685
+00:55:05,260 --> 00:55:11,640
+hani biz biraz daha işin biliminin veya işte işin fiziğinin içinde olacağımız için
+
+686
+00:55:11,640 --> 00:55:19,300
+yeni arkadaşlarımız ile birlikte bu tür talepleri şey yapabiliriz, değerlendirebiliriz.
+
+687
+00:55:19,420 --> 00:55:20,300
+Normalde ne oluyor?
+
+688
+00:55:20,420 --> 00:55:23,300
+Mesela VN2K kullanıcısı biz olmadığımız için
+
+689
+00:55:23,300 --> 00:55:29,400
+bu programı biz tabii ki mesela ondiment üzerinde gerçekleştirebiliyorsak
+
+690
+00:55:29,400 --> 00:55:32,240
+gerçekleştirip kullanımını sağlayabiliyoruz.
+
+691
+00:55:32,240 --> 00:55:36,560
+Ama gerçekten düzgün çalışıp çalışmadığı konusunda
+
+692
+00:55:36,560 --> 00:55:40,240
+veya işini yapıp yapmadığı konusunda bir fikrimiz olmuyor.
+
+693
+00:55:40,240 --> 00:55:46,840
+Ama şu an itibariyle işte özellikle hesaplamalı fizik, kimya alanındaki şeyimizle
+
+694
+00:55:46,840 --> 00:55:52,360
+yeni arkadaşlarımızla yani yetkin doktorlu arkadaşlarımız ile birlikte
+
+695
+00:55:52,360 --> 00:55:56,540
+bu konularda size destek verebiliyor olacağız.
+
+696
+00:55:57,600 --> 00:56:01,600
+Bu tip taleplerinizi tekrardan şey yapabilirsiniz,
+
+697
+00:56:01,800 --> 00:56:03,280
+grittire tekniğe de iletebilirsiniz.
+
+698
+00:56:03,460 --> 00:56:06,700
+Mesela ondiment'teki uygulamalarının kapsamının arttırması gibi.
+
+699
+00:56:08,960 --> 00:56:10,220
+Arada gelen sorular dönmüş.
+
+700
+00:56:10,240 --> 00:56:14,020
+Şu an en fazla 15 günlük işi long düğümüne gönderebiliyoruz.
+
+701
+00:56:14,540 --> 00:56:18,540
+Daha fazla işlemler için 30-40 günlük belki farklı bir düğme oluşturma fikri
+
+702
+00:56:18,540 --> 00:56:19,600
+veya planı var mı?
+
+703
+00:56:19,700 --> 00:56:25,820
+Aslında burada global olarak şeyi aktarırsan sevilir mi yani?
+
+704
+00:56:26,140 --> 00:56:30,120
+Aslında şöyle 15 günlük bir süre bile çok yüksek bir miktar.
+
+705
+00:56:30,260 --> 00:56:33,460
+Dünyadaki merkezlerde bu genelde birkaç gün yine sınırlı.
+
+706
+00:56:33,460 --> 00:56:40,980
+Aslında olması gereken şu kullanıcının işini kaldığı yerden başlayabilecek şekilde yapılandırması lazım.
+
+707
+00:56:41,180 --> 00:56:43,600
+Bazı uygulamalar bunu dahil olarak destekliyor.
+
+708
+00:56:43,680 --> 00:56:51,200
+Bunu dahil olarak desteklemeyen uygulamalar için kullanıcının input dosyalarını bu şekilde yönetebilmesi lazım.
+
+709
+00:56:51,340 --> 00:56:54,080
+Ya da bununla ilgili betikleri yazıyor olabilmesi lazım.
+
+710
+00:56:54,080 --> 00:57:01,060
+15 gün bile çok uzun bir süre aslında bunun daha da kısaltılması daha uygun olacaktır.
+
+711
+00:57:01,180 --> 00:57:06,500
+Çünkü 15 günlük süre içinde söz gelme 14. günde sunucu üzerinde ulaşacak bir arıza,
+
+712
+00:57:06,640 --> 00:57:10,060
+14 günlük emeğinizin ya da 14 günlük zamanınızın boşa gitmesi demek.
+
+713
+00:57:10,060 --> 00:57:16,100
+15 günlük süre çok uzun olduğu için biz herhangi bir sunucuda bir günceleme yapmak
+
+714
+00:57:16,100 --> 00:57:20,520
+ya da bir bakım yapmak istediğimizde de o 15 günün bitmesini beklememiz gerekiyor.
+
+715
+00:57:20,640 --> 00:57:24,360
+Dolayısıyla bakımlar, güncellemeler gerektiği kadar hızlı olmayabiliyor.
+
+716
+00:57:28,760 --> 00:57:32,040
+Bir iki soru daha cevaplayıp sonra sunuma devam et istersen.
+
+717
+00:57:32,040 --> 00:57:36,920
+Bir takım soruları bekletiyorum. Bunlar genel bir takım sorular var.
+
+718
+00:57:37,100 --> 00:57:39,280
+Bunların bir kısmına ben cevaplayacağım sanırım.
+
+719
+00:57:40,060 --> 00:57:42,340
+EuroHPC ile alakalı olduğu için.
+
+720
+00:57:43,000 --> 00:57:46,100
+Çok çekirdek gerektiren bir hesap için not sayısını belirtmeden,
+
+721
+00:57:46,320 --> 00:57:49,740
+doğrudan çekirdek sayısını belirtmek bir avantaj sağlar mı? Teşekkür ederim.
+
+722
+00:57:50,740 --> 00:57:54,960
+Aslında bir avantaj şöyle sağlar. İşin başlamasını kolaylaştırır ama
+
+723
+00:57:54,960 --> 00:57:58,380
+işiniz multi not üzerinde çalışabilecek özellikle değilse
+
+724
+00:57:58,380 --> 00:58:02,260
+diğer not üzerindeki işlerin çekirdekleri boşuna seçmiş olursunuz.
+
+725
+00:58:05,560 --> 00:58:07,640
+Dediğim gibi bir avantaj sağlıyor ama
+
+726
+00:58:07,640 --> 00:58:12,340
+sağladığı avantajı büyük kısmını kullanamıyor durumda olacaksınız.
+
+727
+00:58:12,340 --> 00:58:15,940
+Tecrübeli bir kullanıcımızdan bir soru var.
+
+728
+00:58:16,080 --> 00:58:17,280
+Bazen işi takip ediyorum.
+
+729
+00:58:17,700 --> 00:58:21,060
+Bu epey trajedik şeyler anlar yaşadığımız için bu konuda
+
+730
+00:58:21,060 --> 00:58:22,880
+önemli bir soru.
+
+731
+00:58:22,940 --> 00:58:24,460
+15 gün yetmeyecek belli oluyor.
+
+732
+00:58:24,980 --> 00:58:26,880
+Ama ilk bir gün yeterli olacak gibi oluyor.
+
+733
+00:58:27,260 --> 00:58:29,000
+Bu durumlarda müdahale edip uzatmanın
+
+734
+00:58:29,000 --> 00:58:30,980
+bir yolu yok mu diye soruyor.
+
+735
+00:58:30,980 --> 00:58:33,940
+Şöyle bu durumlarda talepler geldi.
+
+736
+00:58:34,120 --> 00:58:35,560
+Söz gelin 8 günlük bir iş.
+
+737
+00:58:35,940 --> 00:58:40,320
+İşini 8 gün gönderdi ama 8 gün yetmeyeceğini anladığı durumları
+
+738
+00:58:40,320 --> 00:58:43,200
+bize bildirdiği zaman biz işinin süresini uzatıyoruz.
+
+739
+00:58:44,200 --> 00:58:45,100
+Mümkün yani.
+
+740
+00:58:45,640 --> 00:58:46,520
+Mümkün mümkün.
+
+741
+00:58:46,660 --> 00:58:49,200
+Ama kendisinin yapabileceği bir şey.
+
+742
+00:58:49,200 --> 00:58:51,020
+Kendisinin yapabileceği bir durum söz konusu değil.
+
+743
+00:58:51,920 --> 00:58:56,220
+Betik dosyasında mail yazarı ile e-mail adresi verilmişse dahi
+
+744
+00:58:56,220 --> 00:58:58,460
+e-mail notification gelmiyor diye bir şikayet var.
+
+745
+00:58:58,460 --> 00:59:01,260
+Mail notification alan birçok kullanıcımız var.
+
+746
+00:59:01,480 --> 00:59:03,500
+Bazı kullanıcılarımız alamayabiliyor bunu.
+
+747
+00:59:04,360 --> 00:59:08,480
+Bunun temel sebebi de bizim yani bu sistemden gelen mailler
+
+748
+00:59:08,480 --> 00:59:10,840
+Truva Voltaire uzantısı ile geliyor.
+
+749
+00:59:11,620 --> 00:59:16,320
+Bazı üniversitelerin mail sunucuları çok ileri düzey
+
+750
+00:59:16,320 --> 00:59:19,740
+olduğunu düşündükleri güvenlik ayarları sebebiyle
+
+751
+00:59:19,740 --> 00:59:24,340
+yani bir sunucu bir kere tarihinde bir kere bile
+
+752
+00:59:24,340 --> 00:59:27,760
+herhangi bir spam listesinde görüntükse dahi
+
+753
+00:59:27,760 --> 00:59:29,340
+onları tutmaya devam edebiliyor.
+
+754
+00:59:29,420 --> 00:59:31,900
+Bunun sebebini anlayamıyoruz ama genelde çözümü
+
+755
+00:59:31,900 --> 00:59:34,340
+hani ilgili bilgi işlemle görüşüp
+
+756
+00:59:34,340 --> 00:59:37,720
+bizim yani bu şeyi kaldırtmanız
+
+757
+00:59:37,720 --> 00:59:39,360
+veya sizin kaldırtmanız şeklinde oluyor.
+
+758
+00:59:39,440 --> 00:59:40,340
+Ya da şöyle
+
+759
+00:59:40,340 --> 00:59:43,560
+şu ana kadar Gmail'de hiçbir sorun yaşamadım.
+
+760
+00:59:44,560 --> 00:59:47,160
+İşleriniz, mail'inizi Gmail adresinize yönelttirebilirsiniz.
+
+761
+00:59:47,160 --> 00:59:52,740
+Yani genelde bu üniversitemizdeki bir takım güvenlik tedbirlerinden kaynaklanıyor.
+
+762
+00:59:52,740 --> 00:59:57,960
+Dediğim gibi yani bazıları çok bilinçsizce giriyor bu kuralın sebebi bu diye.
+
+763
+00:59:58,340 --> 00:59:59,560
+Sen devam etsin.
+
+764
+00:59:59,560 --> 01:00:00,300
+Sen sunuma devam et.
+
+765
+01:00:00,420 --> 01:00:02,020
+Arada yeni sorular da gelecek gibi gözükür.
+
+766
+01:00:02,020 --> 01:00:04,960
+Supremetik yapısının kabaca görüntüsü bu şekilde.
+
+767
+01:00:05,120 --> 01:00:09,280
+İlk baştaki mavi kısım kaynaklarla, kaynak sunurum tanımlarıyla ilgili kısım.
+
+768
+01:00:09,280 --> 01:00:12,320
+Bunları dediğim gibi şeyde verebilirsiniz.
+
+769
+01:00:12,460 --> 01:00:13,940
+Komut satırından da verebilirsiniz.
+
+770
+01:00:14,380 --> 01:00:15,760
+Ya da burada da verebilirsiniz.
+
+771
+01:00:16,480 --> 01:00:19,560
+İkisinin de artısı da avantajı, dezavantajı var.
+
+772
+01:00:20,560 --> 01:00:23,600
+Ortadaki kısım aslında herhangi bir işi çalıştırmak için
+
+773
+01:00:23,600 --> 01:00:25,780
+burada örnek olarak Gaussian'ı verdik ama
+
+774
+01:00:25,780 --> 01:00:30,580
+Gaussian işini normalde komut satırından da çalıştırmak için
+
+775
+01:00:30,580 --> 01:00:33,440
+yapmanız gereken tanımlar aslında burası.
+
+776
+01:00:34,800 --> 01:00:38,080
+Yani bir Gaussian işiniz, uygulamanız var.
+
+777
+01:00:38,080 --> 01:00:42,480
+Bu Gaussian'ın uygulamasının root dizinin neresi, temp dizinin neresi,
+
+778
+01:00:42,960 --> 01:00:45,840
+ilgili source dosyaları nerede?
+
+779
+01:00:46,340 --> 01:00:49,620
+Bunları zaten komut satırında da veriyor olmanız gerekiyor.
+
+780
+01:00:50,700 --> 01:00:55,020
+En altta, en alt kısımda şurada iş çalıştırma komutu var.
+
+781
+01:00:55,140 --> 01:00:59,780
+Zaten bu iş çalıştırma komutu normalde eğer kendi Linux bilgisayarınızda çalışırken
+
+782
+01:00:59,780 --> 01:01:01,640
+vermeniz gereken komutu aynısı.
+
+783
+01:01:02,080 --> 01:01:07,020
+Dolayısıyla aslında şu en baştaki kısmı geçersek bir sunurum betinin yapısı,
+
+784
+01:01:07,020 --> 01:01:11,340
+sizin komut satırından verdiğiniz komutlarla aynı şey.
+
+785
+01:01:11,340 --> 01:01:16,760
+Biz burada ek olarak bazı eklemeler yaptık.
+
+786
+01:01:16,860 --> 01:01:22,160
+Mesela burada output dosyasına işin hangi node'a gittiğini de bastın istedik.
+
+787
+01:01:22,880 --> 01:01:29,180
+Bununla ilgili sunurumun yüzlerce output environment'ı var.
+
+788
+01:01:31,180 --> 01:01:34,160
+İşlemci sayısı, işlemci süresi kullanılan, bellek miktarı vs.
+
+789
+01:01:34,160 --> 01:01:36,960
+bütün hepsini output dosyanıza bastırabilirsiniz.
+
+790
+01:01:37,220 --> 01:01:39,620
+Ben sadece örnek olarak burada node listi vermiş bulundum.
+
+791
+01:01:40,660 --> 01:01:48,000
+Gaussian uygulamasının özel olarak source temp dizini, şu kısımda temp dizini yaratılmıştı.
+
+792
+01:01:48,140 --> 01:01:50,320
+En sonunda ben temp dizini buradan siliyorum.
+
+793
+01:01:50,780 --> 01:01:57,320
+Exit diyerek de bu işle ilgili artık kalabilecek olan tüm uygulamaları da kaldırmış oluyorum.
+
+794
+01:01:57,320 --> 01:01:59,080
+Dediğim gibi bu bir örnek dosya.
+
+795
+01:01:59,560 --> 01:02:01,320
+Buna bağlı kalmak zorunda değilsiniz.
+
+796
+01:02:03,120 --> 01:02:05,400
+Buna bağlı kalmak zorunda değilsiniz.
+
+797
+01:02:07,820 --> 01:02:11,080
+Sunurum parametrelerinden bahsedelim isterseniz biraz da.
+
+798
+01:02:11,640 --> 01:02:17,140
+Trene parametresi en çok kullanılan parametre aslında bu görev sayısını belirtiyor, çekirdek sayısını belirtmiyor.
+
+799
+01:02:17,260 --> 01:02:19,700
+Ama özel olarak çekirdek sayısı yazmadıysanız,
+
+800
+01:02:20,920 --> 01:02:24,820
+trene parametresi çekirdek sayısıyla aynı şekilde kullanılabilir.
+
+801
+01:02:24,820 --> 01:02:39,900
+Trene aslında dediğim gibi görev parametresi betik dosyanızda ya da komut satırında esran betik dosyanızda işiniz çalıştığında esran komutunu verdiğinizde aynı işin kaç kopyası çalışacak?
+
+802
+01:02:40,520 --> 01:02:41,460
+Bu onu belirtiyor.
+
+803
+01:02:41,680 --> 01:02:43,300
+Yani kaç görev çalışıyor olacak?
+
+804
+01:02:43,640 --> 01:02:44,380
+Bu onu belirtir.
+
+805
+01:02:46,080 --> 01:02:52,160
+Dediğim gibi c belirtilmezse, eğer c parametresi belirtilmezse çekirdek sayısı olarak da kullanılabilir.
+
+806
+01:02:52,160 --> 01:02:59,160
+Trene parametresi talep ettiğiniz görevlerin ve çekirdeklerin kaç farklı sonucudan geleceğini belirtiyor.
+
+807
+01:03:01,940 --> 01:03:12,600
+Bazı kullanıcılar daha önce bahsetmişti, 40 çekirdek ile çalıştırdığım bir iş bu sefer iyi çalışıyor, öbür sefer çok daha yavaş çalışıyor diye sıkıntıları olmuştu.
+
+808
+01:03:12,600 --> 01:03:15,080
+Aslında işin sırrı ne parametresinde?
+
+809
+01:03:16,720 --> 01:03:24,140
+Trene işin dediğimiz gibi kaç farklı sonucudan geleceğini, kaynakları kaç farklı sonucudan geleceğini size söylüyor.
+
+810
+01:03:24,460 --> 01:03:27,720
+Bunu belirtiyorsunuz ama bu simetrik olmak zorunda değil.
+
+811
+01:03:28,020 --> 01:03:33,980
+Yani 4 sonucudan toplamda 40 çekirdek istediğinizde hepsi onar onar onar onar gelmek zorunda değil.
+
+812
+01:03:34,560 --> 01:03:38,860
+3 sonucudan birer çekirdek, 4. sonucudan da 37 çekirdek geliyor olabilir.
+
+813
+01:03:38,860 --> 01:03:41,760
+Dolayısıyla işinizin performansı farklı olacaktır.
+
+814
+01:03:42,400 --> 01:03:47,020
+Eğer işleriniz için istediğiniz kaynakların simetrik de almasını istiyorsanız,
+
+815
+01:03:47,740 --> 01:03:55,100
+Trene, küçük ne parametresini kullanmayıp toplam not sayısını ve not başına düşen görev sayısını belirtmeniz gerekecektir.
+
+816
+01:03:55,100 --> 01:03:58,540
+C parametresi var.
+
+817
+01:03:58,540 --> 01:04:02,260
+Yani bir görev için kaç tane işlemci kullanılacak?
+
+818
+01:04:02,700 --> 01:04:05,360
+Söz gelimi OpenMP işleri için.
+
+819
+01:04:06,980 --> 01:04:09,180
+Uygulamanızı bir sefer çalıştırmak istiyorsunuz.
+
+820
+01:04:09,220 --> 01:04:13,260
+Bir sefer çalıştıracaksınız ama uygulama on çekirdek kullansın istiyorsanız aynı anda,
+
+821
+01:04:13,840 --> 01:04:15,660
+Tre C parametresini kullanıyorsunuz.
+
+822
+01:04:16,360 --> 01:04:19,180
+Bir iş için toplam size sağlanacak çekirdek sayısı,
+
+823
+01:04:19,740 --> 01:04:21,980
+küçük ne ile C sayısının çarpımı olacaktır.
+
+824
+01:04:21,980 --> 01:04:26,200
+Eğer küçük C'yi belirtmemişseniz, o bir olarak kabul ediliyor.
+
+825
+01:04:26,380 --> 01:04:30,900
+Yani N ve C, çekirdek sayısı ve tas sayısı aynı olmuş oluyor.
+
+826
+01:04:31,860 --> 01:04:35,620
+Ekaunt parametresini kullanmak zorunda değilsiniz.
+
+827
+01:04:35,620 --> 01:04:40,500
+Şöyle ki, Turba'da aslında iki tane farklı ekaunttan bahsedebiliriz.
+
+828
+01:04:40,580 --> 01:04:43,940
+Birisi Linux ekauntı, yani levrek sunucularına bağlandığınız,
+
+829
+01:04:44,480 --> 01:04:48,500
+sunucularda iş çalıştırmanızı sağlayan Linux hesabı.
+
+830
+01:04:48,500 --> 01:04:50,220
+Bir tanesi de kuyruktaki hesabınız.
+
+831
+01:04:50,540 --> 01:04:52,880
+Bir kullanıcının birden fazla kuyruk hesabı olabilir.
+
+832
+01:04:53,080 --> 01:04:58,460
+Söz gelimi RDEP projelerinde ya da BAP projelerinde kullanıcı hem kendi kişisel hesabına iş gönderebilir,
+
+833
+01:04:59,000 --> 01:05:01,800
+hem de projenin önceliklendirilmiş hesabına gönderebilir.
+
+834
+01:05:02,080 --> 01:05:08,740
+Tre E parametresiyle hangi kuyruk hesabına iş göndereceğinizi seçiyorsunuz.
+
+835
+01:05:08,740 --> 01:05:20,940
+Eğer herhangi bir kuyruk hesabı belirtmezseniz, Linux kullanıcısının hesabına göndermiş olduğunuzu farz ediliyor.
+
+836
+01:05:21,940 --> 01:05:27,300
+Yani sefa kullanıcısından iş gidiyorsa, kuyruk hesabı olarak da defolt olarak sefa kullanılıyor.
+
+837
+01:05:27,860 --> 01:05:30,700
+Tre T parametresi, diğer önemli parametrelerden bir tanesi,
+
+838
+01:05:31,300 --> 01:05:34,320
+normalde işlerin varsayılan süresi iki dakika.
+
+839
+01:05:34,320 --> 01:05:38,680
+Eğer siz herhangi bir zaman parametresi belirtmemişseniz,
+
+840
+01:05:38,780 --> 01:05:43,940
+işleriniz iki dakika içinde sonlanmazsa sistem tarafından otomatik olarak sonlandırılır.
+
+841
+01:05:45,120 --> 01:05:48,460
+Gönderdiğiniz kuyruğa göre, işinizin ihtiyaç duyduğu zamana göre,
+
+842
+01:05:48,740 --> 01:05:52,320
+time parametresiyle işinizin ne kadar süreceğini belirtmeniz lazım.
+
+843
+01:05:52,460 --> 01:05:58,820
+Burada işiniz güvenli, yani güvenli şekilde, düzgün şekilde sonlanabilecek,
+
+844
+01:05:59,460 --> 01:06:02,420
+mümkün olan en kısa zamanı seçmeniz sizin faydanız olacak.
+
+845
+01:06:02,420 --> 01:06:05,660
+Dediğim gibi backfill algoritmasını kullanıyoruz.
+
+846
+01:06:05,780 --> 01:06:08,020
+Eğer işlemci takviminde yeterli boşluk oluşuyorsa,
+
+847
+01:06:08,100 --> 01:06:10,800
+işiniz oraya sığıyorsa, işinizin sırası gelmeden de başlatılabilir.
+
+848
+01:06:11,540 --> 01:06:14,420
+Bir diğer önemli parametre, constraint parametresi.
+
+849
+01:06:16,420 --> 01:06:21,860
+Barbun, sardalya, levrik ve iki gibi kuyruklarımız var demiştik.
+
+850
+01:06:21,980 --> 01:06:25,640
+Bunlar homojen kuyruklar ama bir de mid 1, mid 2, short gibi kuyruklar var.
+
+851
+01:06:25,640 --> 01:06:31,900
+Yani siz işinizin bu ortak kuyruklarda, yani karma kuyruklarda,
+
+852
+01:06:32,520 --> 01:06:35,020
+neredeyse her sunucu ailesinden nodlar bulunmakta.
+
+853
+01:06:35,120 --> 01:06:38,620
+Siz işinizi barbun sunucular üzerinde çalışmasını sağlamak için
+
+854
+01:06:38,620 --> 01:06:40,360
+illa ki barbuna göndermeniz şart değil.
+
+855
+01:06:40,460 --> 01:06:43,640
+İşiniz kısadır ama barbun sunucularında çalışmasını istiyordursunuz.
+
+856
+01:06:45,080 --> 01:06:46,680
+Böyle bir durum söz konusu.
+
+857
+01:06:46,840 --> 01:06:48,580
+Söz gelimi short'a gönderebilirsiniz.
+
+858
+01:06:48,580 --> 01:06:51,900
+Ama short'a gönderirken de barbun üzerinde çalışması için
+
+859
+01:06:51,900 --> 01:06:56,520
+trece barbun ya da tre tre constraint eşittir.
+
+860
+01:06:56,600 --> 01:07:00,180
+Barbun parametresiyle işinizi hem mid 1'e gönderip
+
+861
+01:07:00,180 --> 01:07:01,980
+hem de barbunda çalıştırabilirsiniz.
+
+862
+01:07:03,240 --> 01:07:07,400
+Bir başka önemli parametre, çok kullanılmıyor kullanıcılarımız arasında
+
+863
+01:07:07,400 --> 01:07:08,600
+ama ihtiyaç olanlar olabilir.
+
+864
+01:07:08,980 --> 01:07:12,900
+İş dependency, işleriniz arasında bağımlılıklar tanımlayabilirsiniz.
+
+865
+01:07:13,120 --> 01:07:16,600
+Yani bir işin başlamasını, diğer işin düzgün başlamasına
+
+866
+01:07:16,600 --> 01:07:23,780
+ya da diğer işin başlayıp bitmesine, düzgün bitmesine, düzgün bitmemesine bağlayabilirsiniz.
+
+867
+01:07:23,920 --> 01:07:27,340
+Çok fazla sayıda farklı bağımlılıklar var.
+
+868
+01:07:28,020 --> 01:07:32,320
+Detaylı bilgi için S5 komutunun MEN sayfalarına bakabilirsiniz.
+
+869
+01:07:33,500 --> 01:07:35,340
+ERE parametresi söz konusu.
+
+870
+01:07:35,600 --> 01:07:39,000
+Yani bu da bazı kullanıcılığınızın kullandığı ama
+
+871
+01:07:39,000 --> 01:07:41,220
+çoğunluğun bilmediği bir parametre.
+
+872
+01:07:41,680 --> 01:07:45,220
+Tek bir sorun beti kullanılarak, tek bir seferde parametrik olarak
+
+873
+01:07:45,220 --> 01:07:47,640
+yüzlerce işi aynı anda kuyruğa gönderebilirsiniz.
+
+874
+01:07:48,140 --> 01:07:50,100
+Bu ERE parametresine biraz sonra bahsedeceğim.
+
+875
+01:07:50,440 --> 01:07:52,560
+Bir de NO REQ parametresi var.
+
+876
+01:07:52,660 --> 01:07:54,660
+Biraz önce bir kullanıcımız sormuştu,
+
+877
+01:07:54,960 --> 01:07:57,560
+işin çalışırken resource konumuna geçiyor diye.
+
+878
+01:07:58,860 --> 01:08:00,900
+Eğer sunucu üzerinde bir hata oluştuğu zaman
+
+879
+01:08:00,900 --> 01:08:04,080
+işiniz sistem tarafından otomatik olarak kuyruğa tekrar gönderilir.
+
+880
+01:08:04,400 --> 01:08:06,400
+Bu pek çok kullanıcının işini kolaylaştırırken,
+
+881
+01:08:06,500 --> 01:08:08,280
+yani işini takip etmesini gerektirmezken,
+
+882
+01:08:08,720 --> 01:08:10,700
+bazı uygulamalarda sorunlara sebep olabiliyor.
+
+883
+01:08:10,700 --> 01:08:14,840
+Eski verilerin, sonuçta eski verilerin üzerine yazılıyor olacak yeni veriler.
+
+884
+01:08:15,460 --> 01:08:19,200
+Eğer işinizin tekrar kuyruğa girmesini istemiyorsanız NO REQ'yu kullanabilirsiniz.
+
+885
+01:08:20,080 --> 01:08:23,480
+Bazı özel durumlarda kullanıcılar için rezervasyon yarattığımız oluyor.
+
+886
+01:08:23,480 --> 01:08:28,200
+takvimi belli, sıkışık, söz gelimi
+
+887
+01:08:28,200 --> 01:08:33,160
+bir konferans için yazı yetiştirilmesi gerekebilir
+
+888
+01:08:33,160 --> 01:08:35,560
+ya da bir makale için review yetiştirilmesi gerekebilir.
+
+889
+01:08:35,700 --> 01:08:38,360
+Bu durumda kullanıcının özel rezervasyonu tanımladığımız oluyor.
+
+890
+01:08:38,980 --> 01:08:41,360
+Ve bu rezervasyon parametresini kullanarak
+
+891
+01:08:41,360 --> 01:08:45,800
+doğrudan rezerve edilmiş sunuculara iş göndermek mümkün hale geliyor.
+
+892
+01:08:47,220 --> 01:08:49,360
+Bu arada istersen bir iki soru alalım.
+
+893
+01:08:50,940 --> 01:08:52,720
+Şu ERE'yi de tamamlayayım öyle alalım istersen.
+
+894
+01:08:52,720 --> 01:08:55,200
+ERE parametresinden bahsetmiştik.
+
+895
+01:08:55,300 --> 01:08:59,460
+Tek bir sorun dosyasıyla tek bir seferde yüzlerce iş gönderebilirsiniz dedik.
+
+896
+01:08:59,560 --> 01:09:02,300
+Biz dosyamızda böyle bir ERE'yi tanımladık.
+
+897
+01:09:02,380 --> 01:09:03,180
+Bu ERE'yi şu anlama geliyor.
+
+898
+01:09:03,280 --> 01:09:07,540
+Birden 100'e kadar birer artan bize parametreler ver.
+
+899
+01:09:08,040 --> 01:09:08,980
+İşi 100 kere gönder.
+
+900
+01:09:09,300 --> 01:09:10,840
+Burada bir kullanmak zorunda değilsiniz.
+
+901
+01:09:10,980 --> 01:09:12,740
+İsterseniz ERE'yi ikişerle arttırabilirsiniz
+
+902
+01:09:12,740 --> 01:09:16,360
+ya da aralara virgül koyarak istediğiniz ERE numaralarını verebilirsiniz.
+
+903
+01:09:16,520 --> 01:09:17,600
+O size kalmış durumda.
+
+904
+01:09:19,520 --> 01:09:22,280
+Bu işi kuyruğa gönderdiğinizde 100 tane iş olacak.
+
+905
+01:09:22,720 --> 01:09:25,920
+Her 100 için bir tane ERE'yi task id tanımlanacak.
+
+906
+01:09:25,920 --> 01:09:38,740
+Eğer input dosyanızı da bu şekilde isimlendirmişseniz yani Gaussian input 1, Gaussian input 2 vs. de isimlendirmişseniz tek zaferde yüzlerce işi kuyruğa göndermiş olursunuz.
+
+907
+01:09:38,740 --> 01:09:40,320
+Bizde şöyle bir sınır var.
+
+908
+01:09:41,660 --> 01:09:47,880
+Bir kullanıcının aynı anda en fazla 100 işi kuyrukta bulunabilir.
+
+909
+01:09:48,240 --> 01:09:50,180
+Çalışan ya da bekleyen.
+
+910
+01:09:50,600 --> 01:09:53,220
+O yüzden ERE'nin maksimum kapasitesi de 100 olacak.
+
+911
+01:09:53,220 --> 01:09:56,260
+Bir bakalım buraya geliyor.
+
+912
+01:09:56,360 --> 01:09:56,960
+Tamam bu kadar.
+
+913
+01:09:58,400 --> 01:09:59,040
+Soruları alalım.
+
+914
+01:10:00,040 --> 01:10:01,680
+Sonra sesli soru alacağız.
+
+915
+01:10:01,880 --> 01:10:04,360
+Aslında Ramazan Hocam yazdı şeyini.
+
+916
+01:10:04,920 --> 01:10:07,920
+Aslında sorunun dosyası ile ilgili olduğu için bu kısımda alacağımı.
+
+917
+01:10:09,100 --> 01:10:10,720
+Kendisine konuşma izni veriyorum.
+
+918
+01:10:10,840 --> 01:10:14,040
+Aslında Abdülubi ondan evvel söz istemişti ama
+
+919
+01:10:14,040 --> 01:10:17,960
+İsterseniz önce Ramazan Hocam'ın bir sorusunu alalım.
+
+920
+01:10:18,080 --> 01:10:18,660
+Sesli olarak.
+
+921
+01:10:21,360 --> 01:10:22,440
+Ramazan Hocam.
+
+922
+01:10:23,220 --> 01:10:33,540
+Alo. Merhaba.
+
+923
+01:10:33,940 --> 01:10:34,260
+Merhaba.
+
+924
+01:10:34,280 --> 01:10:34,860
+Merhaba. Buyurun.
+
+925
+01:10:35,280 --> 01:10:36,340
+Sesim geliyor herhalde.
+
+926
+01:10:36,540 --> 01:10:36,740
+Evet.
+
+927
+01:10:36,980 --> 01:10:39,460
+Yani Sefa Bey'i ben birçok kere rahatsız ettim.
+
+928
+01:10:39,540 --> 01:10:41,280
+Hatırlar ben isim. Ramazan Katarcı.
+
+929
+01:10:41,500 --> 01:10:42,200
+Evet. Hatırlıyorum.
+
+930
+01:10:42,360 --> 01:10:45,080
+Şimdi tabii ki programlarını bizim bilmemiz lazım.
+
+931
+01:10:45,260 --> 01:10:47,160
+Hani bu noktada bir itirazım yok ama
+
+932
+01:10:47,160 --> 01:10:49,120
+sistemsel sıkıntılar doluyor.
+
+933
+01:10:49,200 --> 01:10:50,960
+Mesela benim az önce bahsetmiş olduğum
+
+934
+01:10:50,960 --> 01:10:52,180
+VN2K programını
+
+935
+01:10:52,180 --> 01:10:53,980
+ben kendim bilgisayarımla
+
+936
+01:10:53,980 --> 01:10:55,420
+İnternet Explorer'u kullanarak
+
+937
+01:10:55,420 --> 01:10:56,580
+lokal olarak kullanabiliyorum.
+
+938
+01:10:57,300 --> 01:10:59,380
+Ama aynı şeyi on demand üzerine yaptığımda
+
+939
+01:10:59,380 --> 01:11:01,520
+sistemin bir orada sırlaması var gibi geliyor.
+
+940
+01:11:01,640 --> 01:11:02,660
+Çünkü orada
+
+941
+01:11:02,660 --> 01:11:05,820
+you are restricted gibi bir şey yazıyor yani.
+
+942
+01:11:05,900 --> 01:11:11,060
+Anladığım kadarıyla yani ya port sınırlı orada 7.890 belki kapalı bilmiyorum.
+
+943
+01:11:11,620 --> 01:11:16,540
+Yani bu tür şeylerin hani nasıl bir iletişim şeklinde giderilir çok iyi bilmiyorum.
+
+944
+01:11:16,680 --> 01:11:19,520
+Çünkü kütüphanelerle de ilgili bayağı bir sıkıntı yaşadım.
+
+945
+01:11:19,640 --> 01:11:21,240
+Daha dün kurabildim programı mesela.
+
+946
+01:11:21,780 --> 01:11:23,700
+Ama kendi bilgisayarımla bunu kurabiliyorum.
+
+947
+01:11:23,700 --> 01:11:27,240
+çevre tarımlamalarından kaynaklı bir takım sıkıntı var.
+
+948
+01:11:27,240 --> 01:11:28,820
+Bunları belki yeterince bilmiyoruz.
+
+949
+01:11:28,820 --> 01:11:30,260
+Bunlarla ilgili eğitim olur mu?
+
+950
+01:11:30,680 --> 01:11:32,060
+Mesela FVTV3
+
+951
+01:11:32,060 --> 01:11:33,560
+laborasyon kullanmak,
+
+952
+01:11:33,660 --> 01:11:34,320
+Lips XG
+
+953
+01:11:34,320 --> 01:11:35,820
+kütüphanesini
+
+954
+01:11:35,820 --> 01:11:36,720
+kurmak.
+
+955
+01:11:36,900 --> 01:11:37,420
+Yani bunu
+
+956
+01:11:37,420 --> 01:11:39,220
+bilmiyorum yani.
+
+957
+01:11:39,280 --> 01:11:40,240
+Bunlarla ilgili de
+
+958
+01:11:40,240 --> 01:11:41,660
+hani konuşulacak mı?
+
+959
+01:11:42,460 --> 01:11:45,980
+Çünkü kütüphane olayı en fazla sıkıntı yaşatan sorun bana açıkçası.
+
+960
+01:11:45,980 --> 01:11:50,780
+Kütüphane olayından başlayayım isterseniz ya da uygulamalardan bahsedeyim.
+
+961
+01:11:50,960 --> 01:11:53,940
+Aslında şöyle burası genel amaçlı bir hüküme.
+
+962
+01:11:54,480 --> 01:11:59,160
+Bütün uygulamanın çalıştırılabilmesine özen gösteriyoruz ama ortam her uygulamanın
+
+963
+01:11:59,160 --> 01:12:01,380
+çalıştırılması için uygun olmayabilir.
+
+964
+01:12:01,760 --> 01:12:03,160
+Birincisi bu söz konusu.
+
+965
+01:12:03,560 --> 01:12:09,480
+Dolayısıyla eğer böyle bir uygunsuzluk varsa altyapıyı ilgili uygulamanın çalışacağı
+
+966
+01:12:09,480 --> 01:12:11,000
+hale getirmek mümkün olmayabilir.
+
+967
+01:12:12,920 --> 01:12:15,960
+Bunun dışında open environment üzerinde yani kendi bilgisayarımla
+
+968
+01:12:15,960 --> 01:12:17,760
+ön üzerinde çalıştırabiliyorum demiştiniz.
+
+969
+01:12:18,700 --> 01:12:19,460
+Çalıştırabilirsiniz.
+
+970
+01:12:19,980 --> 01:12:21,460
+Oradaki işletim sistemi farklı olabilir.
+
+971
+01:12:21,580 --> 01:12:22,480
+Buradaki farklı olabilir.
+
+972
+01:12:23,020 --> 01:12:28,900
+Genelde levrek, kullanıcı arayüzleri dışında herhangi bir şey port sınırlaması
+
+973
+01:12:28,900 --> 01:12:29,560
+yapmıyoruz.
+
+974
+01:12:30,480 --> 01:12:35,940
+Open environment de Linux destabı alarak sorunsuz çalıştırabiliyor olmanız lazım.
+
+975
+01:12:35,940 --> 01:12:41,600
+Ama benim daha önce sizin sizinle yazışmalarını hatırladığım kadarıyla siz
+
+976
+01:12:41,600 --> 01:12:48,620
+VN2K'yı devrek, levrek bir üzerinde çalıştırıp oradan şey almaya çalıştınız.
+
+977
+01:12:50,360 --> 01:12:54,780
+Oraya web üzerinden bağlanıp görüntü almaya çalıştınız.
+
+978
+01:12:55,200 --> 01:12:56,840
+Böyle bir şey mümkün olmayabilir.
+
+979
+01:12:56,840 --> 01:12:59,920
+Tamam, teşekkür ediyorum.
+
+980
+01:13:00,360 --> 01:13:03,820
+Kullanıcı arayüzlerinin güvenlik duvarı kısıtlamaları biraz yüksek.
+
+981
+01:13:04,200 --> 01:13:07,160
+Yani bunlara genelde müsaade vermiyoruz.
+
+982
+01:13:07,340 --> 01:13:11,300
+Ama on demand üzerinde bu uygulamanın çalıştırılması konusunda dediğim gibi ayrıca
+
+983
+01:13:11,300 --> 01:13:13,220
+size beraber çalışmak isteriz.
+
+984
+01:13:14,220 --> 01:13:18,600
+Onun dışında sorun dosyasında farklı jobları alt alta yazdığımızda buradaki joblar
+
+985
+01:13:18,600 --> 01:13:19,960
+sırasıyla mı başlıyor?
+
+986
+01:13:20,420 --> 01:13:24,060
+Yoksa o joblar aynı anda mı belirlediğimiz SİP'lara gönderiliyor gibi bir sorusu var.
+
+987
+01:13:24,060 --> 01:13:32,720
+Şöyle sanırım farklı joblar dediği, farklı farklı komut satırlarından bahsediyor.
+
+988
+01:13:36,200 --> 01:13:39,820
+İşinizi gönderdiğinizde tek bir seferde kaynak ayrılmış olur.
+
+989
+01:13:40,360 --> 01:13:41,760
+İşleriniz sırasıyla çalışır.
+
+990
+01:13:41,840 --> 01:13:47,220
+Eğer sonuna, işin sonuna apostrof koyarsanız, entişareti koyarsanız
+
+991
+01:13:47,220 --> 01:13:52,440
+iş background'a atılır ama bu pek çok durumda güvenli olmayabilir.
+
+992
+01:13:52,440 --> 01:13:56,260
+Yani en sondaki işiniz tamamlandığında öbürler henüz tamamlanmamış olsa bile
+
+993
+01:13:56,260 --> 01:13:57,740
+background'taki işler öldürülebilir.
+
+994
+01:13:58,260 --> 01:14:03,540
+Ama genel olarak evet peş peşe komutları yazdığın zaman işleriniz aynı sunucular üzerinde
+
+995
+01:14:03,540 --> 01:14:04,900
+peş peşe çalıştırabilmiş olur.
+
+996
+01:14:06,280 --> 01:14:09,440
+Abdülü bir söz verdim ama hala sorusunu sormak istiyorsa.
+
+997
+01:14:09,440 --> 01:14:19,440
+Benim bir sorum yoktu şu andaki.
+
+998
+01:14:19,440 --> 01:14:22,980
+mikrofonunuz uzun.
+
+999
+01:14:25,520 --> 01:14:26,520
+Önder Bey.
+
+1000
+01:14:26,520 --> 01:14:32,860
+Şöyle bir sorum vardı.
+
+1001
+01:14:33,020 --> 01:14:34,200
+Az önce de sordum ben.
+
+1002
+01:14:34,320 --> 01:14:35,880
+Sudo etkisi verecek misiniz diye.
+
+1003
+01:14:36,000 --> 01:14:42,260
+Şimdi ben MATLAB'ta program kurmaya kalktığımda, daha doğrusu lisansı bile almıştım,
+
+1004
+01:14:42,360 --> 01:14:44,300
+öğrenci lisansını kurmaya çalıştım.
+
+1005
+01:14:45,740 --> 01:14:47,640
+Yapamayınca şeye döndüm.
+
+1006
+01:14:47,640 --> 01:14:51,100
+Çok hesaplamalı, grid hesaplamalı.
+
+1007
+01:14:51,200 --> 01:14:54,080
+Fortran'da yazmaya çalıştım MATLAB kodlarının aynısını.
+
+1008
+01:14:54,660 --> 01:14:59,100
+Bir bakıma başardığım gibi ama MATLAB kodlarının birebir aynen.
+
+1009
+01:14:59,320 --> 01:15:03,180
+Çünkü 40x43 boyutlu matlis yazmak bayağı zordu yani.
+
+1010
+01:15:04,120 --> 01:15:06,060
+40 gün falan sürüyordu beni hesaplamalar.
+
+1011
+01:15:06,060 --> 01:15:12,440
+Dediğim gibi yani ben eğer PITON olsun, MATLAB olsun ya da başka bir program olsun,
+
+1012
+01:15:12,900 --> 01:15:18,760
+onun eklentilerini kurmak istediğinde sudo etkisiniz olmadığı için bu eklentileri kuramazsınız diye hata veriyordum.
+
+1013
+01:15:19,540 --> 01:15:22,180
+Bu tip engelleri nasıl aşabiliriz?
+
+1014
+01:15:22,960 --> 01:15:25,600
+Bununla ilgili biraz sonra bir bölüm olacak.
+
+1015
+01:15:26,080 --> 01:15:29,280
+Sudo etkisini veriyor olmamız da aslında sizin bir işinize yaramıyor olacak.
+
+1016
+01:15:29,400 --> 01:15:32,040
+Onu ayrıntılı olarak niye işinize yaramayacağını anlatacağım.
+
+1017
+01:15:32,040 --> 01:15:37,040
+Bu konuyla ilgili başka soru yoksa o kısma geçebilirim.
+
+1018
+01:15:40,140 --> 01:15:42,400
+Peki, az sonra ben sizi dinleyeyim.
+
+1019
+01:15:42,920 --> 01:15:43,180
+Tamam.
+
+1020
+01:15:44,340 --> 01:15:46,160
+Benzer sorular var mı? Başka soru?
+
+1021
+01:15:46,840 --> 01:15:47,300
+Geçin mi?
+
+1022
+01:15:48,240 --> 01:15:51,580
+Kodanablar için 15 dakikalık debug sırası mevcut mu gibi bir sorumuz.
+
+1023
+01:15:51,640 --> 01:15:52,300
+Evet, mevcut.
+
+1024
+01:15:54,760 --> 01:15:57,060
+Kısa ve net. Sen devam et istersen.
+
+1025
+01:15:59,340 --> 01:16:00,780
+Uygulama, derleme ve kurma.
+
+1026
+01:16:00,780 --> 01:16:04,220
+Kullanıcılarımızın en çok sıkıntı yaşadığı kısımlardan bir tanesi bu.
+
+1027
+01:16:05,280 --> 01:16:07,140
+Sistemde iki çeşit depolama var.
+
+1028
+01:16:07,780 --> 01:16:10,820
+Bir sunucuların üzerindeki depolamalar, bir de merkezi dizim.
+
+1029
+01:16:13,300 --> 01:16:18,040
+Sistem dizimleri genelde işte user, bin, lib64, opt vs.
+
+1030
+01:16:18,320 --> 01:16:19,780
+Bu dizimler yereldir.
+
+1031
+01:16:19,880 --> 01:16:20,780
+Her sunucunun kendine özeldir.
+
+1032
+01:16:21,760 --> 01:16:25,700
+Sistem dizimlerine kurulan uygulamalar sadece kurulu sunucuda çalıştırılabilir.
+
+1033
+01:16:25,700 --> 01:16:32,540
+Aynı uygulamanın tüm sunucularda çalıştırılabilmesi için kurulumun merkezi dizine yapılmış olması gerekiyor.
+
+1034
+01:16:32,540 --> 01:16:38,000
+Sistem dizimlerine kurulum yapmaya sadece sistem yöneticileri yetkilidir.
+
+1035
+01:16:38,580 --> 01:16:40,740
+Yani suda yetkisi dolayısıyla vermiyor olacağız.
+
+1036
+01:16:41,680 --> 01:16:48,040
+Yönetsel ve teknik sebeplerden dolayı da sistem dizimlerindeki uygulamaları değiştirmek,
+
+1037
+01:16:48,040 --> 01:16:51,900
+oraya yenilerini eklemek çok tercih edilmiyor.
+
+1038
+01:16:52,400 --> 01:16:58,400
+Sistem dizimlerine kurulacak uygulamaların aynı anda yüzlerce farklı sunucuya da kurulması gerekiyor olacağından
+
+1039
+01:16:58,400 --> 01:17:04,340
+bütün bunların takibi, paketlerin yönetilmesi vs. oldukça sıkıntılı bir durum.
+
+1040
+01:17:04,720 --> 01:17:09,040
+O yüzden kurulması gereken her türlü uygulama merkezi dizine kurulmalı.
+
+1041
+01:17:10,820 --> 01:17:15,040
+Merkezi dizimlerimiz Turbo, Turbo Scratch ve bunlarla ilgili alt dizimlerdir.
+
+1042
+01:17:15,040 --> 01:17:18,080
+Her sunucu tarafından erişilebilir.
+
+1043
+01:17:19,060 --> 01:17:23,960
+Bir kere bu dizimlere kurulum yapılması her sunucudan erişilmesi için yeterlidir.
+
+1044
+01:17:24,580 --> 01:17:29,200
+Kullanıcılar kendi ev dizimlerine herhangi bir uygulamayı kurabilirler.
+
+1045
+01:17:29,400 --> 01:17:37,280
+Herhangi bir uygulamayı kurmak için hiçbir yönetici yetkisine, hiçbir yönetici iznine, hiçbir sudo iznine ihtiyaç duymazlar.
+
+1046
+01:17:38,380 --> 01:17:44,220
+Turbo SW, Turbo Software dizini bizim tarafımızdan yönetilen bir dizim.
+
+1047
+01:17:44,220 --> 01:17:46,700
+Kullanıcılar buraya herhangi bir yükleme yapamazlar.
+
+1048
+01:17:46,760 --> 01:17:48,960
+SW'ye ama kendi ev dizimlerine yapabilirler.
+
+1049
+01:17:49,980 --> 01:17:53,220
+SW'ye yapılacak kurumlar bizim tarafımızdan yapılmakta.
+
+1050
+01:17:54,980 --> 01:17:57,260
+Kullanıcılarımızın çoğu, daha doğrusu şöyle,
+
+1051
+01:17:58,540 --> 01:18:06,540
+uygulamaların çoğunluğunun kurulun dokümanları sistemin yöneticisine göre ya da sistemin sahibine göre anlatılıyor.
+
+1052
+01:18:06,540 --> 01:18:14,280
+Kullanıcıların çoğu uygulamayı kurmak isterken internette buldukları kaynaklara göre kurmaya çalışıyorlar.
+
+1053
+01:18:14,720 --> 01:18:19,040
+Su, sudo, apt, pip gibi paket yöneticilerini kurmaya çalışıyorlar.
+
+1054
+01:18:19,500 --> 01:18:21,180
+Bu iki nedenle sakıncalı.
+
+1055
+01:18:21,440 --> 01:18:27,320
+Birincisi bunları kullanmak için sistem yöneticisinin izni gerekiyor, sudo izni gerekiyor.
+
+1056
+01:18:27,440 --> 01:18:32,400
+İkincisi bu uygulamalar kurulumlarını yerel dizimlere yaparlar.
+
+1057
+01:18:32,400 --> 01:18:43,520
+Yani sizin nevrek bir üzerine kuracağınız ya da bizim nevrek bir üzerine putla, apt ile, pip ile, yum ile kuracağımız hiçbir uygulamayı hesaplama sunucusu üzerinde kullanamazsınız.
+
+1058
+01:18:43,600 --> 01:18:46,900
+Çünkü bu dizimler dediğim gibi kurumlar yerel olarak yapılıyor.
+
+1059
+01:18:47,800 --> 01:18:52,200
+Pip diğerlerinden ayrı olarak bazı farklı paket yöneticileri de bunu destekleyebilir.
+
+1060
+01:18:52,460 --> 01:18:57,020
+Pip-user parametresiyle kendi ev dizininize kurulum yapabilirsiniz.
+
+1061
+01:18:57,020 --> 01:19:07,900
+Bu arada MATLAB dahil neredeyse hiçbir uygulama kurulumunu, defolta tamam sistem dizimlerini yapıyor ama
+
+1062
+01:19:07,900 --> 01:19:13,660
+sizin vereceğiniz kurulum parametreleriyle kurulumunuzu kendi ev dizininize yapmanıza da izin veriyor.
+
+1063
+01:19:14,900 --> 01:19:20,040
+Yani MATLAB'ı kurabilmek için özellikle de sudo yetkisine ihtiyacımız yok.
+
+1064
+01:19:21,040 --> 01:19:23,800
+Kurulum dokümanlarında bunlar detaylı olarak anlatılır.
+
+1065
+01:19:23,800 --> 01:19:31,260
+Biraz önceki kısım binary dosyaların, binary uygulamaların kurulmasıyla ilgiliydi.
+
+1066
+01:19:31,340 --> 01:19:38,000
+Bazı kullanıcılarımız uygulamalarını kendileri derlemek istiyorlar ki bu asıl olması gereken bir şey.
+
+1067
+01:19:38,600 --> 01:19:44,480
+Yalnız derlemeyle ilgili dokümanlarda genellikle sistem yöneticisi ya da sistemin sahibine göre anlatılır.
+
+1068
+01:19:44,480 --> 01:19:54,800
+Dolayısıyla siz konfigürün ya da başka bir yapılandırma yöneticisi kullanıyorsanız o başka yapılandırma yöneticisine herhangi bir parametre belirtmezseniz
+
+1069
+01:19:54,800 --> 01:19:57,740
+defolt olarak sistem dizimlerine kurulum yapılmaya çalışılır.
+
+1070
+01:19:58,180 --> 01:20:03,460
+Tabi bunun için bu hem işinize yaramayacaktır hem de yönetici yetkisi gerekecektir bunun için.
+
+1071
+01:20:04,260 --> 01:20:10,820
+Konfigür için prefiks parametresiyle kurulumun kendi ev dizininize yapılmasını sağlayabilirsiniz.
+
+1072
+01:20:10,820 --> 01:20:14,060
+Konfigür ayrıca yüzlerce farklı opsiyonu da içerir.
+
+1073
+01:20:15,400 --> 01:20:24,100
+Uygulamanın hangi kütüphanelerle kurulacağı, hangi işlemci için kurulacağı, hangi derleyiciler kullanıları kullanacağı vs.
+
+1074
+01:20:24,260 --> 01:20:26,100
+yüzlerce şeyi seçebilirsiniz.
+
+1075
+01:20:26,420 --> 01:20:32,400
+Bunun için her konfigür yapılandırması birbirinden farklı olabilir.
+
+1076
+01:20:32,900 --> 01:20:37,320
+Konfigür, Trader, Help ile neleri değiştirebileceğinize bakabilirsiniz.
+
+1077
+01:20:37,320 --> 01:20:43,240
+Herhangi bir uygulamayı standart olarak derlerken configure, make, make, install yeterlidir.
+
+1078
+01:20:45,560 --> 01:20:47,580
+Tabi uygulamayı kurmak yetmiyor.
+
+1079
+01:20:48,180 --> 01:20:50,160
+Şöyle bir sıkıntı söz konusu.
+
+1080
+01:20:50,620 --> 01:20:58,300
+Linux'da herhangi bir komut satırından herhangi bir komut verdiğiniz zaman o komutun nerede olduğunun bilinmesi gerekir.
+
+1081
+01:20:58,740 --> 01:21:03,820
+Yani sistemin o komutun nerede olduğunu biliyor olması, o komutla ilgili kütüphanelerin nerede olduğunu biliyor olması gerekir.
+
+1082
+01:21:03,820 --> 01:21:08,280
+Standart olarak sistem dizinlerine bakılır.
+
+1083
+01:21:08,680 --> 01:21:12,740
+UASR, UASR, LIB, LIB64, BIN gibi dizinlere bakılır.
+
+1084
+01:21:12,740 --> 01:21:19,260
+Eğer bu dizinlerde uygulama ya da verdiğiniz komut yoksa sizin çevre değişkenlerinize bakılır.
+
+1085
+01:21:19,740 --> 01:21:27,860
+Herhangi bir uygulama için çalıştırılabilir dosya, dosyaların bulunduğu yerle ilgili çevre değişkeni, PET değişkenidir.
+
+1086
+01:21:27,860 --> 01:21:38,100
+O çalıştırabilir dosyanın ihtiyaç duyduğu kütüphanelerde LD, LIB, PET değişkeniyle belirtilen PET'ler daranır.
+
+1087
+01:21:38,180 --> 01:21:40,840
+Söz gelimi ben Gromax'ı kendi ev dizinime kurdum.
+
+1088
+01:21:41,280 --> 01:21:44,460
+Bunu çalıştırabilmem için şu tanımı yapmış olmam gerekiyor.
+
+1089
+01:21:44,920 --> 01:21:47,740
+Gromax çalıştığı zaman pek çok kütüphaneye ihtiyaç olacak.
+
+1090
+01:21:47,740 --> 01:21:55,940
+Bu ihtiyaçları da bulabilmesi için LD, LIB, PET değişkenine bu kütüphanelerin nerede olduğunu bildiriyorum.
+
+1091
+01:21:56,400 --> 01:22:02,100
+Dediğim gibi PET çalıştırabilir dosyalar, LD, LIB, PET de kütüphane dosyaları için geçerli.
+
+1092
+01:22:02,600 --> 01:22:05,540
+Siz bu tanımları, bunlar çevre değişkenleridir.
+
+1093
+01:22:05,680 --> 01:22:07,560
+Sistemi her login olduğunuzda kaybolurlar.
+
+1094
+01:22:07,740 --> 01:22:10,200
+Ya her seferinde tekrar yazarsınız.
+
+1095
+01:22:10,680 --> 01:22:15,380
+Ya da bunları 5 profile, profile ya da 5 RC dosyalarınızın içine yazarsınız.
+
+1096
+01:22:15,380 --> 01:22:18,700
+Bir seferlik yazarsınız. Her login olduğunuzda geçerli olurlar.
+
+1097
+01:22:20,380 --> 01:22:22,560
+Her login olduğunuzda evet geçerli olurlar.
+
+1098
+01:22:22,800 --> 01:22:27,380
+5 profile, profile, 5 RC aslında kullanım olarak birbirinden farklıdır.
+
+1099
+01:22:27,440 --> 01:22:30,600
+Ama bu tür bir amaç için hepsi de aynı şekilde kullanılabilirler.
+
+1100
+01:22:31,120 --> 01:22:36,120
+Merkezi dizinde kurduğumuz uygulamalar için biz modül mekanizmasını kullanıyoruz.
+
+1101
+01:22:36,120 --> 01:22:43,320
+Modül mekanizmasının yaptığı da aslında çiçli değişkenleri eksport etmek, import etmektir.
+
+1102
+01:22:43,400 --> 01:22:44,060
+Başka bir iş yok.
+
+1103
+01:22:44,060 --> 01:22:46,880
+Hemen bir önceki şeye tekrar gelin.
+
+1104
+01:22:47,100 --> 01:22:48,840
+Export etmek ve import etmektir.
+
+1105
+01:22:51,960 --> 01:22:57,640
+Derleme sırasında barbunlar, sağda edilmesi için nelere dikkat edilmesi gerekir diye bir soru vardı.
+
+1106
+01:22:58,960 --> 01:23:02,700
+Bizim elimizdeki sunucularda 4 farklı Intel işlemci ailesi mevcut.
+
+1107
+01:23:02,700 --> 01:23:04,840
+Aynı zamanda AMD işlemcimiz mevcut.
+
+1108
+01:23:06,520 --> 01:23:11,920
+Hepsinin vektör kapasitesi birbirinden farklı.
+
+1109
+01:23:11,920 --> 01:23:31,020
+Herhangi bir uygulamayı derlerken derleme yaptığınız sunucudan ya da hedef sunucunuzdan maksimum faydayı sağlayabilmek için, maksimum performansını sağlayabilmek için hedef işlemcinizin özelliklerini biliyor olmanız gerekiyor.
+
+1110
+01:23:31,020 --> 01:23:35,320
+Ve derleminizi o hedef işlemcinize göre yapıyor olmanız gerekiyor.
+
+1111
+01:23:35,840 --> 01:23:46,580
+Intel derleyicilerini kullanıyorsanız eğer bulunduğunuz bilgisayardaki özelliklere göre en yüksek performansı almak için TREX host parametresini kullanmanız gerekiyor.
+
+1112
+01:23:46,580 --> 01:23:53,860
+GCC parametre, GCC derlecileri kullanıyorsanız mArch eşittir native, mTune eşittir native'i kullanmanız gerekiyor.
+
+1113
+01:23:54,360 --> 01:24:03,960
+Ancak söz gelimi GOLD işlemciler için derleme yapmak, GOLD işlemcilere derleme yapmak için illa ki GOLD işlemci üzerinde olmanız gerekmez.
+
+1114
+01:24:04,480 --> 01:24:07,560
+E5V1 üzerinden de cross compile yapabilirsiniz.
+
+1115
+01:24:07,920 --> 01:24:11,800
+Yani farklı bir işlemci türü için uygulamanızı optimize edebilirsiniz.
+
+1116
+01:24:11,800 --> 01:24:19,580
+Bunun için Xcode, TREAXcode, TREMtune, TREMarch ve GCC'de de benzer parametreler var.
+
+1117
+01:24:20,000 --> 01:24:26,580
+Bunların nasıl kullanılacağına dair ayrıntılı bilgiyi bu derleyicilerin dokümanlarında ve help sayfalarında bulabilirsiniz.
+
+1118
+01:24:27,400 --> 01:24:29,160
+Modül dosyasından bahsetmiştik az önce.
+
+1119
+01:24:29,980 --> 01:24:36,800
+Dediğim gibi modül dosyasının yaptığı tek işte aslında belli başlı çevre değişiklerinin eksport etmek.
+
+1120
+01:24:36,800 --> 01:24:44,280
+PED, LD, Library PED, burada include diri şey yapmış çünkü GCC için ekstra şeylere ihtiyaç var.
+
+1121
+01:24:44,440 --> 01:24:50,460
+Ekstra header dosyalarının bulunabilmesi için ekstra tanımlara ihtiyaç var.
+
+1122
+01:24:50,720 --> 01:24:52,160
+Farklı bir dosya için bu farklı olabilir.
+
+1123
+01:24:54,260 --> 01:24:56,280
+Modül adı üzerinde modüler bir yapıda.
+
+1124
+01:24:56,440 --> 01:25:02,940
+Modül EVEYT komutuyla sistemde bizim tarafından kurulmuş olan uygulamalarla ilgili modülleri görebilirsiniz.
+
+1125
+01:25:02,940 --> 01:25:07,460
+Modül load ile eksport işlerini yapmış olursunuz.
+
+1126
+01:25:07,600 --> 01:25:10,160
+Unload ile geri çıkartmış olursunuz.
+
+1127
+01:25:10,740 --> 01:25:14,260
+List dediğiniz zaman hangi modülleri yüklemiş olduğunuzu görürsünüz.
+
+1128
+01:25:15,060 --> 01:25:18,720
+Perch dediğiniz zaman da yüklemiş olduğunuz modüllerin tamamı silinmiş olur.
+
+1129
+01:25:19,320 --> 01:25:22,180
+Bu modül isimlendirilmesiyle ilgili de birkaç şey söylemek istiyorum.
+
+1130
+01:25:25,300 --> 01:25:29,680
+Sistemdeki modülleri belli bir sistematikle isimlendiriliyor.
+
+1131
+01:25:29,680 --> 01:25:40,080
+CentOS 7.3 modül ismindeki CentOS 7.3 bu modülün CentOS işletim sisteminin 7.3 versiyonuna göre hazırlandığını gösteriyor.
+
+1132
+01:25:40,980 --> 01:25:46,940
+Up, şuradaki Up bu modülün bir uygulamaya ait olduğunu gösteriyor.
+
+1133
+01:25:47,120 --> 01:25:50,100
+Comp de olabilirdi yani compiler, lib de olabilirdi.
+
+1134
+01:25:50,400 --> 01:25:52,100
+Bir lib modülüne ait ise.
+
+1135
+01:25:52,620 --> 01:25:55,540
+Gromax modülün hangi uygulama için olduğunu gösteriyor.
+
+1136
+01:25:55,540 --> 01:26:00,220
+2019 burada uygulamanın versiyonu, bir başka versiyon da olabilir.
+
+1137
+01:26:02,000 --> 01:26:08,320
+EMPI burada Gromax'ın bu versiyonunun hangi MPI ile değerlendiğini gösteriyor.
+
+1138
+01:26:09,180 --> 01:26:12,660
+TRE-MKL hangi matematik kütüphanesinin kullanıldığını gösteriyor.
+
+1139
+01:26:14,100 --> 01:26:16,540
+PS 2019 bu uygulama değerlenirken,
+
+1140
+01:26:18,520 --> 01:26:22,780
+Intel'in 2019, Paralel Stütü 2019 değerleyicilerinin kullanıldığını gösteriyor.
+
+1141
+01:26:22,780 --> 01:26:23,860
+En sonunda bir GOLD var.
+
+1142
+01:26:24,640 --> 01:26:28,980
+O GOLD'da bu uygulamanın GOLD işlemciler için optimiz edildiğini gösteriyor.
+
+1143
+01:26:29,080 --> 01:26:34,780
+Yani bu uygulamayı Levrek V2'ye gönderdiğinizde büyük ihtimal çalışmayacak ya da hatalı olacaksınız.
+
+1144
+01:26:36,040 --> 01:26:39,240
+Bu işlemci mimarisiyle ilgili söylemek istediğim bir şey daha var.
+
+1145
+01:26:39,960 --> 01:26:45,040
+Mesela E5V1 için derlediğiniz bir uygulama GOLD üzerinde çalışır.
+
+1146
+01:26:45,180 --> 01:26:49,800
+Ama GOLD için derlediğiniz bir uygulama E5V1 üzerinde çalışmaz.
+
+1147
+01:26:49,800 --> 01:26:54,820
+Bu kısımla ilgili söyleyeceklerim bu kadar.
+
+1148
+01:26:54,940 --> 01:27:01,160
+Biraz önceki soruya ek olarak kullanıcıların uygulama kurmakla ilgili sıkıntıları varsa o soruları alalım hemen.
+
+1149
+01:27:01,160 --> 01:27:11,980
+Uygulama kurmakla alakalı sıkıntıları ile ilgili bir şey göremiyorum ama şey var.
+
+1150
+01:27:12,060 --> 01:27:16,300
+AVX 512M, AVX-256'ı ünerebiliyorlar işlemciler için.
+
+1151
+01:27:17,000 --> 01:27:18,940
+Fakat bu durumlar hakkında ayrıntı vermiyorlar.
+
+1152
+01:27:19,020 --> 01:27:20,580
+Sizin bilginiz varsa ayrıntı olabilirsiniz.
+
+1153
+01:27:21,020 --> 01:27:23,620
+AVX 512M her işlemci de zaten destekli değil.
+
+1154
+01:27:23,620 --> 01:27:25,720
+Her işlemci üzerinde destekli değil.
+
+1155
+01:27:26,120 --> 01:27:31,700
+Hedef işlemci kullanacağınız işlemcilerin donanımların özelliklerini biliyor olmanız lazım.
+
+1156
+01:27:32,240 --> 01:27:34,160
+Bizim altyapımızdaki donanımlar belli.
+
+1157
+01:27:34,720 --> 01:27:41,480
+Bu işlemciler için üreticinin dökümanlarını inceleyebilirsiniz.
+
+1158
+01:27:41,800 --> 01:27:47,280
+Hangi derleyiciyi kullanıyorsanız o derleyicinin opsiyonlarına ve yardım sayfalarına bakabilirsiniz.
+
+1159
+01:27:47,280 --> 01:27:59,300
+Ama biz pratik olarak elimizde Intel derleyicileri olduğu için ve her işlemci türü için bir kullanıcı arayüzünü kullanıcıya sağladığınız için
+
+1160
+01:27:59,300 --> 01:28:05,280
+3x host parametresi ile istediğiniz bir işlemci türü için optimize edilmiş kod üretebilirsiniz.
+
+1161
+01:28:06,460 --> 01:28:11,140
+Yani var bunlar için ya da kotlar için ya da akyalar için bir kod üretmek istiyorsanız
+
+1162
+01:28:11,140 --> 01:28:19,000
+barbun bir kullanıcı arayüzüne geçip derlemenizi 3x host ile Intel derleyicilerinde gerçekleştirebilirsiniz.
+
+1163
+01:28:19,680 --> 01:28:24,460
+Eğer hedefiniz Levrik V2'lerse bu durumda cross-compile yapmanız gerekecek.
+
+1164
+01:28:24,580 --> 01:28:27,620
+Ya da sağ dalyalara geçip orada derleme yapmanız gerekecek.
+
+1165
+01:28:29,140 --> 01:28:35,520
+Bu home yolda SSD sürücüler üzerinde mi uygulamaları home ama yoksa scratch dizine mi derlemeliyiz gibi soru var.
+
+1166
+01:28:35,520 --> 01:28:41,920
+Buraya aşağıda yorum olarak scratch diziniyor galiba aralıklı olarak home doğru tercih olabilir demiş.
+
+1167
+01:28:42,060 --> 01:28:44,580
+Onunla ilgili bir kısım var geleceğim oraya.
+
+1168
+01:28:45,180 --> 01:28:47,040
+Yani burada şeyi aktarmakta fayda var.
+
+1169
+01:28:47,220 --> 01:28:53,800
+Hani depolama sistemimiz aslında dünya standartında kullanılan bu tür merkezlerde iki tane çözüm vardır.
+
+1170
+01:28:53,880 --> 01:28:57,360
+Birisi IBM'in Spectrum Scale çözümü öbürü Lustre.
+
+1171
+01:28:57,680 --> 01:28:59,920
+Biz Lustre'ı tercih ediyoruz uzun süredir.
+
+1172
+01:28:59,920 --> 01:29:05,960
+Yani yaklaşık 12-13 senedir Lustre üzerinde koşuyor şeylerimiz yüksek performanslı dosya sistemimiz.
+
+1173
+01:29:06,700 --> 01:29:12,280
+Burada da aslında çok fazla sayıda disk kafasından oluşan bir performans altyapımız var.
+
+1174
+01:29:12,360 --> 01:29:18,120
+Metavery SSD üzerinde mekanik diskler kapasite sağlayabilmek açısından.
+
+1175
+01:29:18,120 --> 01:29:29,120
+Ve çok yüksek berlekli depolama sunucularıyla SSD'nin daha üstünde iş başına performans alabiliyoruz.
+
+1176
+01:29:29,920 --> 01:29:33,100
+Orayı zaten ayrıntılı bir kısım koymuşsunuz Sefa.
+
+1177
+01:29:33,200 --> 01:29:35,540
+Sefa biraz şeyin gerisindeyiz programın.
+
+1178
+01:29:35,680 --> 01:29:38,160
+Aslında bir bitirmemiz gereken yerlere doğru geldik ama.
+
+1179
+01:29:38,240 --> 01:29:39,220
+Çok azlık kaldı.
+
+1180
+01:29:39,860 --> 01:29:44,360
+O yüzden hani istersen sunumun tamamı sonra toptan temizleyelim.
+
+1181
+01:29:44,840 --> 01:29:45,380
+Öyle yapalım.
+
+1182
+01:29:46,460 --> 01:29:47,840
+İşlerin kuyrukta beklemesi.
+
+1183
+01:29:47,960 --> 01:29:49,920
+İşinizi ne şekilde gönderirseniz gönderin.
+
+1184
+01:29:50,020 --> 01:29:55,340
+İster S5, S-RAN, S-HALOG neyi kullanırsanız kullanın işleriniz bir süre kuyrukta bekleyecek.
+
+1185
+01:29:55,340 --> 01:30:02,780
+Kuyrukta bekleme süresinin hesabın önceliği, kuyruğun önceliği, talep edilen kaynağın miktarı, kuyrukların yoğunluğu değiştirebilir.
+
+1186
+01:30:04,180 --> 01:30:05,900
+Farklı sebeplerle işiniz bekliyor olabilir.
+
+1187
+01:30:06,080 --> 01:30:10,820
+SQL komutuyla baktığınız zaman eğer resource görüyorsanız işinizin sırası gelmiştir.
+
+1188
+01:30:10,960 --> 01:30:12,520
+Kaynak oluşması bekleniyordur.
+
+1189
+01:30:12,620 --> 01:30:15,440
+Yeterli kaynak oluştuğu zaman işiniz otomatik olarak başlatılacaktır.
+
+1190
+01:30:15,520 --> 01:30:19,060
+Eğer priority görüyorsanız işinizin sırası henüz gelmemiştir.
+
+1191
+01:30:19,060 --> 01:30:25,060
+Boşalacak kaynaklar sizin işinizden daha öncelikli işler için kullanılacaktır.
+
+1192
+01:30:25,500 --> 01:30:27,120
+Size sıra geldiği zaman işiniz başlayacak.
+
+1193
+01:30:27,260 --> 01:30:32,640
+Eğer asoç grup CPU limit görüyorsanız sizin için tanınanmış CPU limitini açtınız demektir.
+
+1194
+01:30:33,000 --> 01:30:35,300
+Ya da bu çalışacak işle aşacaksınız demektir.
+
+1195
+01:30:35,440 --> 01:30:37,800
+O yüzden işiniz çalıştırılmayacaktır.
+
+1196
+01:30:37,800 --> 01:30:44,000
+Var olan işlerinizden bir tanesi sonlandığında eğer yeni iş için çekirdek limitiniz yetiyorsa işiniz çalışır.
+
+1197
+01:30:44,600 --> 01:30:47,800
+Asoç grup CPU min diye bir uyarı alıyor olabilirsiniz.
+
+1198
+01:30:47,800 --> 01:30:54,900
+Bu durumda da hesabınız için tanınan çekirdek zaman kutasını tamamlamışsınız demektir.
+
+1199
+01:30:55,500 --> 01:30:59,720
+Bize e-postayla başvurup kaynak arttırımı talebinde bulunabilirsiniz.
+
+1200
+01:31:00,140 --> 01:31:06,780
+Burada yazmadım ama ek olarak reservation ya da farklı bir sebepten işiniz bekliyor olabilir.
+
+1201
+01:31:06,960 --> 01:31:09,560
+Reservation'ın genellikle sebebi şu oluyor.
+
+1202
+01:31:10,080 --> 01:31:12,960
+Sözgeri bir kullanıcı Akyo kutu sunucusuna iş gönderiyor.
+
+1203
+01:31:13,100 --> 01:31:17,780
+Akyo kutu sunucusunda 4 tane GPU var ama kullanıcı 8 tane GPU isterse öyle bir donanım olur.
+
+1204
+01:31:17,800 --> 01:31:19,520
+Olmadığı için işiniz kuyrukta bekliyor.
+
+1205
+01:31:20,060 --> 01:31:26,120
+Rezervasyon genelde yanlış olarak gösteriliyor ama rezervasyonun anlamı genelde bu.
+
+1206
+01:31:28,220 --> 01:31:33,160
+TMP ve scratch kullanımına gelecek olursak merkezli dosya sisteminizin kapasitesi oldukça yüksek.
+
+1207
+01:31:33,280 --> 01:31:37,760
+Performansı da çok yüksek ama üzerinde aynı anda binlerce disk, binlerce iş koşuyor.
+
+1208
+01:31:37,760 --> 01:31:51,960
+Dolayısıyla eğer işinizin yüksek AYU'ya ihtiyacı varsa ya da işinizin diğer işlerin çalışmasından etkilenmesini çok istemiyorsanız işlerinizi Temp'e veya Scratch'e taşımanızı öneririz.
+
+1209
+01:31:51,960 --> 01:31:57,840
+Temp ve Scratch, Temp daha doğrusu geçici dosyaların yazılacağı alandır.
+
+1210
+01:31:58,920 --> 01:32:00,980
+Kullanıcı ara yüzünden doğrudan erişim yoktur.
+
+1211
+01:32:01,420 --> 01:32:04,120
+Hesaplama sunucu üzerindeki yerel disktir.
+
+1212
+01:32:04,440 --> 01:32:06,780
+İş bittikten sonra erişmek mümkün değildir.
+
+1213
+01:32:06,780 --> 01:32:14,260
+Bazı uygulamalar Temp'e geçici dosyalarını Temp'e yazabilmek için özel parametrelere sahiptir.
+
+1214
+01:32:14,340 --> 01:32:18,260
+Mesela Gaussian için böyle bir tanım söz konusu.
+
+1215
+01:32:18,380 --> 01:32:26,000
+Quantum Espirosu için Outdoor ya da IO Profile için de farklı opsiyonlar söz konusu.
+
+1216
+01:32:26,360 --> 01:32:27,540
+Her uygulamada farklı olabilir.
+
+1217
+01:32:27,700 --> 01:32:34,920
+Eğer uygulama bunu doğrudan desteklemiyorsa siz betik dosyanız içinde iş başlamadan önce verilerinizi Temp dizilini taşıyıp
+
+1218
+01:32:34,920 --> 01:32:40,280
+iş bittikten sonra da yine betik içerisinde verilerinizi, ev dizilinizi otomatik olarak kopyalattırabilirsiniz.
+
+1219
+01:32:42,520 --> 01:32:47,540
+Temp kullanmanın avantajı merkezi dizinlerdeki IO yoğunluğunu azaltır.
+
+1220
+01:32:48,480 --> 01:32:54,740
+Eğer merkezi dizin çok aşırı kullanılıyorsa bazı uygulamalar çok fazla IO yapar.
+
+1221
+01:32:55,180 --> 01:32:57,540
+Gereksiz yere bu merkezi dizine bindirilir.
+
+1222
+01:32:58,700 --> 01:33:01,340
+Gereksiz IO beklemelerini en aza indirir.
+
+1223
+01:33:01,680 --> 01:33:03,000
+İşin performansını arttırır.
+
+1224
+01:33:03,000 --> 01:33:06,580
+Eğer kotanız yetmediği durumlarda Temp'te kota şeyi yoktur.
+
+1225
+01:33:09,120 --> 01:33:16,040
+Yani kota sınırlarına takılmadan sistem üzerindeki diskin kapasitesi kadar veri üretebilirsiniz.
+
+1226
+01:33:16,680 --> 01:33:20,520
+Scratch aslında tüm dünya için geçerli bir şey söz konusu.
+
+1227
+01:33:20,780 --> 01:33:27,000
+Biz de henüz bu şekilde çalışmıyoruz ama normalde scratch üzerinde, tüm işler scratch üzerinde çalıştırılmalıdır.
+
+1228
+01:33:27,000 --> 01:33:37,240
+Genellikle yüksek performanslıdır, ev dizinlerine göre daha yüksek performanslıdır, dünyada genel kullanımda kotasızdır, geçicidir ama birerden eski dosyalar silinir.
+
+1229
+01:33:37,360 --> 01:33:40,520
+Bizde bu şekilde değil ama bu şekilde olmayacağı anlamına gelmiyor.
+
+1230
+01:33:40,520 --> 01:33:49,860
+İleriki donanım güncellemelerimizde turba ve scratch'i ayırma imkanımız olacak olsa scratch'i ayırmayı planlarız.
+
+1231
+01:33:50,540 --> 01:34:00,000
+Şimdiden scratch kullanımına alışmak, daha sonraki geçişlerde geçişin pürüzsüzlüğünün, işlerin kolay çalıştırılmasını sağlıyor olacaktır.
+
+1232
+01:34:00,000 --> 01:34:03,440
+Benim sunumum bu kadar. Soruları alabilirim.
+
+1233
+01:34:05,080 --> 01:34:06,060
+Teşekkürler Sefa.
+
+1234
+01:34:08,340 --> 01:34:16,600
+Soruların epey bir kısmını arada temizlediğim için programda sunulan şekilde gitmedik ama böyle daha verimli olduğunu düşünüyorum.
+
+1235
+01:34:16,740 --> 01:34:18,940
+Çünkü öbür türlü kopuk oluyor konudan.
+
+1236
+01:34:19,740 --> 01:34:23,160
+Dediğim gibi birkaç tane soruyu ben sona bıraktım.
+
+1237
+01:34:23,340 --> 01:34:24,680
+Çok genel oldukları için aslında.
+
+1238
+01:34:25,160 --> 01:34:26,880
+Sunum dışında da oldukları için bir kısmı.
+
+1239
+01:34:27,500 --> 01:34:29,760
+Jüpiter kurulumu için açıklama alabilir miyiz?
+
+1240
+01:34:30,000 --> 01:34:31,760
+Gibi bir soru var ama bu...
+
+1241
+01:34:31,760 --> 01:34:32,600
+Viki de var aslında.
+
+1242
+01:34:33,200 --> 01:34:40,240
+Bizim Viki'mize girecek olurlarsa Jüpiter'in kurulumu, Anaconda ile Jüpiter'in kurulumu detaylı olarak anlatılmakta.
+
+1243
+01:34:40,340 --> 01:34:42,500
+Jüpiter'in kendi sitesinde de bulabilirler detaylı.
+
+1244
+01:34:43,500 --> 01:34:47,760
+Wasp ve OpenACC ile GPU'lardan Kubla Sendil hataları alıyorum.
+
+1245
+01:34:47,900 --> 01:34:51,080
+Ancak DebugInfo şerde değişkenine cevap alamıyorum.
+
+1246
+01:34:51,280 --> 01:34:52,940
+Bu tür hataları nasıl yakalayabilirim?
+
+1247
+01:34:54,240 --> 01:34:57,300
+Yani bu GPU'da aslında debugging yapmakla alakalı.
+
+1248
+01:34:57,300 --> 01:34:59,060
+Evet, debug yapmakla alakalı.
+
+1249
+01:34:59,060 --> 01:35:02,560
+Kullanıcı arayüzleri de maalesef GPU imkanı bulunmuyor.
+
+1250
+01:35:03,440 --> 01:35:06,200
+Esalot ile GPU'lu sunuculara bağlanmak mümkün.
+
+1251
+01:35:06,580 --> 01:35:10,300
+Ama oradaki debug imkanların ne çeşit bilmiyor.
+
+1252
+01:35:10,300 --> 01:35:21,980
+Evet, şimdi bu soruların, kalan soruların neredeyse hepsini ben cevaplayacağım.
+
+1253
+01:35:22,240 --> 01:35:25,760
+Ondan evvel, evet, Selçuk bir yandan oradan buradan dürtüktürüyor.
+
+1254
+01:35:26,760 --> 01:35:27,640
+Şeyin bilgisini vereyim.
+
+1255
+01:35:27,780 --> 01:35:34,780
+Bir sonraki seminerimiz, şeyde gelecek hafta gene cumartesi günü olacak.
+
+1256
+01:35:34,780 --> 01:35:40,600
+Büyük veriyle makine öğrenmesi nasıl yapılır konusunda Sabancı Üniversitesi'nden,
+
+1257
+01:35:40,720 --> 01:35:45,020
+tecrübeli araştırmacılarımızdan Ahmet Demirelli verecek bu semineri.
+
+1258
+01:35:45,400 --> 01:35:47,640
+Epey ilgi çekici olacağını düşünüyorum.
+
+1259
+01:35:48,260 --> 01:35:50,200
+Apache Spark'a yönelik de olduğu için.
+
+1260
+01:35:51,040 --> 01:35:54,980
+Şeyler, büyük veri konusunda araştırma yapan araştırmacılarımız açısından.
+
+1261
+01:35:54,980 --> 01:36:06,180
+Şimdi kalan sorular, bakıyorum, Ahmet, evet, hocam, eklesin.
+
+1262
+01:36:07,140 --> 01:36:11,700
+Bir şey eklememem, gene Metlap'ya da benzeri programların kurulumu,
+
+1263
+01:36:12,360 --> 01:36:17,020
+grafik arayüzü üzerinden, on-düment üzerinde gerçekleştirilebilir şeyde,
+
+1264
+01:36:17,740 --> 01:36:23,340
+X-Forwarding'de görüntü almak biraz teferruatlıysa ya da böyle bu yola girilmek istemiyorsa,
+
+1265
+01:36:23,340 --> 01:36:26,620
+on-düment üzerinden şey alabilirsiniz,
+
+1266
+01:36:27,840 --> 01:36:31,020
+Linux desktop alabilirsiniz, kurulumunuzu orada gerçekleştirebilirsiniz.
+
+1267
+01:36:32,960 --> 01:36:33,960
+Teşekkür ederim.
+
+1268
+01:36:35,320 --> 01:36:38,740
+Evet, şimdi basit konulardan başlayayım.
+
+1269
+01:36:38,920 --> 01:36:44,100
+Turbo kullanıcılara yönelik deneme amaçlı bir Slack, Metromost ve vesaire odası açmayı düşünür misiniz?
+
+1270
+01:36:45,020 --> 01:36:49,200
+Bu konu aslında, bu sıralar bizim herhalde şeyimiz, kanayan yerimiz.
+
+1271
+01:36:49,200 --> 01:36:55,200
+Burada aslında ihtiyaç büyük, hem Euro CC projesinde hem Turbo tarafında büyük.
+
+1272
+01:36:56,380 --> 01:36:58,980
+Ama açıkçası teknolojiyi belirleyemiyoruz.
+
+1273
+01:37:00,240 --> 01:37:05,120
+Eğer Ahmet hocamın bu sorusuna, ayrıca anket açmıyorum,
+
+1274
+01:37:06,160 --> 01:37:11,200
+yani şey işaretiyle, yani yukarı parmak işaretiyle desteğinizi gösterirseniz,
+
+1275
+01:37:11,860 --> 01:37:12,960
+biz de şeyi anlamış oluruz.
+
+1276
+01:37:12,960 --> 01:37:18,660
+Mesela Slack kullanıma yoğunlukta ise, yani Slack biliyorsunuz, hani lisanslı bir kullanıma tabi,
+
+1277
+01:37:19,300 --> 01:37:22,960
+şey yapabiliriz, biz bunu yeniden değerlendirebiliriz.
+
+1278
+01:37:23,700 --> 01:37:30,660
+Açıkçası, açık kaynak kodlu, hali hazırda zaten, o vaktinde de kullanan bir takım servisler var.
+
+1279
+01:37:30,660 --> 01:37:38,160
+Hani bunları biz kullanıcılara, kullanmaları yönünde bir zorlamamız olduğu zaman,
+
+1280
+01:37:38,360 --> 01:37:40,780
+çok fazla tercih edilmediğini gördüğümüz için,
+
+1281
+01:37:41,360 --> 01:37:43,460
+kendi tarafımızda bir servis değil de,
+
+1282
+01:37:43,620 --> 01:37:49,000
+hani dünya yeniden kullanılan bir servis üzerinden gitmeyi tercih ederiz.
+
+1283
+01:37:49,000 --> 01:37:55,320
+Dolayısıyla Slack mesela bir tercih ise, bu konuda şey yapabiliriz, ilerleyebiliriz.
+
+1284
+01:37:55,440 --> 01:37:59,000
+Yani özellikle yaygınlaştırma konusunda çalışan Selçuk arkadaşımız var.
+
+1285
+01:37:59,600 --> 01:38:03,000
+Onun çalışmalarına da bu yorumlarınız oldukça faydalı olacaktır.
+
+1286
+01:38:06,000 --> 01:38:13,560
+Euro CC üyeliğinden bahsettiğiniz, bu sunucuları turbo kullanıcılara nasıl kullanılabilir sorusu var.
+
+1287
+01:38:13,560 --> 01:38:19,560
+Aslında burada Euro HPC ortak girişimi projesi.
+
+1288
+01:38:19,920 --> 01:38:23,180
+Euro HPC kaynaklarını turbo kullanıcıları nasıl kullanabilir?
+
+1289
+01:38:24,140 --> 01:38:25,440
+Aslında düzgün soru.
+
+1290
+01:38:25,560 --> 01:38:31,960
+Bu soru ve IBM Q ve benzerleri gibi ticari satılan kuantum bilgisayarlarının alınması planlanıyor mu?
+
+1291
+01:38:32,040 --> 01:38:36,180
+Bu soru ve ARM mimarisi x86'yı tehdit edecek gibi gözüküyor.
+
+1292
+01:38:36,300 --> 01:38:38,540
+Kısaca düşüncelerinizi öğrenmek isterseniz sorularını.
+
+1293
+01:38:38,600 --> 01:38:42,720
+Şu şekilde biraz uzun olacak ama cevaplamak isterim.
+
+1294
+01:38:42,720 --> 01:38:45,880
+Euro HPC'nin biz üyesiyiz.
+
+1295
+01:38:46,200 --> 01:38:47,560
+Euro HPC ortak girişiminin.
+
+1296
+01:38:47,580 --> 01:38:52,700
+Euro HPC ortak girişiminin kapsamında çoğunuzun takip etmiş olacağını düşündüğüm gibi
+
+1297
+01:38:52,700 --> 01:39:02,020
+3 tane büyük ki bunlar 150 petaflop üstü merkez ve 5 tane petascale merkez kuruluyor.
+
+1298
+01:39:02,360 --> 01:39:07,900
+5 petascale merkezin %35 oranında alfa birliği tarafından.
+
+1299
+01:39:07,900 --> 01:39:14,160
+diğer 3 merkezin %50 oranında alfa birliği tarafından desteklenmesi söz konusu.
+
+1300
+01:39:14,260 --> 01:39:15,080
+Bu şu anlama geliyor.
+
+1301
+01:39:15,920 --> 01:39:25,540
+Bu merkezlerin %50'si yani pre-exit scale merkezlerden bahsediyorsak %50'si alfa birliği tarafından kaynak kullanımı yönetilecek.
+
+1302
+01:39:25,540 --> 01:39:34,860
+ve ağırlıklı olarak işte pre-ex çağrılarına benzer şekilde çağrılarla burada proje alınacak.
+
+1303
+01:39:35,140 --> 01:39:40,880
+Ve ayrıca bir takım büyük projeler ki yani Human Brain Project mesela örnek olarak verilebilir.
+
+1304
+01:39:41,460 --> 01:39:44,880
+Buralardan doğrudan Avrupa Birliği'ne ait kaynakları kullanabilecek.
+
+1305
+01:39:44,880 --> 01:39:54,580
+Geri kalan %50 kaynak ilgili şeyler konsorsiyum ülkeleri tarafından koşulsuz ve şarjsız olarak kullanılabilir.
+
+1306
+01:39:55,320 --> 01:40:03,880
+Ve biz İspanya konsorsiyumunun Barcelona Super Computing Center'da kurulacak Mara Nostrum 5 bilgisayarının bir üyesiyiz.
+
+1307
+01:40:04,700 --> 01:40:06,600
+Bu konsorsiyumun bir üyesiyiz.
+
+1308
+01:40:07,180 --> 01:40:08,560
+Oldukça büyük bir üyesiyiz.
+
+1309
+01:40:08,740 --> 01:40:11,420
+Yani konsorsiyumda ikinci büyük ülkeyiz.
+
+1310
+01:40:11,420 --> 01:40:21,240
+Bu bize Avrupa Birliği tarafından sağlanan Horizon 2020 fonlarının yeniden kullanımı konusunda verilen bir hak ile mümkün oldu.
+
+1311
+01:40:21,420 --> 01:40:28,180
+Dolayısıyla hani bütçesel olarak da hani Türkiye'deki bir bütçenin oraya aktarılması olarak düşünmeyelim.
+
+1312
+01:40:29,160 --> 01:40:33,000
+Ciddi bir kapasiteye erişimiz söz konusu olacak.
+
+1313
+01:40:33,620 --> 01:40:35,700
+Yani burada net olarak söyleyebilirim.
+
+1314
+01:40:35,700 --> 01:40:41,000
+Gün itibariyle 15 katafilop 3'tü bir kaynağı erişimiz söz konusu olacak.
+
+1315
+01:40:41,420 --> 01:40:46,660
+Ve bu kaynağın en önemli özelliklerinden bir tanesi de tek bir kaynak biçimi olmayacak.
+
+1316
+01:40:46,900 --> 01:40:50,420
+Yani gene takip ediyorsanız kurulan sistemleri.
+
+1317
+01:40:51,180 --> 01:40:58,740
+Mesela Finlandiya konsorsiyonunda kurulan sistem AMD işlemciler ve AMD GPU'lardan oluşan bir sistem.
+
+1318
+01:40:59,380 --> 01:41:06,100
+AMD Instinct GPU'lar bildiğiniz gibi şey gibi Nvidia GPU'lar gibi çok yaygın kullanılmıyor şu anda.
+
+1319
+01:41:06,100 --> 01:41:09,260
+Tabi ki ilerleyen senelerde yaygın kullanılması söz konusu.
+
+1320
+01:41:10,140 --> 01:41:14,020
+Bu açıdan şey çok rahat kullanılamayacak bir sistem.
+
+1321
+01:41:14,580 --> 01:41:17,660
+Bu şekilde bir sistem değil İspanya'da kurulması planlanan sistem.
+
+1322
+01:41:18,180 --> 01:41:31,380
+Çok büyük CPU partişini, çok büyük GPU partişini ve buna ek olarak hem ARM hem de ilerliki nesil işte Intel GPU gibi çok küçük boyutlu olmakla birlikte.
+
+1323
+01:41:31,380 --> 01:41:37,380
+Araştırmacımızın ama ilgisini çekebileceğini düşündüğümüz farklı teknolojilerden de partişinler barındırıyor.
+
+1324
+01:41:37,960 --> 01:41:42,500
+Dolayısıyla bu kaynakların biz de kurulmasını çok merakla bekliyoruz.
+
+1325
+01:41:42,580 --> 01:41:53,380
+Ancak enteresan bir şekilde Türkiye'den kaynaklı olmayan, İspanya'dan kaynaklı bir takım sorunlar nedeniyle bu kaynakların netleşmedi.
+
+1326
+01:41:53,380 --> 01:41:55,280
+Netleşmedi yani kurulma.
+
+1327
+01:41:55,800 --> 01:42:05,820
+Biz 2021 senesi içerisinde ilk partişinin ki bu büyük ihtimalle grafik işlemci olacaktır, grafik işlemci partişinin olacaktır hizmete girmesini.
+
+1328
+01:42:06,280 --> 01:42:10,400
+Oradan da araştırmacılarımıza kaynak sunmayı planlıyoruz.
+
+1329
+01:42:10,400 --> 01:42:20,740
+Bu netleşince yani bu kaynakların miktarı ne zaman kurulacağı netleşince biz çok hızlı bir şekilde zaten bunu kullanıcılarımıza duyuracağız.
+
+1330
+01:42:21,460 --> 01:42:29,000
+Tabii bununla eşlenen olarak kullanıcılarımızın nasıl bu kaynaklara erişeceği konusunda sizlerle paylaşıyor olacağız.
+
+1331
+01:42:29,000 --> 01:42:37,560
+Dolayısıyla EuroHP'si aslında özellikle akademik araştırmacı kullanımımız için çok önemli olacak.
+
+1332
+01:42:37,560 --> 01:42:45,680
+Ama endüstri kullanıcıları açısından da Türkiye'de kesinlikle benzeri olmayan bir takım kaynaklara erişim söz konusu olacak.
+
+1333
+01:42:45,940 --> 01:42:54,160
+Tabii ki burada özellikle verimin güvenliği açısından kaygılı olan bir takım endüstri kullanımı için uygun olmayacağından dolayı biz
+
+1334
+01:42:54,160 --> 01:43:01,380
+açıkçası EuroHP'si tarafındaki kaynakların kullanımına biraz akademik öncelikli olarak olacağını düşünüyoruz.
+
+1335
+01:43:03,100 --> 01:43:09,080
+Bu şeyde ARM konusundaki soruyu da yanıtlamış olayım.
+
+1336
+01:43:09,080 --> 01:43:18,900
+Yani ARM şu anda emerging teknoloji statüsünden çıkıp özellikle bu Japonya'da kurulan son sistemin liste başına gelmesiyle birlikte
+
+1337
+01:43:18,900 --> 01:43:29,160
+ve Nvidia'nın ARM'ı satın alması ile birlikte çok hızlı bir şekilde artık emerging teknoloji olarak biz bahsetmiyoruz.
+
+1338
+01:43:29,160 --> 01:43:33,420
+Bu sadece hiçbir şey dünyasında yaşanan bir gelişme değil biliyorsunuz.
+
+1339
+01:43:33,660 --> 01:43:39,840
+Mac'in kendisinde yani laptoplarda, desktoplarda artık buna alışmamız gerekiyor.
+
+1340
+01:43:39,840 --> 01:43:46,320
+Dolayısıyla yani biz artık hani x86'ı tehdit edip etmemesi şeyinde değiliz.
+
+1341
+01:43:46,360 --> 01:43:53,800
+Artık bir oyuncu yani büyük bir oyuncu ve çok kısa sürede de HPC dünyasında domine edeceğini düşünüyoruz.
+
+1342
+01:43:53,800 --> 01:43:59,800
+Ve buradaki ilk şeyde kaynağı da İspanya tarafında eriştirmeyi düşünüyoruz araştırmacılarımıza.
+
+1343
+01:44:01,880 --> 01:44:05,660
+Yani büyük ihtimalle gelecek sene içerisinde mümkün olacaktır.
+
+1344
+01:44:05,660 --> 01:44:13,760
+Ama trubo açısından baktığımız zaman minimum 3 senedir ilk yatırımın yapılacağı sene.
+
+1345
+01:44:14,720 --> 01:44:21,520
+Ve şeydeki EuroHPist'teki çalışmalardan bir tanesi de kuantum simülatörleri şeye entegre etmek.
+
+1346
+01:44:22,060 --> 01:44:24,460
+Bu pre-ext-scale sistemleri entegre etmek.
+
+1347
+01:44:25,100 --> 01:44:31,980
+Biz açıkçası bu sene içerisinde işte sonlanan bir çağrı vardı kuantum simülatörler konusunda.
+
+1348
+01:44:31,980 --> 01:44:41,340
+Bu çağrıda şeylerimizin kuantum bilişim konusunda çalışan araştırmacılarımızın da yer alması için oldukça fazla çaba sarf ettik.
+
+1349
+01:44:41,520 --> 01:44:45,980
+Yani burada kuantum bilişim alanında son kullanıcı olmaktan bahsetmiyorum.
+
+1350
+01:44:46,700 --> 01:44:51,980
+O konuda işte bir takım çalışmalar, araştırma çalışmaları yapmış olmaktan bahsediyorum.
+
+1351
+01:44:51,980 --> 01:44:59,460
+Türkiye'de kapasite tabii ki belirli ülkelere göre daha az ama oldukça fazla şeyimiz var.
+
+1352
+01:44:59,600 --> 01:45:01,320
+Bu konuyla ilgilenen araştırmacımız var.
+
+1353
+01:45:01,520 --> 01:45:10,880
+Biz de dahil edemedik ama bu ilgili simülatörlerden, kuantum simülatörlerden araştırmacılarımızın faydalanamayacağı anlamına gelmiyor.
+
+1354
+01:45:10,880 --> 01:45:24,360
+Ürekmişse ortak gelişiminin bir parçası olduğumuz için bu simülatörler nereye kurulursa kurulsun bizim araştırmacılarımızla ihtiyaç duyması halinde erişim sağlamaları konusunda yardımcı olacağız.
+
+1355
+01:45:24,360 --> 01:45:31,860
+Onun dışında Centos 7.3 sonrası dağıtım tercihiniz ne olacak?
+
+1356
+01:45:32,120 --> 01:45:34,740
+Centos'un durumu yeni olan bir konu.
+
+1357
+01:45:35,180 --> 01:45:37,640
+Bizim için de sürpriz olan bir konu.
+
+1358
+01:45:38,500 --> 01:45:48,500
+Centos 7 ve 7'nin güncel sürümleri konusunda zaten en azından bir sene geçecek bir şeyimiz var.
+
+1359
+01:45:48,920 --> 01:45:49,740
+Takvimimiz var.
+
+1360
+01:45:50,800 --> 01:45:53,060
+Yani ondan evvel bildiğimiz için bir konu değil.
+
+1361
+01:45:53,060 --> 01:45:56,220
+Ama burada şeyi aktarmak isterim.
+
+1362
+01:45:56,600 --> 01:46:15,680
+Elimizdeki donanımda olduğu gibi infilament tabanlı olan dünyadaki bütün süper bilgisayarlar da neredeyse reddet ve türevi işletim sistemleri kullanılır ki aslında genel olarak dünyada reddet lisansı ile birlikte kurulur bu sistemler.
+
+1363
+01:46:16,320 --> 01:46:21,880
+Dolayısıyla büyük ihtimalle infilament tabanlı gideceksek ki öyle gözüküyor hala.
+
+1364
+01:46:23,060 --> 01:46:27,500
+Reddet ve türevi bir platformla gideceğimiz ortaca.
+
+1365
+01:46:27,500 --> 01:46:32,800
+Burada ama sadece bizim sorunumuz olmaması güzel.
+
+1366
+01:46:33,040 --> 01:46:37,540
+Yani bizim gibi Centos tercih eden dünyada birçok merkez var.
+
+1367
+01:46:38,180 --> 01:46:42,000
+Onların ilerleyişine göre biz de kararımızı alacağız orada.
+
+1368
+01:46:42,000 --> 01:46:51,960
+Başka bir şey reddet türevi mi yoksa yeni sistemlerimizi reddet lisansı ile almamız mı söz konusu olacak veya tamamen farklı bir yolunu gideceğiz.
+
+1369
+01:46:52,480 --> 01:46:54,240
+Onu göreceğiz.
+
+1370
+01:46:54,240 --> 01:47:00,780
+Burada yorum var.
+
+1371
+01:47:00,780 --> 01:47:01,920
+Onu da kapattım.
+
+1372
+01:47:02,120 --> 01:47:04,020
+Geçmişte iletişim sorunu yaşamıştım.
+
+1373
+01:47:04,180 --> 01:47:06,040
+Sefa Bey ile iletişime geçmiştim.
+
+1374
+01:47:06,100 --> 01:47:07,800
+Not sayısını düşürerek çözmüştük.
+
+1375
+01:47:08,160 --> 01:47:09,720
+Bu konuda biraz bilgi verir misiniz?
+
+1376
+01:47:09,720 --> 01:47:13,160
+Burada soruyu ben tam anlamadım.
+
+1377
+01:47:13,280 --> 01:47:15,260
+Sen sorunu şey yaparsanız.
+
+1378
+01:47:15,780 --> 01:47:19,600
+Sefa Bey ile iletişim sorunu yaşadıysanız ayrı bir konu da.
+
+1379
+01:47:19,980 --> 01:47:21,600
+Bu çok yaşadığımız bir şey olabiliyor.
+
+1380
+01:47:21,760 --> 01:47:24,500
+Tabii yüz yüze görünce gördüğünüz gibi o da bir insan.
+
+1381
+01:47:25,120 --> 01:47:25,800
+Şey değil.
+
+1382
+01:47:26,540 --> 01:47:29,740
+Size ters cevaplar veren bir makine değil.
+
+1383
+01:47:29,740 --> 01:47:34,600
+Şöyle aslında sunum içinde geçmişti.
+
+1384
+01:47:35,600 --> 01:47:38,960
+Eğer birden fazla not kullanıyorsanız
+
+1385
+01:47:38,960 --> 01:47:43,140
+birden fazla not kullanıyorsanız
+
+1386
+01:47:43,140 --> 01:47:50,120
+kaynakların simetrik dağıtılmasını sağlamak belki en önemli gelişme olacaktır.
+
+1387
+01:47:50,120 --> 01:47:54,860
+Yani 40 çekirdekli bir iş için 4 sunucu istediyseniz
+
+1388
+01:47:54,860 --> 01:48:05,140
+işlerinizin birer çekirdek, 3 sunucudan birer çekirdek, 4 sunucudan 37 çekirdek ile çalıştırılması pek uygun bir yöntem olmuyor.
+
+1389
+01:48:05,240 --> 01:48:09,380
+Bunun için işlerinizin kaynaklarını simetrik dağıtılmayı sağlayın.
+
+1390
+01:48:09,720 --> 01:48:15,100
+İkincisi de tamam ne kadar fazla nottan gelirse işiniz o kadar çabuk başlayacak.
+
+1391
+01:48:15,100 --> 01:48:20,800
+Çünkü tek bir not ya da iki not üzerinde yüksek kaynak bulmak zorlaşıyor.
+
+1392
+01:48:20,800 --> 01:48:25,980
+Daha fazla kaynak, daha fazla nota göre kaynak edinmekten.
+
+1393
+01:48:26,680 --> 01:48:30,780
+Ama daha fazla not üzerinde çalışıyor olursanız da şöyle bir sıkıntı var.
+
+1394
+01:48:31,860 --> 01:48:37,100
+Herhangi bir not üzerinde oluşacak geçici bir aksaklık tüm işinizin ölmesine sebep olabilir.
+
+1395
+01:48:37,400 --> 01:48:43,300
+Bu sebepten dolayı işlerinizin daha yüksek performanslı çalışması ve daha güvenli çalışması için
+
+1396
+01:48:43,300 --> 01:48:46,080
+ne kadar az not kullanırsanız o kadar iyi.
+
+1397
+01:48:46,080 --> 01:48:53,320
+Ve kullandığımız not sayısının dot sayısına göre de kaynakları simetrik dağılıyor olmasına özen göstermek gerekiyor.
+
+1398
+01:48:59,620 --> 01:49:01,380
+Sesim kapalı galiba Onur.
+
+1399
+01:49:02,220 --> 01:49:06,300
+Sanırım bütün soruları tamamladık derken Hacı Hocam'dan bir şey geldi.
+
+1400
+01:49:06,540 --> 01:49:08,140
+Yüksek lisans öğrencilerine soru geldi.
+
+1401
+01:49:08,240 --> 01:49:13,940
+Yüksek lisans öğrencilerine sınırlı kaynak tanımlı 24 çekirdek max gibi hesap açılması mümkün mü?
+
+1402
+01:49:13,940 --> 01:49:24,120
+Buradaki temel durumumuz, buna yol açan, aslında biliyorsunuz bu seneye kadar yüksek lisans öğrencilerine hesap açıyorduk biz.
+
+1403
+01:49:24,800 --> 01:49:31,740
+Temel sorunumuz aslında şeydi, bu sene olmasına yol açan sorun şu.
+
+1404
+01:49:31,740 --> 01:49:48,820
+Biz normal planımızda özellikle bu EuroHPC kaynaklarına ilişeceğiz ve onun dışında Turba tarafında işte bu veri merkezi çalışması tamamlanacak düşüncesiyle 2020 senesinde biz sonucu yatırımı yapmadık.
+
+1405
+01:49:49,340 --> 01:49:56,600
+Bu sonucu yatırımı yapmamamızın sonucu olarak kullanıcılarımızın bekleme süreleri oldukça arttı.
+
+1406
+01:49:56,600 --> 01:50:00,680
+Buna istinaden aslında bunu biz biraz geçici olarak görüyoruz.
+
+1407
+01:50:01,000 --> 01:50:06,600
+Ama bu şey tedbiri, tedbir de değil de bu yeni getirdiğimiz kuralı.
+
+1408
+01:50:07,600 --> 01:50:10,600
+Yüksek lisans öğrencilerine kaynak açılmaması kuralını.
+
+1409
+01:50:10,600 --> 01:50:16,560
+Burada aslında biz şeyleri açız, önerileri açız.
+
+1410
+01:50:17,180 --> 01:50:28,280
+Dünya genelinde aslında bizim gibi bu şekilde tüm araştırmacılara proje bağımsız kaynak erişimi imkanı veren şey sayısı çok az.
+
+1411
+01:50:28,500 --> 01:50:29,780
+Yani merkez sayısı çok az.
+
+1412
+01:50:30,900 --> 01:50:34,600
+Bunu özellikle biz HPC Türkiye'de yaygınlaşması için önemli görüyoruz.
+
+1413
+01:50:34,600 --> 01:50:42,900
+Bugün yüksek lisans öğrencisi yarın doktora öğrencisi sonrasında işte akademisyeni veya bir endüstride bu konuda çalışan olabiliyor.
+
+1414
+01:50:43,640 --> 01:50:45,020
+Dolayısıyla haklısınız.
+
+1415
+01:50:45,880 --> 01:50:51,200
+Burada biraz hani kullanıcı yönetimiyle alakalı biraz da işte dediğim gibi kaynak yönetimiyle alakalı.
+
+1416
+01:50:51,720 --> 01:50:58,920
+Biz yani buradaki, burada gelebilecek ve sonrasında gelebilecek her türlü yorumu alıp şeye açığız, değerlendirmeye açığız.
+
+1417
+01:50:59,380 --> 01:51:01,100
+Bunun kararını tabii ki biz vermiyoruz.
+
+1418
+01:51:01,240 --> 01:51:03,160
+Bunun kararını hani yönetim ediyor.
+
+1419
+01:51:03,160 --> 01:51:07,480
+Biz bu konuyu tekrar şey yaparız, gündeme getiririz.
+
+1420
+01:51:07,980 --> 01:51:18,160
+Özellikle yeni eklenecek kaynaklarla büyük ihtimalle eskisi gibi aynı kaynak miktarı ile değil, belirttiğiniz gibi daha düşük bir kaynak miktarı ile açığo duruma getirebiliriz.
+
+1421
+01:51:20,160 --> 01:51:22,920
+Yüksek lisans öğrencilerimizin sayısı oldukça fazla çünkü.
+
+1422
+01:51:23,180 --> 01:51:25,740
+Yani başvuru sayısı oldukça fazla.
+
+1423
+01:51:25,740 --> 01:51:33,480
+Ondan dolayı eğer eski koşullarda sistemi alırsak sistemin kullanılabilirliği iyice düşer.
+
+1424
+01:51:33,480 --> 01:51:38,200
+Eklemek istediğin bir şey var mı Sefa?
+
+1425
+01:51:39,100 --> 01:51:40,840
+Yok, bu konuda eklemek istediğim bir şey yok.
+
+1426
+01:51:40,920 --> 01:51:44,280
+Yani YouTube tarafında da gördüğümüz kadarıyla ayrıca bir soru yok.
+
+1427
+01:51:45,280 --> 01:51:47,760
+Ahmet Hocam'ın en son yorumu kaldı.
+
+1428
+01:51:47,960 --> 01:51:50,700
+Onda da üç tane destek veren kişi var.
+
+1429
+01:51:50,700 --> 01:52:05,040
+Genel olarak biz artık bu platformumuza karar verip oradan da tekrar tekrar aynı soruların sorulmasına cevap gerek kalmadan şey yapabiliriz diye düşünüyorum.
+
+1430
+01:52:05,200 --> 01:52:07,620
+Yani böyle bir teknolojiyi dahil edebiliriz diye düşünüyorum.
+
+1431
+01:52:07,620 --> 01:52:22,580
+Sadece biz hala Türkiye koşulları için, dünya için değil, hangi teknolojinin yaygın olarak kullanıldığı veya kullanılırsa araştırmacılar tarafında en iyi başarıyı göstereceğini anlayabilmiş değiliz.
+
+1432
+01:52:23,120 --> 01:52:27,040
+Biliyorsunuz Microsoft Teams'dir, şeydir, farklı şeyler.
+
+1433
+01:52:27,040 --> 01:52:38,820
+Hani üniversitelerimizde çok yaygın kullanıldığı için Slack mesela işte dünya genelinde çok yaygın kullanılmasına rağmen belli üniversitelerimizde, belli camiada çok tercih edilmeyebiliyor.
+
+1434
+01:52:39,520 --> 01:52:44,840
+Bu konuda biz şey yapalım, net artık şeyimizi ortaya koyalım.
+
+1435
+01:52:44,960 --> 01:52:48,220
+Zaten bu EuroCC projesi kapsamında da bir ihtiyaç.
+
+1436
+01:52:48,220 --> 01:52:58,460
+Umarım hani bu tür tool'larla belki de böyle seminerleri de tekrarlayarak hani şeylerimizin, araştırmacılarımızın imkanlarını arttıralım.
+
+1437
+01:52:58,660 --> 01:53:01,480
+Yani bilgiye ulaşma imkanlarını arttıralım.
+
+1438
+01:53:02,240 --> 01:53:04,920
+Sunumun YouTube kaydı silinecek mi yoksa yayında kalacak mı?
+
+1439
+01:53:05,160 --> 01:53:10,140
+Sunum kayıtlarını silmiyoruz, tutuyoruz, fayda buluyor.
+
+1440
+01:53:10,220 --> 01:53:12,920
+Araştırmacılarımız dönüp tekrar bakabiliyorlar.
+
+1441
+01:53:12,920 --> 01:53:21,980
+Tabii ki şu var, artık belki iki sene sonra bu sunumun bir güncelliği kalmayınca belki o zaman çok daha değişik kaynaklarımız, durumumuz olacak.
+
+1442
+01:53:22,280 --> 01:53:23,580
+Silmeyi tercih edebiliriz.
+
+1443
+01:53:24,280 --> 01:53:30,160
+Genel bir sorumu, Türkiye'deki araştırmacıların üniversite kullanabileceği ücretsiz olarak hizmet veren HPC merkezleri var mı acaba?
+
+1444
+01:53:30,660 --> 01:53:31,340
+Teşekkür ederim.
+
+1445
+01:53:32,580 --> 01:53:39,120
+Türkiye'deki araştırmacıların üniversite kullanabileceği ücretsiz olarak hizmet veren HPC merkezi yani değil.
+
+1446
+01:53:39,120 --> 01:53:43,560
+Yani preis altyapısı düzenli olarak preis çağrılarına çıkıyor.
+
+1447
+01:53:44,680 --> 01:53:54,320
+Onun dışında aslında dünyadaki genel durum, hani kimse, kim başka ülkenin vatandaşına özellikle kaynağını ücretsiz bir şekilde vermiyor.
+
+1448
+01:53:54,960 --> 01:54:01,820
+Bir de şöyle bir durum var, galiba buradaki soru bizim gibi hizmet veren diye soruyor.
+
+1449
+01:54:01,980 --> 01:54:05,000
+Bir hesap açtırayım, ihtiyaç oldukça kullanayım şeklinde.
+
+1450
+01:54:05,000 --> 01:54:07,400
+Böyle bir şey zaten aslında dünyada peki.
+
+1451
+01:54:07,400 --> 01:54:15,380
+Yani proje bazında ücretsiz hizmet veren, tabii ki işte dedim ya özellikle preis altyapısına dahil olan sistemler gibi şeyler var.
+
+1452
+01:54:15,960 --> 01:54:27,680
+Preisteki kollarında geçtiğimiz senelerde, yani en azından 2-3 sene evvelinde de en son yaşanmıştı böyle durumlar.
+
+1453
+01:54:27,680 --> 01:54:34,740
+Biraz özellikle Türkiye Cumhuriyeti vatandaşlarına karşı bir takım olumsuz durumlar yaşanmıştı.
+
+1454
+01:54:34,800 --> 01:54:42,940
+Oradan gelen projeler aslında bilimsel olarak daha önde görünmekle birlikte bir takım şeyler desteklenmeyebilmişti.
+
+1455
+01:54:43,640 --> 01:54:45,000
+Şu an itibariyle böyle bir durum yok.
+
+1456
+01:54:45,200 --> 01:54:46,640
+Biraz daha adaletliler.
+
+1457
+01:54:47,120 --> 01:54:51,440
+Yani preisteki kollarına özellikle başvurmanızı tavsiye ederim ben.
+
+1458
+01:54:51,440 --> 01:54:55,780
+Sanırım şeylerimiz bu kadar.
+
+1459
+01:54:57,780 --> 01:55:00,320
+Çok teşekkür ediyoruz herkesin katılımı için.
+
+1460
+01:55:00,820 --> 01:55:03,320
+Dediğim gibi bu seminer seyretleri devam edecek.
+
+1461
+01:55:04,200 --> 01:55:10,600
+Onun dışında özellikle yeni başlayacak öğrencileriniz, arkadaşlarınız açısından
+
+1462
+01:55:10,600 --> 01:55:18,420
+bir sonraki seminer duyurusunu, yani gelecek hafta değil de ondan sonraki hafta seminer duyurusunu da buradan yapalım.
+
+1463
+01:55:18,940 --> 01:55:27,660
+Orada Hakan arkadaşımız, daha yeni başlayacak araştırmacılarımız için benzer bir semineri tekrar edecek.
+
+1464
+01:55:27,820 --> 01:55:30,560
+Orada da tabii ki benzer soruları alırız.
+
+1465
+01:55:32,400 --> 01:55:33,300
+Çok teşekkür ediyoruz.
+
+1466
+01:55:36,100 --> 01:55:37,440
+Bu semineri burada bitirelim.
+
+1467
+01:55:38,720 --> 01:55:39,780
+İyi günler diliyorum herkese.
+
+1468
+01:55:39,780 --> 01:55:43,760
+Son bir soru vardı ama, gerçek zamanlı çalışabilir miyiz diye bir soru.
+
+1469
+01:55:44,800 --> 01:55:49,600
+Beç tabanlı bir altyapı, gerçek zamanlı çalışmak pek mümkün olmayabilir.
+
+1470
+01:55:54,060 --> 01:55:55,320
+Seminerler devam edecek.
+
+1471
+01:55:55,520 --> 01:56:00,060
+Uzaktan eğitim konusunda bilgisayarlardan yapılan sınavlarda gerçek zamanlı görüntü işlemi yapabilir miyiz?
+
+1472
+01:56:00,140 --> 01:56:01,420
+Bunu cevapladın sen, öyle mi?
+
+1473
+01:56:01,420 --> 01:56:01,940
+Evet, evet.
+
+1474
+01:56:02,060 --> 01:56:03,080
+Tamam, teşekkürler.
+
+1475
+01:56:03,080 --> 01:56:03,140
+Teşekkürler.
+

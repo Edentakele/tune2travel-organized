@@ -1,0 +1,302 @@
+2025-06-25 22:47:02,030 - __main__ - INFO - 🚀 Cultural Analysis Enhancement Demonstration
+2025-06-25 22:47:02,031 - __main__ - INFO - ============================================================
+2025-06-25 22:47:02,031 - __main__ - INFO - This demo showcases the new enhanced analysis capabilities
+2025-06-25 22:47:02,031 - __main__ - INFO - ============================================================
+2025-06-25 22:47:02,031 - __main__ - INFO - 🔍 DEMO: Data Validation
+2025-06-25 22:47:02,031 - __main__ - INFO - ----------------------------------------
+2025-06-25 22:47:02,033 - __main__ - INFO - Validating despa dataset...
+2025-06-25 22:47:02,196 - __main__ - INFO - ✅ despa Analysis Complete:
+2025-06-25 22:47:02,197 - __main__ - INFO -    📊 Total rows analyzed: 10,000
+2025-06-25 22:47:02,197 - __main__ - INFO -    🎯 Quality Score: 88.0/100
+2025-06-25 22:47:02,197 - __main__ - INFO -    ⚠️ Comment warnings: 4
+2025-06-25 22:47:02,199 - __main__ - INFO - Validating seeyou dataset...
+2025-06-25 22:47:02,340 - __main__ - INFO - ✅ seeyou Analysis Complete:
+2025-06-25 22:47:02,341 - __main__ - INFO -    📊 Total rows analyzed: 10,000
+2025-06-25 22:47:02,341 - __main__ - INFO -    🎯 Quality Score: 88.0/100
+2025-06-25 22:47:02,341 - __main__ - INFO -    ⚠️ Comment warnings: 4
+2025-06-25 22:47:02,342 - __main__ - INFO - 
+
+2025-06-25 22:47:02,343 - __main__ - INFO - 🌍 DEMO: Enhanced Geographic Analysis
+2025-06-25 22:47:02,343 - __main__ - INFO - ----------------------------------------
+2025-06-25 22:47:02,345 - __main__ - INFO - Analyzing geographic patterns in despa...
+2025-06-25 22:47:02,375 - __main__ - INFO -    📄 Loaded 5,000 comments for analysis
+2025-06-25 22:47:02,394 - utils - INFO - Pattern matched 26 comments from 5000 total
+2025-06-25 22:47:02,394 - __main__ - INFO -    🔍 Keyword matches: 26
+2025-06-25 22:47:02,412 - utils - INFO - Pattern matched 108 comments from 5000 total
+2025-06-25 22:47:02,412 - __main__ - INFO -    📍 Location mentions: 108
+2025-06-25 22:47:02,418 - __main__ - INFO -    🏳️ Flag emoji comments: 42
+2025-06-25 22:47:02,420 - __main__ - INFO -    📈 Geographic coverage: 3.00% of comments
+2025-06-25 22:47:02,421 - __main__ - INFO - Analyzing geographic patterns in seeyou...
+2025-06-25 22:47:02,451 - __main__ - INFO -    📄 Loaded 5,000 comments for analysis
+2025-06-25 22:47:02,467 - utils - INFO - Pattern matched 11 comments from 5000 total
+2025-06-25 22:47:02,467 - __main__ - INFO -    🔍 Keyword matches: 11
+2025-06-25 22:47:02,482 - utils - INFO - Pattern matched 44 comments from 5000 total
+2025-06-25 22:47:02,482 - __main__ - INFO -    📍 Location mentions: 44
+2025-06-25 22:47:02,487 - __main__ - INFO -    🏳️ Flag emoji comments: 29
+2025-06-25 22:47:02,489 - __main__ - INFO -    📈 Geographic coverage: 1.44% of comments
+2025-06-25 22:47:02,490 - __main__ - INFO - 
+
+2025-06-25 22:47:02,490 - __main__ - INFO - 🎭 DEMO: Enhanced Cultural Identity Analysis
+2025-06-25 22:47:02,491 - __main__ - INFO - ----------------------------------------
+2025-06-25 22:47:02,492 - __main__ - INFO - Analyzing cultural patterns in despa...
+2025-06-25 22:47:02,535 - utils - INFO - Pattern matched 21 comments from 5000 total
+2025-06-25 22:47:02,535 - __main__ - INFO -    Ethnic Identity: 21 comments
+2025-06-25 22:47:02,538 - __main__ - INFO -       Top terms: latino(17), hispanic(1), african(1)
+2025-06-25 22:47:02,551 - utils - INFO - Pattern matched 1 comments from 5000 total
+2025-06-25 22:47:02,552 - __main__ - INFO -    Religious Identity: 1 comments
+2025-06-25 22:47:02,554 - __main__ - INFO -       Top terms: christian(1)
+2025-06-25 22:47:02,566 - utils - INFO - Pattern matched 1 comments from 5000 total
+2025-06-25 22:47:02,566 - __main__ - INFO -    Collective Memory: 1 comments
+2025-06-25 22:47:02,568 - __main__ - INFO -       Top terms: homeland(1)
+2025-06-25 22:47:02,568 - __main__ - INFO -    📊 Total cultural comments: 23
+2025-06-25 22:47:02,569 - __main__ - INFO -    📈 Cultural coverage: 0.46% of comments
+2025-06-25 22:47:02,571 - __main__ - INFO - Analyzing cultural patterns in seeyou...
+2025-06-25 22:47:02,616 - utils - INFO - Pattern matched 5 comments from 5000 total
+2025-06-25 22:47:02,617 - __main__ - INFO -    Ethnic Identity: 5 comments
+2025-06-25 22:47:02,619 - __main__ - INFO -       Top terms: latino(1), white(2), black(2)
+2025-06-25 22:47:02,629 - utils - INFO - Pattern matched 0 comments from 5000 total
+2025-06-25 22:47:02,629 - __main__ - INFO -    Religious Identity: 0 comments
+2025-06-25 22:47:02,639 - utils - INFO - Pattern matched 0 comments from 5000 total
+2025-06-25 22:47:02,639 - __main__ - INFO -    Collective Memory: 0 comments
+2025-06-25 22:47:02,639 - __main__ - INFO -    📊 Total cultural comments: 5
+2025-06-25 22:47:02,640 - __main__ - INFO -    📈 Cultural coverage: 0.10% of comments
+2025-06-25 22:47:02,640 - __main__ - INFO - 
+
+2025-06-25 22:47:02,640 - __main__ - INFO - 📅 DEMO: Temporal Analysis
+2025-06-25 22:47:02,641 - __main__ - INFO - ----------------------------------------
+2025-06-25 22:47:02,642 - __main__ - INFO - Analyzing temporal patterns in despa...
+2025-06-25 22:47:02,684 - __main__ - INFO -    📅 Data spans from 2025 to 2025
+2025-06-25 22:47:02,685 - __main__ - INFO -    📊 Peak year: 2025 (5,000 comments)
+2025-06-25 22:47:02,685 - __main__ - INFO -    📈 Average per year: 5000 comments
+2025-06-25 22:47:02,689 - __main__ - INFO -    🏆 Top years: {2025: np.int64(5000)}
+2025-06-25 22:47:02,690 - __main__ - INFO - Analyzing temporal patterns in seeyou...
+2025-06-25 22:47:02,732 - __main__ - INFO -    📅 Data spans from 2025 to 2025
+2025-06-25 22:47:02,733 - __main__ - INFO -    📊 Peak year: 2025 (5,000 comments)
+2025-06-25 22:47:02,733 - __main__ - INFO -    📈 Average per year: 5000 comments
+2025-06-25 22:47:02,734 - __main__ - INFO -    🏆 Top years: {2025: np.int64(5000)}
+2025-06-25 22:47:02,734 - __main__ - INFO - 
+
+2025-06-25 22:47:02,735 - __main__ - INFO - 🧠 DEMO: Advanced Insights Generation
+2025-06-25 22:47:02,736 - __main__ - INFO - ----------------------------------------
+2025-06-25 22:47:02,737 - __main__ - INFO - Generating insights for despa...
+2025-06-25 22:47:02,769 - utils - INFO - Pattern matched 13 comments from 3000 total
+2025-06-25 22:47:02,780 - utils - INFO - Pattern matched 16 comments from 3000 total
+2025-06-25 22:47:02,789 - utils - INFO - Pattern matched 1 comments from 3000 total
+2025-06-25 22:47:02,800 - utils - INFO - Pattern matched 1 comments from 3000 total
+2025-06-25 22:47:02,805 - __main__ - INFO - Generating insights for seeyou...
+2025-06-25 22:47:02,861 - utils - INFO - Pattern matched 8 comments from 3000 total
+2025-06-25 22:47:02,878 - utils - INFO - Pattern matched 2 comments from 3000 total
+2025-06-25 22:47:02,897 - utils - INFO - Pattern matched 0 comments from 3000 total
+2025-06-25 22:47:02,916 - utils - INFO - Pattern matched 0 comments from 3000 total
+2025-06-25 22:47:02,923 - __main__ - INFO - 📋 SUMMARY INSIGHTS:
+2025-06-25 22:47:02,924 - __main__ - INFO -    📊 Total datasets: 2
+2025-06-25 22:47:02,924 - __main__ - INFO -    📝 Comments processed: 6,000
+2025-06-25 22:47:02,924 - __main__ - INFO -    🌍 Geographic engagement:
+2025-06-25 22:47:02,925 - __main__ - INFO -       despa: 0.43%
+2025-06-25 22:47:02,925 - __main__ - INFO -       seeyou: 0.27%
+2025-06-25 22:47:02,925 - __main__ - INFO -    🎭 Cultural engagement:
+2025-06-25 22:47:02,926 - __main__ - INFO -       despa: 0.60%
+2025-06-25 22:47:02,926 - __main__ - INFO -       seeyou: 0.07%
+2025-06-25 22:47:02,944 - __main__ - INFO -    💾 Insights saved to demo_insights.json
+2025-06-25 22:47:02,944 - __main__ - INFO - ✨ DEMONSTRATION COMPLETE!
+2025-06-25 22:47:02,945 - __main__ - INFO - ============================================================
+2025-06-25 22:47:02,945 - __main__ - INFO - 🎯 What's New:
+2025-06-25 22:47:02,945 - __main__ - INFO -    ✅ Enhanced data validation with quality scoring
+2025-06-25 22:47:02,946 - __main__ - INFO -    ✅ Improved geographic detection with multiple methods
+2025-06-25 22:47:02,946 - __main__ - INFO -    ✅ Advanced cultural identity analysis
+2025-06-25 22:47:02,946 - __main__ - INFO -    ✅ Comprehensive temporal pattern analysis
+2025-06-25 22:47:02,946 - __main__ - INFO -    ✅ Cross-dataset comparative insights
+2025-06-25 22:47:02,946 - __main__ - INFO - 
+2025-06-25 22:47:02,947 - __main__ - INFO - 🚀 Next Steps:
+2025-06-25 22:47:02,947 - __main__ - INFO -    1. Review the demo_insights.json file
+2025-06-25 22:47:02,947 - __main__ - INFO -    2. Check SETUP_COMPLETION_REPORT.md for full roadmap
+2025-06-25 22:47:02,947 - __main__ - INFO -    3. Try the enhanced scripts on your full dataset
+2025-06-25 22:47:02,947 - __main__ - INFO -    4. Customize the config.py for your specific needs
+2025-06-25 22:53:00,698 - utils - INFO - Pattern matched 2 comments from 1000 total
+2025-06-25 22:53:08,876 - utils - INFO - Pattern matched 3 comments from 1000 total
+2025-06-25 22:53:08,880 - utils - INFO - Pattern matched 1 comments from 1000 total
+2025-06-25 22:53:08,884 - utils - INFO - Pattern matched 1 comments from 1000 total
+2025-06-25 22:54:31,625 - utils - INFO - Pattern matched 6 comments from 2000 total
+2025-06-25 22:54:31,650 - utils - INFO - Pattern matched 5 comments from 2000 total
+2025-06-25 22:54:31,657 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 22:54:31,663 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 22:54:36,421 - utils - INFO - Pattern matched 6 comments from 2000 total
+2025-06-25 22:54:36,445 - utils - INFO - Pattern matched 5 comments from 2000 total
+2025-06-25 22:54:36,452 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 22:54:36,460 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 23:01:46,561 - __main__ - INFO - 🚀 Cultural Analysis Enhancement Demonstration
+2025-06-25 23:01:46,561 - __main__ - INFO - ============================================================
+2025-06-25 23:01:46,561 - __main__ - INFO - This demo showcases the new enhanced analysis capabilities
+2025-06-25 23:01:46,562 - __main__ - INFO - ============================================================
+2025-06-25 23:01:46,562 - __main__ - INFO - 🔍 DEMO: Data Validation
+2025-06-25 23:01:46,562 - __main__ - INFO - ----------------------------------------
+2025-06-25 23:01:46,563 - __main__ - INFO - Validating despa dataset...
+2025-06-25 23:01:46,703 - __main__ - INFO - ✅ despa Analysis Complete:
+2025-06-25 23:01:46,704 - __main__ - INFO -    📊 Total rows analyzed: 10,000
+2025-06-25 23:01:46,704 - __main__ - INFO -    🎯 Quality Score: 88.0/100
+2025-06-25 23:01:46,705 - __main__ - INFO -    ⚠️ Comment warnings: 4
+2025-06-25 23:01:46,706 - __main__ - INFO - Validating seeyou dataset...
+2025-06-25 23:01:46,834 - __main__ - INFO - ✅ seeyou Analysis Complete:
+2025-06-25 23:01:46,835 - __main__ - INFO -    📊 Total rows analyzed: 10,000
+2025-06-25 23:01:46,835 - __main__ - INFO -    🎯 Quality Score: 88.0/100
+2025-06-25 23:01:46,835 - __main__ - INFO -    ⚠️ Comment warnings: 4
+2025-06-25 23:01:46,836 - __main__ - INFO - 
+
+2025-06-25 23:01:46,837 - __main__ - INFO - 🌍 DEMO: Enhanced Geographic Analysis
+2025-06-25 23:01:46,837 - __main__ - INFO - ----------------------------------------
+2025-06-25 23:01:46,838 - __main__ - INFO - Analyzing geographic patterns in despa...
+2025-06-25 23:01:46,867 - __main__ - INFO -    📄 Loaded 5,000 comments for analysis
+2025-06-25 23:01:46,886 - utils - INFO - Pattern matched 26 comments from 5000 total
+2025-06-25 23:01:46,886 - __main__ - INFO -    🔍 Keyword matches: 26
+2025-06-25 23:01:46,907 - utils - INFO - Pattern matched 108 comments from 5000 total
+2025-06-25 23:01:46,908 - __main__ - INFO -    📍 Location mentions: 108
+2025-06-25 23:01:46,914 - __main__ - INFO -    🏳️ Flag emoji comments: 42
+2025-06-25 23:01:46,916 - __main__ - INFO -    📈 Geographic coverage: 3.00% of comments
+2025-06-25 23:01:46,918 - __main__ - INFO - Analyzing geographic patterns in seeyou...
+2025-06-25 23:01:46,947 - __main__ - INFO -    📄 Loaded 5,000 comments for analysis
+2025-06-25 23:01:46,966 - utils - INFO - Pattern matched 11 comments from 5000 total
+2025-06-25 23:01:46,966 - __main__ - INFO -    🔍 Keyword matches: 11
+2025-06-25 23:01:46,982 - utils - INFO - Pattern matched 44 comments from 5000 total
+2025-06-25 23:01:46,982 - __main__ - INFO -    📍 Location mentions: 44
+2025-06-25 23:01:46,988 - __main__ - INFO -    🏳️ Flag emoji comments: 29
+2025-06-25 23:01:46,990 - __main__ - INFO -    📈 Geographic coverage: 1.44% of comments
+2025-06-25 23:01:46,991 - __main__ - INFO - 
+
+2025-06-25 23:01:46,991 - __main__ - INFO - 🎭 DEMO: Enhanced Cultural Identity Analysis
+2025-06-25 23:01:46,991 - __main__ - INFO - ----------------------------------------
+2025-06-25 23:01:46,993 - __main__ - INFO - Analyzing cultural patterns in despa...
+2025-06-25 23:01:47,035 - utils - INFO - Pattern matched 21 comments from 5000 total
+2025-06-25 23:01:47,036 - __main__ - INFO -    Ethnic Identity: 21 comments
+2025-06-25 23:01:47,039 - __main__ - INFO -       Top terms: latino(17), hispanic(1), african(1)
+2025-06-25 23:01:47,051 - utils - INFO - Pattern matched 1 comments from 5000 total
+2025-06-25 23:01:47,052 - __main__ - INFO -    Religious Identity: 1 comments
+2025-06-25 23:01:47,053 - __main__ - INFO -       Top terms: christian(1)
+2025-06-25 23:01:47,064 - utils - INFO - Pattern matched 1 comments from 5000 total
+2025-06-25 23:01:47,065 - __main__ - INFO -    Collective Memory: 1 comments
+2025-06-25 23:01:47,066 - __main__ - INFO -       Top terms: homeland(1)
+2025-06-25 23:01:47,067 - __main__ - INFO -    📊 Total cultural comments: 23
+2025-06-25 23:01:47,067 - __main__ - INFO -    📈 Cultural coverage: 0.46% of comments
+2025-06-25 23:01:47,068 - __main__ - INFO - Analyzing cultural patterns in seeyou...
+2025-06-25 23:01:47,108 - utils - INFO - Pattern matched 5 comments from 5000 total
+2025-06-25 23:01:47,109 - __main__ - INFO -    Ethnic Identity: 5 comments
+2025-06-25 23:01:47,110 - __main__ - INFO -       Top terms: latino(1), white(2), black(2)
+2025-06-25 23:01:47,122 - utils - INFO - Pattern matched 0 comments from 5000 total
+2025-06-25 23:01:47,122 - __main__ - INFO -    Religious Identity: 0 comments
+2025-06-25 23:01:47,132 - utils - INFO - Pattern matched 0 comments from 5000 total
+2025-06-25 23:01:47,132 - __main__ - INFO -    Collective Memory: 0 comments
+2025-06-25 23:01:47,133 - __main__ - INFO -    📊 Total cultural comments: 5
+2025-06-25 23:01:47,133 - __main__ - INFO -    📈 Cultural coverage: 0.10% of comments
+2025-06-25 23:01:47,133 - __main__ - INFO - 
+
+2025-06-25 23:01:47,133 - __main__ - INFO - 📅 DEMO: Temporal Analysis
+2025-06-25 23:01:47,134 - __main__ - INFO - ----------------------------------------
+2025-06-25 23:01:47,135 - __main__ - INFO - Analyzing temporal patterns in despa...
+2025-06-25 23:01:47,176 - __main__ - INFO -    📅 Data spans from 2025 to 2025
+2025-06-25 23:01:47,177 - __main__ - INFO -    📊 Peak year: 2025 (5,000 comments)
+2025-06-25 23:01:47,177 - __main__ - INFO -    📈 Average per year: 5000 comments
+2025-06-25 23:01:47,178 - __main__ - INFO -    🏆 Top years: {2025: np.int64(5000)}
+2025-06-25 23:01:47,180 - __main__ - INFO - Analyzing temporal patterns in seeyou...
+2025-06-25 23:01:47,215 - __main__ - INFO -    📅 Data spans from 2025 to 2025
+2025-06-25 23:01:47,216 - __main__ - INFO -    📊 Peak year: 2025 (5,000 comments)
+2025-06-25 23:01:47,216 - __main__ - INFO -    📈 Average per year: 5000 comments
+2025-06-25 23:01:47,217 - __main__ - INFO -    🏆 Top years: {2025: np.int64(5000)}
+2025-06-25 23:01:47,217 - __main__ - INFO - 
+
+2025-06-25 23:01:47,217 - __main__ - INFO - 🧠 DEMO: Advanced Insights Generation
+2025-06-25 23:01:47,217 - __main__ - INFO - ----------------------------------------
+2025-06-25 23:01:47,218 - __main__ - INFO - Generating insights for despa...
+2025-06-25 23:01:47,249 - utils - INFO - Pattern matched 13 comments from 3000 total
+2025-06-25 23:01:47,260 - utils - INFO - Pattern matched 16 comments from 3000 total
+2025-06-25 23:01:47,270 - utils - INFO - Pattern matched 1 comments from 3000 total
+2025-06-25 23:01:47,282 - utils - INFO - Pattern matched 1 comments from 3000 total
+2025-06-25 23:01:47,284 - __main__ - INFO - Generating insights for seeyou...
+2025-06-25 23:01:47,315 - utils - INFO - Pattern matched 8 comments from 3000 total
+2025-06-25 23:01:47,325 - utils - INFO - Pattern matched 2 comments from 3000 total
+2025-06-25 23:01:47,335 - utils - INFO - Pattern matched 0 comments from 3000 total
+2025-06-25 23:01:47,347 - utils - INFO - Pattern matched 0 comments from 3000 total
+2025-06-25 23:01:47,349 - __main__ - INFO - 📋 SUMMARY INSIGHTS:
+2025-06-25 23:01:47,349 - __main__ - INFO -    📊 Total datasets: 2
+2025-06-25 23:01:47,349 - __main__ - INFO -    📝 Comments processed: 6,000
+2025-06-25 23:01:47,349 - __main__ - INFO -    🌍 Geographic engagement:
+2025-06-25 23:01:47,350 - __main__ - INFO -       despa: 0.43%
+2025-06-25 23:01:47,350 - __main__ - INFO -       seeyou: 0.27%
+2025-06-25 23:01:47,350 - __main__ - INFO -    🎭 Cultural engagement:
+2025-06-25 23:01:47,350 - __main__ - INFO -       despa: 0.60%
+2025-06-25 23:01:47,350 - __main__ - INFO -       seeyou: 0.07%
+2025-06-25 23:01:47,353 - __main__ - INFO -    💾 Insights saved to demo_insights.json
+2025-06-25 23:01:47,354 - __main__ - INFO - ✨ DEMONSTRATION COMPLETE!
+2025-06-25 23:01:47,354 - __main__ - INFO - ============================================================
+2025-06-25 23:01:47,354 - __main__ - INFO - 🎯 What's New:
+2025-06-25 23:01:47,354 - __main__ - INFO -    ✅ Enhanced data validation with quality scoring
+2025-06-25 23:01:47,355 - __main__ - INFO -    ✅ Improved geographic detection with multiple methods
+2025-06-25 23:01:47,355 - __main__ - INFO -    ✅ Advanced cultural identity analysis
+2025-06-25 23:01:47,355 - __main__ - INFO -    ✅ Comprehensive temporal pattern analysis
+2025-06-25 23:01:47,355 - __main__ - INFO -    ✅ Cross-dataset comparative insights
+2025-06-25 23:01:47,356 - __main__ - INFO - 
+2025-06-25 23:01:47,356 - __main__ - INFO - 🚀 Next Steps:
+2025-06-25 23:01:47,356 - __main__ - INFO -    1. Review the demo_insights.json file
+2025-06-25 23:01:47,357 - __main__ - INFO -    2. Check SETUP_COMPLETION_REPORT.md for full roadmap
+2025-06-25 23:01:47,357 - __main__ - INFO -    3. Try the enhanced scripts on your full dataset
+2025-06-25 23:01:47,357 - __main__ - INFO -    4. Customize the config.py for your specific needs
+2025-06-25 23:02:09,049 - utils - INFO - Pattern matched 6 comments from 2000 total
+2025-06-25 23:02:09,070 - utils - INFO - Pattern matched 5 comments from 2000 total
+2025-06-25 23:02:09,076 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 23:02:09,083 - utils - INFO - Pattern matched 1 comments from 2000 total
+2025-06-25 23:02:38,188 - __main__ - INFO - Starting Enhanced Geographic Analysis (Task 1)
+2025-06-25 23:02:38,189 - __main__ - INFO - Starting enhanced analysis for despa
+2025-06-25 23:02:54,942 - utils - INFO - Data validation: 3312863 → 3233437 rows (79426 removed)
+2025-06-25 23:02:55,035 - utils - INFO - Successfully loaded 3233437 rows from /mnt/d/courses/tune2travel/final_extraction/despa_kJQP7kiw5Fk_comments_spam_emotion.csv
+2025-06-25 23:03:18,715 - __main__ - INFO - Data quality score for despa: 81.0/100
+2025-06-25 23:03:28,054 - utils - INFO - Pattern matched 14482 comments from 3233437 total
+2025-06-25 23:03:59,807 - utils - INFO - Temporal analysis: 101 periods with data
+2025-06-25 23:04:00,016 - utils - INFO - Saved 14482 rows to despa_outputs/enhanced/despa_enhanced_keyword_comments.csv
+2025-06-25 23:04:00,942 - utils - INFO - Saved 50787 rows to despa_outputs/enhanced/despa_enhanced_flag_comments.csv
+2025-06-25 23:04:01,480 - utils - INFO - Saved 55803 rows to despa_outputs/enhanced/despa_enhanced_location_comments.csv
+2025-06-25 23:04:02,791 - utils - INFO - Saved 89776 rows to despa_outputs/enhanced/despa_enhanced_all_extracted.csv
+2025-06-25 23:04:02,803 - __main__ - INFO - Saved insights to despa_outputs/enhanced/despa_enhanced_insights.json
+2025-06-25 23:04:02,804 - __main__ - INFO - Enhanced analysis complete for despa
+2025-06-25 23:04:02,851 - utils - INFO - analyze_single_dataset completed in 84.66 seconds
+2025-06-25 23:04:02,853 - __main__ - INFO - Starting enhanced analysis for seeyou
+2025-06-25 23:04:12,983 - utils - INFO - Data validation: 1808879 → 1760261 rows (48618 removed)
+2025-06-25 23:04:13,019 - utils - INFO - Successfully loaded 1760261 rows from /mnt/d/courses/tune2travel/final_extraction/seeyou_RgKAFK5djSk_comments_spam_emotion.csv
+2025-06-25 23:04:23,583 - __main__ - INFO - Data quality score for seeyou: 81.0/100
+2025-06-25 23:04:28,523 - utils - INFO - Pattern matched 3002 comments from 1760261 total
+2025-06-25 23:04:47,580 - utils - INFO - Temporal analysis: 122 periods with data
+2025-06-25 23:04:47,658 - utils - INFO - Saved 3002 rows to seeyou_outputs/enhanced/seeyou_enhanced_keyword_comments.csv
+2025-06-25 23:04:47,818 - utils - INFO - Saved 13613 rows to seeyou_outputs/enhanced/seeyou_enhanced_flag_comments.csv
+2025-06-25 23:04:47,985 - utils - INFO - Saved 15354 rows to seeyou_outputs/enhanced/seeyou_enhanced_location_comments.csv
+2025-06-25 23:04:48,327 - utils - INFO - Saved 26094 rows to seeyou_outputs/enhanced/seeyou_enhanced_all_extracted.csv
+2025-06-25 23:04:48,339 - __main__ - INFO - Saved insights to seeyou_outputs/enhanced/seeyou_enhanced_insights.json
+2025-06-25 23:04:48,339 - __main__ - INFO - Enhanced analysis complete for seeyou
+2025-06-25 23:04:48,351 - utils - INFO - analyze_single_dataset completed in 45.50 seconds
+2025-06-25 23:04:48,364 - __main__ - INFO - Summary report saved to enhanced_geographic_analysis_report.md
+2025-06-25 23:04:48,364 - __main__ - INFO - Enhanced Geographic Analysis completed successfully!
+2025-06-25 23:06:01,038 - __main__ - INFO - Starting Enhanced Cultural Identity Analysis (Task 2)
+2025-06-25 23:06:01,039 - __main__ - INFO - Starting enhanced cultural analysis for despa
+2025-06-25 23:06:16,853 - utils - INFO - Data validation: 3312863 → 3233437 rows (79426 removed)
+2025-06-25 23:06:16,930 - utils - INFO - Successfully loaded 3233437 rows from /mnt/d/courses/tune2travel/final_extraction/despa_kJQP7kiw5Fk_comments_spam_emotion.csv
+2025-06-25 23:06:38,009 - __main__ - INFO - Data quality score: 81.0/100
+2025-06-25 23:47:08,130 - utils - INFO - Data validation: 3312863 → 3233437 rows (79426 removed)
+2025-06-25 23:47:08,182 - utils - INFO - Successfully loaded 3233437 rows from /mnt/d/courses/tune2travel/final_extraction/despa_kJQP7kiw5Fk_comments_spam_emotion.csv
+2025-06-25 23:47:42,008 - utils - INFO - Pattern matched 14482 comments from 3233437 total
+2025-06-25 23:47:55,751 - utils - INFO - Pattern matched 18829 comments from 3233437 total
+2025-06-25 23:48:06,113 - utils - INFO - Pattern matched 4694 comments from 3233437 total
+2025-06-25 23:48:15,397 - utils - INFO - Pattern matched 1001 comments from 3233437 total
+2025-06-25 23:48:22,802 - utils - INFO - Data validation: 1808879 → 1760261 rows (48618 removed)
+2025-06-25 23:48:22,834 - utils - INFO - Successfully loaded 1760261 rows from /mnt/d/courses/tune2travel/final_extraction/seeyou_RgKAFK5djSk_comments_spam_emotion.csv
+2025-06-25 23:48:41,846 - utils - INFO - Pattern matched 3002 comments from 1760261 total
+2025-06-25 23:48:46,792 - utils - INFO - Pattern matched 3671 comments from 1760261 total
+2025-06-25 23:48:52,924 - utils - INFO - Pattern matched 2921 comments from 1760261 total
+2025-06-25 23:48:58,548 - utils - INFO - Pattern matched 281 comments from 1760261 total
+2025-06-26 00:01:09,441 - utils - INFO - Data validation: 3312863 → 3233437 rows (79426 removed)
+2025-06-26 00:01:09,498 - utils - INFO - Successfully loaded 3233437 rows from /mnt/d/courses/tune2travel/final_extraction/despa_kJQP7kiw5Fk_comments_spam_emotion.csv
+2025-06-26 00:01:09,732 - utils - INFO - Pattern matched 78 comments from 20000 total
+2025-06-26 00:01:09,805 - utils - INFO - Pattern matched 125 comments from 20000 total
+2025-06-26 00:01:09,886 - utils - INFO - Pattern matched 21 comments from 20000 total
+2025-06-26 00:01:09,965 - utils - INFO - Pattern matched 6 comments from 20000 total
+2025-06-26 00:01:16,961 - utils - INFO - Data validation: 1808879 → 1760261 rows (48618 removed)
+2025-06-26 00:01:16,982 - utils - INFO - Successfully loaded 1760261 rows from /mnt/d/courses/tune2travel/final_extraction/seeyou_RgKAFK5djSk_comments_spam_emotion.csv
+2025-06-26 00:01:17,176 - utils - INFO - Pattern matched 35 comments from 20000 total
+2025-06-26 00:01:17,248 - utils - INFO - Pattern matched 33 comments from 20000 total
+2025-06-26 00:01:17,320 - utils - INFO - Pattern matched 24 comments from 20000 total
+2025-06-26 00:01:17,388 - utils - INFO - Pattern matched 3 comments from 20000 total
